@@ -1,0 +1,44 @@
+Arguments: 
+  /Users/jacogreeff/.nvm/versions/node/v12.2.0/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js
+
+PATH: 
+  /Users/jacogreeff/.nvm/versions/node/v12.2.0/bin:/Users/jacogreeff/.cargo/bin:/Users/jacogreeff/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  12.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:60:26)
+
+npm manifest: 
+  {
+    "name": "07_read_storage_at",
+    "version": "0.2.0",
+    "description": "Example showing how to query storage at a specific block",
+    "main": "index.js",
+    "author": "Jaco Greeff <jacogr@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+      "clean": "rimraf node_modules",
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "@polkadot/api": "*"
+    },
+    "devDependencies": {
+      "rimraf": "^2.6.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

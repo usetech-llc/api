@@ -1,0 +1,414 @@
+[Polkadot JS API](../README.md) › [Globals](../globals.md) › ["interfaces/grandpa/types"](../modules/_interfaces_grandpa_types_.md) › [AuthorityList](_interfaces_grandpa_types_.authoritylist.md)
+
+# Interface: AuthorityList
+
+Vec<NextAuthority>
+
+## Hierarchy
+
+  ↳ [Vec](../classes/_codec_vec_.vec.md)‹[NextAuthority](_interfaces_grandpa_types_.nextauthority.md)›
+
+  ↳ **AuthorityList**
+
+## Implements
+
+* [Codec](_types_.codec.md)
+
+## Indexable
+
+* \[ **n**: *number*\]: [NextAuthority](_interfaces_grandpa_types_.nextauthority.md)
+
+Vec<NextAuthority>
+
+## Index
+
+### Constructors
+
+* [constructor](_interfaces_grandpa_types_.authoritylist.md#constructor)
+
+### Properties
+
+* [registry](_interfaces_grandpa_types_.authoritylist.md#registry)
+
+### Accessors
+
+* [Type](_interfaces_grandpa_types_.authoritylist.md#type)
+* [encodedLength](_interfaces_grandpa_types_.authoritylist.md#encodedlength)
+* [hash](_interfaces_grandpa_types_.authoritylist.md#hash)
+* [isEmpty](_interfaces_grandpa_types_.authoritylist.md#isempty)
+* [length](_interfaces_grandpa_types_.authoritylist.md#length)
+
+### Methods
+
+* [eq](_interfaces_grandpa_types_.authoritylist.md#eq)
+* [filter](_interfaces_grandpa_types_.authoritylist.md#filter)
+* [includes](_interfaces_grandpa_types_.authoritylist.md#includes)
+* [map](_interfaces_grandpa_types_.authoritylist.md#map)
+* [toArray](_interfaces_grandpa_types_.authoritylist.md#toarray)
+* [toHex](_interfaces_grandpa_types_.authoritylist.md#tohex)
+* [toJSON](_interfaces_grandpa_types_.authoritylist.md#tojson)
+* [toRawType](_interfaces_grandpa_types_.authoritylist.md#torawtype)
+* [toString](_interfaces_grandpa_types_.authoritylist.md#tostring)
+* [toU8a](_interfaces_grandpa_types_.authoritylist.md#tou8a)
+* [decodeVec](_interfaces_grandpa_types_.authoritylist.md#static-decodevec)
+* [with](_interfaces_grandpa_types_.authoritylist.md#static-with)
+
+## Constructors
+
+###  constructor
+
+\+ **new AuthorityList**(`registry`: [Registry](_types_.registry.md), `Type`: [Constructor](_types_.constructor.md)‹[NextAuthority](_interfaces_grandpa_types_.nextauthority.md)› | [InterfaceTypes](../modules/_types_.md#interfacetypes), `value`: [Vec](../classes/_codec_vec_.vec.md)‹any› | Uint8Array | string | any[]): *[AuthorityList](_interfaces_grandpa_types_.authoritylist.md)*
+
+*Inherited from [Vec](../classes/_codec_vec_.vec.md).[constructor](../classes/_codec_vec_.vec.md#constructor)*
+
+*Defined in [packages/types/src/codec/Vec.ts:23](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/Vec.ts#L23)*
+
+**Parameters:**
+
+Name | Type | Default |
+------ | ------ | ------ |
+`registry` | [Registry](_types_.registry.md) | - |
+`Type` | [Constructor](_types_.constructor.md)‹[NextAuthority](_interfaces_grandpa_types_.nextauthority.md)› &#124; [InterfaceTypes](../modules/_types_.md#interfacetypes) | - |
+`value` | [Vec](../classes/_codec_vec_.vec.md)‹any› &#124; Uint8Array &#124; string &#124; any[] |  [] as any[] |
+
+**Returns:** *[AuthorityList](_interfaces_grandpa_types_.authoritylist.md)*
+
+## Properties
+
+###  registry
+
+• **registry**: *[Registry](_types_.registry.md)*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[registry](../classes/_codec_abstractarray_.abstractarray.md#registry)*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L22)*
+
+## Accessors
+
+###  Type
+
+• **get Type**(): *string*
+
+*Inherited from [Vec](../classes/_codec_vec_.vec.md).[Type](../classes/_codec_vec_.vec.md#type)*
+
+*Defined in [packages/types/src/codec/Vec.ts:67](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/Vec.ts#L67)*
+
+**`description`** The type for the items
+
+**Returns:** *string*
+
+___
+
+###  encodedLength
+
+• **get encodedLength**(): *number*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[encodedLength](../classes/_codec_abstractarray_.abstractarray.md#encodedlength)*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:33](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L33)*
+
+**`description`** The length of the value when encoded as a Uint8Array
+
+**Returns:** *number*
+
+___
+
+###  hash
+
+• **get hash**(): *[IHash](_types_.ihash.md)*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[hash](../classes/_codec_abstractarray_.abstractarray.md#hash)*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:42](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L42)*
+
+**`description`** returns a hash of the contents
+
+**Returns:** *[IHash](_types_.ihash.md)*
+
+___
+
+###  isEmpty
+
+• **get isEmpty**(): *boolean*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[isEmpty](../classes/_codec_abstractarray_.abstractarray.md#isempty)*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:49](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L49)*
+
+**`description`** Checks if the value is an empty value
+
+**Returns:** *boolean*
+
+___
+
+###  length
+
+• **get length**(): *number*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[length](../classes/_codec_abstractarray_.abstractarray.md#length)*
+
+*Overrides void*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:56](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L56)*
+
+**`description`** The length of the value
+
+**Returns:** *number*
+
+## Methods
+
+###  eq
+
+▸ **eq**(`other?`: any): *boolean*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[eq](../classes/_codec_abstractarray_.abstractarray.md#eq)*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:64](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L64)*
+
+**`description`** Compares the value of the input to see if there is a match
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`other?` | any |
+
+**Returns:** *boolean*
+
+___
+
+###  filter
+
+▸ **filter**(`callbackfn`: function, `thisArg?`: any): *[NextAuthority](_interfaces_grandpa_types_.nextauthority.md)[]*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[filter](../classes/_codec_abstractarray_.abstractarray.md#filter)*
+
+*Overrides void*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:134](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L134)*
+
+**`description`** Filters the array with the callback
+
+**Parameters:**
+
+▪ **callbackfn**: *function*
+
+The filter function
+
+▸ (`value`: [NextAuthority](_interfaces_grandpa_types_.nextauthority.md), `index`: number, `array`: [NextAuthority](_interfaces_grandpa_types_.nextauthority.md)[]): *any*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | [NextAuthority](_interfaces_grandpa_types_.nextauthority.md) |
+`index` | number |
+`array` | [NextAuthority](_interfaces_grandpa_types_.nextauthority.md)[] |
+
+▪`Optional`  **thisArg**: *any*
+
+The `this` object to apply the result to
+
+**Returns:** *[NextAuthority](_interfaces_grandpa_types_.nextauthority.md)[]*
+
+___
+
+###  includes
+
+▸ **includes**(`check`: any): *boolean*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[includes](../classes/_codec_abstractarray_.abstractarray.md#includes)*
+
+*Overrides void*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:150](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L150)*
+
+**`description`** Checks if the array includes a specific value
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`check` | any |
+
+**Returns:** *boolean*
+
+___
+
+###  map
+
+▸ **map**<**U**>(`callbackfn`: function, `thisArg?`: any): *U[]*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[map](../classes/_codec_abstractarray_.abstractarray.md#map)*
+
+*Overrides void*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:143](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L143)*
+
+**`description`** Maps the array with the callback
+
+**Type parameters:**
+
+▪ **U**
+
+**Parameters:**
+
+▪ **callbackfn**: *function*
+
+The mapping function
+
+▸ (`value`: [NextAuthority](_interfaces_grandpa_types_.nextauthority.md), `index`: number, `array`: [NextAuthority](_interfaces_grandpa_types_.nextauthority.md)[]): *U*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`value` | [NextAuthority](_interfaces_grandpa_types_.nextauthority.md) |
+`index` | number |
+`array` | [NextAuthority](_interfaces_grandpa_types_.nextauthority.md)[] |
+
+▪`Optional`  **thisArg**: *any*
+
+The `this` onject to apply the result to
+
+**Returns:** *U[]*
+
+___
+
+###  toArray
+
+▸ **toArray**(): *[NextAuthority](_interfaces_grandpa_types_.nextauthority.md)[]*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[toArray](../classes/_codec_abstractarray_.abstractarray.md#toarray)*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:71](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L71)*
+
+**`description`** Converts the Object to an standard JavaScript Array
+
+**Returns:** *[NextAuthority](_interfaces_grandpa_types_.nextauthority.md)[]*
+
+___
+
+###  toHex
+
+▸ **toHex**(): *string*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[toHex](../classes/_codec_abstractarray_.abstractarray.md#tohex)*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:78](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L78)*
+
+**`description`** Returns a hex string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toJSON
+
+▸ **toJSON**(): *[AnyJsonArray](_types_.anyjsonarray.md)*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[toJSON](../classes/_codec_abstractarray_.abstractarray.md#tojson)*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:85](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L85)*
+
+**`description`** Converts the Object to JSON, typically used for RPC transfers
+
+**Returns:** *[AnyJsonArray](_types_.anyjsonarray.md)*
+
+___
+
+###  toRawType
+
+▸ **toRawType**(): *string*
+
+*Inherited from [Vec](../classes/_codec_vec_.vec.md).[toRawType](../classes/_codec_vec_.vec.md#torawtype)*
+
+*Overrides [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[toRawType](../classes/_codec_abstractarray_.abstractarray.md#abstract-torawtype)*
+
+*Defined in [packages/types/src/codec/Vec.ts:92](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/Vec.ts#L92)*
+
+**`description`** Returns the base runtime type name for this instance
+
+**Returns:** *string*
+
+___
+
+###  toString
+
+▸ **toString**(): *string*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[toString](../classes/_codec_abstractarray_.abstractarray.md#tostring)*
+
+*Overrides void*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:99](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L99)*
+
+**`description`** Returns the string representation of the value
+
+**Returns:** *string*
+
+___
+
+###  toU8a
+
+▸ **toU8a**(`isBare?`: undefined | false | true): *Uint8Array*
+
+*Inherited from [AbstractArray](../classes/_codec_abstractarray_.abstractarray.md).[toU8a](../classes/_codec_abstractarray_.abstractarray.md#tou8a)*
+
+*Defined in [packages/types/src/codec/AbstractArray.ts:112](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/AbstractArray.ts#L112)*
+
+**`description`** Encodes the value as a Uint8Array as per the SCALE specifications
+
+**Parameters:**
+
+Name | Type | Description |
+------ | ------ | ------ |
+`isBare?` | undefined &#124; false &#124; true | true when the value has none of the type-specific prefixes (internal)  |
+
+**Returns:** *Uint8Array*
+
+___
+
+### `Static` decodeVec
+
+▸ **decodeVec**<**T**>(`registry`: [Registry](_types_.registry.md), `Type`: [Constructor](_types_.constructor.md)‹T›, `value`: [Vec](../classes/_codec_vec_.vec.md)‹any› | Uint8Array | string | any[]): *T[]*
+
+*Inherited from [Vec](../classes/_codec_vec_.vec.md).[decodeVec](../classes/_codec_vec_.vec.md#static-decodevec)*
+
+*Defined in [packages/types/src/codec/Vec.ts:33](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/Vec.ts#L33)*
+
+**Type parameters:**
+
+▪ **T**: *[Codec](_types_.codec.md)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`registry` | [Registry](_types_.registry.md) |
+`Type` | [Constructor](_types_.constructor.md)‹T› |
+`value` | [Vec](../classes/_codec_vec_.vec.md)‹any› &#124; Uint8Array &#124; string &#124; any[] |
+
+**Returns:** *T[]*
+
+___
+
+### `Static` with
+
+▸ **with**<**O**>(`Type`: [Constructor](_types_.constructor.md)‹O› | [InterfaceTypes](../modules/_types_.md#interfacetypes)): *[Constructor](_types_.constructor.md)‹[Vec](../classes/_codec_vec_.vec.md)‹O››*
+
+*Inherited from [Vec](../classes/_codec_vec_.vec.md).[with](../classes/_codec_vec_.vec.md#static-with)*
+
+*Defined in [packages/types/src/codec/Vec.ts:56](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/codec/Vec.ts#L56)*
+
+**Type parameters:**
+
+▪ **O**: *[Codec](_types_.codec.md)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`Type` | [Constructor](_types_.constructor.md)‹O› &#124; [InterfaceTypes](../modules/_types_.md#interfacetypes) |
+
+**Returns:** *[Constructor](_types_.constructor.md)‹[Vec](../classes/_codec_vec_.vec.md)‹O››*

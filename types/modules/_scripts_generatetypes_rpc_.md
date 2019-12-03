@@ -14,6 +14,6 @@
 
 ▸ **generateRpcTypes**(): *void*
 
-*Defined in [packages/types/src/scripts/generateTypes/rpc.ts:13](https://github.com/polkadot-js/api/blob/762b16ea13/packages/types/src/scripts/generateTypes/rpc.ts#L13)*
+*Defined in [packages/types/src/scripts/generateTypes/rpc.ts:13](https://github.com/polkadot-js/api/blob/c576c689d/packages/types/src/scripts/generateTypes/rpc.ts#L13)*
 
 **Returns:** *void*

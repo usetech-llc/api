@@ -6,15 +6,15 @@
 
 ### Functions
 
-* [santize](_codec_create_sanitize_.md#santize)
+* [sanitize](_codec_create_sanitize_.md#sanitize)
 
 ## Functions
 
-###  santize
+###  sanitize
 
-▸ **santize**(`value`: string): *string*
+▸ **sanitize**(`value`: string): *string*
 
-*Defined in [packages/types/src/codec/create/sanitize.ts:204](https://github.com/polkadot-js/api/blob/532a252fe/packages/types/src/codec/create/sanitize.ts#L204)*
+*Defined in [packages/types/src/codec/create/sanitize.ts:204](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/types/src/codec/create/sanitize.ts#L204)*
 
 **Parameters:**
 

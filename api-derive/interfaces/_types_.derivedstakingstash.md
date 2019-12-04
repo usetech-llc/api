@@ -26,7 +26,7 @@
 
 • **controllerId**? : *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:155](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L155)*
+*Defined in [packages/api-derive/src/types.ts:155](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L155)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **nextKeys**? : *Keys*
 
-*Defined in [packages/api-derive/src/types.ts:158](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L158)*
+*Defined in [packages/api-derive/src/types.ts:158](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L158)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **nominators**? : *AccountId[]*
 
-*Defined in [packages/api-derive/src/types.ts:156](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L156)*
+*Defined in [packages/api-derive/src/types.ts:156](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L156)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **rewardDestination**? : *RewardDestination*
 
-*Defined in [packages/api-derive/src/types.ts:157](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L157)*
+*Defined in [packages/api-derive/src/types.ts:157](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L157)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **stakers**? : *Exposure*
 
-*Defined in [packages/api-derive/src/types.ts:159](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L159)*
+*Defined in [packages/api-derive/src/types.ts:159](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L159)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **stashId**? : *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:160](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L160)*
+*Defined in [packages/api-derive/src/types.ts:160](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L160)*
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 • **validatorPrefs**? : *ValidatorPrefs*
 
-*Defined in [packages/api-derive/src/types.ts:161](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L161)*
+*Defined in [packages/api-derive/src/types.ts:161](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L161)*

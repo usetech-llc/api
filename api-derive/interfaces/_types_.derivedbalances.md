@@ -28,7 +28,7 @@
 
 • **accountId**: *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:19](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L19)*
+*Defined in [packages/api-derive/src/types.ts:19](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L19)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **accountNonce**: *Index*
 
-*Defined in [packages/api-derive/src/types.ts:20](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L20)*
+*Defined in [packages/api-derive/src/types.ts:20](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L20)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **availableBalance**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:25](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L25)*
+*Defined in [packages/api-derive/src/types.ts:25](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L25)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **freeBalance**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:21](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L21)*
+*Defined in [packages/api-derive/src/types.ts:21](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L21)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **isVesting**: *boolean*
 
-*Defined in [packages/api-derive/src/types.ts:22](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L22)*
+*Defined in [packages/api-derive/src/types.ts:22](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L22)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • **lockedBalance**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:23](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L23)*
+*Defined in [packages/api-derive/src/types.ts:23](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L23)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • **lockedBreakdown**: *BalanceLock[]*
 
-*Defined in [packages/api-derive/src/types.ts:24](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L24)*
+*Defined in [packages/api-derive/src/types.ts:24](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L24)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 • **reservedBalance**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:26](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L26)*
+*Defined in [packages/api-derive/src/types.ts:26](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L26)*
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 • **vestedBalance**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:28](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L28)*
+*Defined in [packages/api-derive/src/types.ts:28](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L28)*
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 • **vestingTotal**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:29](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L29)*
+*Defined in [packages/api-derive/src/types.ts:29](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L29)*
 
 ___
 
@@ -108,4 +108,4 @@ ___
 
 • **votingBalance**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:27](https://github.com/polkadot-js/api/blob/532a252fe/packages/api-derive/src/types.ts#L27)*
+*Defined in [packages/api-derive/src/types.ts:27](https://github.com/polkadot-js/api/blob/64a4bb2e1/packages/api-derive/src/types.ts#L27)*

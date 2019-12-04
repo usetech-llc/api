@@ -457,7 +457,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 
 • **encodedLength**: *number*
 
-*Defined in [packages/types/src/types.ts:75](https://github.com/polkadot-js/api/blob/c576c689d/packages/types/src/types.ts#L75)*
+*Defined in [packages/types/src/types.ts:75](https://github.com/polkadot-js/api/blob/532a252fe/packages/types/src/types.ts#L75)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -467,7 +467,7 @@ ___
 
 • **hash**: *[IHash](_types_.ihash.md)*
 
-*Defined in [packages/types/src/types.ts:80](https://github.com/polkadot-js/api/blob/c576c689d/packages/types/src/types.ts#L80)*
+*Defined in [packages/types/src/types.ts:80](https://github.com/polkadot-js/api/blob/532a252fe/packages/types/src/types.ts#L80)*
 
 **`description`** Returns a hash of the value
 
@@ -477,7 +477,7 @@ ___
 
 • **isEmpty**: *boolean*
 
-*Defined in [packages/types/src/types.ts:85](https://github.com/polkadot-js/api/blob/c576c689d/packages/types/src/types.ts#L85)*
+*Defined in [packages/types/src/types.ts:85](https://github.com/polkadot-js/api/blob/532a252fe/packages/types/src/types.ts#L85)*
 
 **`description`** Checks if the value is an empty value
 
@@ -487,7 +487,7 @@ ___
 
 • **registry**: *[Registry](_types_.registry.md)*
 
-*Defined in [packages/types/src/types.ts:90](https://github.com/polkadot-js/api/blob/c576c689d/packages/types/src/types.ts#L90)*
+*Defined in [packages/types/src/types.ts:90](https://github.com/polkadot-js/api/blob/532a252fe/packages/types/src/types.ts#L90)*
 
 **`description`** The registry associated with this object
 
@@ -497,7 +497,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [packages/types/src/types.ts:95](https://github.com/polkadot-js/api/blob/c576c689d/packages/types/src/types.ts#L95)*
+*Defined in [packages/types/src/types.ts:95](https://github.com/polkadot-js/api/blob/532a252fe/packages/types/src/types.ts#L95)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -515,7 +515,7 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Defined in [packages/types/src/types.ts:100](https://github.com/polkadot-js/api/blob/c576c689d/packages/types/src/types.ts#L100)*
+*Defined in [packages/types/src/types.ts:100](https://github.com/polkadot-js/api/blob/532a252fe/packages/types/src/types.ts#L100)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -533,7 +533,7 @@ ___
 
 ▸ **toJSON**(): *[AnyJson](../modules/_types_.md#anyjson)*
 
-*Defined in [packages/types/src/types.ts:105](https://github.com/polkadot-js/api/blob/c576c689d/packages/types/src/types.ts#L105)*
+*Defined in [packages/types/src/types.ts:105](https://github.com/polkadot-js/api/blob/532a252fe/packages/types/src/types.ts#L105)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -545,7 +545,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [packages/types/src/types.ts:110](https://github.com/polkadot-js/api/blob/c576c689d/packages/types/src/types.ts#L110)*
+*Defined in [packages/types/src/types.ts:110](https://github.com/polkadot-js/api/blob/532a252fe/packages/types/src/types.ts#L110)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -557,7 +557,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [packages/types/src/types.ts:115](https://github.com/polkadot-js/api/blob/c576c689d/packages/types/src/types.ts#L115)*
+*Defined in [packages/types/src/types.ts:115](https://github.com/polkadot-js/api/blob/532a252fe/packages/types/src/types.ts#L115)*
 
 **`description`** Returns the string representation of the value
 
@@ -569,7 +569,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: [BareOpts](../modules/_types_.md#bareopts)): *Uint8Array*
 
-*Defined in [packages/types/src/types.ts:121](https://github.com/polkadot-js/api/blob/c576c689d/packages/types/src/types.ts#L121)*
+*Defined in [packages/types/src/types.ts:121](https://github.com/polkadot-js/api/blob/532a252fe/packages/types/src/types.ts#L121)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

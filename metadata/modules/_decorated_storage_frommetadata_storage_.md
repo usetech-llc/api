@@ -14,7 +14,7 @@
 
 ▸ **getStorage**(`registry`: Registry, `metaVersion`: number): *[Storage](../interfaces/_decorated_types_.storage.md)*
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/storage.ts:11](https://github.com/polkadot-js/api/blob/c8dd26b0d/packages/metadata/src/Decorated/storage/fromMetadata/storage.ts#L11)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/storage.ts:11](https://github.com/polkadot-js/api/blob/01f3666cc/packages/metadata/src/Decorated/storage/fromMetadata/storage.ts#L11)*
 
 **Parameters:**
 

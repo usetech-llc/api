@@ -15,7 +15,7 @@
 
 ▸ **generateDefaultInterfaceRegistry**(): *void*
 
-*Defined in [packages/types/src/scripts/generateTypes/interfaceRegistry.ts:76](https://github.com/polkadot-js/api/blob/c8dd26b0d/packages/types/src/scripts/generateTypes/interfaceRegistry.ts#L76)*
+*Defined in [packages/types/src/scripts/generateTypes/interfaceRegistry.ts:76](https://github.com/polkadot-js/api/blob/01f3666cc/packages/types/src/scripts/generateTypes/interfaceRegistry.ts#L76)*
 
 **Returns:** *void*
 
@@ -25,7 +25,7 @@ ___
 
 ▸ **generateInterfaceRegistry**(`importDefinitions`: object, `output`: string): *void*
 
-*Defined in [packages/types/src/scripts/generateTypes/interfaceRegistry.ts:18](https://github.com/polkadot-js/api/blob/c8dd26b0d/packages/types/src/scripts/generateTypes/interfaceRegistry.ts#L18)*
+*Defined in [packages/types/src/scripts/generateTypes/interfaceRegistry.ts:18](https://github.com/polkadot-js/api/blob/01f3666cc/packages/types/src/scripts/generateTypes/interfaceRegistry.ts#L18)*
 
 **Parameters:**
 

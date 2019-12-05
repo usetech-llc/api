@@ -15,7 +15,7 @@
 
 ▸ **referendumInfo**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/democracy/referendumInfo.ts:56](https://github.com/polkadot-js/api/blob/c8dd26b0d/packages/api-derive/src/democracy/referendumInfo.ts#L56)*
+*Defined in [packages/api-derive/src/democracy/referendumInfo.ts:56](https://github.com/polkadot-js/api/blob/01f3666cc/packages/api-derive/src/democracy/referendumInfo.ts#L56)*
 
 **Parameters:**
 
@@ -39,7 +39,7 @@ ___
 
 ▸ **retrieveInfo**(`api`: ApiInterfaceRx, `index`: BN | number, `info`: Option‹ReferendumInfo›): *Observable‹[DerivedReferendum](../interfaces/_types_.derivedreferendum.md) | null›*
 
-*Defined in [packages/api-derive/src/democracy/referendumInfo.ts:44](https://github.com/polkadot-js/api/blob/c8dd26b0d/packages/api-derive/src/democracy/referendumInfo.ts#L44)*
+*Defined in [packages/api-derive/src/democracy/referendumInfo.ts:44](https://github.com/polkadot-js/api/blob/01f3666cc/packages/api-derive/src/democracy/referendumInfo.ts#L44)*
 
 **Parameters:**
 

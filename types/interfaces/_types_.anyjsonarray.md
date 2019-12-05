@@ -614,7 +614,7 @@ ___
 
 ###  flatMap
 
-▸ **flatMap**<**U**, **This**>(`callback`: function, `thisArg?`: [This](undefined)): *U[]*
+▸ **flatMap**<**U**, **This**>(`callback`: function, `thisArg?`: This): *U[]*
 
 *Inherited from void*
 
@@ -648,7 +648,7 @@ Name | Type |
 `index` | number |
 `array` | [AnyJson](../modules/_types_.md#anyjson)[] |
 
-▪`Optional`  **thisArg**: *[This](undefined)*
+▪`Optional`  **thisArg**: *This*
 
 An object to which the this keyword can refer in the callback function. If
 thisArg is omitted, undefined is used as the this value.

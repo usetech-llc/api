@@ -211,7 +211,7 @@ ___
 - **interface**: api.query.democracy.depositOf
 - **summary**: Those who have locked a deposit.
 
-### dispatchQueue(`BlockNumber`): `Vec<Option<(Proposal,ReferendumIndex)>>`
+### dispatchQueue(`BlockNumber`): `Vec<Option<(Hash,ReferendumIndex)>>`
 - **interface**: api.query.democracy.dispatchQueue
 - **summary**: Queue of successful referenda to be dispatched.
 
@@ -219,13 +219,17 @@ ___
 - **interface**: api.query.democracy.lastTabledWasExternal
 - **summary**: True if the last referendum tabled was submitted externally. False if it was a public proposal.
 
-### nextExternal(): `Option<(Proposal,VoteThreshold)>`
+### nextExternal(): `Option<(Hash,VoteThreshold)>`
 - **interface**: api.query.democracy.nextExternal
 - **summary**: The referendum to be tabled whenever it would be valid to table an external proposal. This happens when a referendum needs to be tabled and one of two conditions are met: - `LastTabledWasExternal` is `false`; or - `PublicProps` is empty.
 
 ### nextTally(): `ReferendumIndex`
 - **interface**: api.query.democracy.nextTally
 - **summary**: The next referendum index that should be tallied.
+
+### preimages(`Hash`): `Option<(Bytes,AccountId,BalanceOf,BlockNumber)>`
+- **interface**: api.query.democracy.preimages
+- **summary**: Map of hashes to the proposal preimage, along with who registered it and their deposit. The block number is the block at which it was deposited.
 
 ### proxy(`AccountId`): `Option<AccountId>`
 - **interface**: api.query.democracy.proxy
@@ -235,9 +239,9 @@ ___
 - **interface**: api.query.democracy.publicPropCount
 - **summary**: The number of (public) proposals that have been made so far.
 
-### publicProps(): `Vec<(PropIndex,Proposal,AccountId)>`
+### publicProps(): `Vec<(PropIndex,Hash,AccountId)>`
 - **interface**: api.query.democracy.publicProps
-- **summary**: The public proposals. Unsorted.
+- **summary**: The public proposals. Unsorted. The second item is the proposal's hash.
 
 ### referendumCount(): `ReferendumIndex`
 - **interface**: api.query.democracy.referendumCount
@@ -263,10 +267,6 @@ ___
 ### candidates(): `Vec<AccountId>`
 - **interface**: api.query.elections.candidates
 - **summary**: The present candidate list. Sorted based on account id. A current member can never enter this vector and is always implicitly assumed to be a candidate.
-
-### didMigrate(): `bool`
-- **interface**: api.query.elections.didMigrate
-- **summary**: Has the storage format been updated? NOTE: Only use and set to false if you have used an early version of this module. Should be set to true otherwise.
 
 ### electionRounds(): `u32`
 - **interface**: api.query.elections.electionRounds

@@ -131,6 +131,10 @@ ___
 - **interface**: api.tx.democracy.cancelReferendum
 - **summary**: Remove a referendum.
 
+### clearPublicProposals()
+- **interface**: api.tx.democracy.clearPublicProposals
+- **summary**: Veto and blacklist the proposal hash. Must be from Root origin.
+
 ### delegate(to: `AccountId`, conviction: `Conviction`)
 - **interface**: api.tx.democracy.delegate
 - **summary**: Delegate vote.  # <weight> - One extra DB entry. # </weight>
@@ -139,15 +143,15 @@ ___
 - **interface**: api.tx.democracy.emergencyCancel
 - **summary**: Schedule an emergency cancellation of a referendum. Cannot happen twice to the same referendum.
 
-### externalPropose(proposal: `Proposal`)
+### externalPropose(proposal_hash: `Hash`)
 - **interface**: api.tx.democracy.externalPropose
 - **summary**: Schedule a referendum to be tabled once it is legal to schedule an external referendum.
 
-### externalProposeDefault(proposal: `Proposal`)
+### externalProposeDefault(proposal_hash: `Hash`)
 - **interface**: api.tx.democracy.externalProposeDefault
 - **summary**: Schedule a negative-turnout-bias referendum to be tabled next once it is legal to schedule an external referendum.  Unlike `external_propose`, blacklisting has no effect on this and it may replace a pre-scheduled `external_propose` call.
 
-### externalProposeMajority(proposal: `Proposal`)
+### externalProposeMajority(proposal_hash: `Hash`)
 - **interface**: api.tx.democracy.externalProposeMajority
 - **summary**: Schedule a majority-carries referendum to be tabled next once it is legal to schedule an external referendum.  Unlike `external_propose`, blacklisting has no effect on this and it may replace a pre-scheduled `external_propose` call.
 
@@ -155,13 +159,25 @@ ___
 - **interface**: api.tx.democracy.fastTrack
 - **summary**: Schedule the currently externally-proposed majority-carries referendum to be tabled immediately. If there is no externally-proposed referendum currently, or if there is one but it is not a majority-carries referendum then it fails.  - `proposal_hash`: The hash of the current external proposal. - `voting_period`: The period that is allowed for voting on this proposal. Increased to `EmergencyVotingPeriod` if too low. - `delay`: The number of block after voting has ended in approval and this should be enacted. This doesn't have a minimum amount.
 
-### propose(proposal: `Proposal`, value: `Compact<BalanceOf>`)
+### noteImminentPreimage(encoded_proposal: `Bytes`, when: `BlockNumber`, which: `u32`)
+- **interface**: api.tx.democracy.noteImminentPreimage
+- **summary**: Register the preimage for an upcoming proposal. This requires the proposal to be in the dispatch queue. No deposit is needed.
+
+### notePreimage(encoded_proposal: `Bytes`)
+- **interface**: api.tx.democracy.notePreimage
+- **summary**: Register the preimage for an upcoming proposal. This doesn't require the proposal to be in the dispatch queue but does require a deposit, returned once enacted.
+
+### propose(proposal_hash: `Hash`, value: `Compact<BalanceOf>`)
 - **interface**: api.tx.democracy.propose
 - **summary**: Propose a sensitive action to be taken.  # <weight> - O(1). - Two DB changes, one DB entry. # </weight>
 
 ### proxyVote(ref_index: `Compact<ReferendumIndex>`, vote: `Vote`)
 - **interface**: api.tx.democracy.proxyVote
 - **summary**: Vote in a referendum on behalf of a stash. If `vote.is_aye()`, the vote is to enact the proposal;  otherwise it is a vote to keep the status quo.  # <weight> - O(1). - One DB change, one DB entry. # </weight>
+
+### reapPreimage(proposal_hash: `Hash`)
+- **interface**: api.tx.democracy.reapPreimage
+- **summary**: Remove an expired proposal preimage and collect the deposit.
 
 ### removeProxy(proxy: `AccountId`)
 - **interface**: api.tx.democracy.removeProxy
@@ -198,11 +214,15 @@ ___
 
 ### removeMember(who: `Address`)
 - **interface**: api.tx.elections.removeMember
-- **summary**: Remove a particular member from the set. This is effective immediately.  If a runner-up is available, then the best runner-up will be removed and replaces the outgoing member. Otherwise, a new phragmen round is started.  Note that this does not affect the designated block number of the next election.  # <weight> #### State Reads: O(do_phragmen) Writes: O(do_phragmen) # </weight>
+- **summary**: Remove a particular member from the set. This is effective immediately and the bond of the outgoing member is slashed.  If a runner-up is available, then the best runner-up will be removed and replaces the outgoing member. Otherwise, a new phragmen round is started.  Note that this does not affect the designated block number of the next election.  # <weight> #### State Reads: O(do_phragmen) Writes: O(do_phragmen) # </weight>
 
 ### removeVoter()
 - **interface**: api.tx.elections.removeVoter
 - **summary**: Remove `origin` as a voter. This removes the lock and returns the bond.  # <weight> #### State Reads: O(1) Writes: O(1) # </weight>
+
+### renounceCandidacy()
+- **interface**: api.tx.elections.renounceCandidacy
+- **summary**: Renounce one's intention to be a candidate for the next election round. 3 potential outcomes exist: - `origin` is a candidate and not elected in any set. In this case, the bond is unreserved, returned and origin is removed as a candidate. - `origin` is a current runner up. In this case, the bond is unreserved, returned and origin is removed as a runner. - `origin` is a current member. In this case, the bond is unreserved and origin is removed as a member, consequently not being a candidate for the next round anymore. Similar to [`remove_voter`], if replacement runners exists, they are immediately used.
 
 ### reportDefunctVoter(target: `Address`)
 - **interface**: api.tx.elections.reportDefunctVoter
@@ -287,7 +307,7 @@ ___
 
 ### cancelDeferredSlash(era: `EraIndex`, slash_indices: `Vec<u32>`)
 - **interface**: api.tx.staking.cancelDeferredSlash
-- **summary**: Cancel enactment of a deferred slash. Can only be called by the root origin, passing the era and indices of the slashes for that era to kill.  # <weight> - One storage write. # </weight>
+- **summary**: Cancel enactment of a deferred slash. Can be called by either the root origin or the `T::SlashCancelOrigin`. passing the era and indices of the slashes for that era to kill.  # <weight> - One storage write. # </weight>
 
 ### chill()
 - **interface**: api.tx.staking.chill
@@ -420,6 +440,10 @@ ___
 ### addMember(who: `AccountId`)
 - **interface**: api.tx.technicalMembership.addMember
 - **summary**: Add a member `who` to the set.  May only be called from `AddOrigin` or root.
+
+### changeKey(new: `AccountId`)
+- **interface**: api.tx.technicalMembership.changeKey
+- **summary**: Swap out the sending member for some other key `new`.  May only be called from `Signed` origin of a current member.
 
 ### removeMember(who: `AccountId`)
 - **interface**: api.tx.technicalMembership.removeMember

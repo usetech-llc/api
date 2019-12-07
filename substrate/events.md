@@ -106,26 +106,52 @@ ___
 ## democracy
 
 ### Cancelled(`ReferendumIndex`)
+- **summary**: A referendum has been cancelled.
 
 ### Delegated(`AccountId`, `AccountId`)
+- **summary**: An account has delegated their vote to another account.
 
 ### Executed(`ReferendumIndex`, `bool`)
+- **summary**: A proposal has been enacted.
 
 ### ExternalTabled()
+- **summary**: An external proposal has been tabled.
 
 ### NotPassed(`ReferendumIndex`)
+- **summary**: A proposal has been rejected by referendum.
 
 ### Passed(`ReferendumIndex`)
+- **summary**: A proposal has been approved by referendum.
+
+### PreimageInvalid(`Hash`, `ReferendumIndex`)
+- **summary**: A proposal could not be executed because its preimage was invalid.
+
+### PreimageMissing(`Hash`, `ReferendumIndex`)
+- **summary**: A proposal could not be executed because its preimage was missing.
+
+### PreimageNoted(`Hash`, `AccountId`, `Balance`)
+- **summary**: A proposal's preimage was noted, and the deposit taken.
+
+### PreimageReaped(`Hash`, `AccountId`, `Balance`, `AccountId`)
+- **summary**: A registered preimage was removed and the deposit collected by the reaper (last item).
+
+### PreimageUsed(`Hash`, `AccountId`, `Balance`)
+- **summary**: A proposal preimage was removed and used (the deposit was returned).
 
 ### Proposed(`PropIndex`, `Balance`)
+- **summary**: A motion has been proposed by a public account.
 
 ### Started(`ReferendumIndex`, `VoteThreshold`)
+- **summary**: A referendum has begun.
 
 ### Tabled(`PropIndex`, `Balance`, `Vec<AccountId>`)
+- **summary**: A public proposal has been tabled for referendum vote.
 
 ### Undelegated(`AccountId`)
+- **summary**: An account has cancelled a previous delegation operation.
 
 ### Vetoed(`AccountId`, `Hash`, `BlockNumber`)
+- **summary**: An external proposal has been vetoed.
 
 ___
 
@@ -137,6 +163,9 @@ ___
 
 ### MemberKicked(`AccountId`)
 - **summary**: A member has been removed. This should always be followed by either `NewTerm` ot `EmptyTerm`.
+
+### MemberRenounced(`AccountId`)
+- **summary**: A member has renounced their candidacy.
 
 ### NewTerm(`Vec<(AccountId,Balance)>`)
 - **summary**: A new term with new members. This indicates that enough candidates existed, not that enough have has been elected. The inner value must be examined for this purpose.
@@ -249,10 +278,10 @@ ___
 
 ## system
 
-### ExtrinsicFailed(`DispatchError`)
+### ExtrinsicFailed(`DispatchError`, `DispatchInfo`)
 - **summary**: An extrinsic failed.
 
-### ExtrinsicSuccess()
+### ExtrinsicSuccess(`DispatchInfo`)
 - **summary**: An extrinsic completed successfully.
 
 ___
@@ -285,6 +314,9 @@ ___
 
 ### Dummy(`PhantomData`)
 - **summary**: Phantom member, never used.
+
+### KeyChanged()
+- **summary**: One of the members' keys changed.
 
 ### MemberAdded()
 - **summary**: The given member was added; see the transaction for who.

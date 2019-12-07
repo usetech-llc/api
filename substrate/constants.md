@@ -152,6 +152,10 @@ ___
 - **interface**: api.consts.democracy.minimumDeposit
 - **summary**: The minimum amount to be used as a deposit for a public referendum proposal.
 
+### preimageByteDeposit: `BalanceOf`
+- **interface**: api.consts.democracy.preimageByteDeposit
+- **summary**: The amount of balance that must be deposited per byte of preimage stored.
+
 ### votingPeriod: `BlockNumber`
 - **interface**: api.consts.democracy.votingPeriod
 - **summary**: How often (in blocks) to check for new votes.

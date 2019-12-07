@@ -10,7 +10,7 @@
 
 ▸ (`arg?`: any): *Uint8Array*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:12](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/primitive/StorageKey.ts#L12)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:12](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/primitive/StorageKey.ts#L12)*
 
 **Parameters:**
 
@@ -37,7 +37,7 @@ Name | Type |
 
 • **iterKey**? : *[Uint8Array](../classes/_codec_u8a_.u8a.md#static-uint8array)*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:14](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/primitive/StorageKey.ts#L14)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:14](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/primitive/StorageKey.ts#L14)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 • **meta**: *[StorageEntryMetadataLatest](_interfaces_metadata_types_.storageentrymetadatalatest.md)*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:15](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/primitive/StorageKey.ts#L15)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:15](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/primitive/StorageKey.ts#L15)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **method**: *string*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:16](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/primitive/StorageKey.ts#L16)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:16](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/primitive/StorageKey.ts#L16)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 • **prefix**: *string*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:17](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/primitive/StorageKey.ts#L17)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:17](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/primitive/StorageKey.ts#L17)*
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 • **section**: *string*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:18](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/primitive/StorageKey.ts#L18)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:18](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/primitive/StorageKey.ts#L18)*
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 • **toJSON**: *function*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:19](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/primitive/StorageKey.ts#L19)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:19](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/primitive/StorageKey.ts#L19)*
 
 #### Type declaration:
 

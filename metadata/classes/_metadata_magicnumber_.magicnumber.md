@@ -137,7 +137,7 @@
 
 *Overrides void*
 
-*Defined in [packages/metadata/src/Metadata/MagicNumber.ts:13](https://github.com/polkadot-js/api/blob/bf946c20d/packages/metadata/src/Metadata/MagicNumber.ts#L13)*
+*Defined in [packages/metadata/src/Metadata/MagicNumber.ts:13](https://github.com/polkadot-js/api/blob/b1dff2295/packages/metadata/src/Metadata/MagicNumber.ts#L13)*
 
 **Parameters:**
 
@@ -156,7 +156,7 @@ Name | Type |
 
 *Inherited from void*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:25](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/AbstractInt.ts#L25)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:25](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/AbstractInt.ts#L25)*
 
 ## Accessors
 
@@ -166,7 +166,7 @@ Name | Type |
 
 *Inherited from void*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:73](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/AbstractInt.ts#L73)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:73](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/AbstractInt.ts#L73)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -180,7 +180,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:80](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/AbstractInt.ts#L80)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:80](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/AbstractInt.ts#L80)*
 
 **`description`** returns a hash of the contents
 
@@ -194,7 +194,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:87](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/AbstractInt.ts#L87)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:87](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/AbstractInt.ts#L87)*
 
 **`description`** Checks if the value is a zero value (align elsewhere)
 
@@ -324,7 +324,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:94](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/AbstractInt.ts#L94)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:94](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/AbstractInt.ts#L94)*
 
 **`description`** Returns the number of bits in the value
 
@@ -488,7 +488,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:102](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/AbstractInt.ts#L102)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:102](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/AbstractInt.ts#L102)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -1595,7 +1595,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:115](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/AbstractInt.ts#L115)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:115](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/AbstractInt.ts#L115)*
 
 **`description`** Returns the BN representation of the number. (Compatibility)
 
@@ -1632,7 +1632,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/UInt.ts#L38)*
+*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/UInt.ts#L38)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -1654,7 +1654,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:127](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/AbstractInt.ts#L127)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:127](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/AbstractInt.ts#L127)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -1684,7 +1684,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/UInt.ts#L50)*
+*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/UInt.ts#L50)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -1720,7 +1720,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:145](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/AbstractInt.ts#L145)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:145](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/AbstractInt.ts#L145)*
 
 **`description`** Returns the string representation of the value
 
@@ -1762,7 +1762,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/UInt.ts#L64)*
+*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/UInt.ts#L64)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -1956,7 +1956,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:42](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/AbstractInt.ts#L42)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:42](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/AbstractInt.ts#L42)*
 
 **Parameters:**
 
@@ -2078,7 +2078,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/bf946c20d/packages/types/src/codec/UInt.ts#L27)*
+*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/b1dff2295/packages/types/src/codec/UInt.ts#L27)*
 
 **Parameters:**
 

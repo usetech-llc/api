@@ -22,7 +22,7 @@
 
 • **contract**: *[ContractABIContractPre](_types_.contractabicontractpre.md)*
 
-*Defined in [api-contract/src/types.ts:91](https://github.com/polkadot-js/api/blob/4653cc0d8/packages/api-contract/src/types.ts#L91)*
+*Defined in [api-contract/src/types.ts:91](https://github.com/polkadot-js/api/blob/0d2896630/packages/api-contract/src/types.ts#L91)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/codec/create/types.ts:155](https://github.com/polkadot-js/api/blob/4653cc0d8/packages/types/src/codec/create/types.ts#L155)*
+*Defined in [types/src/codec/create/types.ts:155](https://github.com/polkadot-js/api/blob/0d2896630/packages/types/src/codec/create/types.ts#L155)*
 
 #### Type declaration:
 
@@ -42,4 +42,4 @@ ___
 
 • **storage**: *[ContractABIStoragePre](../modules/_types_.md#contractabistoragepre)*
 
-*Defined in [api-contract/src/types.ts:90](https://github.com/polkadot-js/api/blob/4653cc0d8/packages/api-contract/src/types.ts#L90)*
+*Defined in [api-contract/src/types.ts:90](https://github.com/polkadot-js/api/blob/0d2896630/packages/api-contract/src/types.ts#L90)*

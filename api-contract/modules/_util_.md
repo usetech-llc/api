@@ -12,16 +12,16 @@
 
 ###  formatData
 
-▸ **formatData**(`registry`: Registry, `data`: Data, `__namedParameters`: object): *Codec*
+▸ **formatData**(`registry`: Registry, `data`: Raw, `__namedParameters`: object): *Codec*
 
-*Defined in [api-contract/src/util.ts:10](https://github.com/polkadot-js/api/blob/4653cc0d8/packages/api-contract/src/util.ts#L10)*
+*Defined in [api-contract/src/util.ts:10](https://github.com/polkadot-js/api/blob/0d2896630/packages/api-contract/src/util.ts#L10)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
 `registry` | Registry |
-`data` | Data |
+`data` | Raw |
 `__namedParameters` | object |
 
 **Returns:** *Codec*

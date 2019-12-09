@@ -20,7 +20,7 @@ These are the base types of the codec. They are typically not used directly, but
 | [Set](classes/_codec_set_.codecset.md#static-set) | An Set is an array of string values, represented an an encoded type by a bitwise representation of the values |
 | [Struct](classes/_codec_struct_.struct.md) | A Struct defines an Object with key-value pairs - where the values are Codec values. |
 | [Tuple](classes/_codec_tuple_.tuple.md) | A Tuple defines an anonymous fixed-length array, where each element has its own type |
-| [U8a](classes/_codec_u8a_.u8a.md) |  A basic wrapper around Uint8Array. It will consume the full Uint8Array as passed to it |
+| [Raw](classes/_codec_raw_.raw.md) |  A basic wrapper around Uint8Array. It will consume the full Uint8Array as passed to it |
 | [U8aFixed](classes/_codec_u8afixed_.u8afixed.md) | A U8a that manages a a sequence of bytes up to the specified bitLength |
 | [UInt](classes/_codec_uint_.uint.md) | A generic unsigned integer codec. It handles the encoding and decoding of Little Endian encoded numbers in Substrate |
 | [Vec](classes/_codec_vec_.vec.md) | This manages codec arrays. Internally it keeps track of the length (as decoded) |
@@ -38,7 +38,6 @@ These primitive types are available:
 | [bool](interfaces/_interfaceregistry_.interfaceregistry.md#bool) | Representation for a boolean value in the system |
 | [Bytes](classes/_primitive_bytes_.bytes.md) | A Bytes wrapper for `Vec<u8>` |
 | [Call](interfaces/_interfaces_runtime_types_.call.md) | Extrinsic function descriptor, as defined in [the extrinsic format for a node](https://github.com/paritytech/wiki/blob/master/Extrinsic.md#the-extrinsic-format-for-node) |
-| [Data](classes/_primitive_data_.data.md) | A raw data structure. It is an encoding of a U8a without any length encoding |
 | [Event](interfaces/_interfaces_system_types_.event.md) | Wrapper for the actual data that forms part of an [Event](interfaces/_interfaces_system_types_.event.md) |
 | [EventRecord](interfaces/_interfaces_system_types_.eventrecord.md) | A record for an [Event](interfaces/_interfaces_system_types_.event.md) (as specified by [[Metadata]]) with the specific [Phase](interfaces/_interfaces_system_types_.phase.md) of application |
 | [Extrinsic](interfaces/_interfaces_runtime_types_.extrinsic.md) | Representation of an Extrinsic in the system |

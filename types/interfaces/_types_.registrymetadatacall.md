@@ -23,7 +23,7 @@
 
 • **args**: *any[]*
 
-*Defined in [packages/types/src/types.ts:325](https://github.com/polkadot-js/api/blob/4653cc0d8/packages/types/src/types.ts#L325)*
+*Defined in [packages/types/src/types.ts:325](https://github.com/polkadot-js/api/blob/0d2896630/packages/types/src/types.ts#L325)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **name**: *String & [Codec](_types_.codec.md)*
 
-*Defined in [packages/types/src/types.ts:327](https://github.com/polkadot-js/api/blob/4653cc0d8/packages/types/src/types.ts#L327)*
+*Defined in [packages/types/src/types.ts:327](https://github.com/polkadot-js/api/blob/0d2896630/packages/types/src/types.ts#L327)*
 
 ## Methods
 
@@ -39,6 +39,6 @@ ___
 
 ▸ **toJSON**(): *string | [AnyJsonObject](_types_.anyjsonobject.md)*
 
-*Defined in [packages/types/src/types.ts:329](https://github.com/polkadot-js/api/blob/4653cc0d8/packages/types/src/types.ts#L329)*
+*Defined in [packages/types/src/types.ts:329](https://github.com/polkadot-js/api/blob/0d2896630/packages/types/src/types.ts#L329)*
 
 **Returns:** *string | [AnyJsonObject](_types_.anyjsonobject.md)*

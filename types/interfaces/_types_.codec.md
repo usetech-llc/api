@@ -94,6 +94,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 * [ContractExecResultSuccess](_interfaces_contracts_types_.contractexecresultsuccess.md)
 * [ContractInfo](_interfaces_contracts_types_.contractinfo.md)
 * [Conviction](_interfaces_democracy_types_.conviction.md)
+* [Data](_interfaces_identity_types_.data.md)
 * [Digest](_interfaces_runtime_types_.digest.md)
 * [Digest](../classes/_primitive_generic_digest_.digest.md)
 * [DigestItem](_interfaces_runtime_types_.digestitem.md)
@@ -207,6 +208,8 @@ The Codec Base is however required for operating as an encoding/decoding layer
 * [I64](../classes/_primitive_i64_.i64.md)
 * [I64Fixed](../classes/_primitive_i64fixed_.i64fixed.md)
 * [I8](../classes/_primitive_i8_.i8.md)
+* [IdentityFields](_interfaces_identity_types_.identityfields.md)
+* [IdentityInfo](_interfaces_identity_types_.identityinfo.md)
 * [IncludedBlocks](_interfaces_attestations_types_.includedblocks.md)
 * [InclusionHeight](_interfaces_authorship_types_.inclusionheight.md)
 * [IncomingParachain](_interfaces_parachains_types_.incomingparachain.md)
@@ -216,6 +219,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 * [IndividualExposure](_interfaces_staking_types_.individualexposure.md)
 * [InherentOfflineReport](_interfaces_deprecated_types_.inherentofflinereport.md)
 * [Int](../classes/_codec_int_.int.md)
+* [Judgement](_interfaces_identity_types_.judgement.md)
 * [KeyTypeId](_interfaces_runtime_types_.keytypeid.md)
 * [LeasePeriod](_interfaces_parachains_types_.leaseperiod.md)
 * [LeasePeriodOf](_interfaces_parachains_types_.leaseperiodof.md)
@@ -331,6 +335,9 @@ The Codec Base is however required for operating as an encoding/decoding layer
 * [RawBabePreDigestSecondary0to159](_interfaces_babe_types_.rawbabepredigestsecondary0to159.md)
 * [ReferendumIndex](_interfaces_democracy_types_.referendumindex.md)
 * [ReferendumInfo](_interfaces_democracy_types_.referenduminfo.md)
+* [RegistrarIndex](_interfaces_identity_types_.registrarindex.md)
+* [RegistrarInfo](_interfaces_identity_types_.registrarinfo.md)
+* [Registration](_interfaces_identity_types_.registration.md)
 * [Result](../classes/_codec_result_.result.md)
 * [Retriable](_interfaces_parachains_types_.retriable.md)
 * [RewardDestination](_interfaces_staking_types_.rewarddestination.md)
@@ -457,7 +464,7 @@ The Codec Base is however required for operating as an encoding/decoding layer
 
 • **encodedLength**: *number*
 
-*Defined in [packages/types/src/types.ts:75](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/types/src/types.ts#L75)*
+*Defined in [packages/types/src/types.ts:75](https://github.com/polkadot-js/api/blob/d487490ca/packages/types/src/types.ts#L75)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -467,7 +474,7 @@ ___
 
 • **hash**: *[IHash](_types_.ihash.md)*
 
-*Defined in [packages/types/src/types.ts:80](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/types/src/types.ts#L80)*
+*Defined in [packages/types/src/types.ts:80](https://github.com/polkadot-js/api/blob/d487490ca/packages/types/src/types.ts#L80)*
 
 **`description`** Returns a hash of the value
 
@@ -477,7 +484,7 @@ ___
 
 • **isEmpty**: *boolean*
 
-*Defined in [packages/types/src/types.ts:85](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/types/src/types.ts#L85)*
+*Defined in [packages/types/src/types.ts:85](https://github.com/polkadot-js/api/blob/d487490ca/packages/types/src/types.ts#L85)*
 
 **`description`** Checks if the value is an empty value
 
@@ -487,7 +494,7 @@ ___
 
 • **registry**: *[Registry](_types_.registry.md)*
 
-*Defined in [packages/types/src/types.ts:90](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/types/src/types.ts#L90)*
+*Defined in [packages/types/src/types.ts:90](https://github.com/polkadot-js/api/blob/d487490ca/packages/types/src/types.ts#L90)*
 
 **`description`** The registry associated with this object
 
@@ -497,7 +504,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [packages/types/src/types.ts:95](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/types/src/types.ts#L95)*
+*Defined in [packages/types/src/types.ts:95](https://github.com/polkadot-js/api/blob/d487490ca/packages/types/src/types.ts#L95)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -515,7 +522,7 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Defined in [packages/types/src/types.ts:100](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/types/src/types.ts#L100)*
+*Defined in [packages/types/src/types.ts:100](https://github.com/polkadot-js/api/blob/d487490ca/packages/types/src/types.ts#L100)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -533,7 +540,7 @@ ___
 
 ▸ **toJSON**(): *[AnyJson](../modules/_types_.md#anyjson)*
 
-*Defined in [packages/types/src/types.ts:105](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/types/src/types.ts#L105)*
+*Defined in [packages/types/src/types.ts:105](https://github.com/polkadot-js/api/blob/d487490ca/packages/types/src/types.ts#L105)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -545,7 +552,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [packages/types/src/types.ts:110](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/types/src/types.ts#L110)*
+*Defined in [packages/types/src/types.ts:110](https://github.com/polkadot-js/api/blob/d487490ca/packages/types/src/types.ts#L110)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -557,7 +564,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [packages/types/src/types.ts:115](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/types/src/types.ts#L115)*
+*Defined in [packages/types/src/types.ts:115](https://github.com/polkadot-js/api/blob/d487490ca/packages/types/src/types.ts#L115)*
 
 **`description`** Returns the string representation of the value
 
@@ -569,7 +576,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: [BareOpts](../modules/_types_.md#bareopts)): *Uint8Array*
 
-*Defined in [packages/types/src/types.ts:121](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/types/src/types.ts#L121)*
+*Defined in [packages/types/src/types.ts:121](https://github.com/polkadot-js/api/blob/d487490ca/packages/types/src/types.ts#L121)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

@@ -73,6 +73,8 @@
 * ["interfaces/genericAsset/types"](modules/_interfaces_genericasset_types_.md)
 * ["interfaces/grandpa/definitions"](modules/_interfaces_grandpa_definitions_.md)
 * ["interfaces/grandpa/types"](modules/_interfaces_grandpa_types_.md)
+* ["interfaces/identity/definitions"](modules/_interfaces_identity_definitions_.md)
+* ["interfaces/identity/types"](modules/_interfaces_identity_types_.md)
 * ["interfaces/imOnline/definitions"](modules/_interfaces_imonline_definitions_.md)
 * ["interfaces/imOnline/types"](modules/_interfaces_imonline_types_.md)
 * ["interfaces/metadata/definitions"](modules/_interfaces_metadata_definitions_.md)

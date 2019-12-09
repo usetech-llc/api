@@ -14,7 +14,7 @@
 
 ▸ **getTypeDef**(`_type`: string, `__namedParameters`: object): *[TypeDef](../interfaces/_codec_create_types_.typedef.md)*
 
-*Defined in [packages/types/src/codec/create/getTypeDef.ts:126](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/types/src/codec/create/getTypeDef.ts#L126)*
+*Defined in [packages/types/src/codec/create/getTypeDef.ts:126](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/types/src/codec/create/getTypeDef.ts#L126)*
 
 **Parameters:**
 

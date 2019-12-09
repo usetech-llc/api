@@ -30,7 +30,7 @@
 
 • **at**: *function*
 
-*Defined in [api/src/types.ts:111](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api/src/types.ts#L111)*
+*Defined in [api/src/types.ts:111](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api/src/types.ts#L111)*
 
 #### Type declaration:
 
@@ -49,7 +49,7 @@ ___
 
 • **creator**: *StorageEntry*
 
-*Defined in [api/src/types.ts:112](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api/src/types.ts#L112)*
+*Defined in [api/src/types.ts:112](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api/src/types.ts#L112)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • **entries**: *function*
 
-*Defined in [api/src/types.ts:113](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api/src/types.ts#L113)*
+*Defined in [api/src/types.ts:113](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api/src/types.ts#L113)*
 
 #### Type declaration:
 
@@ -69,7 +69,7 @@ ___
 
 • **hash**: *function*
 
-*Defined in [api/src/types.ts:114](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api/src/types.ts#L114)*
+*Defined in [api/src/types.ts:114](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api/src/types.ts#L114)*
 
 #### Type declaration:
 
@@ -87,7 +87,7 @@ ___
 
 • **key**: *function*
 
-*Defined in [api/src/types.ts:115](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api/src/types.ts#L115)*
+*Defined in [api/src/types.ts:115](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api/src/types.ts#L115)*
 
 #### Type declaration:
 
@@ -105,7 +105,7 @@ ___
 
 • **multi**: *ApiType extends "rxjs" ? StorageEntryObservableMulti : StorageEntryPromiseMulti*
 
-*Defined in [api/src/types.ts:117](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api/src/types.ts#L117)*
+*Defined in [api/src/types.ts:117](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api/src/types.ts#L117)*
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 • **size**: *function*
 
-*Defined in [api/src/types.ts:116](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api/src/types.ts#L116)*
+*Defined in [api/src/types.ts:116](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api/src/types.ts#L116)*
 
 #### Type declaration:
 

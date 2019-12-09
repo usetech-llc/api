@@ -24,7 +24,7 @@
 
 • **balance**? : *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:89](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api-derive/src/types.ts#L89)*
+*Defined in [packages/api-derive/src/types.ts:89](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api-derive/src/types.ts#L89)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **hash**: *Hash*
 
-*Defined in [packages/api-derive/src/types.ts:90](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api-derive/src/types.ts#L90)*
+*Defined in [packages/api-derive/src/types.ts:90](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api-derive/src/types.ts#L90)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 • **index**: *PropIndex*
 
-*Defined in [packages/api-derive/src/types.ts:91](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api-derive/src/types.ts#L91)*
+*Defined in [packages/api-derive/src/types.ts:91](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api-derive/src/types.ts#L91)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 • **preimage**? : *[DeriveProposalPreImage](_types_.deriveproposalpreimage.md)*
 
-*Defined in [packages/api-derive/src/types.ts:92](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api-derive/src/types.ts#L92)*
+*Defined in [packages/api-derive/src/types.ts:92](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api-derive/src/types.ts#L92)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • **proposal**? : *Proposal*
 
-*Defined in [packages/api-derive/src/types.ts:93](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api-derive/src/types.ts#L93)*
+*Defined in [packages/api-derive/src/types.ts:93](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api-derive/src/types.ts#L93)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • **proposer**: *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:94](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api-derive/src/types.ts#L94)*
+*Defined in [packages/api-derive/src/types.ts:94](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api-derive/src/types.ts#L94)*
 
 ___
 
@@ -72,4 +72,4 @@ ___
 
 • **seconds**: *Vec‹AccountId›*
 
-*Defined in [packages/api-derive/src/types.ts:95](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api-derive/src/types.ts#L95)*
+*Defined in [packages/api-derive/src/types.ts:95](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api-derive/src/types.ts#L95)*

@@ -14,7 +14,7 @@
 
 ▸ **approvalFlagsToBools**(`flags`: Vec‹ApprovalFlag› | ApprovalFlag[]): *boolean[]*
 
-*Defined in [packages/api-derive/src/util/approvalFlagsToBools.ts:9](https://github.com/polkadot-js/api/blob/6bf0d5eea/packages/api-derive/src/util/approvalFlagsToBools.ts#L9)*
+*Defined in [packages/api-derive/src/util/approvalFlagsToBools.ts:9](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api-derive/src/util/approvalFlagsToBools.ts#L9)*
 
 **Parameters:**
 

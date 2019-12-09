@@ -51,7 +51,7 @@
 
 *Overrides [BaseWithTx](_base_util_.basewithtx.md).[constructor](_base_util_.basewithtx.md#constructor)*
 
-*Defined in [api-contract/src/base/Blueprint.ts:39](https://github.com/polkadot-js/api/blob/0d2896630/packages/api-contract/src/base/Blueprint.ts#L39)*
+*Defined in [api-contract/src/base/Blueprint.ts:39](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/api-contract/src/base/Blueprint.ts#L39)*
 
 **Parameters:**
 
@@ -74,7 +74,7 @@ Name | Type |
 
 *Inherited from [Base](_base_util_.base.md).[abi](_base_util_.base.md#abi)*
 
-*Defined in [api-contract/src/base/util.ts:14](https://github.com/polkadot-js/api/blob/0d2896630/packages/api-contract/src/base/util.ts#L14)*
+*Defined in [api-contract/src/base/util.ts:14](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/api-contract/src/base/util.ts#L14)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[api](_base_util_.base.md#api)*
 
-*Defined in [api-contract/src/base/util.ts:16](https://github.com/polkadot-js/api/blob/0d2896630/packages/api-contract/src/base/util.ts#L16)*
+*Defined in [api-contract/src/base/util.ts:16](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/api-contract/src/base/util.ts#L16)*
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 • **codeHash**: *Hash*
 
-*Defined in [api-contract/src/base/Blueprint.ts:39](https://github.com/polkadot-js/api/blob/0d2896630/packages/api-contract/src/base/Blueprint.ts#L39)*
+*Defined in [api-contract/src/base/Blueprint.ts:39](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/api-contract/src/base/Blueprint.ts#L39)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[decorateMethod](_base_util_.base.md#decoratemethod)*
 
-*Defined in [api-contract/src/base/util.ts:18](https://github.com/polkadot-js/api/blob/0d2896630/packages/api-contract/src/base/util.ts#L18)*
+*Defined in [api-contract/src/base/util.ts:18](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/api-contract/src/base/util.ts#L18)*
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[registry](_base_util_.base.md#registry)*
 
-*Defined in [api-contract/src/base/util.ts:20](https://github.com/polkadot-js/api/blob/0d2896630/packages/api-contract/src/base/util.ts#L20)*
+*Defined in [api-contract/src/base/util.ts:20](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/api-contract/src/base/util.ts#L20)*
 
 ## Accessors
 
@@ -126,7 +126,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[messages](_base_util_.base.md#messages)*
 
-*Defined in [api-contract/src/base/util.ts:31](https://github.com/polkadot-js/api/blob/0d2896630/packages/api-contract/src/base/util.ts#L31)*
+*Defined in [api-contract/src/base/util.ts:31](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/api-contract/src/base/util.ts#L31)*
 
 **Returns:** *[ContractMessage](../interfaces/_types_.contractmessage.md)[]*
 
@@ -136,7 +136,7 @@ ___
 
 ▸ **deployContract**(`constructorIndex`: number, `endowment`: number | BN, `maxGas`: number | BN, ...`params`: any[]): *[BlueprintCreate](../interfaces/_base_blueprint_.blueprintcreate.md)‹ApiType›*
 
-*Defined in [api-contract/src/base/Blueprint.ts:47](https://github.com/polkadot-js/api/blob/0d2896630/packages/api-contract/src/base/Blueprint.ts#L47)*
+*Defined in [api-contract/src/base/Blueprint.ts:47](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/api-contract/src/base/Blueprint.ts#L47)*
 
 **Parameters:**
 
@@ -157,7 +157,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[getMessage](_base_util_.base.md#getmessage)*
 
-*Defined in [api-contract/src/base/util.ts:42](https://github.com/polkadot-js/api/blob/0d2896630/packages/api-contract/src/base/util.ts#L42)*
+*Defined in [api-contract/src/base/util.ts:42](https://github.com/polkadot-js/api/blob/77bf33b4e/packages/api-contract/src/base/util.ts#L42)*
 
 **Parameters:**
 

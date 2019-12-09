@@ -24,7 +24,7 @@
 
 • **currentEra**: *EraIndex*
 
-*Defined in [packages/api-derive/src/types.ts:115](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api-derive/src/types.ts#L115)*
+*Defined in [packages/api-derive/src/types.ts:123](https://github.com/polkadot-js/api/blob/4653cc0d8/packages/api-derive/src/types.ts#L123)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **currentIndex**: *SessionIndex*
 
-*Defined in [packages/api-derive/src/types.ts:116](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api-derive/src/types.ts#L116)*
+*Defined in [packages/api-derive/src/types.ts:124](https://github.com/polkadot-js/api/blob/4653cc0d8/packages/api-derive/src/types.ts#L124)*
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 • **validatorCount**: *u32*
 
-*Defined in [packages/api-derive/src/types.ts:117](https://github.com/polkadot-js/api/blob/8a5a86e8b/packages/api-derive/src/types.ts#L117)*
+*Defined in [packages/api-derive/src/types.ts:125](https://github.com/polkadot-js/api/blob/4653cc0d8/packages/api-derive/src/types.ts#L125)*

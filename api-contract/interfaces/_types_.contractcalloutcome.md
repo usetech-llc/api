@@ -24,7 +24,7 @@
 
 • **isSuccess**: *boolean*
 
-*Defined in [api-contract/src/types.ts:205](https://github.com/polkadot-js/api/blob/f02613754/packages/api-contract/src/types.ts#L205)*
+*Defined in [api-contract/src/types.ts:205](https://github.com/polkadot-js/api/blob/3619fabe5/packages/api-contract/src/types.ts#L205)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **message**: *[ContractABIMessage](_types_.contractabimessage.md)*
 
-*Defined in [api-contract/src/types.ts:206](https://github.com/polkadot-js/api/blob/f02613754/packages/api-contract/src/types.ts#L206)*
+*Defined in [api-contract/src/types.ts:206](https://github.com/polkadot-js/api/blob/3619fabe5/packages/api-contract/src/types.ts#L206)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 • **origin**: *AccountId*
 
-*Defined in [api-contract/src/types.ts:202](https://github.com/polkadot-js/api/blob/f02613754/packages/api-contract/src/types.ts#L202)*
+*Defined in [api-contract/src/types.ts:202](https://github.com/polkadot-js/api/blob/3619fabe5/packages/api-contract/src/types.ts#L202)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 • **output**: *Codec | null*
 
-*Defined in [api-contract/src/types.ts:203](https://github.com/polkadot-js/api/blob/f02613754/packages/api-contract/src/types.ts#L203)*
+*Defined in [api-contract/src/types.ts:203](https://github.com/polkadot-js/api/blob/3619fabe5/packages/api-contract/src/types.ts#L203)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • **params**: *any[]*
 
-*Defined in [api-contract/src/types.ts:204](https://github.com/polkadot-js/api/blob/f02613754/packages/api-contract/src/types.ts#L204)*
+*Defined in [api-contract/src/types.ts:204](https://github.com/polkadot-js/api/blob/3619fabe5/packages/api-contract/src/types.ts#L204)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • **result**: *ContractExecResult*
 
-*Defined in [api-contract/src/types.ts:201](https://github.com/polkadot-js/api/blob/f02613754/packages/api-contract/src/types.ts#L201)*
+*Defined in [api-contract/src/types.ts:201](https://github.com/polkadot-js/api/blob/3619fabe5/packages/api-contract/src/types.ts#L201)*
 
 ___
 
@@ -72,4 +72,4 @@ ___
 
 • **time**: *number*
 
-*Defined in [api-contract/src/types.ts:200](https://github.com/polkadot-js/api/blob/f02613754/packages/api-contract/src/types.ts#L200)*
+*Defined in [api-contract/src/types.ts:200](https://github.com/polkadot-js/api/blob/3619fabe5/packages/api-contract/src/types.ts#L200)*

@@ -41,7 +41,7 @@ GenericAccountIndex
 
 *Overrides [U32](../classes/_primitive_u32_.u32.md).[constructor](../classes/_primitive_u32_.u32.md#constructor)*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:30](https://github.com/polkadot-js/api/blob/f02613754/packages/types/src/primitive/Generic/AccountIndex.ts#L30)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:30](https://github.com/polkadot-js/api/blob/3619fabe5/packages/types/src/primitive/Generic/AccountIndex.ts#L30)*
 
 **Parameters:**
 
@@ -62,7 +62,7 @@ Name | Type | Default |
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/f02613754/packages/types/src/codec/UInt.ts#L38)*
+*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/3619fabe5/packages/types/src/codec/UInt.ts#L38)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -84,7 +84,7 @@ ___
 
 *Overrides [UInt](../classes/_codec_uint_.uint.md).[toRawType](../classes/_codec_uint_.uint.md#torawtype)*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:116](https://github.com/polkadot-js/api/blob/f02613754/packages/types/src/primitive/Generic/AccountIndex.ts#L116)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:116](https://github.com/polkadot-js/api/blob/3619fabe5/packages/types/src/primitive/Generic/AccountIndex.ts#L116)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -100,7 +100,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/f02613754/packages/types/src/codec/UInt.ts#L64)*
+*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/3619fabe5/packages/types/src/codec/UInt.ts#L64)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -120,7 +120,7 @@ ___
 
 *Inherited from [AccountIndex](../classes/_primitive_generic_accountindex_.accountindex.md).[calcLength](../classes/_primitive_generic_accountindex_.accountindex.md#static-calclength)*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:47](https://github.com/polkadot-js/api/blob/f02613754/packages/types/src/primitive/Generic/AccountIndex.ts#L47)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:47](https://github.com/polkadot-js/api/blob/3619fabe5/packages/types/src/primitive/Generic/AccountIndex.ts#L47)*
 
 **Parameters:**
 
@@ -138,7 +138,7 @@ ___
 
 *Inherited from [AccountIndex](../classes/_primitive_generic_accountindex_.accountindex.md).[decodeAccountIndex](../classes/_primitive_generic_accountindex_.accountindex.md#static-decodeaccountindex)*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:35](https://github.com/polkadot-js/api/blob/f02613754/packages/types/src/primitive/Generic/AccountIndex.ts#L35)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:35](https://github.com/polkadot-js/api/blob/3619fabe5/packages/types/src/primitive/Generic/AccountIndex.ts#L35)*
 
 **Parameters:**
 
@@ -156,7 +156,7 @@ ___
 
 *Inherited from [AccountIndex](../classes/_primitive_generic_accountindex_.accountindex.md).[readLength](../classes/_primitive_generic_accountindex_.accountindex.md#static-readlength)*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:61](https://github.com/polkadot-js/api/blob/f02613754/packages/types/src/primitive/Generic/AccountIndex.ts#L61)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:61](https://github.com/polkadot-js/api/blob/3619fabe5/packages/types/src/primitive/Generic/AccountIndex.ts#L61)*
 
 **Parameters:**
 
@@ -174,7 +174,7 @@ ___
 
 *Inherited from [UInt](../classes/_codec_uint_.uint.md).[with](../classes/_codec_uint_.uint.md#static-with)*
 
-*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/f02613754/packages/types/src/codec/UInt.ts#L27)*
+*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/3619fabe5/packages/types/src/codec/UInt.ts#L27)*
 
 **Parameters:**
 
@@ -192,7 +192,7 @@ ___
 
 *Inherited from [AccountIndex](../classes/_primitive_generic_accountindex_.accountindex.md).[writeLength](../classes/_primitive_generic_accountindex_.accountindex.md#static-writelength)*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:75](https://github.com/polkadot-js/api/blob/f02613754/packages/types/src/primitive/Generic/AccountIndex.ts#L75)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:75](https://github.com/polkadot-js/api/blob/3619fabe5/packages/types/src/primitive/Generic/AccountIndex.ts#L75)*
 
 **Parameters:**
 

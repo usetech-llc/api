@@ -14,7 +14,7 @@
 
 ▸ **toV10**(`registry`: Registry, `__namedParameters`: object): *MetadataV10*
 
-*Defined in [packages/metadata/src/Metadata/v9/toV10.ts:48](https://github.com/polkadot-js/api/blob/3619fabe5/packages/metadata/src/Metadata/v9/toV10.ts#L48)*
+*Defined in [packages/metadata/src/Metadata/v9/toV10.ts:48](https://github.com/polkadot-js/api/blob/1f7b9f7f3/packages/metadata/src/Metadata/v9/toV10.ts#L48)*
 
 Convert from MetadataV9 to MetadataV10
 

@@ -20,7 +20,7 @@
 
 • **blockCount**: *u32*
 
-*Defined in [packages/api-derive/src/types.ts:78](https://github.com/polkadot-js/api/blob/3619fabe5/packages/api-derive/src/types.ts#L78)*
+*Defined in [packages/api-derive/src/types.ts:78](https://github.com/polkadot-js/api/blob/1f7b9f7f3/packages/api-derive/src/types.ts#L78)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **hasMessage**: *boolean*
 
-*Defined in [packages/api-derive/src/types.ts:79](https://github.com/polkadot-js/api/blob/3619fabe5/packages/api-derive/src/types.ts#L79)*
+*Defined in [packages/api-derive/src/types.ts:79](https://github.com/polkadot-js/api/blob/1f7b9f7f3/packages/api-derive/src/types.ts#L79)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **isOnline**: *boolean*
 
-*Defined in [packages/api-derive/src/types.ts:80](https://github.com/polkadot-js/api/blob/3619fabe5/packages/api-derive/src/types.ts#L80)*
+*Defined in [packages/api-derive/src/types.ts:80](https://github.com/polkadot-js/api/blob/1f7b9f7f3/packages/api-derive/src/types.ts#L80)*

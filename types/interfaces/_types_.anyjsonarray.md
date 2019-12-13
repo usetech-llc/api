@@ -21,8 +21,8 @@
 
 ### Methods
 
-* [__@iterator](_types_.anyjsonarray.md#__@iterator)
-* [__@unscopables](_types_.anyjsonarray.md#__@unscopables)
+* [[Symbol.iterator]](_types_.anyjsonarray.md#[symbol.iterator])
+* [[Symbol.unscopables]](_types_.anyjsonarray.md#[symbol.unscopables])
 * [concat](_types_.anyjsonarray.md#concat)
 * [copyWithin](_types_.anyjsonarray.md#copywithin)
 * [entries](_types_.anyjsonarray.md#entries)
@@ -77,9 +77,9 @@ Gets or sets the length of the array. This is a number one higher than the highe
 
 ## Methods
 
-###  __@iterator
+###  [Symbol.iterator]
 
-▸ **__@iterator**(): *IterableIterator‹[AnyJson](../modules/_types_.md#anyjson)›*
+▸ **[Symbol.iterator]**(): *IterableIterator‹[AnyJson](../modules/_types_.md#anyjson)›*
 
 *Inherited from void*
 
@@ -91,9 +91,9 @@ Iterator
 
 ___
 
-###  __@unscopables
+###  [Symbol.unscopables]
 
-▸ **__@unscopables**(): *object*
+▸ **[Symbol.unscopables]**(): *object*
 
 *Inherited from void*
 

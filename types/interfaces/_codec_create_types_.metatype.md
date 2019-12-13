@@ -19,7 +19,7 @@
 
 • **def**: *[MetaTypeDef](../modules/_codec_create_types_.md#metatypedef)*
 
-*Defined in [packages/types/src/codec/create/types.ts:144](https://github.com/polkadot-js/api/blob/1f7b9f7f3/packages/types/src/codec/create/types.ts#L144)*
+*Defined in [packages/types/src/codec/create/types.ts:144](https://github.com/polkadot-js/api/blob/f9a42e47e/packages/types/src/codec/create/types.ts#L144)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **id**: *[MetaTypeId](../modules/_codec_create_types_.md#metatypeid) | null*
 
-*Defined in [packages/types/src/codec/create/types.ts:145](https://github.com/polkadot-js/api/blob/1f7b9f7f3/packages/types/src/codec/create/types.ts#L145)*
+*Defined in [packages/types/src/codec/create/types.ts:145](https://github.com/polkadot-js/api/blob/f9a42e47e/packages/types/src/codec/create/types.ts#L145)*

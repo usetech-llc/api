@@ -30,7 +30,7 @@
 
 *Inherited from [DeriveSessionIndexes](_types_.derivesessionindexes.md).[currentEra](_types_.derivesessionindexes.md#currentera)*
 
-*Defined in [packages/api-derive/src/types.ts:129](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L129)*
+*Defined in [packages/api-derive/src/types.ts:129](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L129)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 *Inherited from [DeriveSessionIndexes](_types_.derivesessionindexes.md).[currentIndex](_types_.derivesessionindexes.md#currentindex)*
 
-*Defined in [packages/api-derive/src/types.ts:130](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L130)*
+*Defined in [packages/api-derive/src/types.ts:130](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L130)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 • **eraLength**: *BlockNumber*
 
-*Defined in [packages/api-derive/src/types.ts:135](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L135)*
+*Defined in [packages/api-derive/src/types.ts:135](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L135)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • **eraProgress**: *BlockNumber*
 
-*Defined in [packages/api-derive/src/types.ts:136](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L136)*
+*Defined in [packages/api-derive/src/types.ts:136](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L136)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • **isEpoch**: *boolean*
 
-*Defined in [packages/api-derive/src/types.ts:137](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L137)*
+*Defined in [packages/api-derive/src/types.ts:137](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L137)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 • **sessionLength**: *BlockNumber*
 
-*Defined in [packages/api-derive/src/types.ts:138](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L138)*
+*Defined in [packages/api-derive/src/types.ts:138](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L138)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 • **sessionProgress**: *BlockNumber*
 
-*Defined in [packages/api-derive/src/types.ts:140](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L140)*
+*Defined in [packages/api-derive/src/types.ts:140](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L140)*
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 • **sessionsPerEra**: *SessionIndex*
 
-*Defined in [packages/api-derive/src/types.ts:139](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L139)*
+*Defined in [packages/api-derive/src/types.ts:139](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L139)*
 
 ___
 
@@ -98,4 +98,4 @@ ___
 
 *Inherited from [DeriveSessionIndexes](_types_.derivesessionindexes.md).[validatorCount](_types_.derivesessionindexes.md#validatorcount)*
 
-*Defined in [packages/api-derive/src/types.ts:131](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L131)*
+*Defined in [packages/api-derive/src/types.ts:131](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L131)*

@@ -14,7 +14,7 @@
 
 ▸ **proposals**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/council/proposals.ts:38](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/council/proposals.ts#L38)*
+*Defined in [packages/api-derive/src/council/proposals.ts:11](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/council/proposals.ts#L11)*
 
 **Parameters:**
 
@@ -24,4 +24,4 @@ Name | Type |
 
 **Returns:** *function*
 
-▸ (): *Observable‹[DerivedCouncilProposals](_types_.md#derivedcouncilproposals)›*
+▸ (): *Observable‹[DerivedCollectiveProposals](_types_.md#derivedcollectiveproposals)›*

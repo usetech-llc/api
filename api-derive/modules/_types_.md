@@ -13,8 +13,8 @@
 * [DeriveSessionIndexes](../interfaces/_types_.derivesessionindexes.md)
 * [DeriveStakingValidators](../interfaces/_types_.derivestakingvalidators.md)
 * [DerivedBalances](../interfaces/_types_.derivedbalances.md)
+* [DerivedCollectiveProposal](../interfaces/_types_.derivedcollectiveproposal.md)
 * [DerivedContractFees](../interfaces/_types_.derivedcontractfees.md)
-* [DerivedCouncilProposal](../interfaces/_types_.derivedcouncilproposal.md)
 * [DerivedElectionsInfo](../interfaces/_types_.derivedelectionsinfo.md)
 * [DerivedFees](../interfaces/_types_.derivedfees.md)
 * [DerivedHeartbeatAuthor](../interfaces/_types_.derivedheartbeatauthor.md)
@@ -35,7 +35,7 @@
 
 * [AccountIndexes](_types_.md#accountindexes)
 * [DerivedBalancesMap](_types_.md#derivedbalancesmap)
-* [DerivedCouncilProposals](_types_.md#derivedcouncilproposals)
+* [DerivedCollectiveProposals](_types_.md#derivedcollectiveproposals)
 * [DerivedHeartbeats](_types_.md#derivedheartbeats)
 * [DerivedRecentlyOffline](_types_.md#derivedrecentlyoffline)
 * [DerivedUnlocking](_types_.md#derivedunlocking)
@@ -47,7 +47,7 @@
 
 Ƭ **AccountIndexes**: *Record‹string, AccountIndex›*
 
-*Defined in [packages/api-derive/src/types.ts:10](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L10)*
+*Defined in [packages/api-derive/src/types.ts:10](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L10)*
 
 ___
 
@@ -55,15 +55,15 @@ ___
 
 Ƭ **DerivedBalancesMap**: *Record‹string, [DerivedBalances](../interfaces/_types_.derivedbalances.md)›*
 
-*Defined in [packages/api-derive/src/types.ts:38](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L38)*
+*Defined in [packages/api-derive/src/types.ts:38](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L38)*
 
 ___
 
-###  DerivedCouncilProposals
+###  DerivedCollectiveProposals
 
-Ƭ **DerivedCouncilProposals**: *[DerivedCouncilProposal](../interfaces/_types_.derivedcouncilproposal.md)[]*
+Ƭ **DerivedCollectiveProposals**: *[DerivedCollectiveProposal](../interfaces/_types_.derivedcollectiveproposal.md)[]*
 
-*Defined in [packages/api-derive/src/types.ts:59](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L59)*
+*Defined in [packages/api-derive/src/types.ts:59](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L59)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 Ƭ **DerivedHeartbeats**: *Record‹string, [DerivedHeartbeatAuthor](../interfaces/_types_.derivedheartbeatauthor.md)›*
 
-*Defined in [packages/api-derive/src/types.ts:89](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L89)*
+*Defined in [packages/api-derive/src/types.ts:89](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L89)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 Ƭ **DerivedRecentlyOffline**: *Record‹string, [RecentlyOffline](../interfaces/_types_.recentlyoffline.md)[]›*
 
-*Defined in [packages/api-derive/src/types.ts:120](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L120)*
+*Defined in [packages/api-derive/src/types.ts:120](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L120)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 Ƭ **DerivedUnlocking**: *object*
 
-*Defined in [packages/api-derive/src/types.ts:193](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L193)*
+*Defined in [packages/api-derive/src/types.ts:193](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L193)*
 
 #### Type declaration:
 
@@ -97,4 +97,4 @@ ___
 
 Ƭ **DerivedVoterPositions**: *Record‹string, [VoterPosition](../interfaces/_types_.voterposition.md)›*
 
-*Defined in [packages/api-derive/src/types.ts:204](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L204)*
+*Defined in [packages/api-derive/src/types.ts:204](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L204)*

@@ -22,7 +22,7 @@
 
 • **creationFee**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:76](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L76)*
+*Defined in [packages/api-derive/src/types.ts:76](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L76)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **existentialDeposit**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:77](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L77)*
+*Defined in [packages/api-derive/src/types.ts:77](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L77)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **transactionBaseFee**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:78](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L78)*
+*Defined in [packages/api-derive/src/types.ts:78](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L78)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **transactionByteFee**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:79](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L79)*
+*Defined in [packages/api-derive/src/types.ts:79](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L79)*
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 • **transferFee**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:80](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/api-derive/src/types.ts#L80)*
+*Defined in [packages/api-derive/src/types.ts:80](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-derive/src/types.ts#L80)*

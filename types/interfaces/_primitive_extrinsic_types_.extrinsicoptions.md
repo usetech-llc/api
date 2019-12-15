@@ -19,7 +19,7 @@
 
 • **isSigned**: *boolean*
 
-*Defined in [packages/types/src/primitive/Extrinsic/types.ts:8](https://github.com/polkadot-js/api/blob/f9a42e47e/packages/types/src/primitive/Extrinsic/types.ts#L8)*
+*Defined in [packages/types/src/primitive/Extrinsic/types.ts:8](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/primitive/Extrinsic/types.ts#L8)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **version**: *number*
 
-*Defined in [packages/types/src/primitive/Extrinsic/types.ts:9](https://github.com/polkadot-js/api/blob/f9a42e47e/packages/types/src/primitive/Extrinsic/types.ts#L9)*
+*Defined in [packages/types/src/primitive/Extrinsic/types.ts:9](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/primitive/Extrinsic/types.ts#L9)*

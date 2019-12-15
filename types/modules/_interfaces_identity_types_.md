@@ -6,8 +6,6 @@
 
 ### Interfaces
 
-* [Data](../interfaces/_interfaces_identity_types_.data.md)
-* [IdentityFields](../interfaces/_interfaces_identity_types_.identityfields.md)
 * [IdentityInfo](../interfaces/_interfaces_identity_types_.identityinfo.md)
 * [IdentityInfoAdditional](../interfaces/_interfaces_identity_types_.identityinfoadditional.md)
 * [Judgement](../interfaces/_interfaces_identity_types_.judgement.md)

@@ -22,4 +22,4 @@
 
 Ƭ **ContractCallResult**: *ContractCallResult<CallType>*
 
-*Defined in [api-contract/src/base/Contract.ts:30](https://github.com/polkadot-js/api/blob/f9a42e47e/packages/api-contract/src/base/Contract.ts#L30)*
+*Defined in [api-contract/src/base/Contract.ts:30](https://github.com/polkadot-js/api/blob/b1a657d68/packages/api-contract/src/base/Contract.ts#L30)*

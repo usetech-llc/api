@@ -14,7 +14,7 @@
 
 ▸ **toV2**(`registry`: Registry, `metadataV1`: MetadataV1): *MetadataV2*
 
-*Defined in [packages/metadata/src/Metadata/v1/toV2.ts:10](https://github.com/polkadot-js/api/blob/f9a42e47e/packages/metadata/src/Metadata/v1/toV2.ts#L10)*
+*Defined in [packages/metadata/src/Metadata/v1/toV2.ts:10](https://github.com/polkadot-js/api/blob/b1a657d68/packages/metadata/src/Metadata/v1/toV2.ts#L10)*
 
 **Parameters:**
 

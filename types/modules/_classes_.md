@@ -14,4 +14,4 @@
 
 Ƭ **CodecTypes**: *keyof "/home/runner/work/api/api/packages/types/src/index.types"*
 
-*Defined in [packages/types/src/classes.ts:7](https://github.com/polkadot-js/api/blob/f9a42e47e/packages/types/src/classes.ts#L7)*
+*Defined in [packages/types/src/classes.ts:7](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/classes.ts#L7)*

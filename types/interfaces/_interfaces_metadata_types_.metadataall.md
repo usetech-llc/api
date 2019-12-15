@@ -76,7 +76,7 @@ Enum
 
 *Inherited from [Enum](../classes/_codec_enum_.enum.md).[constructor](../classes/_codec_enum_.enum.md#constructor)*
 
-*Defined in [packages/types/src/codec/Enum.ts:110](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L110)*
+*Defined in [packages/types/src/codec/Enum.ts:110](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L110)*
 
 **Parameters:**
 
@@ -95,7 +95,7 @@ Name | Type |
 
 • **asV0**: *[MetadataV0](_interfaces_metadata_types_.metadatav0.md)*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:296](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L296)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:296](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L296)*
 
 MetadataV0
 
@@ -105,7 +105,7 @@ ___
 
 • **asV1**: *[MetadataV1](_interfaces_metadata_types_.metadatav1.md)*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:300](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L300)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:300](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L300)*
 
 MetadataV1
 
@@ -115,7 +115,7 @@ ___
 
 • **asV10**: *[MetadataV10](_interfaces_metadata_types_.metadatav10.md)*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:336](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L336)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:336](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L336)*
 
 MetadataV10
 
@@ -125,7 +125,7 @@ ___
 
 • **asV2**: *[MetadataV2](_interfaces_metadata_types_.metadatav2.md)*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:304](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L304)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:304](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L304)*
 
 MetadataV2
 
@@ -135,7 +135,7 @@ ___
 
 • **asV3**: *[MetadataV3](_interfaces_metadata_types_.metadatav3.md)*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:308](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L308)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:308](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L308)*
 
 MetadataV3
 
@@ -145,7 +145,7 @@ ___
 
 • **asV4**: *[MetadataV4](_interfaces_metadata_types_.metadatav4.md)*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:312](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L312)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:312](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L312)*
 
 MetadataV4
 
@@ -155,7 +155,7 @@ ___
 
 • **asV5**: *[MetadataV5](_interfaces_metadata_types_.metadatav5.md)*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:316](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L316)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:316](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L316)*
 
 MetadataV5
 
@@ -165,7 +165,7 @@ ___
 
 • **asV6**: *[MetadataV6](_interfaces_metadata_types_.metadatav6.md)*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:320](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L320)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:320](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L320)*
 
 MetadataV6
 
@@ -175,7 +175,7 @@ ___
 
 • **asV7**: *[MetadataV7](_interfaces_metadata_types_.metadatav7.md)*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:324](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L324)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:324](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L324)*
 
 MetadataV7
 
@@ -185,7 +185,7 @@ ___
 
 • **asV8**: *[MetadataV8](_interfaces_metadata_types_.metadatav8.md)*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:328](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L328)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:328](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L328)*
 
 MetadataV8
 
@@ -195,7 +195,7 @@ ___
 
 • **asV9**: *[MetadataV9](_interfaces_metadata_types_.metadatav9.md)*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:332](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L332)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:332](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L332)*
 
 MetadataV9
 
@@ -205,7 +205,7 @@ ___
 
 • **isV0**: *boolean*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:294](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L294)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:294](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L294)*
 
 0:: V0(MetadataV0)
 
@@ -215,7 +215,7 @@ ___
 
 • **isV1**: *boolean*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:298](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L298)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:298](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L298)*
 
 1:: V1(MetadataV1)
 
@@ -225,7 +225,7 @@ ___
 
 • **isV10**: *boolean*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:334](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L334)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:334](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L334)*
 
 10:: V10(MetadataV10)
 
@@ -235,7 +235,7 @@ ___
 
 • **isV2**: *boolean*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:302](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L302)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:302](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L302)*
 
 2:: V2(MetadataV2)
 
@@ -245,7 +245,7 @@ ___
 
 • **isV3**: *boolean*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:306](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L306)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:306](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L306)*
 
 3:: V3(MetadataV3)
 
@@ -255,7 +255,7 @@ ___
 
 • **isV4**: *boolean*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:310](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L310)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:310](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L310)*
 
 4:: V4(MetadataV4)
 
@@ -265,7 +265,7 @@ ___
 
 • **isV5**: *boolean*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:314](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L314)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:314](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L314)*
 
 5:: V5(MetadataV5)
 
@@ -275,7 +275,7 @@ ___
 
 • **isV6**: *boolean*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:318](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L318)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:318](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L318)*
 
 6:: V6(MetadataV6)
 
@@ -285,7 +285,7 @@ ___
 
 • **isV7**: *boolean*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:322](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L322)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:322](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L322)*
 
 7:: V7(MetadataV7)
 
@@ -295,7 +295,7 @@ ___
 
 • **isV8**: *boolean*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:326](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L326)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:326](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L326)*
 
 8:: V8(MetadataV8)
 
@@ -305,7 +305,7 @@ ___
 
 • **isV9**: *boolean*
 
-*Defined in [packages/types/src/interfaces/metadata/types.ts:330](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/interfaces/metadata/types.ts#L330)*
+*Defined in [packages/types/src/interfaces/metadata/types.ts:330](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/interfaces/metadata/types.ts#L330)*
 
 9:: V9(MetadataV9)
 
@@ -317,7 +317,7 @@ ___
 
 *Inherited from [Base](../classes/_codec_base_.base.md).[registry](../classes/_codec_base_.base.md#registry)*
 
-*Defined in [packages/types/src/codec/Base.ts:16](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Base.ts#L16)*
+*Defined in [packages/types/src/codec/Base.ts:16](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Base.ts#L16)*
 
 ## Accessors
 
@@ -329,7 +329,7 @@ ___
 
 *Overrides [Base](../classes/_codec_base_.base.md).[encodedLength](../classes/_codec_base_.base.md#encodedlength)*
 
-*Defined in [packages/types/src/codec/Enum.ts:173](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L173)*
+*Defined in [packages/types/src/codec/Enum.ts:173](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L173)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -343,7 +343,7 @@ ___
 
 *Inherited from [Base](../classes/_codec_base_.base.md).[hash](../classes/_codec_base_.base.md#hash)*
 
-*Defined in [packages/types/src/codec/Base.ts:35](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Base.ts#L35)*
+*Defined in [packages/types/src/codec/Base.ts:35](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Base.ts#L35)*
 
 **`description`** returns a hash of the contents
 
@@ -357,7 +357,7 @@ ___
 
 *Inherited from [Enum](../classes/_codec_enum_.enum.md).[index](../classes/_codec_enum_.enum.md#index)*
 
-*Defined in [packages/types/src/codec/Enum.ts:180](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L180)*
+*Defined in [packages/types/src/codec/Enum.ts:180](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L180)*
 
 **`description`** The index of the metadata value
 
@@ -371,7 +371,7 @@ ___
 
 *Inherited from [Base](../classes/_codec_base_.base.md).[isEmpty](../classes/_codec_base_.base.md#isempty)*
 
-*Defined in [packages/types/src/codec/Base.ts:42](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Base.ts#L42)*
+*Defined in [packages/types/src/codec/Base.ts:42](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Base.ts#L42)*
 
 **`description`** Checks if the value is an empty value
 
@@ -385,7 +385,7 @@ ___
 
 *Inherited from [Enum](../classes/_codec_enum_.enum.md).[isNone](../classes/_codec_enum_.enum.md#isnone)*
 
-*Defined in [packages/types/src/codec/Enum.ts:187](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L187)*
+*Defined in [packages/types/src/codec/Enum.ts:187](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L187)*
 
 **`description`** Checks if the Enum points to a [Null](../classes/_primitive_null_.null.md) type
 
@@ -399,7 +399,7 @@ ___
 
 *Inherited from [Enum](../classes/_codec_enum_.enum.md).[isNull](../classes/_codec_enum_.enum.md#isnull)*
 
-*Defined in [packages/types/src/codec/Enum.ts:194](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L194)*
+*Defined in [packages/types/src/codec/Enum.ts:194](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L194)*
 
 **`description`** Checks if the Enum points to a [Null](../classes/_primitive_null_.null.md) type (deprecated, use isNone)
 
@@ -413,7 +413,7 @@ ___
 
 *Inherited from [Enum](../classes/_codec_enum_.enum.md).[type](../classes/_codec_enum_.enum.md#type)*
 
-*Defined in [packages/types/src/codec/Enum.ts:201](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L201)*
+*Defined in [packages/types/src/codec/Enum.ts:201](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L201)*
 
 **`description`** The name of the type this enum value represents
 
@@ -427,7 +427,7 @@ ___
 
 *Inherited from [Enum](../classes/_codec_enum_.enum.md).[value](../classes/_codec_enum_.enum.md#value)*
 
-*Defined in [packages/types/src/codec/Enum.ts:208](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L208)*
+*Defined in [packages/types/src/codec/Enum.ts:208](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L208)*
 
 **`description`** The value of the enum
 
@@ -443,7 +443,7 @@ ___
 
 *Overrides [Base](../classes/_codec_base_.base.md).[eq](../classes/_codec_base_.base.md#eq)*
 
-*Defined in [packages/types/src/codec/Enum.ts:215](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L215)*
+*Defined in [packages/types/src/codec/Enum.ts:215](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L215)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -465,7 +465,7 @@ ___
 
 *Overrides [Base](../classes/_codec_base_.base.md).[toHex](../classes/_codec_base_.base.md#tohex)*
 
-*Defined in [packages/types/src/codec/Enum.ts:238](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L238)*
+*Defined in [packages/types/src/codec/Enum.ts:238](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L238)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -481,7 +481,7 @@ ___
 
 *Overrides [Base](../classes/_codec_base_.base.md).[toJSON](../classes/_codec_base_.base.md#tojson)*
 
-*Defined in [packages/types/src/codec/Enum.ts:245](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L245)*
+*Defined in [packages/types/src/codec/Enum.ts:245](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L245)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -495,7 +495,7 @@ ___
 
 *Inherited from [Enum](../classes/_codec_enum_.enum.md).[toNumber](../classes/_codec_enum_.enum.md#tonumber)*
 
-*Defined in [packages/types/src/codec/Enum.ts:254](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L254)*
+*Defined in [packages/types/src/codec/Enum.ts:254](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L254)*
 
 **`description`** Returns the number representation for the value
 
@@ -511,7 +511,7 @@ ___
 
 *Overrides [Base](../classes/_codec_base_.base.md).[toRawType](../classes/_codec_base_.base.md#torawtype)*
 
-*Defined in [packages/types/src/codec/Enum.ts:270](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L270)*
+*Defined in [packages/types/src/codec/Enum.ts:270](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L270)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -527,7 +527,7 @@ ___
 
 *Overrides [Base](../classes/_codec_base_.base.md).[toString](../classes/_codec_base_.base.md#tostring)*
 
-*Defined in [packages/types/src/codec/Enum.ts:277](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L277)*
+*Defined in [packages/types/src/codec/Enum.ts:277](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L277)*
 
 **`description`** Returns the string representation of the value
 
@@ -543,7 +543,7 @@ ___
 
 *Overrides [Base](../classes/_codec_base_.base.md).[toU8a](../classes/_codec_base_.base.md#tou8a)*
 
-*Defined in [packages/types/src/codec/Enum.ts:287](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L287)*
+*Defined in [packages/types/src/codec/Enum.ts:287](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L287)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -563,7 +563,7 @@ ___
 
 *Inherited from [Enum](../classes/_codec_enum_.enum.md).[with](../classes/_codec_enum_.enum.md#static-with)*
 
-*Defined in [packages/types/src/codec/Enum.ts:137](https://github.com/polkadot-js/api/blob/b1a657d68/packages/types/src/codec/Enum.ts#L137)*
+*Defined in [packages/types/src/codec/Enum.ts:137](https://github.com/polkadot-js/api/blob/382f7d75c/packages/types/src/codec/Enum.ts#L137)*
 
 **Parameters:**
 

@@ -20,7 +20,7 @@
 
 • **hash**: *Hash*
 
-*Defined in [packages/api-derive/src/types.ts:48](https://github.com/polkadot-js/api/blob/b1a657d68/packages/api-derive/src/types.ts#L48)*
+*Defined in [packages/api-derive/src/types.ts:48](https://github.com/polkadot-js/api/blob/382f7d75c/packages/api-derive/src/types.ts#L48)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **proposal**: *Proposal*
 
-*Defined in [packages/api-derive/src/types.ts:49](https://github.com/polkadot-js/api/blob/b1a657d68/packages/api-derive/src/types.ts#L49)*
+*Defined in [packages/api-derive/src/types.ts:49](https://github.com/polkadot-js/api/blob/382f7d75c/packages/api-derive/src/types.ts#L49)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **votes**: *Votes | null*
 
-*Defined in [packages/api-derive/src/types.ts:50](https://github.com/polkadot-js/api/blob/b1a657d68/packages/api-derive/src/types.ts#L50)*
+*Defined in [packages/api-derive/src/types.ts:50](https://github.com/polkadot-js/api/blob/382f7d75c/packages/api-derive/src/types.ts#L50)*

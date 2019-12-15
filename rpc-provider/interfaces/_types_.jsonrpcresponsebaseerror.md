@@ -20,7 +20,7 @@
 
 • **code**: *number*
 
-*Defined in [packages/rpc-provider/src/types.ts:16](https://github.com/polkadot-js/api/blob/382f7d75c/packages/rpc-provider/src/types.ts#L16)*
+*Defined in [packages/rpc-provider/src/types.ts:16](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/rpc-provider/src/types.ts#L16)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **data**? : *number | string*
 
-*Defined in [packages/rpc-provider/src/types.ts:17](https://github.com/polkadot-js/api/blob/382f7d75c/packages/rpc-provider/src/types.ts#L17)*
+*Defined in [packages/rpc-provider/src/types.ts:17](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/rpc-provider/src/types.ts#L17)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **message**: *string*
 
-*Defined in [packages/rpc-provider/src/types.ts:18](https://github.com/polkadot-js/api/blob/382f7d75c/packages/rpc-provider/src/types.ts#L18)*
+*Defined in [packages/rpc-provider/src/types.ts:18](https://github.com/polkadot-js/api/blob/c4e553ad8/packages/rpc-provider/src/types.ts#L18)*

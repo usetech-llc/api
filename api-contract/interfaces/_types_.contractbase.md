@@ -41,7 +41,7 @@
 
 • **abi**: *[InterfaceAbi](_types_.interfaceabi.md)*
 
-*Defined in [api-contract/src/types.ts:18](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-contract/src/types.ts#L18)*
+*Defined in [api-contract/src/types.ts:18](https://github.com/polkadot-js/api/blob/9e681c066/packages/api-contract/src/types.ts#L18)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • **api**: *[ApiObject](../modules/_types_.md#apiobject)‹ApiType›*
 
-*Defined in [api-contract/src/types.ts:19](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-contract/src/types.ts#L19)*
+*Defined in [api-contract/src/types.ts:19](https://github.com/polkadot-js/api/blob/9e681c066/packages/api-contract/src/types.ts#L19)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • **decorateMethod**: *DecorateMethod‹ApiType›*
 
-*Defined in [api-contract/src/types.ts:20](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-contract/src/types.ts#L20)*
+*Defined in [api-contract/src/types.ts:20](https://github.com/polkadot-js/api/blob/9e681c066/packages/api-contract/src/types.ts#L20)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 • **getMessage**: *function*
 
-*Defined in [api-contract/src/types.ts:21](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-contract/src/types.ts#L21)*
+*Defined in [api-contract/src/types.ts:21](https://github.com/polkadot-js/api/blob/9e681c066/packages/api-contract/src/types.ts#L21)*
 
 #### Type declaration:
 
@@ -83,4 +83,4 @@ ___
 
 • **messages**: *[ContractMessage](_types_.contractmessage.md)[]*
 
-*Defined in [api-contract/src/types.ts:22](https://github.com/polkadot-js/api/blob/ddd5eab7f/packages/api-contract/src/types.ts#L22)*
+*Defined in [api-contract/src/types.ts:22](https://github.com/polkadot-js/api/blob/9e681c066/packages/api-contract/src/types.ts#L22)*

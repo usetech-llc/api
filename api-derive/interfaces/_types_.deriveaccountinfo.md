@@ -21,7 +21,7 @@
 
 • **accountId**? : *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:18](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L18)*
+*Defined in [packages/api-derive/src/types.ts:18](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L18)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **accountIndex**? : *AccountIndex*
 
-*Defined in [packages/api-derive/src/types.ts:19](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L19)*
+*Defined in [packages/api-derive/src/types.ts:19](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L19)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **identity**: *[DeriveAccountRegistration](_types_.deriveaccountregistration.md)*
 
-*Defined in [packages/api-derive/src/types.ts:20](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L20)*
+*Defined in [packages/api-derive/src/types.ts:20](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L20)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **nickname**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:21](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L21)*
+*Defined in [packages/api-derive/src/types.ts:21](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L21)*

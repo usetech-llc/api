@@ -20,7 +20,7 @@
 
 • **def**: *[ContractABIMessage](_types_.contractabimessage.md)*
 
-*Defined in [api-contract/src/types.ts:177](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-contract/src/types.ts#L177)*
+*Defined in [api-contract/src/types.ts:177](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-contract/src/types.ts#L177)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **fn**: *[ContractABIFn](_types_.contractabifn.md)*
 
-*Defined in [api-contract/src/types.ts:176](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-contract/src/types.ts#L176)*
+*Defined in [api-contract/src/types.ts:176](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-contract/src/types.ts#L176)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **index**: *number*
 
-*Defined in [api-contract/src/types.ts:175](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-contract/src/types.ts#L175)*
+*Defined in [api-contract/src/types.ts:175](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-contract/src/types.ts#L175)*

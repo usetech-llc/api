@@ -18,4 +18,4 @@
 
 • **methodName**? : *undefined | string*
 
-*Defined in [api/src/types.ts:57](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api/src/types.ts#L57)*
+*Defined in [api/src/types.ts:57](https://github.com/polkadot-js/api/blob/6e61be960/packages/api/src/types.ts#L57)*

@@ -27,7 +27,7 @@
 
 • **callBaseFee**: *BN*
 
-*Defined in [packages/api-derive/src/types.ts:41](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L41)*
+*Defined in [packages/api-derive/src/types.ts:41](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L41)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **contractFee**: *BN*
 
-*Defined in [packages/api-derive/src/types.ts:42](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L42)*
+*Defined in [packages/api-derive/src/types.ts:42](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L42)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **createBaseFee**: *BN*
 
-*Defined in [packages/api-derive/src/types.ts:43](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L43)*
+*Defined in [packages/api-derive/src/types.ts:43](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L43)*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 • **creationFee**: *BN*
 
-*Defined in [packages/api-derive/src/types.ts:44](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L44)*
+*Defined in [packages/api-derive/src/types.ts:44](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L44)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **rentByteFee**: *BN*
 
-*Defined in [packages/api-derive/src/types.ts:45](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L45)*
+*Defined in [packages/api-derive/src/types.ts:45](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L45)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 • **rentDepositOffset**: *BN*
 
-*Defined in [packages/api-derive/src/types.ts:46](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L46)*
+*Defined in [packages/api-derive/src/types.ts:46](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L46)*
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 • **tombstoneDeposit**: *BN*
 
-*Defined in [packages/api-derive/src/types.ts:47](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L47)*
+*Defined in [packages/api-derive/src/types.ts:47](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L47)*
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 • **transactionBaseFee**: *BN*
 
-*Defined in [packages/api-derive/src/types.ts:48](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L48)*
+*Defined in [packages/api-derive/src/types.ts:48](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L48)*
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 • **transactionByteFee**: *BN*
 
-*Defined in [packages/api-derive/src/types.ts:49](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L49)*
+*Defined in [packages/api-derive/src/types.ts:49](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L49)*
 
 ___
 
@@ -99,4 +99,4 @@ ___
 
 • **transferFee**: *BN*
 
-*Defined in [packages/api-derive/src/types.ts:50](https://github.com/polkadot-js/api/blob/bd57359dc/packages/api-derive/src/types.ts#L50)*
+*Defined in [packages/api-derive/src/types.ts:50](https://github.com/polkadot-js/api/blob/6e61be960/packages/api-derive/src/types.ts#L50)*

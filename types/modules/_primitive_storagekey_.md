@@ -22,7 +22,7 @@
 
 ▸ **unwrapStorageType**(`type`: [StorageEntryTypeLatest](../interfaces/_interfaces_metadata_types_.storageentrytypelatest.md)): *string*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:34](https://github.com/polkadot-js/api/blob/6e61be960/packages/types/src/primitive/StorageKey.ts#L34)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:34](https://github.com/polkadot-js/api/blob/006c686c1/packages/types/src/primitive/StorageKey.ts#L34)*
 
 **Parameters:**
 

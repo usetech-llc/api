@@ -20,7 +20,7 @@
 
 • **custom.name**: *[StringIndex](../modules/_codec_create_types_.md#stringindex)*
 
-*Defined in [packages/types/src/codec/create/types.ts:73](https://github.com/polkadot-js/api/blob/47f135065/packages/types/src/codec/create/types.ts#L73)*
+*Defined in [packages/types/src/codec/create/types.ts:74](https://github.com/polkadot-js/api/blob/53959d482/packages/types/src/codec/create/types.ts#L74)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **custom.namespace**? : *[StringIndex](../modules/_codec_create_types_.md#stringindex)[]*
 
-*Defined in [packages/types/src/codec/create/types.ts:74](https://github.com/polkadot-js/api/blob/47f135065/packages/types/src/codec/create/types.ts#L74)*
+*Defined in [packages/types/src/codec/create/types.ts:75](https://github.com/polkadot-js/api/blob/53959d482/packages/types/src/codec/create/types.ts#L75)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **custom.params**? : *[TypeIndex](../modules/_codec_create_types_.md#typeindex)[]*
 
-*Defined in [packages/types/src/codec/create/types.ts:75](https://github.com/polkadot-js/api/blob/47f135065/packages/types/src/codec/create/types.ts#L75)*
+*Defined in [packages/types/src/codec/create/types.ts:76](https://github.com/polkadot-js/api/blob/53959d482/packages/types/src/codec/create/types.ts#L76)*

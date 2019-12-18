@@ -21,7 +21,7 @@
 
 • **description**? : *undefined | string*
 
-*Defined in [types.ts:12](https://github.com/polkadot-js/api/blob/47f135065/packages/rpc-core/src/types.ts#L12)*
+*Defined in [types.ts:12](https://github.com/polkadot-js/api/blob/53959d482/packages/rpc-core/src/types.ts#L12)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [types.ts:13](https://github.com/polkadot-js/api/blob/47f135065/packages/rpc-core/src/types.ts#L13)*
+*Defined in [types.ts:13](https://github.com/polkadot-js/api/blob/53959d482/packages/rpc-core/src/types.ts#L13)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **params**: *object[]*
 
-*Defined in [types.ts:14](https://github.com/polkadot-js/api/blob/47f135065/packages/rpc-core/src/types.ts#L14)*
+*Defined in [types.ts:14](https://github.com/polkadot-js/api/blob/53959d482/packages/rpc-core/src/types.ts#L14)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [types.ts:15](https://github.com/polkadot-js/api/blob/47f135065/packages/rpc-core/src/types.ts#L15)*
+*Defined in [types.ts:15](https://github.com/polkadot-js/api/blob/53959d482/packages/rpc-core/src/types.ts#L15)*

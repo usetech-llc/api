@@ -19,7 +19,7 @@
 
 • **displayName**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:13](https://github.com/polkadot-js/api/blob/47f135065/packages/api-derive/src/types.ts#L13)*
+*Defined in [packages/api-derive/src/types.ts:13](https://github.com/polkadot-js/api/blob/53959d482/packages/api-derive/src/types.ts#L13)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **judgements**: *RegistrationJudgement[]*
 
-*Defined in [packages/api-derive/src/types.ts:14](https://github.com/polkadot-js/api/blob/47f135065/packages/api-derive/src/types.ts#L14)*
+*Defined in [packages/api-derive/src/types.ts:14](https://github.com/polkadot-js/api/blob/53959d482/packages/api-derive/src/types.ts#L14)*

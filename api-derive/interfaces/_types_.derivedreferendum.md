@@ -22,7 +22,7 @@
 
 • **hash**: *Hash*
 
-*Defined in [packages/api-derive/src/types.ts:119](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L119)*
+*Defined in [packages/api-derive/src/types.ts:119](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L119)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **index**: *PropIndex*
 
-*Defined in [packages/api-derive/src/types.ts:120](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L120)*
+*Defined in [packages/api-derive/src/types.ts:120](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L120)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **info**: *ReferendumInfo*
 
-*Defined in [packages/api-derive/src/types.ts:121](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L121)*
+*Defined in [packages/api-derive/src/types.ts:121](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L121)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **preimage**? : *[DeriveProposalPreImage](_types_.deriveproposalpreimage.md)*
 
-*Defined in [packages/api-derive/src/types.ts:122](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L122)*
+*Defined in [packages/api-derive/src/types.ts:122](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L122)*
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 • **proposal**? : *Proposal*
 
-*Defined in [packages/api-derive/src/types.ts:123](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L123)*
+*Defined in [packages/api-derive/src/types.ts:123](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L123)*

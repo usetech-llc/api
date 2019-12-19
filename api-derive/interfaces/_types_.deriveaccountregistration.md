@@ -25,7 +25,7 @@
 
 • **display**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:13](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L13)*
+*Defined in [packages/api-derive/src/types.ts:13](https://github.com/polkadot-js/api/blob/0c98593ae/packages/api-derive/src/types.ts#L13)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 • **email**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:14](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L14)*
+*Defined in [packages/api-derive/src/types.ts:14](https://github.com/polkadot-js/api/blob/0c98593ae/packages/api-derive/src/types.ts#L14)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 • **image**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:15](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L15)*
+*Defined in [packages/api-derive/src/types.ts:15](https://github.com/polkadot-js/api/blob/0c98593ae/packages/api-derive/src/types.ts#L15)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • **judgements**: *RegistrationJudgement[]*
 
-*Defined in [packages/api-derive/src/types.ts:20](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L20)*
+*Defined in [packages/api-derive/src/types.ts:20](https://github.com/polkadot-js/api/blob/0c98593ae/packages/api-derive/src/types.ts#L20)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • **legal**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:16](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L16)*
+*Defined in [packages/api-derive/src/types.ts:16](https://github.com/polkadot-js/api/blob/0c98593ae/packages/api-derive/src/types.ts#L16)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 • **pgp**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:17](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L17)*
+*Defined in [packages/api-derive/src/types.ts:17](https://github.com/polkadot-js/api/blob/0c98593ae/packages/api-derive/src/types.ts#L17)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 • **riot**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:18](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L18)*
+*Defined in [packages/api-derive/src/types.ts:18](https://github.com/polkadot-js/api/blob/0c98593ae/packages/api-derive/src/types.ts#L18)*
 
 ___
 
@@ -81,4 +81,4 @@ ___
 
 • **web**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:19](https://github.com/polkadot-js/api/blob/c04fb9073/packages/api-derive/src/types.ts#L19)*
+*Defined in [packages/api-derive/src/types.ts:19](https://github.com/polkadot-js/api/blob/0c98593ae/packages/api-derive/src/types.ts#L19)*

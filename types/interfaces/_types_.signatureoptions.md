@@ -23,7 +23,7 @@
 
 • **blockHash**: *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [packages/types/src/types.ts:164](https://github.com/polkadot-js/api/blob/53959d482/packages/types/src/types.ts#L164)*
+*Defined in [packages/types/src/types.ts:164](https://github.com/polkadot-js/api/blob/9196ce85a/packages/types/src/types.ts#L164)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **era**? : *[IExtrinsicEra](_types_.iextrinsicera.md)*
 
-*Defined in [packages/types/src/types.ts:165](https://github.com/polkadot-js/api/blob/53959d482/packages/types/src/types.ts#L165)*
+*Defined in [packages/types/src/types.ts:165](https://github.com/polkadot-js/api/blob/9196ce85a/packages/types/src/types.ts#L165)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **genesisHash**: *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [packages/types/src/types.ts:166](https://github.com/polkadot-js/api/blob/53959d482/packages/types/src/types.ts#L166)*
+*Defined in [packages/types/src/types.ts:166](https://github.com/polkadot-js/api/blob/9196ce85a/packages/types/src/types.ts#L166)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **nonce**: *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [packages/types/src/types.ts:167](https://github.com/polkadot-js/api/blob/53959d482/packages/types/src/types.ts#L167)*
+*Defined in [packages/types/src/types.ts:167](https://github.com/polkadot-js/api/blob/9196ce85a/packages/types/src/types.ts#L167)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **runtimeVersion**: *[RuntimeVersionInterface](_types_.runtimeversioninterface.md)*
 
-*Defined in [packages/types/src/types.ts:168](https://github.com/polkadot-js/api/blob/53959d482/packages/types/src/types.ts#L168)*
+*Defined in [packages/types/src/types.ts:168](https://github.com/polkadot-js/api/blob/9196ce85a/packages/types/src/types.ts#L168)*
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 • **tip**? : *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [packages/types/src/types.ts:169](https://github.com/polkadot-js/api/blob/53959d482/packages/types/src/types.ts#L169)*
+*Defined in [packages/types/src/types.ts:169](https://github.com/polkadot-js/api/blob/9196ce85a/packages/types/src/types.ts#L169)*

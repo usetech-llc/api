@@ -10,16 +10,38 @@
 
 ### Properties
 
-* [displayName](_types_.deriveaccountregistration.md#optional-displayname)
+* [display](_types_.deriveaccountregistration.md#optional-display)
+* [email](_types_.deriveaccountregistration.md#optional-email)
+* [image](_types_.deriveaccountregistration.md#optional-image)
 * [judgements](_types_.deriveaccountregistration.md#judgements)
+* [legal](_types_.deriveaccountregistration.md#optional-legal)
+* [pgp](_types_.deriveaccountregistration.md#optional-pgp)
+* [riot](_types_.deriveaccountregistration.md#optional-riot)
+* [web](_types_.deriveaccountregistration.md#optional-web)
 
 ## Properties
 
-### `Optional` displayName
+### `Optional` display
 
-• **displayName**? : *undefined | string*
+• **display**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:13](https://github.com/polkadot-js/api/blob/53959d482/packages/api-derive/src/types.ts#L13)*
+*Defined in [packages/api-derive/src/types.ts:13](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L13)*
+
+___
+
+### `Optional` email
+
+• **email**? : *undefined | string*
+
+*Defined in [packages/api-derive/src/types.ts:14](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L14)*
+
+___
+
+### `Optional` image
+
+• **image**? : *undefined | string*
+
+*Defined in [packages/api-derive/src/types.ts:15](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L15)*
 
 ___
 
@@ -27,4 +49,36 @@ ___
 
 • **judgements**: *RegistrationJudgement[]*
 
-*Defined in [packages/api-derive/src/types.ts:14](https://github.com/polkadot-js/api/blob/53959d482/packages/api-derive/src/types.ts#L14)*
+*Defined in [packages/api-derive/src/types.ts:20](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L20)*
+
+___
+
+### `Optional` legal
+
+• **legal**? : *undefined | string*
+
+*Defined in [packages/api-derive/src/types.ts:16](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L16)*
+
+___
+
+### `Optional` pgp
+
+• **pgp**? : *undefined | string*
+
+*Defined in [packages/api-derive/src/types.ts:17](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L17)*
+
+___
+
+### `Optional` riot
+
+• **riot**? : *undefined | string*
+
+*Defined in [packages/api-derive/src/types.ts:18](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L18)*
+
+___
+
+### `Optional` web
+
+• **web**? : *undefined | string*
+
+*Defined in [packages/api-derive/src/types.ts:19](https://github.com/polkadot-js/api/blob/9196ce85a/packages/api-derive/src/types.ts#L19)*

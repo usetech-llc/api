@@ -14,7 +14,7 @@
 
 ▸ **votingBalancesNominatorsFor**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/balances/votingBalancesNominatorsFor.ts:15](https://github.com/polkadot-js/api/blob/0c98593ae/packages/api-derive/src/balances/votingBalancesNominatorsFor.ts#L15)*
+*Defined in [packages/api-derive/src/balances/votingBalancesNominatorsFor.ts:15](https://github.com/polkadot-js/api/blob/bd2e690261/packages/api-derive/src/balances/votingBalancesNominatorsFor.ts#L15)*
 
 **Parameters:**
 

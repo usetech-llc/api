@@ -28,6 +28,8 @@
 * ["Metadata/v1/static"](modules/_metadata_v1_static_.md)
 * ["Metadata/v1/toV2"](modules/_metadata_v1_tov2_.md)
 * ["Metadata/v10/static"](modules/_metadata_v10_static_.md)
+* ["Metadata/v10/toV11"](modules/_metadata_v10_tov11_.md)
+* ["Metadata/v11/static"](modules/_metadata_v11_static_.md)
 * ["Metadata/v2/static"](modules/_metadata_v2_static_.md)
 * ["Metadata/v2/toV3"](modules/_metadata_v2_tov3_.md)
 * ["Metadata/v3/static"](modules/_metadata_v3_static_.md)

@@ -6,4 +6,5 @@
 
 ### Classes
 
-* [StorageHasher](../classes/_primitive_storagehasher_.storagehasher.md)
+* [StorageHasherV10](../classes/_primitive_storagehasher_.storagehasherv10.md)
+* [StorageHasherV4](../classes/_primitive_storagehasher_.storagehasherv4.md)

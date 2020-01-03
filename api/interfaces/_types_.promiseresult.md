@@ -14,7 +14,7 @@
 
 ▸ (...`args`: Parameters‹F›): *Promise‹[ObsInnerType](../modules/_types_.md#obsinnertype)‹ReturnType‹F›››*
 
-*Defined in [api/src/types.ts:74](https://github.com/polkadot-js/api/blob/82828d8e09/packages/api/src/types.ts#L74)*
+*Defined in [api/src/types.ts:74](https://github.com/polkadot-js/api/blob/774f41e6db/packages/api/src/types.ts#L74)*
 
 **Parameters:**
 
@@ -26,7 +26,7 @@ Name | Type |
 
 ▸ (...`args`: Push‹Parameters‹F›, Callback‹[ObsInnerType](../modules/_types_.md#obsinnertype)‹ReturnType‹F››››): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [api/src/types.ts:75](https://github.com/polkadot-js/api/blob/82828d8e09/packages/api/src/types.ts#L75)*
+*Defined in [api/src/types.ts:75](https://github.com/polkadot-js/api/blob/774f41e6db/packages/api/src/types.ts#L75)*
 
 **Parameters:**
 
@@ -38,7 +38,7 @@ Name | Type |
 
 ▸ <**T**>(...`args`: Parameters‹F›): *Promise‹T›*
 
-*Defined in [api/src/types.ts:76](https://github.com/polkadot-js/api/blob/82828d8e09/packages/api/src/types.ts#L76)*
+*Defined in [api/src/types.ts:76](https://github.com/polkadot-js/api/blob/774f41e6db/packages/api/src/types.ts#L76)*
 
 **Type parameters:**
 
@@ -54,7 +54,7 @@ Name | Type |
 
 ▸ <**T**>(...`args`: Push‹Parameters‹F›, Callback‹T››): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [api/src/types.ts:77](https://github.com/polkadot-js/api/blob/82828d8e09/packages/api/src/types.ts#L77)*
+*Defined in [api/src/types.ts:77](https://github.com/polkadot-js/api/blob/774f41e6db/packages/api/src/types.ts#L77)*
 
 **Type parameters:**
 

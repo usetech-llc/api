@@ -20,14 +20,14 @@
 
 ###  SubmittableResultResult
 
-Ƭ **SubmittableResultResult**: *SubmittableResultResult<ApiType>*
+Ƭ **SubmittableResultResult**: *ApiType extends "rxjs" ? Observable<SubmittableResultImpl> : Promise<Hash>*
 
-*Defined in [api/src/submittable/types.ts:27](https://github.com/polkadot-js/api/blob/51a866fd35/packages/api/src/submittable/types.ts#L27)*
+*Defined in [api/src/submittable/types.ts:27](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/api/src/submittable/types.ts#L27)*
 
 ___
 
 ###  SubmittableResultSubscription
 
-Ƭ **SubmittableResultSubscription**: *SubmittableResultSubscription<ApiType>*
+Ƭ **SubmittableResultSubscription**: *ApiType extends "rxjs" ? Observable<SubmittableResultImpl> : Promise<function>*
 
-*Defined in [api/src/submittable/types.ts:32](https://github.com/polkadot-js/api/blob/51a866fd35/packages/api/src/submittable/types.ts#L32)*
+*Defined in [api/src/submittable/types.ts:32](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/api/src/submittable/types.ts#L32)*

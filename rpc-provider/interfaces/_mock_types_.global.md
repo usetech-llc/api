@@ -87,7 +87,7 @@
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1046
+Defined in node_modules/@types/node/globals.d.ts:975
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1047
+Defined in node_modules/@types/node/globals.d.ts:976
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1048
+Defined in node_modules/@types/node/globals.d.ts:977
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1049
+Defined in node_modules/@types/node/globals.d.ts:978
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1050
+Defined in node_modules/@types/node/globals.d.ts:979
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1051
+Defined in node_modules/@types/node/globals.d.ts:980
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1052
+Defined in node_modules/@types/node/globals.d.ts:981
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1053
+Defined in node_modules/@types/node/globals.d.ts:982
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1054
+Defined in node_modules/@types/node/globals.d.ts:983
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1055
+Defined in node_modules/@types/node/globals.d.ts:984
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1056
+Defined in node_modules/@types/node/globals.d.ts:985
 
 ___
 
@@ -197,7 +197,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1057
+Defined in node_modules/@types/node/globals.d.ts:986
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1058
+Defined in node_modules/@types/node/globals.d.ts:987
 
 ___
 
@@ -217,7 +217,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1059
+Defined in node_modules/@types/node/globals.d.ts:988
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1060
+Defined in node_modules/@types/node/globals.d.ts:989
 
 ___
 
@@ -237,7 +237,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1061
+Defined in node_modules/@types/node/globals.d.ts:990
 
 ___
 
@@ -247,7 +247,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1062
+Defined in node_modules/@types/node/globals.d.ts:991
 
 ___
 
@@ -257,7 +257,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1063
+Defined in node_modules/@types/node/globals.d.ts:992
 
 ___
 
@@ -267,7 +267,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1064
+Defined in node_modules/@types/node/globals.d.ts:993
 
 ___
 
@@ -277,7 +277,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1065
+Defined in node_modules/@types/node/globals.d.ts:994
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1066
+Defined in node_modules/@types/node/globals.d.ts:995
 
 ___
 
@@ -297,7 +297,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1067
+Defined in node_modules/@types/node/globals.d.ts:996
 
 ___
 
@@ -307,17 +307,17 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1068
+Defined in node_modules/@types/node/globals.d.ts:997
 
 ___
 
 ###  Promise
 
-• **Promise**: *Function*
+• **Promise**: *PromiseConstructor*
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1069
+Defined in node_modules/@types/node/globals.d.ts:998
 
 ___
 
@@ -327,7 +327,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1070
+Defined in node_modules/@types/node/globals.d.ts:999
 
 ___
 
@@ -337,7 +337,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1071
+Defined in node_modules/@types/node/globals.d.ts:1000
 
 ___
 
@@ -347,7 +347,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1072
+Defined in node_modules/@types/node/globals.d.ts:1001
 
 ___
 
@@ -357,7 +357,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1073
+Defined in node_modules/@types/node/globals.d.ts:1002
 
 ___
 
@@ -367,7 +367,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1074
+Defined in node_modules/@types/node/globals.d.ts:1003
 
 ___
 
@@ -377,7 +377,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1075
+Defined in node_modules/@types/node/globals.d.ts:1004
 
 ___
 
@@ -387,7 +387,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1076
+Defined in node_modules/@types/node/globals.d.ts:1005
 
 ___
 
@@ -397,7 +397,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1077
+Defined in node_modules/@types/node/globals.d.ts:1006
 
 ___
 
@@ -407,7 +407,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1078
+Defined in node_modules/@types/node/globals.d.ts:1007
 
 ___
 
@@ -417,7 +417,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1079
+Defined in node_modules/@types/node/globals.d.ts:1008
 
 ___
 
@@ -427,7 +427,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1080
+Defined in node_modules/@types/node/globals.d.ts:1009
 
 ___
 
@@ -437,17 +437,17 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1081
+Defined in node_modules/@types/node/globals.d.ts:1010
 
 ___
 
 ###  Uint8ClampedArray
 
-• **Uint8ClampedArray**: *Function*
+• **Uint8ClampedArray**: *Uint8ClampedArrayConstructor*
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1082
+Defined in node_modules/@types/node/globals.d.ts:1011
 
 ___
 
@@ -457,7 +457,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1083
+Defined in node_modules/@types/node/globals.d.ts:1012
 
 ___
 
@@ -467,7 +467,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1084
+Defined in node_modules/@types/node/globals.d.ts:1013
 
 ___
 
@@ -475,7 +475,7 @@ ___
 
 • **WebSocket**: *Constructor‹WebSocket›*
 
-*Defined in [packages/rpc-provider/src/mock/types.ts:9](https://github.com/polkadot-js/api/blob/51a866fd35/packages/rpc-provider/src/mock/types.ts#L9)*
+*Defined in [packages/rpc-provider/src/mock/types.ts:9](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/rpc-provider/src/mock/types.ts#L9)*
 
 ___
 
@@ -485,7 +485,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1085
+Defined in node_modules/@types/node/globals.d.ts:1014
 
 #### Type declaration:
 
@@ -505,7 +505,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1086
+Defined in node_modules/@types/node/globals.d.ts:1015
 
 #### Type declaration:
 
@@ -525,7 +525,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1087
+Defined in node_modules/@types/node/globals.d.ts:1016
 
 #### Type declaration:
 
@@ -545,7 +545,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1088
+Defined in node_modules/@types/node/globals.d.ts:1017
 
 ___
 
@@ -555,7 +555,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1089
+Defined in node_modules/@types/node/globals.d.ts:1018
 
 ___
 
@@ -565,7 +565,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1090
+Defined in node_modules/@types/node/globals.d.ts:1019
 
 ___
 
@@ -575,7 +575,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1091
+Defined in node_modules/@types/node/globals.d.ts:1020
 
 ___
 
@@ -585,7 +585,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1092
+Defined in node_modules/@types/node/globals.d.ts:1021
 
 ___
 
@@ -595,7 +595,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1093
+Defined in node_modules/@types/node/globals.d.ts:1022
 
 #### Type declaration:
 
@@ -615,7 +615,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1094
+Defined in node_modules/@types/node/globals.d.ts:1023
 
 ___
 
@@ -623,7 +623,7 @@ ___
 
 • **fetch**: *any*
 
-*Defined in [packages/rpc-provider/src/mock/types.ts:10](https://github.com/polkadot-js/api/blob/51a866fd35/packages/rpc-provider/src/mock/types.ts#L10)*
+*Defined in [packages/rpc-provider/src/mock/types.ts:10](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/rpc-provider/src/mock/types.ts#L10)*
 
 ___
 
@@ -633,7 +633,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1108
+Defined in node_modules/@types/node/globals.d.ts:1040
 
 #### Type declaration:
 
@@ -647,7 +647,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1095
+Defined in node_modules/@types/node/globals.d.ts:1024
 
 ___
 
@@ -657,7 +657,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1096
+Defined in node_modules/@types/node/globals.d.ts:1025
 
 ___
 
@@ -667,7 +667,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1097
+Defined in node_modules/@types/node/globals.d.ts:1026
 
 ___
 
@@ -677,7 +677,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1098
+Defined in node_modules/@types/node/globals.d.ts:1027
 
 ___
 
@@ -687,7 +687,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1099
+Defined in node_modules/@types/node/globals.d.ts:1028
 
 ___
 
@@ -697,7 +697,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1100
+Defined in node_modules/@types/node/globals.d.ts:1029
 
 ___
 
@@ -707,7 +707,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1105
+Defined in node_modules/@types/node/globals.d.ts:1037
 
 ___
 
@@ -717,7 +717,9 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1101
+Defined in node_modules/@types/node/globals.d.ts:1033
+
+**`deprecated`** Use `global`.
 
 ___
 
@@ -727,7 +729,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1102
+Defined in node_modules/@types/node/globals.d.ts:1034
 
 #### Type declaration:
 
@@ -755,7 +757,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1103
+Defined in node_modules/@types/node/globals.d.ts:1035
 
 #### Type declaration:
 
@@ -785,7 +787,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1104
+Defined in node_modules/@types/node/globals.d.ts:1036
 
 #### Type declaration:
 
@@ -815,7 +817,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1106
+Defined in node_modules/@types/node/globals.d.ts:1038
 
 ___
 
@@ -825,7 +827,7 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1107
+Defined in node_modules/@types/node/globals.d.ts:1039
 
 #### Type declaration:
 
@@ -845,4 +847,4 @@ ___
 
 *Inherited from void*
 
-Defined in node_modules/@types/node/globals.d.ts:1109
+Defined in node_modules/@types/node/globals.d.ts:1041

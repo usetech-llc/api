@@ -16,6 +16,16 @@ GenericConsensusEngineId
 
 ## Index
 
+### Interfaces
+
+* [MPrime](_interfaces_runtime_types_.consensusengineid.mprime.md)
+* [ReductionContext](_interfaces_runtime_types_.consensusengineid.reductioncontext.md)
+
+### Type aliases
+
+* [Endianness](_interfaces_runtime_types_.consensusengineid.md#endianness)
+* [IPrimeName](_interfaces_runtime_types_.consensusengineid.md#iprimename)
+
 ### Constructors
 
 * [constructor](_interfaces_runtime_types_.consensusengineid.md#constructor)
@@ -36,6 +46,22 @@ GenericConsensusEngineId
 * [stringToId](_interfaces_runtime_types_.consensusengineid.md#static-stringtoid)
 * [with](_interfaces_runtime_types_.consensusengineid.md#static-with)
 
+## Type aliases
+
+###  Endianness
+
+Ƭ **Endianness**: *"le" | "be"*
+
+Defined in node_modules/@types/bn.js/index.d.ts:11
+
+___
+
+###  IPrimeName
+
+Ƭ **IPrimeName**: *"k256" | "p224" | "p192" | "p25519"*
+
+Defined in node_modules/@types/bn.js/index.d.ts:12
+
 ## Constructors
 
 ###  constructor
@@ -46,7 +72,7 @@ GenericConsensusEngineId
 
 *Overrides [UInt](../classes/_codec_uint_.uint.md).[constructor](../classes/_codec_uint_.uint.md#constructor)*
 
-*Defined in [packages/types/src/primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/primitive/U32.ts#L14)*
+*Defined in [packages/types/src/primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/primitive/U32.ts#L14)*
 
 **Parameters:**
 
@@ -65,7 +91,7 @@ Name | Type |
 
 *Inherited from [ConsensusEngineId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md).[isAura](../classes/_primitive_generic_consensusengineid_.consensusengineid.md#isaura)*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:43](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L43)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:43](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L43)*
 
 **`description`** `true` if the engine matches aura
 
@@ -79,7 +105,7 @@ ___
 
 *Inherited from [ConsensusEngineId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md).[isBabe](../classes/_primitive_generic_consensusengineid_.consensusengineid.md#isbabe)*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:50](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L50)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:50](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L50)*
 
 **`description`** `true` is the engine matches babe
 
@@ -93,7 +119,7 @@ ___
 
 *Inherited from [ConsensusEngineId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md).[isGrandpa](../classes/_primitive_generic_consensusengineid_.consensusengineid.md#isgrandpa)*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:57](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L57)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:57](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L57)*
 
 **`description`** `true` is the engine matches grandpa
 
@@ -107,7 +133,7 @@ ___
 
 *Inherited from [ConsensusEngineId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md).[extractAuthor](../classes/_primitive_generic_consensusengineid_.consensusengineid.md#extractauthor)*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:80](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L80)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:80](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L80)*
 
 **`description`** From the input bytes, decode into an author
 
@@ -130,7 +156,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/codec/UInt.ts#L38)*
+*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/codec/UInt.ts#L38)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -152,7 +178,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/codec/UInt.ts#L50)*
+*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/codec/UInt.ts#L50)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -168,7 +194,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/codec/UInt.ts#L64)*
+*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/codec/UInt.ts#L64)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -188,7 +214,7 @@ ___
 
 *Inherited from [ConsensusEngineId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md).[idToString](../classes/_primitive_generic_consensusengineid_.consensusengineid.md#static-idtostring)*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:26](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L26)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:26](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L26)*
 
 **Parameters:**
 
@@ -206,7 +232,7 @@ ___
 
 *Inherited from [ConsensusEngineId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md).[stringToId](../classes/_primitive_generic_consensusengineid_.consensusengineid.md#static-stringtoid)*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:33](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L33)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:33](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L33)*
 
 **Parameters:**
 
@@ -224,7 +250,7 @@ ___
 
 *Inherited from [UInt](../classes/_codec_uint_.uint.md).[with](../classes/_codec_uint_.uint.md#static-with)*
 
-*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/codec/UInt.ts#L27)*
+*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/codec/UInt.ts#L27)*
 
 **Parameters:**
 

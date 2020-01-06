@@ -35,6 +35,16 @@ is available here.
 
 ## Index
 
+### Interfaces
+
+* [MPrime](../interfaces/_codec_uint_.uint.mprime.md)
+* [ReductionContext](../interfaces/_codec_uint_.uint.reductioncontext.md)
+
+### Type aliases
+
+* [Endianness](_codec_uint_.uint.md#static-endianness)
+* [IPrimeName](_codec_uint_.uint.md#static-iprimename)
+
 ### Constructors
 
 * [constructor](_codec_uint_.uint.md#constructor)
@@ -46,15 +56,29 @@ is available here.
 * [toU8a](_codec_uint_.uint.md#tou8a)
 * [with](_codec_uint_.uint.md#static-with)
 
+## Type aliases
+
+### `Static` Endianness
+
+Ƭ **Endianness**: *"le" | "be"*
+
+Defined in node_modules/@types/bn.js/index.d.ts:11
+
+___
+
+### `Static` IPrimeName
+
+Ƭ **IPrimeName**: *"k256" | "p224" | "p192" | "p25519"*
+
+Defined in node_modules/@types/bn.js/index.d.ts:12
+
 ## Constructors
 
 ###  constructor
 
 \+ **new UInt**(`registry`: [Registry](../interfaces/_types_.registry.md), `value`: [AnyNumber](../modules/_types_.md#anynumber), `bitLength`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength), `isHexJson`: boolean): *[UInt](_codec_uint_.uint.md)*
 
-*Overrides void*
-
-*Defined in [packages/types/src/codec/UInt.ts:22](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/codec/UInt.ts#L22)*
+*Defined in [packages/types/src/codec/UInt.ts:22](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/codec/UInt.ts#L22)*
 
 **Parameters:**
 
@@ -75,7 +99,7 @@ Name | Type | Default |
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/codec/UInt.ts#L38)*
+*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/codec/UInt.ts#L38)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -97,7 +121,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/codec/UInt.ts#L50)*
+*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/codec/UInt.ts#L50)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -111,7 +135,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/codec/UInt.ts#L64)*
+*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/codec/UInt.ts#L64)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -129,7 +153,7 @@ ___
 
 ▸ **with**(`bitLength?`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)): *[Constructor](../interfaces/_types_.constructor.md)‹[UInt](_codec_uint_.uint.md)›*
 
-*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/51a866fd35/packages/types/src/codec/UInt.ts#L27)*
+*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/types/src/codec/UInt.ts#L27)*
 
 **Parameters:**
 

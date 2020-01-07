@@ -19,7 +19,7 @@
 
 • **currentElected**: *AccountId[]*
 
-*Defined in [packages/api-derive/src/types.ts:150](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/api-derive/src/types.ts#L150)*
+*Defined in [packages/api-derive/src/types.ts:150](https://github.com/polkadot-js/api/blob/5278138cc3/packages/api-derive/src/types.ts#L150)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **info**: *[DerivedStakingQuery](_types_.derivedstakingquery.md)[]*
 
-*Defined in [packages/api-derive/src/types.ts:151](https://github.com/polkadot-js/api/blob/b7eeb992cd/packages/api-derive/src/types.ts#L151)*
+*Defined in [packages/api-derive/src/types.ts:151](https://github.com/polkadot-js/api/blob/5278138cc3/packages/api-derive/src/types.ts#L151)*

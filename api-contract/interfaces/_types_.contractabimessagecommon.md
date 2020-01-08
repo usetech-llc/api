@@ -24,7 +24,7 @@
 
 • **docs**? : *[ContractABIDocs](../modules/_types_.md#contractabidocs)*
 
-*Defined in [api-contract/src/types.ts:53](https://github.com/polkadot-js/api/blob/5278138cc3/packages/api-contract/src/types.ts#L53)*
+*Defined in [api-contract/src/types.ts:53](https://github.com/polkadot-js/api/blob/e855da1f13/packages/api-contract/src/types.ts#L53)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **mutates**? : *undefined | false | true*
 
-*Defined in [api-contract/src/types.ts:54](https://github.com/polkadot-js/api/blob/5278138cc3/packages/api-contract/src/types.ts#L54)*
+*Defined in [api-contract/src/types.ts:54](https://github.com/polkadot-js/api/blob/e855da1f13/packages/api-contract/src/types.ts#L54)*
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 • **selector**: *string | number*
 
-*Defined in [api-contract/src/types.ts:55](https://github.com/polkadot-js/api/blob/5278138cc3/packages/api-contract/src/types.ts#L55)*
+*Defined in [api-contract/src/types.ts:55](https://github.com/polkadot-js/api/blob/e855da1f13/packages/api-contract/src/types.ts#L55)*

@@ -21,7 +21,7 @@
 
 • **blockHash**: *AnyU8a*
 
-*Defined in [api/src/submittable/types.ts:43](https://github.com/polkadot-js/api/blob/5278138cc3/packages/api/src/submittable/types.ts#L43)*
+*Defined in [api/src/submittable/types.ts:43](https://github.com/polkadot-js/api/blob/e855da1f13/packages/api/src/submittable/types.ts#L43)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **era**? : *IExtrinsicEra | number*
 
-*Defined in [api/src/submittable/types.ts:44](https://github.com/polkadot-js/api/blob/5278138cc3/packages/api/src/submittable/types.ts#L44)*
+*Defined in [api/src/submittable/types.ts:44](https://github.com/polkadot-js/api/blob/e855da1f13/packages/api/src/submittable/types.ts#L44)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **nonce**: *AnyNumber*
 
-*Defined in [api/src/submittable/types.ts:45](https://github.com/polkadot-js/api/blob/5278138cc3/packages/api/src/submittable/types.ts#L45)*
+*Defined in [api/src/submittable/types.ts:45](https://github.com/polkadot-js/api/blob/e855da1f13/packages/api/src/submittable/types.ts#L45)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **tip**? : *AnyNumber*
 
-*Defined in [api/src/submittable/types.ts:46](https://github.com/polkadot-js/api/blob/5278138cc3/packages/api/src/submittable/types.ts#L46)*
+*Defined in [api/src/submittable/types.ts:46](https://github.com/polkadot-js/api/blob/e855da1f13/packages/api/src/submittable/types.ts#L46)*

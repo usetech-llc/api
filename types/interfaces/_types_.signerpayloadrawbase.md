@@ -21,7 +21,7 @@
 
 • **data**: *string*
 
-*Defined in [packages/types/src/types.ts:298](https://github.com/polkadot-js/api/blob/2dee50f019/packages/types/src/types.ts#L298)*
+*Defined in [packages/types/src/types.ts:300](https://github.com/polkadot-js/api/blob/7057cf365b/packages/types/src/types.ts#L300)*
 
 **`description`** The hex-encoded data for this request
 
@@ -31,6 +31,6 @@ ___
 
 • **type**? : *"bytes" | "payload"*
 
-*Defined in [packages/types/src/types.ts:303](https://github.com/polkadot-js/api/blob/2dee50f019/packages/types/src/types.ts#L303)*
+*Defined in [packages/types/src/types.ts:305](https://github.com/polkadot-js/api/blob/7057cf365b/packages/types/src/types.ts#L305)*
 
 **`description`** The type of the contained data

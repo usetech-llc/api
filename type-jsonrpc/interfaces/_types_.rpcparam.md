@@ -20,7 +20,7 @@
 
 • **isOptional**: *boolean*
 
-*Defined in [types.ts:10](https://github.com/polkadot-js/api/blob/2dee50f019/packages/type-jsonrpc/src/types.ts#L10)*
+*Defined in [types.ts:10](https://github.com/polkadot-js/api/blob/7057cf365b/packages/type-jsonrpc/src/types.ts#L10)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/2dee50f019/packages/type-jsonrpc/src/types.ts#L11)*
+*Defined in [types.ts:11](https://github.com/polkadot-js/api/blob/7057cf365b/packages/type-jsonrpc/src/types.ts#L11)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **type**: *InterfaceTypes*
 
-*Defined in [types.ts:12](https://github.com/polkadot-js/api/blob/2dee50f019/packages/type-jsonrpc/src/types.ts#L12)*
+*Defined in [types.ts:12](https://github.com/polkadot-js/api/blob/7057cf365b/packages/type-jsonrpc/src/types.ts#L12)*

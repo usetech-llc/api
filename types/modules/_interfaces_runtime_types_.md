@@ -22,6 +22,7 @@
 * [DigestItem](../interfaces/_interfaces_runtime_types_.digestitem.md)
 * [DispatchClass](../interfaces/_interfaces_runtime_types_.dispatchclass.md)
 * [DispatchInfo](../interfaces/_interfaces_runtime_types_.dispatchinfo.md)
+* [DispatchInfoTo190](../interfaces/_interfaces_runtime_types_.dispatchinfoto190.md)
 * [EcdsaSignature](../interfaces/_interfaces_runtime_types_.ecdsasignature.md)
 * [Ed25519Signature](../interfaces/_interfaces_runtime_types_.ed25519signature.md)
 * [Extrinsic](../interfaces/_interfaces_runtime_types_.extrinsic.md)

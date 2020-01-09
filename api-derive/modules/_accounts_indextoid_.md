@@ -14,7 +14,7 @@
 
 ▸ **indexToId**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/accounts/indexToId.ts:28](https://github.com/polkadot-js/api/blob/e855da1f13/packages/api-derive/src/accounts/indexToId.ts#L28)*
+*Defined in [packages/api-derive/src/accounts/indexToId.ts:28](https://github.com/polkadot-js/api/blob/2dee50f019/packages/api-derive/src/accounts/indexToId.ts#L28)*
 
 **`name`** indexToId
 

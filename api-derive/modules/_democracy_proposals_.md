@@ -18,7 +18,7 @@
 
 Ƭ **PreImage**: *Option‹ITuple‹[Bytes, AccountId, Balance, BlockNumber]››*
 
-*Defined in [packages/api-derive/src/democracy/proposals.ts:16](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/democracy/proposals.ts#L16)*
+*Defined in [packages/api-derive/src/democracy/proposals.ts:16](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/democracy/proposals.ts#L16)*
 
 ## Functions
 
@@ -26,7 +26,7 @@
 
 ▸ **proposals**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/democracy/proposals.ts:56](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/democracy/proposals.ts#L56)*
+*Defined in [packages/api-derive/src/democracy/proposals.ts:56](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/democracy/proposals.ts#L56)*
 
 **Parameters:**
 

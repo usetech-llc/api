@@ -28,7 +28,7 @@
 
 • **candidacyBond**? : *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:70](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/types.ts#L70)*
+*Defined in [packages/api-derive/src/types.ts:70](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/types.ts#L70)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **candidateCount**: *u32*
 
-*Defined in [packages/api-derive/src/types.ts:69](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/types.ts#L69)*
+*Defined in [packages/api-derive/src/types.ts:69](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/types.ts#L69)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **candidates**: *AccountId[]*
 
-*Defined in [packages/api-derive/src/types.ts:68](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/types.ts#L68)*
+*Defined in [packages/api-derive/src/types.ts:68](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/types.ts#L68)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **desiredSeats**: *u32*
 
-*Defined in [packages/api-derive/src/types.ts:71](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/types.ts#L71)*
+*Defined in [packages/api-derive/src/types.ts:71](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/types.ts#L71)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **members**: *[AccountId, Balance][]*
 
-*Defined in [packages/api-derive/src/types.ts:72](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/types.ts#L72)*
+*Defined in [packages/api-derive/src/types.ts:72](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/types.ts#L72)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • **nextVoterSet**? : *SetIndex*
 
-*Defined in [packages/api-derive/src/types.ts:73](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/types.ts#L73)*
+*Defined in [packages/api-derive/src/types.ts:73](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/types.ts#L73)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • **runnersUp**: *[AccountId, Balance][]*
 
-*Defined in [packages/api-derive/src/types.ts:74](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/types.ts#L74)*
+*Defined in [packages/api-derive/src/types.ts:74](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/types.ts#L74)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 • **termDuration**: *BlockNumber*
 
-*Defined in [packages/api-derive/src/types.ts:75](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/types.ts#L75)*
+*Defined in [packages/api-derive/src/types.ts:75](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/types.ts#L75)*
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 • **voteCount**? : *VoteIndex*
 
-*Defined in [packages/api-derive/src/types.ts:76](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/types.ts#L76)*
+*Defined in [packages/api-derive/src/types.ts:76](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/types.ts#L76)*
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 • **voterCount**? : *SetIndex*
 
-*Defined in [packages/api-derive/src/types.ts:77](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/types.ts#L77)*
+*Defined in [packages/api-derive/src/types.ts:77](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/types.ts#L77)*
 
 ___
 
@@ -108,4 +108,4 @@ ___
 
 • **votingBond**? : *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:78](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api-derive/src/types.ts#L78)*
+*Defined in [packages/api-derive/src/types.ts:78](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/types.ts#L78)*

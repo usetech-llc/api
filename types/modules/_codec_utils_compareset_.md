@@ -14,7 +14,7 @@
 
 ▸ **compareSet**(`a`: Set‹any›, `b?`: any): *boolean*
 
-*Defined in [packages/types/src/codec/utils/compareSet.ts:9](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/types/src/codec/utils/compareSet.ts#L9)*
+*Defined in [packages/types/src/codec/utils/compareSet.ts:9](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/types/src/codec/utils/compareSet.ts#L9)*
 
 **Parameters:**
 

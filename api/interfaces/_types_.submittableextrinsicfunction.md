@@ -16,7 +16,7 @@
 
 ▸ (...`params`: CodecArg[]): *[SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md)‹ApiType›*
 
-*Defined in [api/src/types.ts:168](https://github.com/polkadot-js/api/blob/7057cf365b/packages/api/src/types.ts#L168)*
+*Defined in [api/src/types.ts:168](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/api/src/types.ts#L168)*
 
 **Parameters:**
 
@@ -28,7 +28,7 @@ Name | Type |
 
 ▸ (...`args`: any[]): *Call*
 
-*Defined in [types/src/types.ts:19](https://github.com/polkadot-js/api/blob/7057cf365b/packages/types/src/types.ts#L19)*
+*Defined in [types/src/types.ts:19](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/types/src/types.ts#L19)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ Name | Type |
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:21](https://github.com/polkadot-js/api/blob/7057cf365b/packages/types/src/types.ts#L21)*
+*Defined in [types/src/types.ts:21](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/types/src/types.ts#L21)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:22](https://github.com/polkadot-js/api/blob/7057cf365b/packages/types/src/types.ts#L22)*
+*Defined in [types/src/types.ts:22](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/types/src/types.ts#L22)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:23](https://github.com/polkadot-js/api/blob/7057cf365b/packages/types/src/types.ts#L23)*
+*Defined in [types/src/types.ts:23](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/types/src/types.ts#L23)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:24](https://github.com/polkadot-js/api/blob/7057cf365b/packages/types/src/types.ts#L24)*
+*Defined in [types/src/types.ts:24](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/types/src/types.ts#L24)*
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:25](https://github.com/polkadot-js/api/blob/7057cf365b/packages/types/src/types.ts#L25)*
+*Defined in [types/src/types.ts:25](https://github.com/polkadot-js/api/blob/1ff029dc11/packages/types/src/types.ts#L25)*
 
 #### Type declaration:
 

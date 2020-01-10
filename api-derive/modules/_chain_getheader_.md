@@ -14,7 +14,7 @@
 
 ▸ **getHeader**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/chain/getHeader.ts:30](https://github.com/polkadot-js/api/blob/f77ae4d99f/packages/api-derive/src/chain/getHeader.ts#L30)*
+*Defined in [packages/api-derive/src/chain/getHeader.ts:30](https://github.com/polkadot-js/api/blob/3a1f284fa8/packages/api-derive/src/chain/getHeader.ts#L30)*
 
 **`name`** bestNumberFinalized
 

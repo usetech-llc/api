@@ -18,6 +18,6 @@
 
 • **registry**: *object*
 
-*Defined in [packages/types/src/codec/create/types.ts:156](https://github.com/polkadot-js/api/blob/3a1f284fa8/packages/types/src/codec/create/types.ts#L156)*
+*Defined in [packages/types/src/codec/create/types.ts:156](https://github.com/polkadot-js/api/blob/a9211690be/packages/types/src/codec/create/types.ts#L156)*
 
 #### Type declaration:

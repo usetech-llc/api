@@ -20,7 +20,7 @@
 
 • **at**: *BlockNumber*
 
-*Defined in [packages/api-derive/src/types.ts:103](https://github.com/polkadot-js/api/blob/758ce567e5/packages/api-derive/src/types.ts#L103)*
+*Defined in [packages/api-derive/src/types.ts:106](https://github.com/polkadot-js/api/blob/7ac3043f83/packages/api-derive/src/types.ts#L106)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **balance**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:104](https://github.com/polkadot-js/api/blob/758ce567e5/packages/api-derive/src/types.ts#L104)*
+*Defined in [packages/api-derive/src/types.ts:107](https://github.com/polkadot-js/api/blob/7ac3043f83/packages/api-derive/src/types.ts#L107)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **proposer**: *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:105](https://github.com/polkadot-js/api/blob/758ce567e5/packages/api-derive/src/types.ts#L105)*
+*Defined in [packages/api-derive/src/types.ts:108](https://github.com/polkadot-js/api/blob/7ac3043f83/packages/api-derive/src/types.ts#L108)*

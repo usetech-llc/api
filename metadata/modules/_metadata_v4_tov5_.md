@@ -14,7 +14,7 @@
 
 ▸ **toV5**(`registry`: Registry, `__namedParameters`: object): *MetadataV5*
 
-*Defined in [packages/metadata/src/Metadata/v4/toV5.ts:59](https://github.com/polkadot-js/api/blob/8fb64f77cd/packages/metadata/src/Metadata/v4/toV5.ts#L59)*
+*Defined in [packages/metadata/src/Metadata/v4/toV5.ts:59](https://github.com/polkadot-js/api/blob/5739b69757/packages/metadata/src/Metadata/v4/toV5.ts#L59)*
 
 Convert from MetadataV4 to MetadataV5
 See https://github.com/paritytech/substrate/pull/2836/files for details

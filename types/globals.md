@@ -149,7 +149,6 @@
 * ["primitive/IdentityFields"](modules/_primitive_identityfields_.md)
 * ["primitive/Null"](modules/_primitive_null_.md)
 * ["primitive/StorageData"](modules/_primitive_storagedata_.md)
-* ["primitive/StorageHasher"](modules/_primitive_storagehasher_.md)
 * ["primitive/StorageKey"](modules/_primitive_storagekey_.md)
 * ["primitive/Text"](modules/_primitive_text_.md)
 * ["primitive/Type"](modules/_primitive_type_.md)

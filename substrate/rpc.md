@@ -158,22 +158,22 @@ _Query of state_
 - **interface**: api.rpc.state.call
 - **summary**: Perform a call to a builtin on the chain
 
-### getChildKeys(childStorageKey: `StorageKey`, key: `StorageKey`, at?: `BlockHash`): `Vec<StorageKey>`
+### getChildKeys(childStorageKey: `StorageKey`, childDefinition: `StorageKey`, childType: `u32`, key: `StorageKey`, at?: `BlockHash`): `Vec<StorageKey>`
 - **jsonrpc**: state_getChildKeys
 - **interface**: api.rpc.state.getChildKeys
 - **summary**: Retrieves the keys with prefix of a specific child storage
 
-### getChildStorage(childStorageKey: `StorageKey`, key: `StorageKey`, at?: `BlockHash`): `StorageData`
+### getChildStorage(childStorageKey: `StorageKey`, childDefinition: `StorageKey`, childType: `u32`, key: `StorageKey`, at?: `BlockHash`): `StorageData`
 - **jsonrpc**: state_getChildStorage
 - **interface**: api.rpc.state.getChildStorage
 - **summary**: Retrieves the child storage for a key
 
-### getChildStorageHash(childStorageKey: `StorageKey`, key: `StorageKey`, at?: `BlockHash`): `Hash`
+### getChildStorageHash(childStorageKey: `StorageKey`, childDefinition: `StorageKey`, childType: `u32`, key: `StorageKey`, at?: `BlockHash`): `Hash`
 - **jsonrpc**: state_getChildStorageHash
 - **interface**: api.rpc.state.getChildStorageHash
 - **summary**: Retrieves the child storage hash
 
-### getChildStorageSize(childStorageKey: `StorageKey`, key: `StorageKey`, at?: `BlockHash`): `u64`
+### getChildStorageSize(childStorageKey: `StorageKey`, childDefinition: `StorageKey`, childType: `u32`, key: `StorageKey`, at?: `BlockHash`): `u64`
 - **jsonrpc**: state_getChildStorageSize
 - **interface**: api.rpc.state.getChildStorageSize
 - **summary**: Retrieves the child storage size

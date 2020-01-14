@@ -20,7 +20,7 @@
 
 • **approvals**: *[DerivedTreasuryProposal](_types_.derivedtreasuryproposal.md)[]*
 
-*Defined in [packages/api-derive/src/types.ts:197](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-derive/src/types.ts#L197)*
+*Defined in [packages/api-derive/src/types.ts:197](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L197)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **proposalCount**: *ProposalIndex*
 
-*Defined in [packages/api-derive/src/types.ts:198](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-derive/src/types.ts#L198)*
+*Defined in [packages/api-derive/src/types.ts:198](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L198)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **proposals**: *[DerivedTreasuryProposal](_types_.derivedtreasuryproposal.md)[]*
 
-*Defined in [packages/api-derive/src/types.ts:199](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-derive/src/types.ts#L199)*
+*Defined in [packages/api-derive/src/types.ts:199](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L199)*

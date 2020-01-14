@@ -51,7 +51,7 @@
 
 *Overrides [Base](_base_util_.base.md).[constructor](_base_util_.base.md#constructor)*
 
-*Defined in [api-contract/src/base/util.ts:59](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/base/util.ts#L59)*
+*Defined in [api-contract/src/base/util.ts:59](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/base/util.ts#L59)*
 
 **Parameters:**
 
@@ -73,7 +73,7 @@ Name | Type |
 
 *Inherited from [Base](_base_util_.base.md).[abi](_base_util_.base.md#abi)*
 
-*Defined in [api-contract/src/base/util.ts:14](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/base/util.ts#L14)*
+*Defined in [api-contract/src/base/util.ts:14](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/base/util.ts#L14)*
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[api](_base_util_.base.md#api)*
 
-*Defined in [api-contract/src/base/util.ts:16](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/base/util.ts#L16)*
+*Defined in [api-contract/src/base/util.ts:16](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/base/util.ts#L16)*
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[decorateMethod](_base_util_.base.md#decoratemethod)*
 
-*Defined in [api-contract/src/base/util.ts:18](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/base/util.ts#L18)*
+*Defined in [api-contract/src/base/util.ts:18](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/base/util.ts#L18)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[registry](_base_util_.base.md#registry)*
 
-*Defined in [api-contract/src/base/util.ts:20](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/base/util.ts#L20)*
+*Defined in [api-contract/src/base/util.ts:20](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/base/util.ts#L20)*
 
 ## Accessors
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[messages](_base_util_.base.md#messages)*
 
-*Defined in [api-contract/src/base/util.ts:31](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/base/util.ts#L31)*
+*Defined in [api-contract/src/base/util.ts:31](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/base/util.ts#L31)*
 
 **Returns:** *[ContractMessage](../interfaces/_types_.contractmessage.md)[]*
 
@@ -129,7 +129,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[getMessage](_base_util_.base.md#getmessage)*
 
-*Defined in [api-contract/src/base/util.ts:42](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/base/util.ts#L42)*
+*Defined in [api-contract/src/base/util.ts:42](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/base/util.ts#L42)*
 
 **Parameters:**
 

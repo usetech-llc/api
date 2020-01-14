@@ -60,7 +60,7 @@
 
 Ƭ **AbiConstructors**: *[ContractABIFn](../interfaces/_types_.contractabifn.md)[]*
 
-*Defined in [api-contract/src/types.ts:180](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L180)*
+*Defined in [api-contract/src/types.ts:180](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L180)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 Ƭ **AbiMessages**: *Record‹string, [ContractABIFn](../interfaces/_types_.contractabifn.md)›*
 
-*Defined in [api-contract/src/types.ts:182](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L182)*
+*Defined in [api-contract/src/types.ts:182](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L182)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 Ƭ **ApiObject**: *ApiType extends "rxjs" ? ApiRx : ApiPromise*
 
-*Defined in [api-contract/src/types.ts:13](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L13)*
+*Defined in [api-contract/src/types.ts:13](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L13)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 Ƭ **ContractABIDocs**: *string[]*
 
-*Defined in [api-contract/src/types.ts:122](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L122)*
+*Defined in [api-contract/src/types.ts:122](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L122)*
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 Ƭ **ContractABIMessageArg**: *[ContractABIArgBase](../interfaces/_types_.contractabiargbase.md)*
 
-*Defined in [api-contract/src/types.ts:42](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L42)*
+*Defined in [api-contract/src/types.ts:42](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L42)*
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 Ƭ **ContractABIMessageArgPre**: *[ContractABIArgBasePre](../interfaces/_types_.contractabiargbasepre.md)*
 
-*Defined in [api-contract/src/types.ts:40](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L40)*
+*Defined in [api-contract/src/types.ts:40](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L40)*
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 Ƭ **ContractABIStorage**: *[ContractABIStorageStruct](../interfaces/_types_.contractabistoragestruct.md)*
 
-*Defined in [api-contract/src/types.ts:172](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L172)*
+*Defined in [api-contract/src/types.ts:172](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L172)*
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 Ƭ **ContractABIStorageLayout**: *[ContractABIStorageStruct](../interfaces/_types_.contractabistoragestruct.md) | [ContractABIRange](../interfaces/_types_.contractabirange.md)*
 
-*Defined in [api-contract/src/types.ts:148](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L148)*
+*Defined in [api-contract/src/types.ts:148](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L148)*
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 Ƭ **ContractABIStorageLayoutPre**: *[ContractABIStorageStructPre](../interfaces/_types_.contractabistoragestructpre.md) | [ContractABIRangePre](../interfaces/_types_.contractabirangepre.md)*
 
-*Defined in [api-contract/src/types.ts:146](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L146)*
+*Defined in [api-contract/src/types.ts:146](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L146)*
 
 ___
 
@@ -132,4 +132,4 @@ ___
 
 Ƭ **ContractABIStoragePre**: *[ContractABIStorageStructPre](../interfaces/_types_.contractabistoragestructpre.md)*
 
-*Defined in [api-contract/src/types.ts:170](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L170)*
+*Defined in [api-contract/src/types.ts:170](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L170)*

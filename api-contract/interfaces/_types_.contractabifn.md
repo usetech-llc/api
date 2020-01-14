@@ -12,7 +12,7 @@
 
 ▸ (...`args`: CodecArg[]): *Uint8Array*
 
-*Defined in [api-contract/src/types.ts:110](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L110)*
+*Defined in [api-contract/src/types.ts:110](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L110)*
 
 **Parameters:**
 
@@ -38,7 +38,7 @@ Name | Type |
 
 *Inherited from [ContractABIMeta](_types_.contractabimeta.md).[args](_types_.contractabimeta.md#args)*
 
-*Defined in [api-contract/src/types.ts:105](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L105)*
+*Defined in [api-contract/src/types.ts:105](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L105)*
 
 ___
 
@@ -48,7 +48,7 @@ ___
 
 *Inherited from [ContractABIMeta](_types_.contractabimeta.md).[isConstant](_types_.contractabimeta.md#isconstant)*
 
-*Defined in [api-contract/src/types.ts:106](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L106)*
+*Defined in [api-contract/src/types.ts:106](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L106)*
 
 ___
 
@@ -58,4 +58,4 @@ ___
 
 *Inherited from [ContractABIMeta](_types_.contractabimeta.md).[type](_types_.contractabimeta.md#type)*
 
-*Defined in [api-contract/src/types.ts:107](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-contract/src/types.ts#L107)*
+*Defined in [api-contract/src/types.ts:107](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-contract/src/types.ts#L107)*

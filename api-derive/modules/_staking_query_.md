@@ -14,9 +14,9 @@
 
 ▸ **query**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/staking/query.ts:147](https://github.com/polkadot-js/api/blob/cc4a4607f1/packages/api-derive/src/staking/query.ts#L147)*
+*Defined in [packages/api-derive/src/staking/query.ts:47](https://github.com/polkadot-js/api/blob/ffa60d1cfa/packages/api-derive/src/staking/query.ts#L47)*
 
-**`description`** From a stash, retrieve the controllerId and fill in all the relevant staking details
+**`description`** From a stash, retrieve the controllerId and all relevant details
 
 **Parameters:**
 
@@ -26,10 +26,10 @@ Name | Type |
 
 **Returns:** *function*
 
-▸ (`_accountId`: Uint8Array | string): *Observable‹[DerivedStakingQuery](../interfaces/_types_.derivedstakingquery.md)›*
+▸ (`accountId`: Uint8Array | string): *Observable‹[DerivedStakingQuery](../interfaces/_types_.derivedstakingquery.md)›*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`_accountId` | Uint8Array &#124; string |
+`accountId` | Uint8Array &#124; string |

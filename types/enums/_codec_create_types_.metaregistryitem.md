@@ -16,7 +16,7 @@
 
 • **String**:
 
-*Defined in [packages/types/src/codec/create/types.ts:150](https://github.com/polkadot-js/api/blob/07ca18502b/packages/types/src/codec/create/types.ts#L150)*
+*Defined in [packages/types/src/codec/create/types.ts:150](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/types/src/codec/create/types.ts#L150)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • **Type**:
 
-*Defined in [packages/types/src/codec/create/types.ts:151](https://github.com/polkadot-js/api/blob/07ca18502b/packages/types/src/codec/create/types.ts#L151)*
+*Defined in [packages/types/src/codec/create/types.ts:151](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/types/src/codec/create/types.ts#L151)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • **TypeDef**:
 
-*Defined in [packages/types/src/codec/create/types.ts:152](https://github.com/polkadot-js/api/blob/07ca18502b/packages/types/src/codec/create/types.ts#L152)*
+*Defined in [packages/types/src/codec/create/types.ts:152](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/types/src/codec/create/types.ts#L152)*

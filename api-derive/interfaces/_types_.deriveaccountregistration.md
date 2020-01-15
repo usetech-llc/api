@@ -28,7 +28,7 @@
 
 • **display**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:13](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L13)*
+*Defined in [packages/api-derive/src/types.ts:13](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/api-derive/src/types.ts#L13)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **displayParent**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:14](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L14)*
+*Defined in [packages/api-derive/src/types.ts:14](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/api-derive/src/types.ts#L14)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **email**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:15](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L15)*
+*Defined in [packages/api-derive/src/types.ts:15](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/api-derive/src/types.ts#L15)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **image**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:16](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L16)*
+*Defined in [packages/api-derive/src/types.ts:16](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/api-derive/src/types.ts#L16)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **judgements**: *RegistrationJudgement[]*
 
-*Defined in [packages/api-derive/src/types.ts:23](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L23)*
+*Defined in [packages/api-derive/src/types.ts:23](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/api-derive/src/types.ts#L23)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • **legal**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:17](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L17)*
+*Defined in [packages/api-derive/src/types.ts:17](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/api-derive/src/types.ts#L17)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • **parent**? : *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:18](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L18)*
+*Defined in [packages/api-derive/src/types.ts:18](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/api-derive/src/types.ts#L18)*
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 • **pgp**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:19](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L19)*
+*Defined in [packages/api-derive/src/types.ts:19](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/api-derive/src/types.ts#L19)*
 
 ___
 
@@ -92,7 +92,7 @@ ___
 
 • **riot**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:20](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L20)*
+*Defined in [packages/api-derive/src/types.ts:20](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/api-derive/src/types.ts#L20)*
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 • **twitter**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:21](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L21)*
+*Defined in [packages/api-derive/src/types.ts:21](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/api-derive/src/types.ts#L21)*
 
 ___
 
@@ -108,4 +108,4 @@ ___
 
 • **web**? : *undefined | string*
 
-*Defined in [packages/api-derive/src/types.ts:22](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/types.ts#L22)*
+*Defined in [packages/api-derive/src/types.ts:22](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/api-derive/src/types.ts#L22)*

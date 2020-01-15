@@ -14,7 +14,7 @@
 
 ▸ **proposals**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/treasury/proposals.ts:80](https://github.com/polkadot-js/api/blob/07ca18502b/packages/api-derive/src/treasury/proposals.ts#L80)*
+*Defined in [packages/api-derive/src/treasury/proposals.ts:80](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/api-derive/src/treasury/proposals.ts#L80)*
 
 **`description`** Retrieve all active and approved treasury proposals, along with their info
 

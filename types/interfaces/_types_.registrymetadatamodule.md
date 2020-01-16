@@ -11,6 +11,7 @@
 ### Properties
 
 * [calls](_types_.registrymetadatamodule.md#calls)
+* [errors](_types_.registrymetadatamodule.md#errors)
 * [events](_types_.registrymetadatamodule.md#events)
 * [name](_types_.registrymetadatamodule.md#name)
 
@@ -20,7 +21,15 @@
 
 • **calls**: *[RegistryMetadataCalls](_types_.registrymetadatacalls.md)*
 
-*Defined in [packages/types/src/types.ts:351](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/types/src/types.ts#L351)*
+*Defined in [packages/types/src/types.ts:367](https://github.com/polkadot-js/api/blob/dd97e9daee/packages/types/src/types.ts#L367)*
+
+___
+
+###  errors
+
+• **errors**: *[RegistryMetadataErrors](../modules/_types_.md#registrymetadataerrors)*
+
+*Defined in [packages/types/src/types.ts:368](https://github.com/polkadot-js/api/blob/dd97e9daee/packages/types/src/types.ts#L368)*
 
 ___
 
@@ -28,7 +37,7 @@ ___
 
 • **events**: *[RegistryMetadataEvents](_types_.registrymetadataevents.md)*
 
-*Defined in [packages/types/src/types.ts:352](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/types/src/types.ts#L352)*
+*Defined in [packages/types/src/types.ts:369](https://github.com/polkadot-js/api/blob/dd97e9daee/packages/types/src/types.ts#L369)*
 
 ___
 
@@ -36,4 +45,4 @@ ___
 
 • **name**: *String & [Codec](_types_.codec.md)*
 
-*Defined in [packages/types/src/types.ts:354](https://github.com/polkadot-js/api/blob/72e9474f6f/packages/types/src/types.ts#L354)*
+*Defined in [packages/types/src/types.ts:371](https://github.com/polkadot-js/api/blob/dd97e9daee/packages/types/src/types.ts#L371)*

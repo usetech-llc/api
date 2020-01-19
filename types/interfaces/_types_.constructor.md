@@ -22,7 +22,7 @@
 
 \+ **new Constructor**(`registry`: [Registry](_types_.registry.md), ...`value`: any[]): *T*
 
-*Defined in [packages/types/src/types.ts:142](https://github.com/polkadot-js/api/blob/dd97e9daee/packages/types/src/types.ts#L142)*
+*Defined in [packages/types/src/types.ts:142](https://github.com/polkadot-js/api/blob/7b9a11ac25/packages/types/src/types.ts#L142)*
 
 **Parameters:**
 

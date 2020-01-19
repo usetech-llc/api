@@ -14,7 +14,7 @@
 
 ▸ **getUniqTypes**(`registry`: Registry, `meta`: ExtractionMetadata, `throwError`: boolean): *string[]*
 
-*Defined in [packages/metadata/src/Metadata/util/getUniqTypes.ts:163](https://github.com/polkadot-js/api/blob/dd97e9daee/packages/metadata/src/Metadata/util/getUniqTypes.ts#L163)*
+*Defined in [packages/metadata/src/Metadata/util/getUniqTypes.ts:163](https://github.com/polkadot-js/api/blob/7b9a11ac25/packages/metadata/src/Metadata/util/getUniqTypes.ts#L163)*
 
 **Parameters:**
 

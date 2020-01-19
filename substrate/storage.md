@@ -574,7 +574,7 @@ ___
 - **interface**: api.query.system.events
 - **summary**: Events deposited for the current block.
 
-### eventTopics(`Null, Hash`): `Vec<(BlockNumber,EventIndex)>`
+### eventTopics(`(), Hash`): `Vec<(BlockNumber,EventIndex)>`
 - **interface**: api.query.system.eventTopics
 - **summary**: Mapping between a topic (represented by T::Hash) and a vector of indexes of events in the `<Events<T>>` list.  The first key serves no purpose. This field is declared as double_map just for convenience of using `remove_prefix`.  All topic vectors have deterministic storage locations depending on the topic. This allows light-clients to leverage the changes trie storage tracking mechanism and in case of changes fetch the list of events of interest.  The value has the type `(T::BlockNumber, EventIndex)` because if we used only just the `EventIndex` then in case if the topic has the same contents on the next block no notification will be triggered thus the event might be lost.
 

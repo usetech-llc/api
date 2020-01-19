@@ -14,7 +14,7 @@
 
 ▸ **createDescriptor**(`registry`: Registry, `section`: string, `sectionIndex`: number, `methodIndex`: number, `callMetadata`: RegistryMetadataCall): *CallFunction*
 
-*Defined in [packages/metadata/src/Decorated/extrinsics/fromMetadata/createUnchecked.ts:22](https://github.com/polkadot-js/api/blob/204cf6769d/packages/metadata/src/Decorated/extrinsics/fromMetadata/createUnchecked.ts#L22)*
+*Defined in [packages/metadata/src/Decorated/extrinsics/fromMetadata/createUnchecked.ts:22](https://github.com/polkadot-js/api/blob/ffaea83e3e/packages/metadata/src/Decorated/extrinsics/fromMetadata/createUnchecked.ts#L22)*
 
 From the metadata of a function in the module's storage, generate the function
 that will return the an [[CallFunction]].

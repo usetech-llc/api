@@ -50,7 +50,7 @@
 
 Ƭ **FromReg**: *K extends InterfaceTypes ? InterfaceRegistry[K] : T*
 
-*Defined in [packages/types/src/codec/create/types.ts:10](https://github.com/polkadot-js/api/blob/204cf6769d/packages/types/src/codec/create/types.ts#L10)*
+*Defined in [packages/types/src/codec/create/types.ts:10](https://github.com/polkadot-js/api/blob/ffaea83e3e/packages/types/src/codec/create/types.ts#L10)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 Ƭ **MetaTypeDef**: *[MetaTypeDefBuiltIn](_codec_create_types_.md#metatypedefbuiltin) | [MetaTypeDefClikeEnum](../interfaces/_codec_create_types_.metatypedefclikeenum.md) | [MetaTypeDefEnum](../interfaces/_codec_create_types_.metatypedefenum.md) | [MetaTypeDefStruct](../interfaces/_codec_create_types_.metatypedefstruct.md) | [MetaTypeDefTupleStruct](../interfaces/_codec_create_types_.metatypedeftuplestruct.md) | [MetaTypeDefUnion](../interfaces/_codec_create_types_.metatypedefunion.md)*
 
-*Defined in [packages/types/src/codec/create/types.ts:142](https://github.com/polkadot-js/api/blob/204cf6769d/packages/types/src/codec/create/types.ts#L142)*
+*Defined in [packages/types/src/codec/create/types.ts:142](https://github.com/polkadot-js/api/blob/ffaea83e3e/packages/types/src/codec/create/types.ts#L142)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 Ƭ **MetaTypeDefBuiltIn**: *"builtin"*
 
-*Defined in [packages/types/src/codec/create/types.ts:101](https://github.com/polkadot-js/api/blob/204cf6769d/packages/types/src/codec/create/types.ts#L101)*
+*Defined in [packages/types/src/codec/create/types.ts:101](https://github.com/polkadot-js/api/blob/ffaea83e3e/packages/types/src/codec/create/types.ts#L101)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 Ƭ **MetaTypeDefEnumVariant**: *[MetaTypeDefEnumVariantUnit](../interfaces/_codec_create_types_.metatypedefenumvariantunit.md) | [MetaTypeDefEnumVariantTupleStruct](../interfaces/_codec_create_types_.metatypedefenumvarianttuplestruct.md) | [MetaTypeDefEnumVariantStruct](../interfaces/_codec_create_types_.metatypedefenumvariantstruct.md)*
 
-*Defined in [packages/types/src/codec/create/types.ts:117](https://github.com/polkadot-js/api/blob/204cf6769d/packages/types/src/codec/create/types.ts#L117)*
+*Defined in [packages/types/src/codec/create/types.ts:117](https://github.com/polkadot-js/api/blob/ffaea83e3e/packages/types/src/codec/create/types.ts#L117)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 Ƭ **MetaTypeDefUnionField**: *[MetaTypeDefStructField](../interfaces/_codec_create_types_.metatypedefstructfield.md)*
 
-*Defined in [packages/types/src/codec/create/types.ts:128](https://github.com/polkadot-js/api/blob/204cf6769d/packages/types/src/codec/create/types.ts#L128)*
+*Defined in [packages/types/src/codec/create/types.ts:128](https://github.com/polkadot-js/api/blob/ffaea83e3e/packages/types/src/codec/create/types.ts#L128)*
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 Ƭ **MetaTypeId**: *[MetaTypeIdPrimitive](_codec_create_types_.md#metatypeidprimitive) | [MetaTypeIdTuple](_codec_create_types_.md#metatypeidtuple) | [MetaTypeIdVec](../interfaces/_codec_create_types_.metatypeidvec.md) | [MetaTypeIdVecFixed](../interfaces/_codec_create_types_.metatypeidvecfixed.md) | [MetaTypeIdCustom](../interfaces/_codec_create_types_.metatypeidcustom.md)*
 
-*Defined in [packages/types/src/codec/create/types.ts:88](https://github.com/polkadot-js/api/blob/204cf6769d/packages/types/src/codec/create/types.ts#L88)*
+*Defined in [packages/types/src/codec/create/types.ts:88](https://github.com/polkadot-js/api/blob/ffaea83e3e/packages/types/src/codec/create/types.ts#L88)*
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 Ƭ **MetaTypeIdPrimitive**: *string*
 
-*Defined in [packages/types/src/codec/create/types.ts:69](https://github.com/polkadot-js/api/blob/204cf6769d/packages/types/src/codec/create/types.ts#L69)*
+*Defined in [packages/types/src/codec/create/types.ts:69](https://github.com/polkadot-js/api/blob/ffaea83e3e/packages/types/src/codec/create/types.ts#L69)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 Ƭ **MetaTypeIdTuple**: *[TypeIndex](_codec_create_types_.md#typeindex)[]*
 
-*Defined in [packages/types/src/codec/create/types.ts:71](https://github.com/polkadot-js/api/blob/204cf6769d/packages/types/src/codec/create/types.ts#L71)*
+*Defined in [packages/types/src/codec/create/types.ts:71](https://github.com/polkadot-js/api/blob/ffaea83e3e/packages/types/src/codec/create/types.ts#L71)*
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 Ƭ **StringIndex**: *number*
 
-*Defined in [packages/types/src/codec/create/types.ts:55](https://github.com/polkadot-js/api/blob/204cf6769d/packages/types/src/codec/create/types.ts#L55)*
+*Defined in [packages/types/src/codec/create/types.ts:55](https://github.com/polkadot-js/api/blob/ffaea83e3e/packages/types/src/codec/create/types.ts#L55)*
 
 ___
 
@@ -122,4 +122,4 @@ ___
 
 Ƭ **TypeIndex**: *number*
 
-*Defined in [packages/types/src/codec/create/types.ts:53](https://github.com/polkadot-js/api/blob/204cf6769d/packages/types/src/codec/create/types.ts#L53)*
+*Defined in [packages/types/src/codec/create/types.ts:53](https://github.com/polkadot-js/api/blob/ffaea83e3e/packages/types/src/codec/create/types.ts#L53)*

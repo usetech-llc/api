@@ -16,6 +16,7 @@
 * [Block](../interfaces/_interfaces_runtime_types_.block.md)
 * [BlockNumber](../interfaces/_interfaces_runtime_types_.blocknumber.md)
 * [Call](../interfaces/_interfaces_runtime_types_.call.md)
+* [ChangesTrieConfiguration](../interfaces/_interfaces_runtime_types_.changestrieconfiguration.md)
 * [Consensus](../interfaces/_interfaces_runtime_types_.consensus.md)
 * [ConsensusEngineId](../interfaces/_interfaces_runtime_types_.consensusengineid.md)
 * [Digest](../interfaces/_interfaces_runtime_types_.digest.md)

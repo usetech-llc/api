@@ -19,7 +19,7 @@
 
 ▸ **createFunction**(`registry`: Registry, `itemFn`: [CreateItemFn](../interfaces/_decorated_storage_frommetadata_createfunction_.createitemfn.md), `options`: [CreateItemOptions](../interfaces/_decorated_storage_frommetadata_createfunction_.createitemoptions.md)): *StorageEntry*
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/createFunction.ts:194](https://github.com/polkadot-js/api/blob/7b9a11ac25/packages/metadata/src/Decorated/storage/fromMetadata/createFunction.ts#L194)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/createFunction.ts:194](https://github.com/polkadot-js/api/blob/204cf6769d/packages/metadata/src/Decorated/storage/fromMetadata/createFunction.ts#L194)*
 
 From the schema of a function in the module's storage, generate the function
 that will return the correct storage key.

@@ -15,7 +15,7 @@
 
 ▸ **getChainTypes**(`chainName`: Text, `__namedParameters`: object, `typesChain`: Record‹string, RegistryTypes›, `typesSpec`: Record‹string, RegistryTypes›): *RegistryTypes*
 
-*Defined in [api/src/base/typeInjector.ts:90](https://github.com/polkadot-js/api/blob/7b9a11ac25/packages/api/src/base/typeInjector.ts#L90)*
+*Defined in [api/src/base/typeInjector.ts:90](https://github.com/polkadot-js/api/blob/204cf6769d/packages/api/src/base/typeInjector.ts#L90)*
 
 **Parameters:**
 
@@ -34,7 +34,7 @@ ___
 
 ▸ **getMetadataTypes**(`version`: number): *RegistryTypes*
 
-*Defined in [api/src/base/typeInjector.ts:85](https://github.com/polkadot-js/api/blob/7b9a11ac25/packages/api/src/base/typeInjector.ts#L85)*
+*Defined in [api/src/base/typeInjector.ts:85](https://github.com/polkadot-js/api/blob/204cf6769d/packages/api/src/base/typeInjector.ts#L85)*
 
 **Parameters:**
 

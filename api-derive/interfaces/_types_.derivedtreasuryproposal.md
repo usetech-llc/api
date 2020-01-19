@@ -20,7 +20,7 @@
 
 • **council**: *[DerivedCollectiveProposal](_types_.derivedcollectiveproposal.md)[]*
 
-*Defined in [packages/api-derive/src/types.ts:191](https://github.com/polkadot-js/api/blob/7b9a11ac25/packages/api-derive/src/types.ts#L191)*
+*Defined in [packages/api-derive/src/types.ts:191](https://github.com/polkadot-js/api/blob/204cf6769d/packages/api-derive/src/types.ts#L191)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **id**: *ProposalIndex*
 
-*Defined in [packages/api-derive/src/types.ts:192](https://github.com/polkadot-js/api/blob/7b9a11ac25/packages/api-derive/src/types.ts#L192)*
+*Defined in [packages/api-derive/src/types.ts:192](https://github.com/polkadot-js/api/blob/204cf6769d/packages/api-derive/src/types.ts#L192)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **proposal**: *TreasuryProposal*
 
-*Defined in [packages/api-derive/src/types.ts:193](https://github.com/polkadot-js/api/blob/7b9a11ac25/packages/api-derive/src/types.ts#L193)*
+*Defined in [packages/api-derive/src/types.ts:193](https://github.com/polkadot-js/api/blob/204cf6769d/packages/api-derive/src/types.ts#L193)*

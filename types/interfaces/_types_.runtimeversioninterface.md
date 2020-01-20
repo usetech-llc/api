@@ -23,7 +23,7 @@
 
 • **apis**: *any[]*
 
-*Defined in [packages/types/src/types.ts:153](https://github.com/polkadot-js/api/blob/f67c435378/packages/types/src/types.ts#L153)*
+*Defined in [packages/types/src/types.ts:153](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L153)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **authoringVersion**: *BN*
 
-*Defined in [packages/types/src/types.ts:154](https://github.com/polkadot-js/api/blob/f67c435378/packages/types/src/types.ts#L154)*
+*Defined in [packages/types/src/types.ts:154](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L154)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **implName**: *String*
 
-*Defined in [packages/types/src/types.ts:156](https://github.com/polkadot-js/api/blob/f67c435378/packages/types/src/types.ts#L156)*
+*Defined in [packages/types/src/types.ts:156](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L156)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **implVersion**: *BN*
 
-*Defined in [packages/types/src/types.ts:157](https://github.com/polkadot-js/api/blob/f67c435378/packages/types/src/types.ts#L157)*
+*Defined in [packages/types/src/types.ts:157](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L157)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **specName**: *String*
 
-*Defined in [packages/types/src/types.ts:159](https://github.com/polkadot-js/api/blob/f67c435378/packages/types/src/types.ts#L159)*
+*Defined in [packages/types/src/types.ts:159](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L159)*
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 • **specVersion**: *BN*
 
-*Defined in [packages/types/src/types.ts:160](https://github.com/polkadot-js/api/blob/f67c435378/packages/types/src/types.ts#L160)*
+*Defined in [packages/types/src/types.ts:160](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L160)*

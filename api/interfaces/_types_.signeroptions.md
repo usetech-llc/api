@@ -28,7 +28,7 @@
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:164](https://github.com/polkadot-js/api/blob/f67c435378/packages/types/src/types.ts#L164)*
+*Defined in [types/src/types.ts:164](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L164)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **blockNumber**: *BN*
 
-*Defined in [api/src/types.ts:250](https://github.com/polkadot-js/api/blob/f67c435378/packages/api/src/types.ts#L250)*
+*Defined in [api/src/types.ts:250](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/api/src/types.ts#L250)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:165](https://github.com/polkadot-js/api/blob/f67c435378/packages/types/src/types.ts#L165)*
+*Defined in [types/src/types.ts:165](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L165)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 *Overrides void*
 
-*Defined in [api/src/types.ts:251](https://github.com/polkadot-js/api/blob/f67c435378/packages/api/src/types.ts#L251)*
+*Defined in [api/src/types.ts:251](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/api/src/types.ts#L251)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:167](https://github.com/polkadot-js/api/blob/f67c435378/packages/types/src/types.ts#L167)*
+*Defined in [types/src/types.ts:167](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L167)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:168](https://github.com/polkadot-js/api/blob/f67c435378/packages/types/src/types.ts#L168)*
+*Defined in [types/src/types.ts:168](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L168)*
 
 ___
 
@@ -86,4 +86,4 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:169](https://github.com/polkadot-js/api/blob/f67c435378/packages/types/src/types.ts#L169)*
+*Defined in [types/src/types.ts:169](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L169)*

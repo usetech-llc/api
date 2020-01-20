@@ -14,7 +14,7 @@
 
 ▸ **votes**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/democracy/votes.ts:13](https://github.com/polkadot-js/api/blob/f67c435378/packages/api-derive/src/democracy/votes.ts#L13)*
+*Defined in [packages/api-derive/src/democracy/votes.ts:13](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/api-derive/src/democracy/votes.ts#L13)*
 
 **Parameters:**
 
@@ -24,11 +24,11 @@ Name | Type |
 
 **Returns:** *function*
 
-▸ (`referendumId`: BN, `accountIds?`: AccountId[]): *Observable‹Vote[]›*
+▸ (`referendumId`: BN | number, `accountIds?`: AccountId[]): *Observable‹Vote[]›*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`referendumId` | BN |
+`referendumId` | BN &#124; number |
 `accountIds?` | AccountId[] |

@@ -25,7 +25,7 @@
 
 *Inherited from [JsonRpcObject](_types_.jsonrpcobject.md).[id](_types_.jsonrpcobject.md#id)*
 
-*Defined in [packages/rpc-provider/src/types.ts:6](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/rpc-provider/src/types.ts#L6)*
+*Defined in [packages/rpc-provider/src/types.ts:6](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/rpc-provider/src/types.ts#L6)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 *Inherited from [JsonRpcObject](_types_.jsonrpcobject.md).[jsonrpc](_types_.jsonrpcobject.md#jsonrpc)*
 
-*Defined in [packages/rpc-provider/src/types.ts:7](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/rpc-provider/src/types.ts#L7)*
+*Defined in [packages/rpc-provider/src/types.ts:7](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/rpc-provider/src/types.ts#L7)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **method**: *string*
 
-*Defined in [packages/rpc-provider/src/types.ts:11](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/rpc-provider/src/types.ts#L11)*
+*Defined in [packages/rpc-provider/src/types.ts:11](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/rpc-provider/src/types.ts#L11)*
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 • **params**: *any[]*
 
-*Defined in [packages/rpc-provider/src/types.ts:12](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/rpc-provider/src/types.ts#L12)*
+*Defined in [packages/rpc-provider/src/types.ts:12](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/rpc-provider/src/types.ts#L12)*

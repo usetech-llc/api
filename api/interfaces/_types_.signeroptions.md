@@ -18,6 +18,7 @@
 * [genesisHash](_types_.signeroptions.md#genesishash)
 * [nonce](_types_.signeroptions.md#nonce)
 * [runtimeVersion](_types_.signeroptions.md#runtimeversion)
+* [signer](_types_.signeroptions.md#optional-signer)
 * [tip](_types_.signeroptions.md#optional-tip)
 
 ## Properties
@@ -28,7 +29,7 @@
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:164](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L164)*
+*Defined in [types/src/types.ts:165](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L165)*
 
 ___
 
@@ -36,7 +37,7 @@ ___
 
 • **blockNumber**: *BN*
 
-*Defined in [api/src/types.ts:250](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/api/src/types.ts#L250)*
+*Defined in [api/src/types.ts:250](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/api/src/types.ts#L250)*
 
 ___
 
@@ -46,7 +47,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:165](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L165)*
+*Defined in [types/src/types.ts:166](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L166)*
 
 ___
 
@@ -56,7 +57,7 @@ ___
 
 *Overrides void*
 
-*Defined in [api/src/types.ts:251](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/api/src/types.ts#L251)*
+*Defined in [api/src/types.ts:251](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/api/src/types.ts#L251)*
 
 ___
 
@@ -66,7 +67,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:167](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L167)*
+*Defined in [types/src/types.ts:168](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L168)*
 
 ___
 
@@ -76,7 +77,17 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:168](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L168)*
+*Defined in [types/src/types.ts:169](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L169)*
+
+___
+
+### `Optional` signer
+
+• **signer**? : *[Signer](_types_.signer.md)*
+
+*Inherited from void*
+
+*Defined in [types/src/types.ts:170](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L170)*
 
 ___
 
@@ -86,4 +97,4 @@ ___
 
 *Inherited from void*
 
-*Defined in [types/src/types.ts:169](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L169)*
+*Defined in [types/src/types.ts:171](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L171)*

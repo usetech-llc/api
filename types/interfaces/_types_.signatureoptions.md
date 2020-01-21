@@ -15,6 +15,7 @@
 * [genesisHash](_types_.signatureoptions.md#genesishash)
 * [nonce](_types_.signatureoptions.md#nonce)
 * [runtimeVersion](_types_.signatureoptions.md#runtimeversion)
+* [signer](_types_.signatureoptions.md#optional-signer)
 * [tip](_types_.signatureoptions.md#optional-tip)
 
 ## Properties
@@ -23,7 +24,7 @@
 
 • **blockHash**: *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [packages/types/src/types.ts:164](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L164)*
+*Defined in [packages/types/src/types.ts:165](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L165)*
 
 ___
 
@@ -31,7 +32,7 @@ ___
 
 • **era**? : *[IExtrinsicEra](_types_.iextrinsicera.md)*
 
-*Defined in [packages/types/src/types.ts:165](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L165)*
+*Defined in [packages/types/src/types.ts:166](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L166)*
 
 ___
 
@@ -39,7 +40,7 @@ ___
 
 • **genesisHash**: *[AnyU8a](../modules/_types_.md#anyu8a)*
 
-*Defined in [packages/types/src/types.ts:166](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L166)*
+*Defined in [packages/types/src/types.ts:167](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L167)*
 
 ___
 
@@ -47,7 +48,7 @@ ___
 
 • **nonce**: *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [packages/types/src/types.ts:167](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L167)*
+*Defined in [packages/types/src/types.ts:168](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L168)*
 
 ___
 
@@ -55,7 +56,15 @@ ___
 
 • **runtimeVersion**: *[RuntimeVersionInterface](_types_.runtimeversioninterface.md)*
 
-*Defined in [packages/types/src/types.ts:168](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L168)*
+*Defined in [packages/types/src/types.ts:169](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L169)*
+
+___
+
+### `Optional` signer
+
+• **signer**? : *Signer*
+
+*Defined in [packages/types/src/types.ts:170](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L170)*
 
 ___
 
@@ -63,4 +72,4 @@ ___
 
 • **tip**? : *[AnyNumber](../modules/_types_.md#anynumber)*
 
-*Defined in [packages/types/src/types.ts:169](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L169)*
+*Defined in [packages/types/src/types.ts:171](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L171)*

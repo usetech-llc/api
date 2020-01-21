@@ -24,7 +24,7 @@
 
 • **abi**: *[ContractABI](_types_.contractabi.md)*
 
-*Defined in [api-contract/src/types.ts:185](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/api-contract/src/types.ts#L185)*
+*Defined in [api-contract/src/types.ts:185](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/api-contract/src/types.ts#L185)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **constructors**: *[AbiConstructors](../modules/_types_.md#abiconstructors)*
 
-*Defined in [api-contract/src/types.ts:186](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/api-contract/src/types.ts#L186)*
+*Defined in [api-contract/src/types.ts:186](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/api-contract/src/types.ts#L186)*
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 • **messages**: *[AbiMessages](../modules/_types_.md#abimessages)*
 
-*Defined in [api-contract/src/types.ts:187](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/api-contract/src/types.ts#L187)*
+*Defined in [api-contract/src/types.ts:187](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/api-contract/src/types.ts#L187)*

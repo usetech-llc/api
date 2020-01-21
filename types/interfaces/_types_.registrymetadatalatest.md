@@ -18,4 +18,4 @@
 
 • **modules**: *[RegistryMetadataModule](_types_.registrymetadatamodule.md)[]*
 
-*Defined in [packages/types/src/types.ts:375](https://github.com/polkadot-js/api/blob/eb5ee9860b/packages/types/src/types.ts#L375)*
+*Defined in [packages/types/src/types.ts:377](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L377)*

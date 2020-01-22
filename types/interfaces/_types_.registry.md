@@ -31,7 +31,7 @@
 
 ▸ **findMetaCall**(`callIndex`: Uint8Array): *[CallFunction](_types_.callfunction.md)*
 
-*Defined in [packages/types/src/types.ts:385](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L385)*
+*Defined in [packages/types/src/types.ts:385](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L385)*
 
 **Parameters:**
 
@@ -47,7 +47,7 @@ ___
 
 ▸ **findMetaError**(`errorIndex`: Uint8Array): *any*
 
-*Defined in [packages/types/src/types.ts:386](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L386)*
+*Defined in [packages/types/src/types.ts:386](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L386)*
 
 **Parameters:**
 
@@ -63,7 +63,7 @@ ___
 
 ▸ **findMetaEvent**(`eventIndex`: Uint8Array): *[Constructor](_types_.constructor.md)‹any›*
 
-*Defined in [packages/types/src/types.ts:389](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L389)*
+*Defined in [packages/types/src/types.ts:389](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L389)*
 
 **Parameters:**
 
@@ -79,7 +79,7 @@ ___
 
 ▸ **get**<**T**>(`name`: string): *[Constructor](_types_.constructor.md)‹T› | undefined*
 
-*Defined in [packages/types/src/types.ts:391](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L391)*
+*Defined in [packages/types/src/types.ts:391](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L391)*
 
 **Type parameters:**
 
@@ -99,7 +99,7 @@ ___
 
 ▸ **getOrThrow**<**T**>(`name`: string, `msg?`: undefined | string): *[Constructor](_types_.constructor.md)‹T›*
 
-*Defined in [packages/types/src/types.ts:392](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L392)*
+*Defined in [packages/types/src/types.ts:392](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L392)*
 
 **Type parameters:**
 
@@ -120,7 +120,7 @@ ___
 
 ▸ **hasClass**(`name`: string): *boolean*
 
-*Defined in [packages/types/src/types.ts:393](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L393)*
+*Defined in [packages/types/src/types.ts:393](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L393)*
 
 **Parameters:**
 
@@ -136,7 +136,7 @@ ___
 
 ▸ **hasDef**(`name`: string): *boolean*
 
-*Defined in [packages/types/src/types.ts:394](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L394)*
+*Defined in [packages/types/src/types.ts:394](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L394)*
 
 **Parameters:**
 
@@ -152,7 +152,7 @@ ___
 
 ▸ **hasType**(`name`: string): *boolean*
 
-*Defined in [packages/types/src/types.ts:395](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L395)*
+*Defined in [packages/types/src/types.ts:395](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L395)*
 
 **Parameters:**
 
@@ -168,7 +168,7 @@ ___
 
 ▸ **register**(`type`: [Constructor](_types_.constructor.md) | [RegistryTypes](../modules/_types_.md#registrytypes)): *void*
 
-*Defined in [packages/types/src/types.ts:396](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L396)*
+*Defined in [packages/types/src/types.ts:396](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L396)*
 
 **Parameters:**
 
@@ -180,7 +180,7 @@ Name | Type |
 
 ▸ **register**(`name`: string, `type`: [Constructor](_types_.constructor.md)): *void*
 
-*Defined in [packages/types/src/types.ts:397](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L397)*
+*Defined in [packages/types/src/types.ts:397](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L397)*
 
 **Parameters:**
 
@@ -193,7 +193,7 @@ Name | Type |
 
 ▸ **register**(`arg1`: string | [Constructor](_types_.constructor.md) | [RegistryTypes](../modules/_types_.md#registrytypes), `arg2?`: [Constructor](_types_.constructor.md)): *void*
 
-*Defined in [packages/types/src/types.ts:398](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L398)*
+*Defined in [packages/types/src/types.ts:398](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L398)*
 
 **Parameters:**
 
@@ -210,7 +210,7 @@ ___
 
 ▸ **setMetadata**(`metadata`: [RegistryMetadata](_types_.registrymetadata.md)): *void*
 
-*Defined in [packages/types/src/types.ts:399](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L399)*
+*Defined in [packages/types/src/types.ts:399](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L399)*
 
 **Parameters:**
 

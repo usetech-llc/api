@@ -22,7 +22,7 @@
 
 • **blockHash**: *AnyU8a*
 
-*Defined in [api/src/submittable/types.ts:48](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/api/src/submittable/types.ts#L48)*
+*Defined in [api/src/submittable/types.ts:48](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api/src/submittable/types.ts#L48)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **era**? : *IExtrinsicEra | number*
 
-*Defined in [api/src/submittable/types.ts:49](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/api/src/submittable/types.ts#L49)*
+*Defined in [api/src/submittable/types.ts:49](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api/src/submittable/types.ts#L49)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **nonce**: *AnyNumber*
 
-*Defined in [api/src/submittable/types.ts:50](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/api/src/submittable/types.ts#L50)*
+*Defined in [api/src/submittable/types.ts:50](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api/src/submittable/types.ts#L50)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **signer**? : *[Signer](_types_.signer.md)*
 
-*Defined in [api/src/submittable/types.ts:51](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/api/src/submittable/types.ts#L51)*
+*Defined in [api/src/submittable/types.ts:51](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api/src/submittable/types.ts#L51)*
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 • **tip**? : *AnyNumber*
 
-*Defined in [api/src/submittable/types.ts:52](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/api/src/submittable/types.ts#L52)*
+*Defined in [api/src/submittable/types.ts:52](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api/src/submittable/types.ts#L52)*

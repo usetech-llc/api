@@ -18,6 +18,7 @@
 * [RewardDestination](../interfaces/_interfaces_staking_types_.rewarddestination.md)
 * [SlashJournalEntry](../interfaces/_interfaces_staking_types_.slashjournalentry.md)
 * [SlashingSpans](../interfaces/_interfaces_staking_types_.slashingspans.md)
+* [SlashingSpansTo204](../interfaces/_interfaces_staking_types_.slashingspansto204.md)
 * [SpanIndex](../interfaces/_interfaces_staking_types_.spanindex.md)
 * [SpanRecord](../interfaces/_interfaces_staking_types_.spanrecord.md)
 * [StakingLedger](../interfaces/_interfaces_staking_types_.stakingledger.md)

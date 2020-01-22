@@ -21,7 +21,7 @@
 
 • **documentation**: *string[]*
 
-*Defined in [packages/types/src/types.ts:342](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L342)*
+*Defined in [packages/types/src/types.ts:342](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L342)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **index**: *number*
 
-*Defined in [packages/types/src/types.ts:343](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L343)*
+*Defined in [packages/types/src/types.ts:343](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L343)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **name**: *string*
 
-*Defined in [packages/types/src/types.ts:344](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L344)*
+*Defined in [packages/types/src/types.ts:344](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L344)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **section**: *string*
 
-*Defined in [packages/types/src/types.ts:345](https://github.com/polkadot-js/api/blob/20ed3bb5fe/packages/types/src/types.ts#L345)*
+*Defined in [packages/types/src/types.ts:345](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L345)*

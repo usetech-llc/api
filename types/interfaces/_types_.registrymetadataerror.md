@@ -19,7 +19,7 @@
 
 • **documentation**: *String[]*
 
-*Defined in [packages/types/src/types.ts:352](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L352)*
+*Defined in [packages/types/src/types.ts:352](https://github.com/polkadot-js/api/blob/da8ff51615/packages/types/src/types.ts#L352)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **name**: *String*
 
-*Defined in [packages/types/src/types.ts:350](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L350)*
+*Defined in [packages/types/src/types.ts:350](https://github.com/polkadot-js/api/blob/da8ff51615/packages/types/src/types.ts#L350)*

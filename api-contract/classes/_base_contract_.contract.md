@@ -52,7 +52,7 @@
 
 *Overrides [BaseWithTx](_base_util_.basewithtx.md).[constructor](_base_util_.basewithtx.md#constructor)*
 
-*Defined in [api-contract/src/base/Contract.ts:90](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api-contract/src/base/Contract.ts#L90)*
+*Defined in [api-contract/src/base/Contract.ts:90](https://github.com/polkadot-js/api/blob/da8ff51615/packages/api-contract/src/base/Contract.ts#L90)*
 
 **Parameters:**
 
@@ -75,7 +75,7 @@ Name | Type |
 
 *Inherited from [Base](_base_util_.base.md).[abi](_base_util_.base.md#abi)*
 
-*Defined in [api-contract/src/base/util.ts:14](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api-contract/src/base/util.ts#L14)*
+*Defined in [api-contract/src/base/util.ts:14](https://github.com/polkadot-js/api/blob/da8ff51615/packages/api-contract/src/base/util.ts#L14)*
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 • **address**: *Address*
 
-*Defined in [api-contract/src/base/Contract.ts:35](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api-contract/src/base/Contract.ts#L35)*
+*Defined in [api-contract/src/base/Contract.ts:35](https://github.com/polkadot-js/api/blob/da8ff51615/packages/api-contract/src/base/Contract.ts#L35)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[api](_base_util_.base.md#api)*
 
-*Defined in [api-contract/src/base/util.ts:16](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api-contract/src/base/util.ts#L16)*
+*Defined in [api-contract/src/base/util.ts:16](https://github.com/polkadot-js/api/blob/da8ff51615/packages/api-contract/src/base/util.ts#L16)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[decorateMethod](_base_util_.base.md#decoratemethod)*
 
-*Defined in [api-contract/src/base/util.ts:18](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api-contract/src/base/util.ts#L18)*
+*Defined in [api-contract/src/base/util.ts:18](https://github.com/polkadot-js/api/blob/da8ff51615/packages/api-contract/src/base/util.ts#L18)*
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[registry](_base_util_.base.md#registry)*
 
-*Defined in [api-contract/src/base/util.ts:20](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api-contract/src/base/util.ts#L20)*
+*Defined in [api-contract/src/base/util.ts:20](https://github.com/polkadot-js/api/blob/da8ff51615/packages/api-contract/src/base/util.ts#L20)*
 
 ## Accessors
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [BaseWithTxAndRpcCall](_base_util_.basewithtxandrpccall.md).[hasRpcContractsCall](_base_util_.basewithtxandrpccall.md#hasrpccontractscall)*
 
-*Defined in [api-contract/src/base/util.ts:69](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api-contract/src/base/util.ts#L69)*
+*Defined in [api-contract/src/base/util.ts:69](https://github.com/polkadot-js/api/blob/da8ff51615/packages/api-contract/src/base/util.ts#L69)*
 
 **Returns:** *boolean*
 
@@ -139,7 +139,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[messages](_base_util_.base.md#messages)*
 
-*Defined in [api-contract/src/base/util.ts:31](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api-contract/src/base/util.ts#L31)*
+*Defined in [api-contract/src/base/util.ts:31](https://github.com/polkadot-js/api/blob/da8ff51615/packages/api-contract/src/base/util.ts#L31)*
 
 **Returns:** *[ContractMessage](../interfaces/_types_.contractmessage.md)[]*
 
@@ -149,7 +149,7 @@ ___
 
 ▸ **call**(`as`: "rpc", `message`: string, `value`: BN | number, `gasLimit`: BN | number, ...`params`: any[]): *[ContractCall](../interfaces/_base_contract_.contractcall.md)‹ApiType, "rpc"›*
 
-*Defined in [api-contract/src/base/Contract.ts:37](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api-contract/src/base/Contract.ts#L37)*
+*Defined in [api-contract/src/base/Contract.ts:37](https://github.com/polkadot-js/api/blob/da8ff51615/packages/api-contract/src/base/Contract.ts#L37)*
 
 **Parameters:**
 
@@ -165,7 +165,7 @@ Name | Type |
 
 ▸ **call**(`as`: "tx", `message`: string, `value`: BN | number, `gasLimit`: BN | number, ...`params`: any[]): *[ContractCall](../interfaces/_base_contract_.contractcall.md)‹ApiType, "tx"›*
 
-*Defined in [api-contract/src/base/Contract.ts:38](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api-contract/src/base/Contract.ts#L38)*
+*Defined in [api-contract/src/base/Contract.ts:38](https://github.com/polkadot-js/api/blob/da8ff51615/packages/api-contract/src/base/Contract.ts#L38)*
 
 **Parameters:**
 
@@ -187,7 +187,7 @@ ___
 
 *Inherited from [Base](_base_util_.base.md).[getMessage](_base_util_.base.md#getmessage)*
 
-*Defined in [api-contract/src/base/util.ts:42](https://github.com/polkadot-js/api/blob/7ed1857589/packages/api-contract/src/base/util.ts#L42)*
+*Defined in [api-contract/src/base/util.ts:42](https://github.com/polkadot-js/api/blob/da8ff51615/packages/api-contract/src/base/util.ts#L42)*
 
 **Parameters:**
 

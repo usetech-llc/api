@@ -10,7 +10,7 @@
 
 ▸ (...`args`: any[]): *[Call](_interfaces_runtime_types_.call.md)*
 
-*Defined in [packages/types/src/types.ts:20](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L20)*
+*Defined in [packages/types/src/types.ts:20](https://github.com/polkadot-js/api/blob/da8ff51615/packages/types/src/types.ts#L20)*
 
 **Parameters:**
 
@@ -36,7 +36,7 @@ Name | Type |
 
 • **callIndex**: *Uint8Array*
 
-*Defined in [packages/types/src/types.ts:22](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L22)*
+*Defined in [packages/types/src/types.ts:22](https://github.com/polkadot-js/api/blob/da8ff51615/packages/types/src/types.ts#L22)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **meta**: *[FunctionMetadataLatest](_interfaces_metadata_types_.functionmetadatalatest.md)*
 
-*Defined in [packages/types/src/types.ts:23](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L23)*
+*Defined in [packages/types/src/types.ts:23](https://github.com/polkadot-js/api/blob/da8ff51615/packages/types/src/types.ts#L23)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **method**: *string*
 
-*Defined in [packages/types/src/types.ts:24](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L24)*
+*Defined in [packages/types/src/types.ts:24](https://github.com/polkadot-js/api/blob/da8ff51615/packages/types/src/types.ts#L24)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **section**: *string*
 
-*Defined in [packages/types/src/types.ts:25](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L25)*
+*Defined in [packages/types/src/types.ts:25](https://github.com/polkadot-js/api/blob/da8ff51615/packages/types/src/types.ts#L25)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • **toJSON**: *function*
 
-*Defined in [packages/types/src/types.ts:26](https://github.com/polkadot-js/api/blob/7ed1857589/packages/types/src/types.ts#L26)*
+*Defined in [packages/types/src/types.ts:26](https://github.com/polkadot-js/api/blob/da8ff51615/packages/types/src/types.ts#L26)*
 
 #### Type declaration:
 

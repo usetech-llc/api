@@ -8,7 +8,7 @@
 
 * [IdentityInfo](../interfaces/_interfaces_identity_types_.identityinfo.md)
 * [IdentityInfoAdditional](../interfaces/_interfaces_identity_types_.identityinfoadditional.md)
-* [Judgement](../interfaces/_interfaces_identity_types_.judgement.md)
+* [IdentityJudgement](../interfaces/_interfaces_identity_types_.identityjudgement.md)
 * [RegistrarIndex](../interfaces/_interfaces_identity_types_.registrarindex.md)
 * [RegistrarInfo](../interfaces/_interfaces_identity_types_.registrarinfo.md)
 * [Registration](../interfaces/_interfaces_identity_types_.registration.md)

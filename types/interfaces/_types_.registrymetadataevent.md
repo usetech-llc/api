@@ -19,12 +19,12 @@
 
 • **args**: *any[]*
 
-*Defined in [packages/types/src/types.ts:358](https://github.com/polkadot-js/api/blob/da8ff51615/packages/types/src/types.ts#L358)*
+*Defined in [packages/types/src/types.ts:366](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/types/src/types.ts#L366)*
 
 ___
 
 ###  name
 
-• **name**: *String & [Codec](_types_.codec.md)*
+• **name**: *[RegistryMetadataText](_types_.registrymetadatatext.md)*
 
-*Defined in [packages/types/src/types.ts:360](https://github.com/polkadot-js/api/blob/da8ff51615/packages/types/src/types.ts#L360)*
+*Defined in [packages/types/src/types.ts:367](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/types/src/types.ts#L367)*

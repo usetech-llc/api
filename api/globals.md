@@ -9,7 +9,6 @@
 * ["base/Decorate"](modules/_base_decorate_.md)
 * ["base/Events"](modules/_base_events_.md)
 * ["base/Init"](modules/_base_init_.md)
-* ["base/typeInjector"](modules/_base_typeinjector_.md)
 * ["checkTypes.manual"](modules/_checktypes_manual_.md)
 * ["consts.types"](modules/_consts_types_.md)
 * ["promise/Api"](modules/_promise_api_.md)

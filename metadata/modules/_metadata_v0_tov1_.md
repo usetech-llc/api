@@ -14,7 +14,7 @@
 
 ▸ **toV1**(`registry`: Registry, `metadataV0`: MetadataV0): *MetadataV1*
 
-*Defined in [packages/metadata/src/Metadata/v0/toV1.ts:37](https://github.com/polkadot-js/api/blob/da8ff51615/packages/metadata/src/Metadata/v0/toV1.ts#L37)*
+*Defined in [packages/metadata/src/Metadata/v0/toV1.ts:37](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/metadata/src/Metadata/v0/toV1.ts#L37)*
 
 Function that converts MetadataV0 to MetadataV1
 

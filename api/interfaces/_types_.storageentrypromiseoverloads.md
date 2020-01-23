@@ -10,7 +10,7 @@
 
 ▸ (`arg1?`: CodecArg, `arg2?`: CodecArg): *Promise‹Codec›*
 
-*Defined in [api/src/types.ts:120](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api/src/types.ts#L120)*
+*Defined in [api/src/types.ts:120](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L120)*
 
 **Parameters:**
 
@@ -23,7 +23,7 @@ Name | Type |
 
 ▸ <**T**>(`arg1?`: CodecArg, `arg2?`: CodecArg): *Promise‹T›*
 
-*Defined in [api/src/types.ts:121](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api/src/types.ts#L121)*
+*Defined in [api/src/types.ts:121](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L121)*
 
 **Type parameters:**
 
@@ -40,7 +40,7 @@ Name | Type |
 
 ▸ <**T**>(`callback`: Callback‹T›): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [api/src/types.ts:122](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api/src/types.ts#L122)*
+*Defined in [api/src/types.ts:122](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L122)*
 
 **Type parameters:**
 
@@ -56,7 +56,7 @@ Name | Type |
 
 ▸ <**T**>(`arg`: CodecArg, `callback`: Callback‹T›): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [api/src/types.ts:123](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api/src/types.ts#L123)*
+*Defined in [api/src/types.ts:123](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L123)*
 
 **Type parameters:**
 
@@ -73,7 +73,7 @@ Name | Type |
 
 ▸ <**T**>(`arg1`: CodecArg, `arg2`: CodecArg, `callback`: Callback‹T›): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
 
-*Defined in [api/src/types.ts:124](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api/src/types.ts#L124)*
+*Defined in [api/src/types.ts:124](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L124)*
 
 **Type parameters:**
 

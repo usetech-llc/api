@@ -21,7 +21,7 @@
 
 • **accountId**: *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:162](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L162)*
+*Defined in [packages/api-derive/src/types.ts:162](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L162)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **isSuspended**: *boolean*
 
-*Defined in [packages/api-derive/src/types.ts:165](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L165)*
+*Defined in [packages/api-derive/src/types.ts:165](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L165)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **kind**: *BidKind*
 
-*Defined in [packages/api-derive/src/types.ts:163](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L163)*
+*Defined in [packages/api-derive/src/types.ts:163](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L163)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **value**: *Balance*
 
-*Defined in [packages/api-derive/src/types.ts:164](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L164)*
+*Defined in [packages/api-derive/src/types.ts:164](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L164)*

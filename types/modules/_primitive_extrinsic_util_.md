@@ -14,7 +14,7 @@
 
 ▸ **sign**(`signerPair`: [IKeyringPair](../interfaces/_types_.ikeyringpair.md), `u8a`: Uint8Array, `options?`: SignOptions): *Uint8Array*
 
-*Defined in [packages/types/src/primitive/Extrinsic/util.ts:11](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/types/src/primitive/Extrinsic/util.ts#L11)*
+*Defined in [packages/types/src/primitive/Extrinsic/util.ts:11](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/primitive/Extrinsic/util.ts#L11)*
 
 **Parameters:**
 

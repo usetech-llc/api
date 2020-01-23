@@ -19,7 +19,7 @@
 
 • **documentation**: *String[]*
 
-*Defined in [packages/types/src/types.ts:360](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/types/src/types.ts#L360)*
+*Defined in [packages/types/src/types.ts:360](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L360)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **name**: *String*
 
-*Defined in [packages/types/src/types.ts:358](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/types/src/types.ts#L358)*
+*Defined in [packages/types/src/types.ts:358](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L358)*

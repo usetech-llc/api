@@ -18,4 +18,4 @@
 
 • **union.fields**: *[MetaTypeDefUnionField](../modules/_codec_create_types_.md#metatypedefunionfield)[]*
 
-*Defined in [packages/types/src/codec/create/types.ts:139](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/types/src/codec/create/types.ts#L139)*
+*Defined in [packages/types/src/codec/create/types.ts:139](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/create/types.ts#L139)*

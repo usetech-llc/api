@@ -50,7 +50,7 @@
 
 Ƭ **AccountIndexes**: *Record‹string, AccountIndex›*
 
-*Defined in [packages/api-derive/src/types.ts:10](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L10)*
+*Defined in [packages/api-derive/src/types.ts:10](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L10)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 Ƭ **DerivedBalancesMap**: *Record‹string, [DerivedBalances](../interfaces/_types_.derivedbalances.md)›*
 
-*Defined in [packages/api-derive/src/types.ts:47](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L47)*
+*Defined in [packages/api-derive/src/types.ts:47](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L47)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 Ƭ **DerivedCollectiveProposals**: *[DerivedCollectiveProposal](../interfaces/_types_.derivedcollectiveproposal.md)[]*
 
-*Defined in [packages/api-derive/src/types.ts:68](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L68)*
+*Defined in [packages/api-derive/src/types.ts:68](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L68)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 Ƭ **DerivedHeartbeats**: *Record‹string, [DerivedHeartbeatAuthor](../interfaces/_types_.derivedheartbeatauthor.md)›*
 
-*Defined in [packages/api-derive/src/types.ts:98](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L98)*
+*Defined in [packages/api-derive/src/types.ts:98](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L98)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 Ƭ **DerivedRecentlyOffline**: *Record‹string, [RecentlyOffline](../interfaces/_types_.recentlyoffline.md)[]›*
 
-*Defined in [packages/api-derive/src/types.ts:129](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L129)*
+*Defined in [packages/api-derive/src/types.ts:129](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L129)*
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 Ƭ **DerivedUnlocking**: *object*
 
-*Defined in [packages/api-derive/src/types.ts:227](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L227)*
+*Defined in [packages/api-derive/src/types.ts:227](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L227)*
 
 #### Type declaration:
 
@@ -100,4 +100,4 @@ ___
 
 Ƭ **DerivedVoterPositions**: *Record‹string, [VoterPosition](../interfaces/_types_.voterposition.md)›*
 
-*Defined in [packages/api-derive/src/types.ts:238](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L238)*
+*Defined in [packages/api-derive/src/types.ts:238](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L238)*

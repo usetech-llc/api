@@ -23,7 +23,7 @@
 
 • **accountId**: *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:169](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L169)*
+*Defined in [packages/api-derive/src/types.ts:169](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L169)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **isSuspended**: *boolean*
 
-*Defined in [packages/api-derive/src/types.ts:170](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L170)*
+*Defined in [packages/api-derive/src/types.ts:170](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L170)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **payouts**: *[BlockNumber, Balance][]*
 
-*Defined in [packages/api-derive/src/types.ts:171](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L171)*
+*Defined in [packages/api-derive/src/types.ts:171](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L171)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **strikes**: *StrikeCount*
 
-*Defined in [packages/api-derive/src/types.ts:172](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L172)*
+*Defined in [packages/api-derive/src/types.ts:172](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L172)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **vote**? : *Vote*
 
-*Defined in [packages/api-derive/src/types.ts:173](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L173)*
+*Defined in [packages/api-derive/src/types.ts:173](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L173)*
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 • **vouching**? : *VouchingStatus*
 
-*Defined in [packages/api-derive/src/types.ts:174](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api-derive/src/types.ts#L174)*
+*Defined in [packages/api-derive/src/types.ts:174](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L174)*

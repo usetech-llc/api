@@ -24,7 +24,7 @@
 
 Ƭ **SubmittablePaymentResult**: *ApiType extends "rxjs" ? Observable<RuntimeDispatchInfo> : Promise<RuntimeDispatchInfo>*
 
-*Defined in [api/src/submittable/types.ts:27](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api/src/submittable/types.ts#L27)*
+*Defined in [api/src/submittable/types.ts:27](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/submittable/types.ts#L27)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 Ƭ **SubmittableResultResult**: *ApiType extends "rxjs" ? Observable<SubmittableResultImpl> : Promise<Hash>*
 
-*Defined in [api/src/submittable/types.ts:32](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api/src/submittable/types.ts#L32)*
+*Defined in [api/src/submittable/types.ts:32](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/submittable/types.ts#L32)*
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 Ƭ **SubmittableResultSubscription**: *ApiType extends "rxjs" ? Observable<SubmittableResultImpl> : Promise<function>*
 
-*Defined in [api/src/submittable/types.ts:37](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api/src/submittable/types.ts#L37)*
+*Defined in [api/src/submittable/types.ts:37](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/submittable/types.ts#L37)*
 
 ___
 
@@ -48,4 +48,4 @@ ___
 
 Ƭ **SubmittableThis**: *ApiType extends "rxjs" ? Observable<THIS> : Promise<THIS>*
 
-*Defined in [api/src/submittable/types.ts:42](https://github.com/polkadot-js/api/blob/c1c537a3b5/packages/api/src/submittable/types.ts#L42)*
+*Defined in [api/src/submittable/types.ts:42](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/submittable/types.ts#L42)*

@@ -23,7 +23,7 @@
 
 • **bids**: *Bid[]*
 
-*Defined in [packages/api-derive/src/types.ts:153](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L153)*
+*Defined in [packages/api-derive/src/types.ts:153](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api-derive/src/types.ts#L153)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **defender**? : *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:154](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L154)*
+*Defined in [packages/api-derive/src/types.ts:154](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api-derive/src/types.ts#L154)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **founder**? : *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:156](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L156)*
+*Defined in [packages/api-derive/src/types.ts:156](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api-derive/src/types.ts#L156)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **head**? : *AccountId*
 
-*Defined in [packages/api-derive/src/types.ts:155](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L155)*
+*Defined in [packages/api-derive/src/types.ts:155](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api-derive/src/types.ts#L155)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **maxMembers**: *u32*
 
-*Defined in [packages/api-derive/src/types.ts:157](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L157)*
+*Defined in [packages/api-derive/src/types.ts:157](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api-derive/src/types.ts#L157)*
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 • **pot**: *BalanceOf*
 
-*Defined in [packages/api-derive/src/types.ts:158](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/types.ts#L158)*
+*Defined in [packages/api-derive/src/types.ts:158](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api-derive/src/types.ts#L158)*

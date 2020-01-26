@@ -25,9 +25,11 @@
 
 • **account**: *object*
 
-*Defined in [jsonrpc.types.ts:13](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/rpc-core/src/jsonrpc.types.ts#L13)*
+*Defined in [jsonrpc.types.ts:13](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/rpc-core/src/jsonrpc.types.ts#L13)*
 
 #### Type declaration:
+
+* **nextIndex**(`accountId`: AccountId | Uint8Array | string): *Observable‹Index›*
 
 ___
 
@@ -35,9 +37,21 @@ ___
 
 • **author**: *object*
 
-*Defined in [jsonrpc.types.ts:16](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/rpc-core/src/jsonrpc.types.ts#L16)*
+*Defined in [jsonrpc.types.ts:16](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/rpc-core/src/jsonrpc.types.ts#L16)*
 
 #### Type declaration:
+
+* **insertKey**(`keyType`: Text | string, `suri`: Text | string, `publicKey`: Bytes | Uint8Array | string): *Observable‹Bytes›*
+
+* **pendingExtrinsics**(): *Observable‹Vec‹Extrinsic››*
+
+* **removeExtrinsic**(`bytesOrHash`: ExtrinsicOrHash[]): *Observable‹Vec‹Hash››*
+
+* **rotateKeys**(): *Observable‹Bytes›*
+
+* **submitAndWatchExtrinsic**(`extrinsic`: IExtrinsic): *Observable‹ExtrinsicStatus›*
+
+* **submitExtrinsic**(`extrinsic`: IExtrinsic): *Observable‹Hash›*
 
 ___
 
@@ -45,9 +59,21 @@ ___
 
 • **chain**: *object*
 
-*Defined in [jsonrpc.types.ts:24](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/rpc-core/src/jsonrpc.types.ts#L24)*
+*Defined in [jsonrpc.types.ts:24](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/rpc-core/src/jsonrpc.types.ts#L24)*
 
 #### Type declaration:
+
+* **getBlock**(`hash?`: BlockHash | Uint8Array | string): *Observable‹SignedBlock›*
+
+* **getBlockHash**(`blockNumber?`: BlockNumber | Uint8Array | number | string): *Observable‹BlockHash›*
+
+* **getFinalizedHead**(): *Observable‹BlockHash›*
+
+* **getHeader**(`hash?`: BlockHash | Uint8Array | string): *Observable‹Header›*
+
+* **subscribeFinalizedHeads**(): *Observable‹Header›*
+
+* **subscribeNewHeads**(): *Observable‹Header›*
 
 ___
 
@@ -55,9 +81,13 @@ ___
 
 • **contracts**: *object*
 
-*Defined in [jsonrpc.types.ts:32](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/rpc-core/src/jsonrpc.types.ts#L32)*
+*Defined in [jsonrpc.types.ts:32](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/rpc-core/src/jsonrpc.types.ts#L32)*
 
 #### Type declaration:
+
+* **call**(`callRequest`: ContractCallRequest, `at?`: BlockHash | Uint8Array | string): *Observable‹ContractExecResult›*
+
+* **getStorage**(`address`: AccountId | Uint8Array | string, `key`: H256 | Uint8Array | string, `at?`: BlockHash | Uint8Array | string): *Observable‹Option‹Bytes››*
 
 ___
 
@@ -65,9 +95,11 @@ ___
 
 • **payment**: *object*
 
-*Defined in [jsonrpc.types.ts:36](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/rpc-core/src/jsonrpc.types.ts#L36)*
+*Defined in [jsonrpc.types.ts:36](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/rpc-core/src/jsonrpc.types.ts#L36)*
 
 #### Type declaration:
+
+* **queryInfo**(`extrinsic`: Bytes | Uint8Array | string, `at?`: BlockHash | Uint8Array | string): *Observable‹RuntimeDispatchInfo›*
 
 ___
 
@@ -75,9 +107,11 @@ ___
 
 • **rpc**: *object*
 
-*Defined in [jsonrpc.types.ts:39](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/rpc-core/src/jsonrpc.types.ts#L39)*
+*Defined in [jsonrpc.types.ts:39](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/rpc-core/src/jsonrpc.types.ts#L39)*
 
 #### Type declaration:
+
+* **methods**(): *Observable‹RpcMethods›*
 
 ___
 
@@ -85,9 +119,37 @@ ___
 
 • **state**: *object*
 
-*Defined in [jsonrpc.types.ts:42](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/rpc-core/src/jsonrpc.types.ts#L42)*
+*Defined in [jsonrpc.types.ts:42](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/rpc-core/src/jsonrpc.types.ts#L42)*
 
 #### Type declaration:
+
+* **call**(`method`: Text | string, `data`: Bytes | Uint8Array | string, `at?`: BlockHash | Uint8Array | string): *Observable‹Bytes›*
+
+* **getChildKeys**(`childStorageKey`: any, `childDefinition`: any, `childType`: u32 | Uint8Array | number | string, `key`: any, `at?`: BlockHash | Uint8Array | string): *Observable‹Vec‹StorageKey››*
+
+* **getChildStorage**(`childStorageKey`: any, `childDefinition`: any, `childType`: u32 | Uint8Array | number | string, `key`: any, `at?`: BlockHash | Uint8Array | string): *Observable‹StorageData›*
+
+* **getChildStorageHash**(`childStorageKey`: any, `childDefinition`: any, `childType`: u32 | Uint8Array | number | string, `key`: any, `at?`: BlockHash | Uint8Array | string): *Observable‹Hash›*
+
+* **getChildStorageSize**(`childStorageKey`: any, `childDefinition`: any, `childType`: u32 | Uint8Array | number | string, `key`: any, `at?`: BlockHash | Uint8Array | string): *Observable‹u64›*
+
+* **getKeys**(`key`: any, `at?`: BlockHash | Uint8Array | string): *Observable‹Vec‹StorageKey››*
+
+* **getMetadata**(`at?`: BlockHash | Uint8Array | string): *Observable‹Metadata›*
+
+* **getRuntimeVersion**(`at?`: BlockHash | Uint8Array | string): *Observable‹RuntimeVersion›*
+
+* **getStorage**<**T**>(`key`: any, `block?`: Hash | Uint8Array | string): *Observable‹T›*
+
+* **getStorageHash**(`key`: any, `at?`: BlockHash | Uint8Array | string): *Observable‹Hash›*
+
+* **getStorageSize**(`key`: any, `at?`: BlockHash | Uint8Array | string): *Observable‹u64›*
+
+* **queryStorage**(`keys`: any[], `startBlock`: Hash | Uint8Array | string, `at?`: BlockHash | Uint8Array | string): *Observable‹Vec‹StorageChangeSet››*
+
+* **subscribeRuntimeVersion**(): *Observable‹RuntimeVersion›*
+
+* **subscribeStorage**<**T**>(`keys`: any[]): *Observable‹T›*
 
 ___
 
@@ -95,6 +157,20 @@ ___
 
 • **system**: *object*
 
-*Defined in [jsonrpc.types.ts:58](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/rpc-core/src/jsonrpc.types.ts#L58)*
+*Defined in [jsonrpc.types.ts:58](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/rpc-core/src/jsonrpc.types.ts#L58)*
 
 #### Type declaration:
+
+* **chain**(): *Observable‹Text›*
+
+* **health**(): *Observable‹Health›*
+
+* **name**(): *Observable‹Text›*
+
+* **networkState**(): *Observable‹NetworkState›*
+
+* **peers**(): *Observable‹Vec‹PeerInfo››*
+
+* **properties**(): *Observable‹ChainProperties›*
+
+* **version**(): *Observable‹Text›*

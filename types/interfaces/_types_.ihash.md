@@ -28,7 +28,6 @@
 ### Properties
 
 * [BYTES_PER_ELEMENT](_types_.ihash.md#bytes_per_element)
-* [[Symbol.toStringTag]](_types_.ihash.md#[symbol.tostringtag])
 * [buffer](_types_.ihash.md#buffer)
 * [byteLength](_types_.ihash.md#bytelength)
 * [byteOffset](_types_.ihash.md#byteoffset)
@@ -40,10 +39,8 @@
 
 ### Methods
 
-* [[Symbol.iterator]](_types_.ihash.md#[symbol.iterator])
 * [bitLength](_types_.ihash.md#bitlength)
 * [copyWithin](_types_.ihash.md#copywithin)
-* [entries](_types_.ihash.md#entries)
 * [eq](_types_.ihash.md#eq)
 * [every](_types_.ihash.md#every)
 * [fill](_types_.ihash.md#fill)
@@ -51,10 +48,8 @@
 * [find](_types_.ihash.md#find)
 * [findIndex](_types_.ihash.md#findindex)
 * [forEach](_types_.ihash.md#foreach)
-* [includes](_types_.ihash.md#includes)
 * [indexOf](_types_.ihash.md#indexof)
 * [join](_types_.ihash.md#join)
-* [keys](_types_.ihash.md#keys)
 * [lastIndexOf](_types_.ihash.md#lastindexof)
 * [map](_types_.ihash.md#map)
 * [reduce](_types_.ihash.md#reduce)
@@ -71,7 +66,6 @@
 * [toRawType](_types_.ihash.md#torawtype)
 * [toString](_types_.ihash.md#tostring)
 * [toU8a](_types_.ihash.md#tou8a)
-* [values](_types_.ihash.md#values)
 
 ## Properties
 
@@ -84,16 +78,6 @@
 Defined in node_modules/typescript/lib/lib.es5.d.ts:1988
 
 The size in bytes of each element in the array.
-
-___
-
-###  [Symbol.toStringTag]
-
-• **[Symbol.toStringTag]**: *"UInt8Array"*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:276
 
 ___
 
@@ -137,9 +121,9 @@ ___
 
 • **encodedLength**: *number*
 
-*Inherited from [Codec](_types_.codec.md).[encodedLength](_types_.codec.md#encodedlength)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[encodedLength](_interfaces_runtime_types_.consensus.md#encodedlength)*
 
-*Defined in [packages/types/src/types.ts:76](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L76)*
+*Defined in [packages/types/src/types.ts:76](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L76)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -149,9 +133,9 @@ ___
 
 • **hash**: *[IHash](_types_.ihash.md)*
 
-*Inherited from [Codec](_types_.codec.md).[hash](_types_.codec.md#hash)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[hash](_interfaces_runtime_types_.consensus.md#hash)*
 
-*Defined in [packages/types/src/types.ts:81](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L81)*
+*Defined in [packages/types/src/types.ts:81](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L81)*
 
 **`description`** Returns a hash of the value
 
@@ -161,9 +145,9 @@ ___
 
 • **isEmpty**: *boolean*
 
-*Inherited from [Codec](_types_.codec.md).[isEmpty](_types_.codec.md#isempty)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[isEmpty](_interfaces_runtime_types_.consensus.md#isempty)*
 
-*Defined in [packages/types/src/types.ts:86](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L86)*
+*Defined in [packages/types/src/types.ts:86](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L86)*
 
 **`description`** Checks if the value is an empty value
 
@@ -173,7 +157,7 @@ ___
 
 • **length**: *number*
 
-*Inherited from void*
+*Inherited from [EcdsaSignature](_interfaces_runtime_types_.ecdsasignature.md).[length](_interfaces_runtime_types_.ecdsasignature.md#length)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:2102
 
@@ -185,25 +169,13 @@ ___
 
 • **registry**: *[Registry](_types_.registry.md)*
 
-*Inherited from [Codec](_types_.codec.md).[registry](_types_.codec.md#registry)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[registry](_interfaces_runtime_types_.consensus.md#registry)*
 
-*Defined in [packages/types/src/types.ts:91](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L91)*
+*Defined in [packages/types/src/types.ts:91](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L91)*
 
 **`description`** The registry associated with this object
 
 ## Methods
-
-###  [Symbol.iterator]
-
-▸ **[Symbol.iterator]**(): *IterableIterator‹number›*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:275
-
-**Returns:** *IterableIterator‹number›*
-
-___
 
 ###  bitLength
 
@@ -211,7 +183,7 @@ ___
 
 *Inherited from [IU8a](_types_.iu8a.md).[bitLength](_types_.iu8a.md#bitlength)*
 
-*Defined in [packages/types/src/types.ts:127](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L127)*
+*Defined in [packages/types/src/types.ts:127](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L127)*
 
 **Returns:** *number*
 
@@ -240,27 +212,13 @@ Name | Type | Description |
 
 ___
 
-###  entries
-
-▸ **entries**(): *IterableIterator‹[number, number]›*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:279
-
-Returns an array of key, value pairs for every entry in the array
-
-**Returns:** *IterableIterator‹[number, number]›*
-
-___
-
 ###  eq
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Inherited from [Codec](_types_.codec.md).[eq](_types_.codec.md#eq)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[eq](_interfaces_runtime_types_.consensus.md#eq)*
 
-*Defined in [packages/types/src/types.ts:96](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L96)*
+*Defined in [packages/types/src/types.ts:96](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L96)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -292,7 +250,7 @@ A function that accepts up to three arguments. The every method calls
 the callbackfn function for each element in the array until the callbackfn returns a value
 which is coercible to the Boolean value false, or until the end of the array.
 
-▸ (`value`: number, `index`: number, `array`: Uint8Array): *unknown*
+▸ (`value`: number, `index`: number, `array`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *unknown*
 
 **Parameters:**
 
@@ -300,7 +258,7 @@ Name | Type |
 ------ | ------ |
 `value` | number |
 `index` | number |
-`array` | Uint8Array |
+`array` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 ▪`Optional`  **thisArg**: *any*
 
@@ -335,7 +293,7 @@ ___
 
 ###  filter
 
-▸ **filter**(`callbackfn`: function, `thisArg?`: any): *Uint8Array*
+▸ **filter**(`callbackfn`: function, `thisArg?`: any): *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
 *Inherited from void*
 
@@ -350,7 +308,7 @@ Returns the elements of an array that meet the condition specified in a callback
 A function that accepts up to three arguments. The filter method calls
 the callbackfn function one time for each element in the array.
 
-▸ (`value`: number, `index`: number, `array`: Uint8Array): *any*
+▸ (`value`: number, `index`: number, `array`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *any*
 
 **Parameters:**
 
@@ -358,14 +316,14 @@ Name | Type |
 ------ | ------ |
 `value` | number |
 `index` | number |
-`array` | Uint8Array |
+`array` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 ▪`Optional`  **thisArg**: *any*
 
 An object to which the this keyword can refer in the callbackfn function.
 If thisArg is omitted, undefined is used as the this value.
 
-**Returns:** *Uint8Array*
+**Returns:** *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
 ___
 
@@ -388,7 +346,7 @@ find calls predicate once for each element of the array, in ascending
 order, until it finds one where predicate returns true. If such an element is found, find
 immediately returns that element value. Otherwise, find returns undefined.
 
-▸ (`value`: number, `index`: number, `obj`: Uint8Array): *boolean*
+▸ (`value`: number, `index`: number, `obj`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *boolean*
 
 **Parameters:**
 
@@ -396,7 +354,7 @@ Name | Type |
 ------ | ------ |
 `value` | number |
 `index` | number |
-`obj` | Uint8Array |
+`obj` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 ▪`Optional`  **thisArg**: *any*
 
@@ -426,7 +384,7 @@ find calls predicate once for each element of the array, in ascending
 order, until it finds one where predicate returns true. If such an element is found,
 findIndex immediately returns that element index. Otherwise, findIndex returns -1.
 
-▸ (`value`: number, `index`: number, `obj`: Uint8Array): *boolean*
+▸ (`value`: number, `index`: number, `obj`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *boolean*
 
 **Parameters:**
 
@@ -434,7 +392,7 @@ Name | Type |
 ------ | ------ |
 `value` | number |
 `index` | number |
-`obj` | Uint8Array |
+`obj` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 ▪`Optional`  **thisArg**: *any*
 
@@ -462,7 +420,7 @@ Performs the specified action for each element in an array.
 A function that accepts up to three arguments. forEach calls the
 callbackfn function one time for each element in the array.
 
-▸ (`value`: number, `index`: number, `array`: Uint8Array): *void*
+▸ (`value`: number, `index`: number, `array`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *void*
 
 **Parameters:**
 
@@ -470,7 +428,7 @@ Name | Type |
 ------ | ------ |
 `value` | number |
 `index` | number |
-`array` | Uint8Array |
+`array` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 ▪`Optional`  **thisArg**: *any*
 
@@ -478,27 +436,6 @@ An object to which the this keyword can refer in the callbackfn function.
 If thisArg is omitted, undefined is used as the this value.
 
 **Returns:** *void*
-
-___
-
-###  includes
-
-▸ **includes**(`searchElement`: number, `fromIndex?`: undefined | number): *boolean*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2016.array.include.d.ts:54
-
-Determines whether an array includes a certain element, returning true or false as appropriate.
-
-**Parameters:**
-
-Name | Type | Description |
------- | ------ | ------ |
-`searchElement` | number | The element to search for. |
-`fromIndex?` | undefined &#124; number | The position in this array at which to begin searching for searchElement.  |
-
-**Returns:** *boolean*
 
 ___
 
@@ -543,20 +480,6 @@ Name | Type | Description |
 
 ___
 
-###  keys
-
-▸ **keys**(): *IterableIterator‹number›*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:283
-
-Returns an list of keys in the array
-
-**Returns:** *IterableIterator‹number›*
-
-___
-
 ###  lastIndexOf
 
 ▸ **lastIndexOf**(`searchElement`: number, `fromIndex?`: undefined | number): *number*
@@ -580,7 +503,7 @@ ___
 
 ###  map
 
-▸ **map**(`callbackfn`: function, `thisArg?`: any): *Uint8Array*
+▸ **map**(`callbackfn`: function, `thisArg?`: any): *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
 *Inherited from void*
 
@@ -596,7 +519,7 @@ contains the results.
 A function that accepts up to three arguments. The map method calls the
 callbackfn function one time for each element in the array.
 
-▸ (`value`: number, `index`: number, `array`: Uint8Array): *number*
+▸ (`value`: number, `index`: number, `array`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *number*
 
 **Parameters:**
 
@@ -604,14 +527,14 @@ Name | Type |
 ------ | ------ |
 `value` | number |
 `index` | number |
-`array` | Uint8Array |
+`array` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 ▪`Optional`  **thisArg**: *any*
 
 An object to which the this keyword can refer in the callbackfn function.
 If thisArg is omitted, undefined is used as the this value.
 
-**Returns:** *Uint8Array*
+**Returns:** *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
 ___
 
@@ -634,7 +557,7 @@ call to the callback function.
 A function that accepts up to four arguments. The reduce method calls the
 callbackfn function one time for each element in the array.
 
-▸ (`previousValue`: number, `currentValue`: number, `currentIndex`: number, `array`: Uint8Array): *number*
+▸ (`previousValue`: number, `currentValue`: number, `currentIndex`: number, `array`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *number*
 
 **Parameters:**
 
@@ -643,7 +566,7 @@ Name | Type |
 `previousValue` | number |
 `currentValue` | number |
 `currentIndex` | number |
-`array` | Uint8Array |
+`array` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 **Returns:** *number*
 
@@ -657,7 +580,7 @@ Defined in node_modules/typescript/lib/lib.es5.d.ts:2125
 
 ▪ **callbackfn**: *function*
 
-▸ (`previousValue`: number, `currentValue`: number, `currentIndex`: number, `array`: Uint8Array): *number*
+▸ (`previousValue`: number, `currentValue`: number, `currentIndex`: number, `array`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *number*
 
 **Parameters:**
 
@@ -666,7 +589,7 @@ Name | Type |
 `previousValue` | number |
 `currentValue` | number |
 `currentIndex` | number |
-`array` | Uint8Array |
+`array` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 ▪ **initialValue**: *number*
 
@@ -693,7 +616,7 @@ call to the callback function.
 A function that accepts up to four arguments. The reduce method calls the
 callbackfn function one time for each element in the array.
 
-▸ (`previousValue`: U, `currentValue`: number, `currentIndex`: number, `array`: Uint8Array): *U*
+▸ (`previousValue`: U, `currentValue`: number, `currentIndex`: number, `array`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *U*
 
 **Parameters:**
 
@@ -702,7 +625,7 @@ Name | Type |
 `previousValue` | U |
 `currentValue` | number |
 `currentIndex` | number |
-`array` | Uint8Array |
+`array` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 ▪ **initialValue**: *U*
 
@@ -733,7 +656,7 @@ argument in the next call to the callback function.
 A function that accepts up to four arguments. The reduceRight method calls
 the callbackfn function one time for each element in the array.
 
-▸ (`previousValue`: number, `currentValue`: number, `currentIndex`: number, `array`: Uint8Array): *number*
+▸ (`previousValue`: number, `currentValue`: number, `currentIndex`: number, `array`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *number*
 
 **Parameters:**
 
@@ -742,7 +665,7 @@ Name | Type |
 `previousValue` | number |
 `currentValue` | number |
 `currentIndex` | number |
-`array` | Uint8Array |
+`array` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 **Returns:** *number*
 
@@ -756,7 +679,7 @@ Defined in node_modules/typescript/lib/lib.es5.d.ts:2150
 
 ▪ **callbackfn**: *function*
 
-▸ (`previousValue`: number, `currentValue`: number, `currentIndex`: number, `array`: Uint8Array): *number*
+▸ (`previousValue`: number, `currentValue`: number, `currentIndex`: number, `array`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *number*
 
 **Parameters:**
 
@@ -765,7 +688,7 @@ Name | Type |
 `previousValue` | number |
 `currentValue` | number |
 `currentIndex` | number |
-`array` | Uint8Array |
+`array` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 ▪ **initialValue**: *number*
 
@@ -792,7 +715,7 @@ argument in the next call to the callback function.
 A function that accepts up to four arguments. The reduceRight method calls
 the callbackfn function one time for each element in the array.
 
-▸ (`previousValue`: U, `currentValue`: number, `currentIndex`: number, `array`: Uint8Array): *U*
+▸ (`previousValue`: U, `currentValue`: number, `currentIndex`: number, `array`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *U*
 
 **Parameters:**
 
@@ -801,7 +724,7 @@ Name | Type |
 `previousValue` | U |
 `currentValue` | number |
 `currentIndex` | number |
-`array` | Uint8Array |
+`array` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 ▪ **initialValue**: *U*
 
@@ -815,7 +738,7 @@ ___
 
 ###  reverse
 
-▸ **reverse**(): *Uint8Array*
+▸ **reverse**(): *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
 *Inherited from void*
 
@@ -823,7 +746,7 @@ Defined in node_modules/typescript/lib/lib.es5.d.ts:2167
 
 Reverses the elements in an Array.
 
-**Returns:** *Uint8Array*
+**Returns:** *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
 ___
 
@@ -850,7 +773,7 @@ ___
 
 ###  slice
 
-▸ **slice**(`start?`: undefined | number, `end?`: undefined | number): *Uint8Array*
+▸ **slice**(`start?`: undefined | number, `end?`: undefined | number): *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
 *Inherited from void*
 
@@ -865,7 +788,7 @@ Name | Type | Description |
 `start?` | undefined &#124; number | The beginning of the specified portion of the array. |
 `end?` | undefined &#124; number | The end of the specified portion of the array. This is exclusive of the element at the index 'end'.  |
 
-**Returns:** *Uint8Array*
+**Returns:** *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
 ___
 
@@ -887,7 +810,7 @@ A function that accepts up to three arguments. The some method calls
 the callbackfn function for each element in the array until the callbackfn returns a value
 which is coercible to the Boolean value true, or until the end of the array.
 
-▸ (`value`: number, `index`: number, `array`: Uint8Array): *unknown*
+▸ (`value`: number, `index`: number, `array`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *unknown*
 
 **Parameters:**
 
@@ -895,7 +818,7 @@ Name | Type |
 ------ | ------ |
 `value` | number |
 `index` | number |
-`array` | Uint8Array |
+`array` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 
 ▪`Optional`  **thisArg**: *any*
 
@@ -928,9 +851,9 @@ ___
 
 ###  subarray
 
-▸ **subarray**(`begin?`: undefined | number, `end?`: undefined | number): *Uint8Array*
+▸ **subarray**(`begin?`: undefined | number, `end?`: undefined | number): *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
-*Inherited from void*
+*Inherited from [EcdsaSignature](_interfaces_runtime_types_.ecdsasignature.md).[subarray](_interfaces_runtime_types_.ecdsasignature.md#subarray)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:2210
 
@@ -944,7 +867,7 @@ Name | Type | Description |
 `begin?` | undefined &#124; number | The index of the beginning of the array. |
 `end?` | undefined &#124; number | The index of the end of the array.  |
 
-**Returns:** *Uint8Array*
+**Returns:** *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
 ___
 
@@ -952,9 +875,9 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Inherited from [Codec](_types_.codec.md).[toHex](_types_.codec.md#tohex)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toHex](_interfaces_runtime_types_.consensus.md#tohex)*
 
-*Defined in [packages/types/src/types.ts:101](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L101)*
+*Defined in [packages/types/src/types.ts:101](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L101)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -974,9 +897,9 @@ ___
 
 *Inherited from [IU8a](_types_.iu8a.md).[toJSON](_types_.iu8a.md#tojson)*
 
-*Overrides [Codec](_types_.codec.md).[toJSON](_types_.codec.md#tojson)*
+*Overrides [Consensus](_interfaces_runtime_types_.consensus.md).[toJSON](_interfaces_runtime_types_.consensus.md#tojson)*
 
-*Defined in [packages/types/src/types.ts:128](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L128)*
+*Defined in [packages/types/src/types.ts:128](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L128)*
 
 **Returns:** *any*
 
@@ -1000,9 +923,9 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Inherited from [Codec](_types_.codec.md).[toRawType](_types_.codec.md#torawtype)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toRawType](_interfaces_runtime_types_.consensus.md#torawtype)*
 
-*Defined in [packages/types/src/types.ts:111](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L111)*
+*Defined in [packages/types/src/types.ts:111](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L111)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -1014,9 +937,9 @@ ___
 
 ▸ **toString**(): *string*
 
-*Inherited from void*
+*Inherited from [EcdsaSignature](_interfaces_runtime_types_.ecdsasignature.md).[toString](_interfaces_runtime_types_.ecdsasignature.md#tostring)*
 
-*Overrides [Codec](_types_.codec.md).[toString](_types_.codec.md#tostring)*
+*Overrides [Consensus](_interfaces_runtime_types_.consensus.md).[toString](_interfaces_runtime_types_.consensus.md#tostring)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:2220
 
@@ -1028,11 +951,11 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: [BareOpts](../modules/_types_.md#bareopts)): *Uint8Array*
+▸ **toU8a**(`isBare?`: [BareOpts](../modules/_types_.md#bareopts)): *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
-*Inherited from [Codec](_types_.codec.md).[toU8a](_types_.codec.md#tou8a)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toU8a](_interfaces_runtime_types_.consensus.md#tou8a)*
 
-*Defined in [packages/types/src/types.ts:122](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L122)*
+*Defined in [packages/types/src/types.ts:122](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L122)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -1042,18 +965,4 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `isBare?` | [BareOpts](../modules/_types_.md#bareopts) | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** *Uint8Array*
-
-___
-
-###  values
-
-▸ **values**(): *IterableIterator‹number›*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:287
-
-Returns an list of values in the array
-
-**Returns:** *IterableIterator‹number›*
+**Returns:** *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*

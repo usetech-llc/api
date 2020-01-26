@@ -22,7 +22,7 @@
 
 • **contract**: *[ContractABIContractPre](_types_.contractabicontractpre.md)*
 
-*Defined in [api-contract/src/types.ts:91](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-contract/src/types.ts#L91)*
+*Defined in [api-contract/src/types.ts:91](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api-contract/src/types.ts#L91)*
 
 ___
 
@@ -30,11 +30,15 @@ ___
 
 • **registry**: *object*
 
-*Inherited from void*
+*Inherited from [ContractABIPre](_types_.contractabipre.md).[registry](_types_.contractabipre.md#registry)*
 
-*Defined in [types/src/codec/create/types.ts:156](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/create/types.ts#L156)*
+*Defined in [types/src/codec/create/types.ts:156](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/create/types.ts#L156)*
 
 #### Type declaration:
+
+* **strings**: *string[]*
+
+* **types**: *MetaType[]*
 
 ___
 
@@ -42,4 +46,4 @@ ___
 
 • **storage**: *[ContractABIStoragePre](../modules/_types_.md#contractabistoragepre)*
 
-*Defined in [api-contract/src/types.ts:90](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-contract/src/types.ts#L90)*
+*Defined in [api-contract/src/types.ts:90](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api-contract/src/types.ts#L90)*

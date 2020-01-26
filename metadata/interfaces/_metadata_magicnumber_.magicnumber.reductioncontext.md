@@ -29,6 +29,6 @@ ___
 
 ###  prime
 
-• **prime**: *MPrime*
+• **prime**: *[MPrime](_metadata_magicnumber_.magicnumber.mprime.md)*
 
 Defined in node_modules/@types/bn.js/index.d.ts:23

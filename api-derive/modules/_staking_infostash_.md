@@ -14,7 +14,7 @@
 
 ▸ **infoStash**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/staking/infoStash.ts:42](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-derive/src/staking/infoStash.ts#L42)*
+*Defined in [packages/api-derive/src/staking/infoStash.ts:42](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api-derive/src/staking/infoStash.ts#L42)*
 
 **Parameters:**
 

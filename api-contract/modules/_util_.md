@@ -14,14 +14,19 @@
 
 ▸ **formatData**(`registry`: Registry, `data`: Raw, `__namedParameters`: object): *Codec*
 
-*Defined in [api-contract/src/util.ts:10](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api-contract/src/util.ts#L10)*
+*Defined in [api-contract/src/util.ts:10](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api-contract/src/util.ts#L10)*
 
 **Parameters:**
 
+▪ **registry**: *Registry*
+
+▪ **data**: *Raw*
+
+▪ **__namedParameters**: *object*
+
 Name | Type |
 ------ | ------ |
-`registry` | Registry |
-`data` | Raw |
-`__namedParameters` | object |
+`info` | TypeDefInfo |
+`type` | string |
 
 **Returns:** *Codec*

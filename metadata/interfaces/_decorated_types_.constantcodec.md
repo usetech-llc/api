@@ -33,9 +33,9 @@
 
 • **encodedLength**: *number*
 
-*Inherited from void*
+*Inherited from [ConstantCodec](_decorated_types_.constantcodec.md).[encodedLength](_decorated_types_.constantcodec.md#encodedlength)*
 
-*Defined in [packages/types/src/types.ts:76](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L76)*
+*Defined in [packages/types/src/types.ts:76](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L76)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -45,9 +45,9 @@ ___
 
 • **hash**: *IHash*
 
-*Inherited from void*
+*Inherited from [ConstantCodec](_decorated_types_.constantcodec.md).[hash](_decorated_types_.constantcodec.md#hash)*
 
-*Defined in [packages/types/src/types.ts:81](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L81)*
+*Defined in [packages/types/src/types.ts:81](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L81)*
 
 **`description`** Returns a hash of the value
 
@@ -57,9 +57,9 @@ ___
 
 • **isEmpty**: *boolean*
 
-*Inherited from void*
+*Inherited from [ConstantCodec](_decorated_types_.constantcodec.md).[isEmpty](_decorated_types_.constantcodec.md#isempty)*
 
-*Defined in [packages/types/src/types.ts:86](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L86)*
+*Defined in [packages/types/src/types.ts:86](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L86)*
 
 **`description`** Checks if the value is an empty value
 
@@ -69,7 +69,7 @@ ___
 
 • **meta**: *ModuleConstantMetadataLatest*
 
-*Defined in [packages/metadata/src/Decorated/types.ts:10](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/metadata/src/Decorated/types.ts#L10)*
+*Defined in [packages/metadata/src/Decorated/types.ts:10](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/metadata/src/Decorated/types.ts#L10)*
 
 ___
 
@@ -77,9 +77,9 @@ ___
 
 • **registry**: *Registry*
 
-*Inherited from void*
+*Inherited from [ConstantCodec](_decorated_types_.constantcodec.md).[registry](_decorated_types_.constantcodec.md#registry)*
 
-*Defined in [packages/types/src/types.ts:91](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L91)*
+*Defined in [packages/types/src/types.ts:91](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L91)*
 
 **`description`** The registry associated with this object
 
@@ -89,9 +89,9 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Inherited from void*
+*Inherited from [ConstantCodec](_decorated_types_.constantcodec.md).[eq](_decorated_types_.constantcodec.md#eq)*
 
-*Defined in [packages/types/src/types.ts:96](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L96)*
+*Defined in [packages/types/src/types.ts:96](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L96)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -109,9 +109,9 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Inherited from void*
+*Inherited from [ConstantCodec](_decorated_types_.constantcodec.md).[toHex](_decorated_types_.constantcodec.md#tohex)*
 
-*Defined in [packages/types/src/types.ts:101](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L101)*
+*Defined in [packages/types/src/types.ts:101](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L101)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -129,9 +129,9 @@ ___
 
 ▸ **toJSON**(): *AnyJson*
 
-*Inherited from void*
+*Inherited from [ConstantCodec](_decorated_types_.constantcodec.md).[toJSON](_decorated_types_.constantcodec.md#tojson)*
 
-*Defined in [packages/types/src/types.ts:106](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L106)*
+*Defined in [packages/types/src/types.ts:106](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L106)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -143,9 +143,9 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Inherited from void*
+*Inherited from [ConstantCodec](_decorated_types_.constantcodec.md).[toRawType](_decorated_types_.constantcodec.md#torawtype)*
 
-*Defined in [packages/types/src/types.ts:111](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L111)*
+*Defined in [packages/types/src/types.ts:111](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L111)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -157,9 +157,9 @@ ___
 
 ▸ **toString**(): *string*
 
-*Inherited from void*
+*Inherited from [ConstantCodec](_decorated_types_.constantcodec.md).[toString](_decorated_types_.constantcodec.md#tostring)*
 
-*Defined in [packages/types/src/types.ts:116](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L116)*
+*Defined in [packages/types/src/types.ts:116](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L116)*
 
 **`description`** Returns the string representation of the value
 
@@ -171,9 +171,9 @@ ___
 
 ▸ **toU8a**(`isBare?`: BareOpts): *Uint8Array*
 
-*Inherited from void*
+*Inherited from [ConstantCodec](_decorated_types_.constantcodec.md).[toU8a](_decorated_types_.constantcodec.md#tou8a)*
 
-*Defined in [packages/types/src/types.ts:122](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L122)*
+*Defined in [packages/types/src/types.ts:122](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L122)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

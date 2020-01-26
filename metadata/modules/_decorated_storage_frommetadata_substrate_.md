@@ -16,12 +16,12 @@
 
 ### `Const` changesTrieConfig
 
-• **changesTrieConfig**: *function* =  createRuntimeFunction('changesTrieConfig', ':changes_trie', {
+• **changesTrieConfig**: *function* = createRuntimeFunction('changesTrieConfig', ':changes_trie', {
   documentation: 'Changes trie configuration is stored under this key.',
   type: 'u32'
 })
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:49](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L49)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:49](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L49)*
 
 #### Type declaration:
 
@@ -38,12 +38,12 @@ ___
 
 ### `Const` childStorageKeyPrefix
 
-• **childStorageKeyPrefix**: *function* =  createRuntimeFunction('childStorageKeyPrefix', ':child_storage:', {
+• **childStorageKeyPrefix**: *function* = createRuntimeFunction('childStorageKeyPrefix', ':child_storage:', {
   documentation: 'Prefix of child storage keys.',
   type: 'u32'
 })
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:54](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L54)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:54](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L54)*
 
 #### Type declaration:
 
@@ -60,12 +60,12 @@ ___
 
 ### `Const` code
 
-• **code**: *function* =  createRuntimeFunction('code', ':code', {
+• **code**: *function* = createRuntimeFunction('code', ':code', {
   documentation: 'Wasm code of the runtime.',
   type: 'Bytes'
 })
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:34](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L34)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:34](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L34)*
 
 #### Type declaration:
 
@@ -82,12 +82,12 @@ ___
 
 ### `Const` extrinsicIndex
 
-• **extrinsicIndex**: *function* =  createRuntimeFunction('extrinsicIndex', ':extrinsic_index', {
+• **extrinsicIndex**: *function* = createRuntimeFunction('extrinsicIndex', ':extrinsic_index', {
   documentation: 'Current extrinsic index (u32) is stored under this key.',
   type: 'u32'
 })
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:44](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L44)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:44](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L44)*
 
 #### Type declaration:
 
@@ -104,12 +104,12 @@ ___
 
 ### `Const` heapPages
 
-• **heapPages**: *function* =  createRuntimeFunction('heapPages', ':heappages', {
+• **heapPages**: *function* = createRuntimeFunction('heapPages', ':heappages', {
   documentation: 'Number of wasm linear memory pages required for execution of the runtime.',
   type: 'u64'
 })
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:39](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L39)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts:39](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/metadata/src/Decorated/storage/fromMetadata/substrate.ts#L39)*
 
 #### Type declaration:
 

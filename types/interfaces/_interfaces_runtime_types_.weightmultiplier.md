@@ -58,11 +58,11 @@ Defined in node_modules/@types/bn.js/index.d.ts:12
 
 \+ **new WeightMultiplier**(`registry`: [Registry](_types_.registry.md), `value?`: [AnyNumber](../modules/_types_.md#anynumber)): *[WeightMultiplier](_interfaces_runtime_types_.weightmultiplier.md)*
 
-*Inherited from [I64](../classes/_primitive_i64_.i64.md).[constructor](../classes/_primitive_i64_.i64.md#constructor)*
+*Inherited from [WeightMultiplier](_interfaces_runtime_types_.weightmultiplier.md).[constructor](_interfaces_runtime_types_.weightmultiplier.md#constructor)*
 
 *Overrides [Int](../classes/_codec_int_.int.md).[constructor](../classes/_codec_int_.int.md#constructor)*
 
-*Defined in [packages/types/src/primitive/I64.ts:14](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/primitive/I64.ts#L14)*
+*Defined in [packages/types/src/primitive/I64.ts:14](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/I64.ts#L14)*
 
 **Parameters:**
 
@@ -79,11 +79,11 @@ Name | Type |
 
 ▸ **toHex**(`isLe`: boolean): *string*
 
-*Inherited from [Int](../classes/_codec_int_.int.md).[toHex](../classes/_codec_int_.int.md#tohex)*
+*Inherited from [WeightMultiplier](_interfaces_runtime_types_.weightmultiplier.md).[toHex](_interfaces_runtime_types_.weightmultiplier.md#tohex)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:29](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Int.ts#L29)*
+*Defined in [packages/types/src/codec/Int.ts:29](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Int.ts#L29)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -101,11 +101,11 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Inherited from [Int](../classes/_codec_int_.int.md).[toRawType](../classes/_codec_int_.int.md#torawtype)*
+*Inherited from [WeightMultiplier](_interfaces_runtime_types_.weightmultiplier.md).[toRawType](_interfaces_runtime_types_.weightmultiplier.md#torawtype)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:40](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Int.ts#L40)*
+*Defined in [packages/types/src/codec/Int.ts:40](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Int.ts#L40)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -115,13 +115,13 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *Uint8Array*
+▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
-*Inherited from [Int](../classes/_codec_int_.int.md).[toU8a](../classes/_codec_int_.int.md#tou8a)*
+*Inherited from [WeightMultiplier](_interfaces_runtime_types_.weightmultiplier.md).[toU8a](_interfaces_runtime_types_.weightmultiplier.md#tou8a)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:49](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Int.ts#L49)*
+*Defined in [packages/types/src/codec/Int.ts:49](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Int.ts#L49)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -131,4 +131,4 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `isBare?` | undefined &#124; false &#124; true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** *Uint8Array*
+**Returns:** *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*

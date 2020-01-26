@@ -23,7 +23,7 @@
 
 • **apis**: *any[]*
 
-*Defined in [packages/types/src/types.ts:154](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L154)*
+*Defined in [packages/types/src/types.ts:154](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L154)*
 
 ___
 
@@ -31,15 +31,15 @@ ___
 
 • **authoringVersion**: *BN*
 
-*Defined in [packages/types/src/types.ts:155](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L155)*
+*Defined in [packages/types/src/types.ts:155](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L155)*
 
 ___
 
 ###  implName
 
-• **implName**: *String*
+• **implName**: *[String](../classes/_primitive_text_.text.md#static-string)*
 
-*Defined in [packages/types/src/types.ts:157](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L157)*
+*Defined in [packages/types/src/types.ts:157](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L157)*
 
 ___
 
@@ -47,15 +47,15 @@ ___
 
 • **implVersion**: *BN*
 
-*Defined in [packages/types/src/types.ts:158](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L158)*
+*Defined in [packages/types/src/types.ts:158](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L158)*
 
 ___
 
 ###  specName
 
-• **specName**: *String*
+• **specName**: *[String](../classes/_primitive_text_.text.md#static-string)*
 
-*Defined in [packages/types/src/types.ts:160](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L160)*
+*Defined in [packages/types/src/types.ts:160](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L160)*
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 • **specVersion**: *BN*
 
-*Defined in [packages/types/src/types.ts:161](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L161)*
+*Defined in [packages/types/src/types.ts:161](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L161)*

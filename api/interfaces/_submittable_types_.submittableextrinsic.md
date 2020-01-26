@@ -59,9 +59,9 @@
 
 • **args**: *Codec[]*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[args](_submittable_types_.submittableextrinsic.md#args)*
 
-*Defined in [types/src/types.ts:183](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L183)*
+*Defined in [types/src/types.ts:183](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L183)*
 
 ___
 
@@ -69,9 +69,9 @@ ___
 
 • **argsDef**: *ArgsDef*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[argsDef](_submittable_types_.submittableextrinsic.md#argsdef)*
 
-*Defined in [types/src/types.ts:184](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L184)*
+*Defined in [types/src/types.ts:184](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L184)*
 
 ___
 
@@ -79,9 +79,9 @@ ___
 
 • **callIndex**: *Uint8Array*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[callIndex](_submittable_types_.submittableextrinsic.md#callindex)*
 
-*Defined in [types/src/types.ts:185](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L185)*
+*Defined in [types/src/types.ts:185](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L185)*
 
 ___
 
@@ -89,9 +89,9 @@ ___
 
 • **data**: *Uint8Array*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[data](_submittable_types_.submittableextrinsic.md#data)*
 
-*Defined in [types/src/types.ts:186](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L186)*
+*Defined in [types/src/types.ts:186](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L186)*
 
 ___
 
@@ -99,9 +99,9 @@ ___
 
 • **encodedLength**: *number*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[encodedLength](_submittable_types_.submittableextrinsic.md#encodedlength)*
 
-*Defined in [types/src/types.ts:76](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L76)*
+*Defined in [types/src/types.ts:76](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L76)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -111,9 +111,9 @@ ___
 
 • **era**: *IExtrinsicEra*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[era](_submittable_types_.submittableextrinsic.md#era)*
 
-*Defined in [types/src/types.ts:194](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L194)*
+*Defined in [types/src/types.ts:194](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L194)*
 
 ___
 
@@ -121,9 +121,9 @@ ___
 
 • **hasOrigin**: *boolean*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[hasOrigin](_submittable_types_.submittableextrinsic.md#hasorigin)*
 
-*Defined in [types/src/types.ts:188](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L188)*
+*Defined in [types/src/types.ts:188](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L188)*
 
 ___
 
@@ -131,11 +131,11 @@ ___
 
 • **hash**: *IHash*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[hash](_submittable_types_.submittableextrinsic.md#hash)*
 
 *Overrides void*
 
-*Defined in [types/src/types.ts:187](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L187)*
+*Defined in [types/src/types.ts:187](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L187)*
 
 ___
 
@@ -143,9 +143,9 @@ ___
 
 • **isEmpty**: *boolean*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[isEmpty](_submittable_types_.submittableextrinsic.md#isempty)*
 
-*Defined in [types/src/types.ts:86](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L86)*
+*Defined in [types/src/types.ts:86](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L86)*
 
 **`description`** Checks if the value is an empty value
 
@@ -155,9 +155,9 @@ ___
 
 • **isSigned**: *boolean*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[isSigned](_submittable_types_.submittableextrinsic.md#issigned)*
 
-*Defined in [types/src/types.ts:193](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L193)*
+*Defined in [types/src/types.ts:193](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L193)*
 
 ___
 
@@ -165,9 +165,9 @@ ___
 
 • **length**: *number*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[length](_submittable_types_.submittableextrinsic.md#length)*
 
-*Defined in [types/src/types.ts:240](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L240)*
+*Defined in [types/src/types.ts:240](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L240)*
 
 ___
 
@@ -175,9 +175,9 @@ ___
 
 • **meta**: *FunctionMetadataLatest*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[meta](_submittable_types_.submittableextrinsic.md#meta)*
 
-*Defined in [types/src/types.ts:189](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L189)*
+*Defined in [types/src/types.ts:189](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L189)*
 
 ___
 
@@ -185,9 +185,9 @@ ___
 
 • **method**: *Call*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[method](_submittable_types_.submittableextrinsic.md#method)*
 
-*Defined in [types/src/types.ts:241](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L241)*
+*Defined in [types/src/types.ts:241](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L241)*
 
 ___
 
@@ -195,9 +195,9 @@ ___
 
 • **nonce**: *ICompact‹Index›*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[nonce](_submittable_types_.submittableextrinsic.md#nonce)*
 
-*Defined in [types/src/types.ts:195](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L195)*
+*Defined in [types/src/types.ts:195](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L195)*
 
 ___
 
@@ -205,9 +205,9 @@ ___
 
 • **registry**: *Registry*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[registry](_submittable_types_.submittableextrinsic.md#registry)*
 
-*Defined in [types/src/types.ts:91](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L91)*
+*Defined in [types/src/types.ts:91](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L91)*
 
 **`description`** The registry associated with this object
 
@@ -217,9 +217,9 @@ ___
 
 • **signature**: *EcdsaSignature | Ed25519Signature | Sr25519Signature*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[signature](_submittable_types_.submittableextrinsic.md#signature)*
 
-*Defined in [types/src/types.ts:196](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L196)*
+*Defined in [types/src/types.ts:196](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L196)*
 
 ___
 
@@ -227,9 +227,9 @@ ___
 
 • **signer**: *Address*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[signer](_submittable_types_.submittableextrinsic.md#signer)*
 
-*Defined in [types/src/types.ts:197](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L197)*
+*Defined in [types/src/types.ts:197](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L197)*
 
 ___
 
@@ -237,9 +237,9 @@ ___
 
 • **tip**: *ICompact‹Balance›*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[tip](_submittable_types_.submittableextrinsic.md#tip)*
 
-*Defined in [types/src/types.ts:198](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L198)*
+*Defined in [types/src/types.ts:198](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L198)*
 
 ___
 
@@ -247,9 +247,9 @@ ___
 
 • **type**: *number*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[type](_submittable_types_.submittableextrinsic.md#type)*
 
-*Defined in [types/src/types.ts:242](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L242)*
+*Defined in [types/src/types.ts:242](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L242)*
 
 ___
 
@@ -257,9 +257,9 @@ ___
 
 • **version**: *number*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[version](_submittable_types_.submittableextrinsic.md#version)*
 
-*Defined in [types/src/types.ts:243](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L243)*
+*Defined in [types/src/types.ts:243](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L243)*
 
 ## Methods
 
@@ -267,9 +267,9 @@ ___
 
 ▸ **addSignature**(`signer`: Address | Uint8Array | string, `signature`: Uint8Array | string, `payload`: ExtrinsicPayloadValue | Uint8Array | string): *IExtrinsic*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[addSignature](_submittable_types_.submittableextrinsic.md#addsignature)*
 
-*Defined in [types/src/types.ts:226](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L226)*
+*Defined in [types/src/types.ts:226](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L226)*
 
 **Parameters:**
 
@@ -287,9 +287,9 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[eq](_submittable_types_.submittableextrinsic.md#eq)*
 
-*Defined in [types/src/types.ts:96](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L96)*
+*Defined in [types/src/types.ts:96](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L96)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -307,7 +307,7 @@ ___
 
 ▸ **paymentInfo**(`account`: IKeyringPair | string | AccountId | Address, `options?`: Partial‹[SignerOptions](_submittable_types_.signeroptions.md)›): *[SubmittablePaymentResult](../modules/_submittable_types_.md#submittablepaymentresult)‹ApiType›*
 
-*Defined in [api/src/submittable/types.ts:56](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/submittable/types.ts#L56)*
+*Defined in [api/src/submittable/types.ts:56](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/submittable/types.ts#L56)*
 
 **Parameters:**
 
@@ -324,13 +324,13 @@ ___
 
 ▸ **send**(): *[SubmittableResultResult](../modules/_submittable_types_.md#submittableresultresult)‹ApiType›*
 
-*Defined in [api/src/submittable/types.ts:58](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/submittable/types.ts#L58)*
+*Defined in [api/src/submittable/types.ts:58](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/submittable/types.ts#L58)*
 
 **Returns:** *[SubmittableResultResult](../modules/_submittable_types_.md#submittableresultresult)‹ApiType›*
 
 ▸ **send**(`statusCb`: Callback‹[SubmittableResultImpl](_submittable_types_.submittableresultimpl.md)›): *[SubmittableResultSubscription](../modules/_submittable_types_.md#submittableresultsubscription)‹ApiType›*
 
-*Defined in [api/src/submittable/types.ts:60](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/submittable/types.ts#L60)*
+*Defined in [api/src/submittable/types.ts:60](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/submittable/types.ts#L60)*
 
 **Parameters:**
 
@@ -348,7 +348,7 @@ ___
 
 *Overrides void*
 
-*Defined in [api/src/submittable/types.ts:62](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/submittable/types.ts#L62)*
+*Defined in [api/src/submittable/types.ts:62](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/submittable/types.ts#L62)*
 
 **Parameters:**
 
@@ -365,7 +365,7 @@ ___
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address, `options?`: Partial‹[SignerOptions](_submittable_types_.signeroptions.md)›): *[SubmittableResultResult](../modules/_submittable_types_.md#submittableresultresult)‹ApiType›*
 
-*Defined in [api/src/submittable/types.ts:66](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/submittable/types.ts#L66)*
+*Defined in [api/src/submittable/types.ts:66](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/submittable/types.ts#L66)*
 
 **Parameters:**
 
@@ -378,7 +378,7 @@ Name | Type |
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address, `statusCb`: Callback‹[SubmittableResultImpl](_submittable_types_.submittableresultimpl.md)›): *[SubmittableResultSubscription](../modules/_submittable_types_.md#submittableresultsubscription)‹ApiType›*
 
-*Defined in [api/src/submittable/types.ts:68](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/submittable/types.ts#L68)*
+*Defined in [api/src/submittable/types.ts:68](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/submittable/types.ts#L68)*
 
 **Parameters:**
 
@@ -391,7 +391,7 @@ Name | Type |
 
 ▸ **signAndSend**(`account`: IKeyringPair | string | AccountId | Address, `options`: Partial‹[SignerOptions](_submittable_types_.signeroptions.md)›, `statusCb?`: Callback‹[SubmittableResultImpl](_submittable_types_.submittableresultimpl.md)›): *[SubmittableResultSubscription](../modules/_submittable_types_.md#submittableresultsubscription)‹ApiType›*
 
-*Defined in [api/src/submittable/types.ts:70](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/submittable/types.ts#L70)*
+*Defined in [api/src/submittable/types.ts:70](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/submittable/types.ts#L70)*
 
 **Parameters:**
 
@@ -409,7 +409,7 @@ ___
 
 ▸ **signAsync**(`account`: IKeyringPair, `_options`: Partial‹SignatureOptions›): *[SubmittableThis](../modules/_submittable_types_.md#submittablethis)‹ApiType, this›*
 
-*Defined in [api/src/submittable/types.ts:64](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/submittable/types.ts#L64)*
+*Defined in [api/src/submittable/types.ts:64](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/submittable/types.ts#L64)*
 
 **Parameters:**
 
@@ -426,9 +426,9 @@ ___
 
 ▸ **signFake**(`address`: Address | Uint8Array | string, `options`: SignatureOptions): *IExtrinsic*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[signFake](_submittable_types_.submittableextrinsic.md#signfake)*
 
-*Defined in [types/src/types.ts:228](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L228)*
+*Defined in [types/src/types.ts:228](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L228)*
 
 **Parameters:**
 
@@ -445,9 +445,9 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[toHex](_submittable_types_.submittableextrinsic.md#tohex)*
 
-*Defined in [types/src/types.ts:101](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L101)*
+*Defined in [types/src/types.ts:101](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L101)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -465,9 +465,9 @@ ___
 
 ▸ **toJSON**(): *AnyJson*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[toJSON](_submittable_types_.submittableextrinsic.md#tojson)*
 
-*Defined in [types/src/types.ts:106](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L106)*
+*Defined in [types/src/types.ts:106](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L106)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -479,9 +479,9 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[toRawType](_submittable_types_.submittableextrinsic.md#torawtype)*
 
-*Defined in [types/src/types.ts:111](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L111)*
+*Defined in [types/src/types.ts:111](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L111)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -493,9 +493,9 @@ ___
 
 ▸ **toString**(): *string*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[toString](_submittable_types_.submittableextrinsic.md#tostring)*
 
-*Defined in [types/src/types.ts:116](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L116)*
+*Defined in [types/src/types.ts:116](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L116)*
 
 **`description`** Returns the string representation of the value
 
@@ -507,9 +507,9 @@ ___
 
 ▸ **toU8a**(`isBare?`: BareOpts): *Uint8Array*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md).[toU8a](_submittable_types_.submittableextrinsic.md#tou8a)*
 
-*Defined in [types/src/types.ts:122](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L122)*
+*Defined in [types/src/types.ts:122](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L122)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

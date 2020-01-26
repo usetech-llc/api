@@ -4,7 +4,7 @@
 
 ## Hierarchy
 
-* Array‹[AnyJson](../modules/_types_.md#anyjson)›
+* [Array](../classes/_codec_abstractarray_.abstractarray.md#static-array)‹[AnyJson](../modules/_types_.md#anyjson)›
 
   ↳ **AnyJsonArray**
 
@@ -69,7 +69,7 @@ ___
 
 • **length**: *number*
 
-*Inherited from void*
+*Inherited from [AnyJsonArray](_types_.anyjsonarray.md).[length](_types_.anyjsonarray.md#length)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:1215
 
@@ -103,6 +103,20 @@ Returns an object whose properties have the value 'true'
 when they will be absent when used in a 'with' statement.
 
 **Returns:** *object*
+
+* **copyWithin**: *boolean*
+
+* **entries**: *boolean*
+
+* **fill**: *boolean*
+
+* **find**: *boolean*
+
+* **findIndex**: *boolean*
+
+* **keys**: *boolean*
+
+* **values**: *boolean*
 
 ___
 
@@ -242,7 +256,7 @@ ___
 
 ▸ **filter**<**S**>(`callbackfn`: function, `thisArg?`: any): *S[]*
 
-*Inherited from void*
+*Inherited from [AnyJsonArray](_types_.anyjsonarray.md).[filter](_types_.anyjsonarray.md#filter)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:1337
 
@@ -276,7 +290,7 @@ An object to which the this keyword can refer in the callbackfn function. If thi
 
 ▸ **filter**(`callbackfn`: function, `thisArg?`: any): *[AnyJson](../modules/_types_.md#anyjson)[]*
 
-*Inherited from void*
+*Inherited from [AnyJsonArray](_types_.anyjsonarray.md).[filter](_types_.anyjsonarray.md#filter)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:1343
 
@@ -695,7 +709,7 @@ ___
 
 ▸ **includes**(`searchElement`: [AnyJson](../modules/_types_.md#anyjson), `fromIndex?`: undefined | number): *boolean*
 
-*Inherited from void*
+*Inherited from [AnyJsonArray](_types_.anyjsonarray.md).[includes](_types_.anyjsonarray.md#includes)*
 
 Defined in node_modules/typescript/lib/lib.es2016.array.include.d.ts:27
 
@@ -792,7 +806,7 @@ ___
 
 ▸ **map**<**U**>(`callbackfn`: function, `thisArg?`: any): *U[]*
 
-*Inherited from void*
+*Inherited from [AnyJsonArray](_types_.anyjsonarray.md).[map](_types_.anyjsonarray.md#map)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:1331
 
@@ -1205,7 +1219,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Inherited from void*
+*Inherited from [AnyJsonArray](_types_.anyjsonarray.md).[toString](_types_.anyjsonarray.md#tostring)*
 
 Defined in node_modules/typescript/lib/lib.es5.d.ts:1219
 

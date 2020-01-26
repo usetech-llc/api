@@ -35,9 +35,9 @@
 
 • **encodedLength**: *number*
 
-*Inherited from [Codec](_types_.codec.md).[encodedLength](_types_.codec.md#encodedlength)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[encodedLength](_interfaces_runtime_types_.consensus.md#encodedlength)*
 
-*Defined in [packages/types/src/types.ts:76](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L76)*
+*Defined in [packages/types/src/types.ts:76](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L76)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -47,9 +47,9 @@ ___
 
 • **hash**: *[IHash](_types_.ihash.md)*
 
-*Inherited from [Codec](_types_.codec.md).[hash](_types_.codec.md#hash)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[hash](_interfaces_runtime_types_.consensus.md#hash)*
 
-*Defined in [packages/types/src/types.ts:81](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L81)*
+*Defined in [packages/types/src/types.ts:81](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L81)*
 
 **`description`** Returns a hash of the value
 
@@ -59,9 +59,9 @@ ___
 
 • **isEmpty**: *boolean*
 
-*Inherited from [Codec](_types_.codec.md).[isEmpty](_types_.codec.md#isempty)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[isEmpty](_interfaces_runtime_types_.consensus.md#isempty)*
 
-*Defined in [packages/types/src/types.ts:86](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L86)*
+*Defined in [packages/types/src/types.ts:86](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L86)*
 
 **`description`** Checks if the value is an empty value
 
@@ -71,9 +71,9 @@ ___
 
 • **registry**: *[Registry](_types_.registry.md)*
 
-*Inherited from [Codec](_types_.codec.md).[registry](_types_.codec.md#registry)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[registry](_interfaces_runtime_types_.consensus.md#registry)*
 
-*Defined in [packages/types/src/types.ts:91](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L91)*
+*Defined in [packages/types/src/types.ts:91](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L91)*
 
 **`description`** The registry associated with this object
 
@@ -83,7 +83,7 @@ ___
 
 ▸ **bitLength**(): *[UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)*
 
-*Defined in [packages/types/src/codec/Compact.ts:16](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Compact.ts#L16)*
+*Defined in [packages/types/src/codec/Compact.ts:16](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Compact.ts#L16)*
 
 **Returns:** *[UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)*
 
@@ -93,9 +93,9 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Inherited from [Codec](_types_.codec.md).[eq](_types_.codec.md#eq)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[eq](_interfaces_runtime_types_.consensus.md#eq)*
 
-*Defined in [packages/types/src/types.ts:96](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L96)*
+*Defined in [packages/types/src/types.ts:96](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L96)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -113,7 +113,7 @@ ___
 
 ▸ **toBn**(): *BN*
 
-*Defined in [packages/types/src/codec/Compact.ts:17](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Compact.ts#L17)*
+*Defined in [packages/types/src/codec/Compact.ts:17](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Compact.ts#L17)*
 
 **Returns:** *BN*
 
@@ -123,9 +123,9 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Inherited from [Codec](_types_.codec.md).[toHex](_types_.codec.md#tohex)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toHex](_interfaces_runtime_types_.consensus.md#tohex)*
 
-*Defined in [packages/types/src/types.ts:101](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L101)*
+*Defined in [packages/types/src/types.ts:101](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L101)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -143,9 +143,9 @@ ___
 
 ▸ **toJSON**(): *[AnyJson](../modules/_types_.md#anyjson)*
 
-*Inherited from [Codec](_types_.codec.md).[toJSON](_types_.codec.md#tojson)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toJSON](_interfaces_runtime_types_.consensus.md#tojson)*
 
-*Defined in [packages/types/src/types.ts:106](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L106)*
+*Defined in [packages/types/src/types.ts:106](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L106)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -157,7 +157,7 @@ ___
 
 ▸ **toNumber**(): *number*
 
-*Defined in [packages/types/src/codec/Compact.ts:18](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Compact.ts#L18)*
+*Defined in [packages/types/src/codec/Compact.ts:18](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Compact.ts#L18)*
 
 **Returns:** *number*
 
@@ -167,9 +167,9 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Inherited from [Codec](_types_.codec.md).[toRawType](_types_.codec.md#torawtype)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toRawType](_interfaces_runtime_types_.consensus.md#torawtype)*
 
-*Defined in [packages/types/src/types.ts:111](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L111)*
+*Defined in [packages/types/src/types.ts:111](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L111)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -181,9 +181,9 @@ ___
 
 ▸ **toString**(): *string*
 
-*Inherited from [Codec](_types_.codec.md).[toString](_types_.codec.md#tostring)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toString](_interfaces_runtime_types_.consensus.md#tostring)*
 
-*Defined in [packages/types/src/types.ts:116](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L116)*
+*Defined in [packages/types/src/types.ts:116](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L116)*
 
 **`description`** Returns the string representation of the value
 
@@ -193,11 +193,11 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: [BareOpts](../modules/_types_.md#bareopts)): *Uint8Array*
+▸ **toU8a**(`isBare?`: [BareOpts](../modules/_types_.md#bareopts)): *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
-*Inherited from [Codec](_types_.codec.md).[toU8a](_types_.codec.md#tou8a)*
+*Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toU8a](_interfaces_runtime_types_.consensus.md#tou8a)*
 
-*Defined in [packages/types/src/types.ts:122](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L122)*
+*Defined in [packages/types/src/types.ts:122](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L122)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -207,4 +207,4 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `isBare?` | [BareOpts](../modules/_types_.md#bareopts) | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** *Uint8Array*
+**Returns:** *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*

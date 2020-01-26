@@ -20,15 +20,15 @@
 
 • **address**: *string*
 
-*Defined in [packages/types/src/types.ts:35](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L35)*
+*Defined in [packages/types/src/types.ts:35](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L35)*
 
 ___
 
 ###  publicKey
 
-• **publicKey**: *Uint8Array*
+• **publicKey**: *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
-*Defined in [packages/types/src/types.ts:36](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L36)*
+*Defined in [packages/types/src/types.ts:36](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L36)*
 
 ___
 
@@ -36,15 +36,15 @@ ___
 
 • **sign**: *function*
 
-*Defined in [packages/types/src/types.ts:37](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L37)*
+*Defined in [packages/types/src/types.ts:37](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L37)*
 
 #### Type declaration:
 
-▸ (`data`: Uint8Array, `options?`: SignOptions): *Uint8Array*
+▸ (`data`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array), `options?`: SignOptions): *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`data` | Uint8Array |
+`data` | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) |
 `options?` | SignOptions |

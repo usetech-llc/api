@@ -20,7 +20,6 @@
 
 ### Properties
 
-* [[Symbol.toStringTag]](_primitive_identityfields_.identityfields.md#[symbol.tostringtag])
 * [registry](_primitive_identityfields_.identityfields.md#registry)
 * [size](_primitive_identityfields_.identityfields.md#size)
 
@@ -34,22 +33,18 @@
 
 ### Methods
 
-* [[Symbol.iterator]](_primitive_identityfields_.identityfields.md#[symbol.iterator])
 * [add](_primitive_identityfields_.identityfields.md#add)
 * [clear](_primitive_identityfields_.identityfields.md#clear)
 * [delete](_primitive_identityfields_.identityfields.md#delete)
-* [entries](_primitive_identityfields_.identityfields.md#entries)
 * [eq](_primitive_identityfields_.identityfields.md#eq)
 * [forEach](_primitive_identityfields_.identityfields.md#foreach)
 * [has](_primitive_identityfields_.identityfields.md#has)
-* [keys](_primitive_identityfields_.identityfields.md#keys)
 * [toHex](_primitive_identityfields_.identityfields.md#tohex)
 * [toJSON](_primitive_identityfields_.identityfields.md#tojson)
 * [toNumber](_primitive_identityfields_.identityfields.md#tonumber)
 * [toRawType](_primitive_identityfields_.identityfields.md#torawtype)
 * [toString](_primitive_identityfields_.identityfields.md#tostring)
 * [toU8a](_primitive_identityfields_.identityfields.md#tou8a)
-* [values](_primitive_identityfields_.identityfields.md#values)
 * [decodeSet](_primitive_identityfields_.identityfields.md#static-decodeset)
 * [encodeSet](_primitive_identityfields_.identityfields.md#static-encodeset)
 * [with](_primitive_identityfields_.identityfields.md#static-with)
@@ -62,7 +57,7 @@
 
 *Overrides [CodecSet](_codec_set_.codecset.md).[constructor](_codec_set_.codecset.md#constructor)*
 
-*Defined in [packages/types/src/primitive/IdentityFields.ts:23](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/primitive/IdentityFields.ts#L23)*
+*Defined in [packages/types/src/primitive/IdentityFields.ts:23](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/IdentityFields.ts#L23)*
 
 **Parameters:**
 
@@ -75,16 +70,6 @@ Name | Type |
 
 ## Properties
 
-###  [Symbol.toStringTag]
-
-• **[Symbol.toStringTag]**: *string*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:138
-
-___
-
 ###  registry
 
 • **registry**: *[Registry](../interfaces/_types_.registry.md)*
@@ -93,7 +78,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[registry](_codec_set_.codecset.md#registry)*
 
-*Defined in [packages/types/src/codec/Set.ts:24](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L24)*
+*Defined in [packages/types/src/codec/Set.ts:24](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L24)*
 
 ___
 
@@ -101,7 +86,7 @@ ___
 
 • **size**: *number*
 
-*Inherited from void*
+*Inherited from [BTreeSet](_codec_btreeset_.btreeset.md).[size](_codec_btreeset_.btreeset.md#size)*
 
 Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:64
 
@@ -113,7 +98,7 @@ Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:64
 
 *Overrides [CodecSet](_codec_set_.codecset.md).[encodedLength](_codec_set_.codecset.md#encodedlength)*
 
-*Defined in [packages/types/src/primitive/IdentityFields.ts:40](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/primitive/IdentityFields.ts#L40)*
+*Defined in [packages/types/src/primitive/IdentityFields.ts:40](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/IdentityFields.ts#L40)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -127,7 +112,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[hash](_codec_set_.codecset.md#hash)*
 
-*Defined in [packages/types/src/codec/Set.ts:115](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L115)*
+*Defined in [packages/types/src/codec/Set.ts:115](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L115)*
 
 **`description`** returns a hash of the contents
 
@@ -141,7 +126,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[isEmpty](_codec_set_.codecset.md#isempty)*
 
-*Defined in [packages/types/src/codec/Set.ts:122](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L122)*
+*Defined in [packages/types/src/codec/Set.ts:122](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L122)*
 
 **`description`** true is the Set contains no values
 
@@ -155,7 +140,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[strings](_codec_set_.codecset.md#strings)*
 
-*Defined in [packages/types/src/codec/Set.ts:129](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L129)*
+*Defined in [packages/types/src/codec/Set.ts:129](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L129)*
 
 **`description`** The actual set values as a string[]
 
@@ -169,7 +154,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[valueEncoded](_codec_set_.codecset.md#valueencoded)*
 
-*Defined in [packages/types/src/codec/Set.ts:136](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L136)*
+*Defined in [packages/types/src/codec/Set.ts:136](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L136)*
 
 **`description`** The encoded value for the set members
 
@@ -177,29 +162,15 @@ ___
 
 ## Methods
 
-###  [Symbol.iterator]
-
-▸ **[Symbol.iterator]**(): *IterableIterator‹string›*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:171
-
-Iterates over values in the set.
-
-**Returns:** *IterableIterator‹string›*
-
-___
-
 ###  add
 
 ▸ **add**(`key`: string): *this*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[add](_codec_set_.codecset.md#add)*
 
-*Overrides void*
+*Overrides [BTreeSet](_codec_btreeset_.btreeset.md).[add](_codec_btreeset_.btreeset.md#add)*
 
-*Defined in [packages/types/src/codec/Set.ts:143](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L143)*
+*Defined in [packages/types/src/codec/Set.ts:143](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L143)*
 
 **`description`** adds a value to the Set (extended to allow for validity checking)
 
@@ -217,7 +188,7 @@ ___
 
 ▸ **clear**(): *void*
 
-*Inherited from void*
+*Inherited from [BTreeSet](_codec_btreeset_.btreeset.md).[clear](_codec_btreeset_.btreeset.md#clear)*
 
 Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:60
 
@@ -229,7 +200,7 @@ ___
 
 ▸ **delete**(`value`: string): *boolean*
 
-*Inherited from void*
+*Inherited from [BTreeSet](_codec_btreeset_.btreeset.md).[delete](_codec_btreeset_.btreeset.md#delete)*
 
 Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:61
 
@@ -243,20 +214,6 @@ Name | Type |
 
 ___
 
-###  entries
-
-▸ **entries**(): *IterableIterator‹[string, string]›*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:175
-
-Returns an iterable of [v,v] pairs for every value `v` in the set.
-
-**Returns:** *IterableIterator‹[string, string]›*
-
-___
-
 ###  eq
 
 ▸ **eq**(`other?`: any): *boolean*
@@ -265,7 +222,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[eq](_codec_set_.codecset.md#eq)*
 
-*Defined in [packages/types/src/codec/Set.ts:156](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L156)*
+*Defined in [packages/types/src/codec/Set.ts:156](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L156)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -283,7 +240,7 @@ ___
 
 ▸ **forEach**(`callbackfn`: function, `thisArg?`: any): *void*
 
-*Inherited from void*
+*Inherited from [BTreeSet](_codec_btreeset_.btreeset.md).[forEach](_codec_btreeset_.btreeset.md#foreach)*
 
 Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:62
 
@@ -291,7 +248,7 @@ Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:62
 
 ▪ **callbackfn**: *function*
 
-▸ (`value`: string, `value2`: string, `set`: Set‹string›): *void*
+▸ (`value`: string, `value2`: string, `set`: [Set](_codec_btreeset_.btreeset.md#static-set)‹string›): *void*
 
 **Parameters:**
 
@@ -299,7 +256,7 @@ Name | Type |
 ------ | ------ |
 `value` | string |
 `value2` | string |
-`set` | Set‹string› |
+`set` | [Set](_codec_btreeset_.btreeset.md#static-set)‹string› |
 
 ▪`Optional`  **thisArg**: *any*
 
@@ -311,7 +268,7 @@ ___
 
 ▸ **has**(`value`: string): *boolean*
 
-*Inherited from void*
+*Inherited from [BTreeSet](_codec_btreeset_.btreeset.md).[has](_codec_btreeset_.btreeset.md#has)*
 
 Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:63
 
@@ -325,27 +282,13 @@ Name | Type |
 
 ___
 
-###  keys
-
-▸ **keys**(): *IterableIterator‹string›*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:179
-
-Despite its name, returns an iterable of the values in the set,
-
-**Returns:** *IterableIterator‹string›*
-
-___
-
 ###  toHex
 
 ▸ **toHex**(): *string*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toHex](_codec_set_.codecset.md#tohex)*
 
-*Defined in [packages/types/src/codec/Set.ts:172](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L172)*
+*Defined in [packages/types/src/codec/Set.ts:172](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L172)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -361,7 +304,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toJSON](_codec_set_.codecset.md#tojson)*
 
-*Defined in [packages/types/src/codec/Set.ts:179](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L179)*
+*Defined in [packages/types/src/codec/Set.ts:179](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L179)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -375,7 +318,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toNumber](_codec_set_.codecset.md#tonumber)*
 
-*Defined in [packages/types/src/codec/Set.ts:186](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L186)*
+*Defined in [packages/types/src/codec/Set.ts:186](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L186)*
 
 **`description`** The encoded value for the set members
 
@@ -391,7 +334,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toRawType](_codec_set_.codecset.md#torawtype)*
 
-*Defined in [packages/types/src/codec/Set.ts:193](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L193)*
+*Defined in [packages/types/src/codec/Set.ts:193](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L193)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -407,7 +350,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toString](_codec_set_.codecset.md#tostring)*
 
-*Defined in [packages/types/src/codec/Set.ts:201](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L201)*
+*Defined in [packages/types/src/codec/Set.ts:201](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L201)*
 
 **`description`** Returns the string representation of the value
 
@@ -417,46 +360,32 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(): *Uint8Array*
+▸ **toU8a**(): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
 *Overrides [CodecSet](_codec_set_.codecset.md).[toU8a](_codec_set_.codecset.md#tou8a)*
 
-*Defined in [packages/types/src/primitive/IdentityFields.ts:47](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/primitive/IdentityFields.ts#L47)*
+*Defined in [packages/types/src/primitive/IdentityFields.ts:47](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/IdentityFields.ts#L47)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
-**Returns:** *Uint8Array*
-
-___
-
-###  values
-
-▸ **values**(): *IterableIterator‹string›*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:184
-
-Returns an iterable of values in the set.
-
-**Returns:** *IterableIterator‹string›*
+**Returns:** *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
 ___
 
 ### `Static` decodeSet
 
-▸ **decodeSet**(`setValues`: SetValues, `value`: string[] | Set‹string› | Uint8Array | BN | number | string): *string[]*
+▸ **decodeSet**(`setValues`: SetValues, `value`: string[] | [Set](_codec_btreeset_.btreeset.md#static-set)‹string› | [Uint8Array](_codec_raw_.raw.md#static-uint8array) | BN | number | string): *string[]*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[decodeSet](_codec_set_.codecset.md#static-decodeset)*
 
-*Defined in [packages/types/src/codec/Set.ts:35](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L35)*
+*Defined in [packages/types/src/codec/Set.ts:35](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L35)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
 `setValues` | SetValues | - |
-`value` | string[] &#124; Set‹string› &#124; Uint8Array &#124; BN &#124; number &#124; string | 0 |
+`value` | string[] &#124; [Set](_codec_btreeset_.btreeset.md#static-set)‹string› &#124; [Uint8Array](_codec_raw_.raw.md#static-uint8array) &#124; BN &#124; number &#124; string | 0 |
 
 **Returns:** *string[]*
 
@@ -468,7 +397,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[encodeSet](_codec_set_.codecset.md#static-encodeset)*
 
-*Defined in [packages/types/src/codec/Set.ts:78](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L78)*
+*Defined in [packages/types/src/codec/Set.ts:78](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L78)*
 
 **Parameters:**
 
@@ -487,7 +416,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[with](_codec_set_.codecset.md#static-with)*
 
-*Defined in [packages/types/src/codec/Set.ts:84](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Set.ts#L84)*
+*Defined in [packages/types/src/codec/Set.ts:84](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Set.ts#L84)*
 
 **Parameters:**
 

@@ -16,7 +16,7 @@
 
 ▸ (...`params`: CodecArg[]): *[SubmittableExtrinsic](_submittable_types_.submittableextrinsic.md)‹ApiType›*
 
-*Defined in [api/src/types.ts:168](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L168)*
+*Defined in [api/src/types.ts:168](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L168)*
 
 **Parameters:**
 
@@ -28,7 +28,7 @@ Name | Type |
 
 ▸ (...`args`: any[]): *Call*
 
-*Defined in [types/src/types.ts:20](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L20)*
+*Defined in [types/src/types.ts:20](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L20)*
 
 **Parameters:**
 
@@ -54,9 +54,9 @@ Name | Type |
 
 • **callIndex**: *Uint8Array*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsicFunction](_types_.submittableextrinsicfunction.md).[callIndex](_types_.submittableextrinsicfunction.md#callindex)*
 
-*Defined in [types/src/types.ts:22](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L22)*
+*Defined in [types/src/types.ts:22](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L22)*
 
 ___
 
@@ -64,9 +64,9 @@ ___
 
 • **meta**: *FunctionMetadataLatest*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsicFunction](_types_.submittableextrinsicfunction.md).[meta](_types_.submittableextrinsicfunction.md#meta)*
 
-*Defined in [types/src/types.ts:23](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L23)*
+*Defined in [types/src/types.ts:23](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L23)*
 
 ___
 
@@ -74,9 +74,9 @@ ___
 
 • **method**: *string*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsicFunction](_types_.submittableextrinsicfunction.md).[method](_types_.submittableextrinsicfunction.md#method)*
 
-*Defined in [types/src/types.ts:24](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L24)*
+*Defined in [types/src/types.ts:24](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L24)*
 
 ___
 
@@ -84,9 +84,9 @@ ___
 
 • **section**: *string*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsicFunction](_types_.submittableextrinsicfunction.md).[section](_types_.submittableextrinsicfunction.md#section)*
 
-*Defined in [types/src/types.ts:25](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L25)*
+*Defined in [types/src/types.ts:25](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L25)*
 
 ___
 
@@ -94,9 +94,9 @@ ___
 
 • **toJSON**: *function*
 
-*Inherited from void*
+*Inherited from [SubmittableExtrinsicFunction](_types_.submittableextrinsicfunction.md).[toJSON](_types_.submittableextrinsicfunction.md#tojson)*
 
-*Defined in [types/src/types.ts:26](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L26)*
+*Defined in [types/src/types.ts:26](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L26)*
 
 #### Type declaration:
 

@@ -4,6 +4,40 @@
 
 ## Index
 
+### References
+
+* [FromReg](_types_.md#fromreg)
+* [MetaRegistryItem](_types_.md#metaregistryitem)
+* [MetaRegistryJson](_types_.md#metaregistryjson)
+* [MetaType](_types_.md#metatype)
+* [MetaTypeDef](_types_.md#metatypedef)
+* [MetaTypeDefBuiltIn](_types_.md#metatypedefbuiltin)
+* [MetaTypeDefClikeEnum](_types_.md#metatypedefclikeenum)
+* [MetaTypeDefClikeEnumVariant](_types_.md#metatypedefclikeenumvariant)
+* [MetaTypeDefEnum](_types_.md#metatypedefenum)
+* [MetaTypeDefEnumVariant](_types_.md#metatypedefenumvariant)
+* [MetaTypeDefEnumVariantStruct](_types_.md#metatypedefenumvariantstruct)
+* [MetaTypeDefEnumVariantTupleStruct](_types_.md#metatypedefenumvarianttuplestruct)
+* [MetaTypeDefEnumVariantUnit](_types_.md#metatypedefenumvariantunit)
+* [MetaTypeDefStruct](_types_.md#metatypedefstruct)
+* [MetaTypeDefStructField](_types_.md#metatypedefstructfield)
+* [MetaTypeDefTupleStruct](_types_.md#metatypedeftuplestruct)
+* [MetaTypeDefUnion](_types_.md#metatypedefunion)
+* [MetaTypeDefUnionField](_types_.md#metatypedefunionfield)
+* [MetaTypeId](_types_.md#metatypeid)
+* [MetaTypeIdCustom](_types_.md#metatypeidcustom)
+* [MetaTypeIdPrimitive](_types_.md#metatypeidprimitive)
+* [MetaTypeIdTuple](_types_.md#metatypeidtuple)
+* [MetaTypeIdVec](_types_.md#metatypeidvec)
+* [MetaTypeIdVecFixed](_types_.md#metatypeidvecfixed)
+* [MetaTypeInfo](_types_.md#metatypeinfo)
+* [StringIndex](_types_.md#stringindex)
+* [TypeDef](_types_.md#typedef)
+* [TypeDefExtEnumDiscriminant](_types_.md#typedefextenumdiscriminant)
+* [TypeDefExtVecFixed](_types_.md#typedefextvecfixed)
+* [TypeDefInfo](_types_.md#typedefinfo)
+* [TypeIndex](_types_.md#typeindex)
+
 ### Interfaces
 
 * [AnyJsonArray](../interfaces/_types_.anyjsonarray.md)
@@ -60,13 +94,199 @@
 * [RegistryMetadataErrors](_types_.md#registrymetadataerrors)
 * [RegistryTypes](_types_.md#registrytypes)
 
+## References
+
+###  FromReg
+
+• **FromReg**:
+
+___
+
+###  MetaRegistryItem
+
+• **MetaRegistryItem**:
+
+___
+
+###  MetaRegistryJson
+
+• **MetaRegistryJson**:
+
+___
+
+###  MetaType
+
+• **MetaType**:
+
+___
+
+###  MetaTypeDef
+
+• **MetaTypeDef**:
+
+___
+
+###  MetaTypeDefBuiltIn
+
+• **MetaTypeDefBuiltIn**:
+
+___
+
+###  MetaTypeDefClikeEnum
+
+• **MetaTypeDefClikeEnum**:
+
+___
+
+###  MetaTypeDefClikeEnumVariant
+
+• **MetaTypeDefClikeEnumVariant**:
+
+___
+
+###  MetaTypeDefEnum
+
+• **MetaTypeDefEnum**:
+
+___
+
+###  MetaTypeDefEnumVariant
+
+• **MetaTypeDefEnumVariant**:
+
+___
+
+###  MetaTypeDefEnumVariantStruct
+
+• **MetaTypeDefEnumVariantStruct**:
+
+___
+
+###  MetaTypeDefEnumVariantTupleStruct
+
+• **MetaTypeDefEnumVariantTupleStruct**:
+
+___
+
+###  MetaTypeDefEnumVariantUnit
+
+• **MetaTypeDefEnumVariantUnit**:
+
+___
+
+###  MetaTypeDefStruct
+
+• **MetaTypeDefStruct**:
+
+___
+
+###  MetaTypeDefStructField
+
+• **MetaTypeDefStructField**:
+
+___
+
+###  MetaTypeDefTupleStruct
+
+• **MetaTypeDefTupleStruct**:
+
+___
+
+###  MetaTypeDefUnion
+
+• **MetaTypeDefUnion**:
+
+___
+
+###  MetaTypeDefUnionField
+
+• **MetaTypeDefUnionField**:
+
+___
+
+###  MetaTypeId
+
+• **MetaTypeId**:
+
+___
+
+###  MetaTypeIdCustom
+
+• **MetaTypeIdCustom**:
+
+___
+
+###  MetaTypeIdPrimitive
+
+• **MetaTypeIdPrimitive**:
+
+___
+
+###  MetaTypeIdTuple
+
+• **MetaTypeIdTuple**:
+
+___
+
+###  MetaTypeIdVec
+
+• **MetaTypeIdVec**:
+
+___
+
+###  MetaTypeIdVecFixed
+
+• **MetaTypeIdVecFixed**:
+
+___
+
+###  MetaTypeInfo
+
+• **MetaTypeInfo**:
+
+___
+
+###  StringIndex
+
+• **StringIndex**:
+
+___
+
+###  TypeDef
+
+• **TypeDef**:
+
+___
+
+###  TypeDefExtEnumDiscriminant
+
+• **TypeDefExtEnumDiscriminant**:
+
+___
+
+###  TypeDefExtVecFixed
+
+• **TypeDefExtVecFixed**:
+
+___
+
+###  TypeDefInfo
+
+• **TypeDefInfo**:
+
+___
+
+###  TypeIndex
+
+• **TypeIndex**:
+
 ## Type aliases
 
 ###  AnyFunction
 
 Ƭ **AnyFunction**: *function*
 
-*Defined in [packages/types/src/types.ts:51](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L51)*
+*Defined in [packages/types/src/types.ts:51](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L51)*
 
 #### Type declaration:
 
@@ -84,15 +304,15 @@ ___
 
 Ƭ **AnyJson**: *string | number | boolean | null | undefined | [AnyJsonObject](../interfaces/_types_.anyjsonobject.md) | [AnyJsonArray](../interfaces/_types_.anyjsonarray.md)*
 
-*Defined in [packages/types/src/types.ts:63](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L63)*
+*Defined in [packages/types/src/types.ts:63](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L63)*
 
 ___
 
 ###  AnyNumber
 
-Ƭ **AnyNumber**: *BN | Uint8Array | number | string*
+Ƭ **AnyNumber**: *BN | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) | number | string*
 
-*Defined in [packages/types/src/types.ts:53](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L53)*
+*Defined in [packages/types/src/types.ts:53](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L53)*
 
 ___
 
@@ -100,15 +320,15 @@ ___
 
 Ƭ **AnyString**: *string | string*
 
-*Defined in [packages/types/src/types.ts:55](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L55)*
+*Defined in [packages/types/src/types.ts:55](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L55)*
 
 ___
 
 ###  AnyU8a
 
-Ƭ **AnyU8a**: *Uint8Array | number[] | string*
+Ƭ **AnyU8a**: *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) | number[] | string*
 
-*Defined in [packages/types/src/types.ts:57](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L57)*
+*Defined in [packages/types/src/types.ts:57](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L57)*
 
 ___
 
@@ -116,7 +336,7 @@ ___
 
 Ƭ **ArgsDef**: *Record‹string, [Constructor](../interfaces/_types_.constructor.md)›*
 
-*Defined in [packages/types/src/types.ts:174](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L174)*
+*Defined in [packages/types/src/types.ts:174](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L174)*
 
 ___
 
@@ -124,7 +344,7 @@ ___
 
 Ƭ **BareOpts**: *boolean | Record‹string, boolean›*
 
-*Defined in [packages/types/src/types.ts:16](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L16)*
+*Defined in [packages/types/src/types.ts:16](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L16)*
 
 ___
 
@@ -132,7 +352,7 @@ ___
 
 Ƭ **Callback**: *function*
 
-*Defined in [packages/types/src/types.ts:44](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L44)*
+*Defined in [packages/types/src/types.ts:44](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L44)*
 
 #### Type declaration:
 
@@ -150,15 +370,15 @@ ___
 
 Ƭ **Calls**: *Record‹string, [CallFunction](../interfaces/_types_.callfunction.md)›*
 
-*Defined in [packages/types/src/types.ts:29](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L29)*
+*Defined in [packages/types/src/types.ts:29](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L29)*
 
 ___
 
 ###  CodecArg
 
-Ƭ **CodecArg**: *[Codec](../interfaces/_types_.codec.md) | BN | boolean | string | Uint8Array | boolean | number | string | undefined | CodecArgArray | CodecArgObject*
+Ƭ **CodecArg**: *[Codec](../interfaces/_types_.codec.md) | BN | boolean | string | [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array) | boolean | number | string | undefined | CodecArgArray | CodecArgObject*
 
-*Defined in [packages/types/src/types.ts:42](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L42)*
+*Defined in [packages/types/src/types.ts:42](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L42)*
 
 ___
 
@@ -166,7 +386,7 @@ ___
 
 Ƭ **CodecTo**: *"toHex" | "toJSON" | "toString" | "toU8a"*
 
-*Defined in [packages/types/src/types.ts:141](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L141)*
+*Defined in [packages/types/src/types.ts:141](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L141)*
 
 ___
 
@@ -174,7 +394,7 @@ ___
 
 Ƭ **ConstructorDef**: *Record‹string, [Constructor](../interfaces/_types_.constructor.md)‹T››*
 
-*Defined in [packages/types/src/types.ts:148](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L148)*
+*Defined in [packages/types/src/types.ts:148](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L148)*
 
 ___
 
@@ -182,7 +402,7 @@ ___
 
 Ƭ **ITuple**: *Sub & [Codec](../interfaces/_types_.codec.md)*
 
-*Defined in [packages/types/src/types.ts:179](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L179)*
+*Defined in [packages/types/src/types.ts:179](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L179)*
 
 ___
 
@@ -190,7 +410,7 @@ ___
 
 Ƭ **InterfaceTypes**: *keyof InterfaceRegistry*
 
-*Defined in [packages/types/src/types.ts:18](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L18)*
+*Defined in [packages/types/src/types.ts:18](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L18)*
 
 ___
 
@@ -198,7 +418,7 @@ ___
 
 Ƭ **ModulesWithCalls**: *Record‹string, [Calls](_types_.md#calls)›*
 
-*Defined in [packages/types/src/types.ts:31](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L31)*
+*Defined in [packages/types/src/types.ts:31](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L31)*
 
 ___
 
@@ -206,7 +426,7 @@ ___
 
 Ƭ **RegistryMetadataErrors**: *[RegistryMetadataError](../interfaces/_types_.registrymetadataerror.md)[]*
 
-*Defined in [packages/types/src/types.ts:363](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L363)*
+*Defined in [packages/types/src/types.ts:363](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L363)*
 
 ___
 
@@ -214,4 +434,4 @@ ___
 
 Ƭ **RegistryTypes**: *Record‹string, [Constructor](../interfaces/_types_.constructor.md) | string | Record‹string, string› | object | object›*
 
-*Defined in [packages/types/src/types.ts:150](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/types.ts#L150)*
+*Defined in [packages/types/src/types.ts:150](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L150)*

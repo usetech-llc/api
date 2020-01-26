@@ -32,7 +32,6 @@ as a sane default for fixed-length hash representations.
 
 ### Properties
 
-* [[Symbol.toStringTag]](_primitive_h160_.h160.md#[symbol.tostringtag])
 * [registry](_primitive_h160_.h160.md#registry)
 
 ### Accessors
@@ -44,7 +43,6 @@ as a sane default for fixed-length hash representations.
 
 ### Methods
 
-* [[Symbol.iterator]](_primitive_h160_.h160.md#[symbol.iterator])
 * [bitLength](_primitive_h160_.h160.md#bitlength)
 * [eq](_primitive_h160_.h160.md#eq)
 * [subarray](_primitive_h160_.h160.md#subarray)
@@ -63,7 +61,7 @@ as a sane default for fixed-length hash representations.
 
 *Overrides [U8aFixed](_codec_u8afixed_.u8afixed.md).[constructor](_codec_u8afixed_.u8afixed.md#constructor)*
 
-*Defined in [packages/types/src/primitive/H160.ts:15](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/primitive/H160.ts#L15)*
+*Defined in [packages/types/src/primitive/H160.ts:15](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/H160.ts#L15)*
 
 **Parameters:**
 
@@ -76,18 +74,6 @@ Name | Type |
 
 ## Properties
 
-###  [Symbol.toStringTag]
-
-• **[Symbol.toStringTag]**: *"UInt8Array"*
-
-*Implementation of [IU8a](../interfaces/_types_.iu8a.md).[[Symbol.toStringTag]](../interfaces/_types_.iu8a.md#[symbol.tostringtag])*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts:276
-
-___
-
 ###  registry
 
 • **registry**: *[Registry](../interfaces/_types_.registry.md)*
@@ -96,7 +82,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[registry](_codec_raw_.raw.md#registry)*
 
-*Defined in [packages/types/src/codec/Raw.ts:20](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Raw.ts#L20)*
+*Defined in [packages/types/src/codec/Raw.ts:20](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Raw.ts#L20)*
 
 ## Accessors
 
@@ -106,7 +92,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[encodedLength](_codec_raw_.raw.md#encodedlength)*
 
-*Defined in [packages/types/src/codec/Raw.ts:39](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Raw.ts#L39)*
+*Defined in [packages/types/src/codec/Raw.ts:39](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Raw.ts#L39)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -120,7 +106,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[hash](_codec_raw_.raw.md#hash)*
 
-*Defined in [packages/types/src/codec/Raw.ts:46](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Raw.ts#L46)*
+*Defined in [packages/types/src/codec/Raw.ts:46](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Raw.ts#L46)*
 
 **`description`** returns a hash of the contents
 
@@ -134,7 +120,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[isEmpty](_codec_raw_.raw.md#isempty)*
 
-*Defined in [packages/types/src/codec/Raw.ts:53](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Raw.ts#L53)*
+*Defined in [packages/types/src/codec/Raw.ts:53](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Raw.ts#L53)*
 
 **`description`** Returns true if the type wraps an empty/default all-0 value
 
@@ -148,29 +134,15 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[length](_codec_raw_.raw.md#length)*
 
-*Overrides void*
+*Overrides [EcdsaSignature](../interfaces/_interfaces_runtime_types_.ecdsasignature.md).[length](../interfaces/_interfaces_runtime_types_.ecdsasignature.md#length)*
 
-*Defined in [packages/types/src/codec/Raw.ts:60](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Raw.ts#L60)*
+*Defined in [packages/types/src/codec/Raw.ts:60](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Raw.ts#L60)*
 
 **`description`** The length of the value
 
 **Returns:** *number*
 
 ## Methods
-
-###  [Symbol.iterator]
-
-▸ **[Symbol.iterator]**(): *IterableIterator‹number›*
-
-*Implementation of [IU8a](../interfaces/_types_.iu8a.md)*
-
-*Inherited from void*
-
-Defined in node_modules/typescript/lib/lib.es2015.iterable.d.ts:275
-
-**Returns:** *IterableIterator‹number›*
-
-___
 
 ###  bitLength
 
@@ -180,7 +152,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[bitLength](_codec_raw_.raw.md#bitlength)*
 
-*Defined in [packages/types/src/codec/Raw.ts:68](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Raw.ts#L68)*
+*Defined in [packages/types/src/codec/Raw.ts:68](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Raw.ts#L68)*
 
 **`description`** Returns the number of bits in the value
 
@@ -196,7 +168,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[eq](_codec_raw_.raw.md#eq)*
 
-*Defined in [packages/types/src/codec/Raw.ts:75](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Raw.ts#L75)*
+*Defined in [packages/types/src/codec/Raw.ts:75](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Raw.ts#L75)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -212,13 +184,13 @@ ___
 
 ###  subarray
 
-▸ **subarray**(`begin`: number, `end?`: undefined | number): *Uint8Array*
+▸ **subarray**(`begin`: number, `end?`: undefined | number): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
 *Inherited from [Raw](_codec_raw_.raw.md).[subarray](_codec_raw_.raw.md#subarray)*
 
-*Overrides void*
+*Overrides [EcdsaSignature](../interfaces/_interfaces_runtime_types_.ecdsasignature.md).[subarray](../interfaces/_interfaces_runtime_types_.ecdsasignature.md#subarray)*
 
-*Defined in [packages/types/src/codec/Raw.ts:89](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Raw.ts#L89)*
+*Defined in [packages/types/src/codec/Raw.ts:89](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Raw.ts#L89)*
 
 **`description`** Create a new subarray from the actual buffer. This is needed for compat reasons since a new Uint8Array gets returned here
 
@@ -229,7 +201,7 @@ Name | Type | Description |
 `begin` | number | The position to start at |
 `end?` | undefined &#124; number | The position to end at  |
 
-**Returns:** *Uint8Array*
+**Returns:** *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
 ___
 
@@ -239,7 +211,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[toHex](_codec_raw_.raw.md#tohex)*
 
-*Defined in [packages/types/src/codec/Raw.ts:96](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Raw.ts#L96)*
+*Defined in [packages/types/src/codec/Raw.ts:96](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Raw.ts#L96)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -255,7 +227,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[toJSON](_codec_raw_.raw.md#tojson)*
 
-*Defined in [packages/types/src/codec/Raw.ts:103](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Raw.ts#L103)*
+*Defined in [packages/types/src/codec/Raw.ts:103](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Raw.ts#L103)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -271,7 +243,7 @@ ___
 
 *Overrides [U8aFixed](_codec_u8afixed_.u8afixed.md).[toRawType](_codec_u8afixed_.u8afixed.md#torawtype)*
 
-*Defined in [packages/types/src/primitive/H160.ts:23](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/primitive/H160.ts#L23)*
+*Defined in [packages/types/src/primitive/H160.ts:23](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/H160.ts#L23)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -287,9 +259,9 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[toString](_codec_raw_.raw.md#tostring)*
 
-*Overrides void*
+*Overrides [EcdsaSignature](../interfaces/_interfaces_runtime_types_.ecdsasignature.md).[toString](../interfaces/_interfaces_runtime_types_.ecdsasignature.md#tostring)*
 
-*Defined in [packages/types/src/codec/Raw.ts:117](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Raw.ts#L117)*
+*Defined in [packages/types/src/codec/Raw.ts:117](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Raw.ts#L117)*
 
 **`description`** Returns the string representation of the value
 
@@ -299,11 +271,11 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *Uint8Array*
+▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
 *Inherited from [Raw](_codec_raw_.raw.md).[toU8a](_codec_raw_.raw.md#tou8a)*
 
-*Defined in [packages/types/src/codec/Raw.ts:126](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Raw.ts#L126)*
+*Defined in [packages/types/src/codec/Raw.ts:126](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Raw.ts#L126)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -313,7 +285,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `isBare?` | undefined &#124; false &#124; true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** *Uint8Array*
+**Returns:** *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
 ___
 
@@ -323,7 +295,7 @@ ___
 
 *Inherited from [U8aFixed](_codec_u8afixed_.u8afixed.md).[with](_codec_u8afixed_.u8afixed.md#static-with)*
 
-*Defined in [packages/types/src/codec/U8aFixed.ts:48](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/U8aFixed.ts#L48)*
+*Defined in [packages/types/src/codec/U8aFixed.ts:48](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/U8aFixed.ts#L48)*
 
 **Parameters:**
 

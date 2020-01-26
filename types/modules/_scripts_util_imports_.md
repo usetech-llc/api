@@ -19,14 +19,17 @@
 
 ▸ **createImports**(`importDefinitions`: object, `__namedParameters`: object): *[TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)*
 
-*Defined in [packages/types/src/scripts/util/imports.ts:70](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/scripts/util/imports.ts#L70)*
+*Defined in [packages/types/src/scripts/util/imports.ts:70](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/scripts/util/imports.ts#L70)*
 
 **Parameters:**
 
-Name | Type | Default |
------- | ------ | ------ |
-`importDefinitions` | object | - |
-`__namedParameters` | object |  { types: {} } |
+▪ **importDefinitions**: *object*
+
+▪`Default value`  **__namedParameters**: *object*= { types: {} }
+
+Name | Type |
+------ | ------ |
+`types` | object |
 
 **Returns:** *[TypeImports](../interfaces/_scripts_util_imports_.typeimports.md)*
 
@@ -36,7 +39,7 @@ ___
 
 ▸ **setImports**(`definitions`: object, `imports`: [TypeImports](../interfaces/_scripts_util_imports_.typeimports.md), `types`: string[]): *void*
 
-*Defined in [packages/types/src/scripts/util/imports.ts:31](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/scripts/util/imports.ts#L31)*
+*Defined in [packages/types/src/scripts/util/imports.ts:31](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/scripts/util/imports.ts#L31)*
 
 **Parameters:**
 

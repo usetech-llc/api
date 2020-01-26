@@ -29,6 +29,6 @@ ___
 
 ###  prime
 
-• **prime**: *MPrime*
+• **prime**: *[MPrime](_interfaces_runtime_types_.accountindex.mprime.md)*
 
 Defined in node_modules/@types/bn.js/index.d.ts:23

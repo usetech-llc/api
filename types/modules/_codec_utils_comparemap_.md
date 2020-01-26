@@ -12,15 +12,15 @@
 
 ###  compareMap
 
-▸ **compareMap**(`a`: Map‹any, any›, `b?`: any): *boolean*
+▸ **compareMap**(`a`: [Map](../classes/_codec_struct_.struct.md#static-map)‹any, any›, `b?`: any): *boolean*
 
-*Defined in [packages/types/src/codec/utils/compareMap.ts:22](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/utils/compareMap.ts#L22)*
+*Defined in [packages/types/src/codec/utils/compareMap.ts:22](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/utils/compareMap.ts#L22)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`a` | Map‹any, any› |
+`a` | [Map](../classes/_codec_struct_.struct.md#static-map)‹any, any› |
 `b?` | any |
 
 **Returns:** *boolean*

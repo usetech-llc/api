@@ -83,9 +83,9 @@
 
 ###  Array
 
-• **Array**: *ArrayConstructor*
+• **Array**: *typeof Array*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Array](_mock_types_.global.md#array)*
 
 Defined in node_modules/@types/node/globals.d.ts:975
 
@@ -93,9 +93,9 @@ ___
 
 ###  ArrayBuffer
 
-• **ArrayBuffer**: *ArrayBufferConstructor*
+• **ArrayBuffer**: *typeof ArrayBuffer*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[ArrayBuffer](_mock_types_.global.md#arraybuffer)*
 
 Defined in node_modules/@types/node/globals.d.ts:976
 
@@ -103,9 +103,9 @@ ___
 
 ###  Boolean
 
-• **Boolean**: *BooleanConstructor*
+• **Boolean**: *typeof Boolean*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Boolean](_mock_types_.global.md#boolean)*
 
 Defined in node_modules/@types/node/globals.d.ts:977
 
@@ -113,9 +113,9 @@ ___
 
 ###  Buffer
 
-• **Buffer**: *Buffer*
+• **Buffer**: *typeof Buffer*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Buffer](_mock_types_.global.md#buffer)*
 
 Defined in node_modules/@types/node/globals.d.ts:978
 
@@ -123,9 +123,9 @@ ___
 
 ###  DataView
 
-• **DataView**: *DataViewConstructor*
+• **DataView**: *typeof DataView*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[DataView](_mock_types_.global.md#dataview)*
 
 Defined in node_modules/@types/node/globals.d.ts:979
 
@@ -133,9 +133,9 @@ ___
 
 ###  Date
 
-• **Date**: *DateConstructor*
+• **Date**: *typeof Date*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Date](_mock_types_.global.md#date)*
 
 Defined in node_modules/@types/node/globals.d.ts:980
 
@@ -143,9 +143,9 @@ ___
 
 ###  Error
 
-• **Error**: *ErrorConstructor*
+• **Error**: *typeof Error*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Error](_mock_types_.global.md#error)*
 
 Defined in node_modules/@types/node/globals.d.ts:981
 
@@ -153,9 +153,9 @@ ___
 
 ###  EvalError
 
-• **EvalError**: *EvalErrorConstructor*
+• **EvalError**: *typeof EvalError*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[EvalError](_mock_types_.global.md#evalerror)*
 
 Defined in node_modules/@types/node/globals.d.ts:982
 
@@ -163,9 +163,9 @@ ___
 
 ###  Float32Array
 
-• **Float32Array**: *Float32ArrayConstructor*
+• **Float32Array**: *typeof Float32Array*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Float32Array](_mock_types_.global.md#float32array)*
 
 Defined in node_modules/@types/node/globals.d.ts:983
 
@@ -173,9 +173,9 @@ ___
 
 ###  Float64Array
 
-• **Float64Array**: *Float64ArrayConstructor*
+• **Float64Array**: *typeof Float64Array*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Float64Array](_mock_types_.global.md#float64array)*
 
 Defined in node_modules/@types/node/globals.d.ts:984
 
@@ -183,9 +183,9 @@ ___
 
 ###  Function
 
-• **Function**: *FunctionConstructor*
+• **Function**: *typeof Function*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Function](_mock_types_.global.md#function)*
 
 Defined in node_modules/@types/node/globals.d.ts:985
 
@@ -195,7 +195,7 @@ ___
 
 • **GLOBAL**: *Global*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[GLOBAL](_mock_types_.global.md#global)*
 
 Defined in node_modules/@types/node/globals.d.ts:986
 
@@ -203,9 +203,9 @@ ___
 
 ###  Infinity
 
-• **Infinity**: *number*
+• **Infinity**: *typeof Infinity*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Infinity](_mock_types_.global.md#infinity)*
 
 Defined in node_modules/@types/node/globals.d.ts:987
 
@@ -213,9 +213,9 @@ ___
 
 ###  Int16Array
 
-• **Int16Array**: *Int16ArrayConstructor*
+• **Int16Array**: *typeof Int16Array*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Int16Array](_mock_types_.global.md#int16array)*
 
 Defined in node_modules/@types/node/globals.d.ts:988
 
@@ -223,9 +223,9 @@ ___
 
 ###  Int32Array
 
-• **Int32Array**: *Int32ArrayConstructor*
+• **Int32Array**: *typeof Int32Array*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Int32Array](_mock_types_.global.md#int32array)*
 
 Defined in node_modules/@types/node/globals.d.ts:989
 
@@ -233,9 +233,9 @@ ___
 
 ###  Int8Array
 
-• **Int8Array**: *Int8ArrayConstructor*
+• **Int8Array**: *typeof Int8Array*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Int8Array](_mock_types_.global.md#int8array)*
 
 Defined in node_modules/@types/node/globals.d.ts:990
 
@@ -243,9 +243,9 @@ ___
 
 ###  Intl
 
-• **Intl**: *Intl*
+• **Intl**: *typeof Intl*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Intl](_mock_types_.global.md#intl)*
 
 Defined in node_modules/@types/node/globals.d.ts:991
 
@@ -253,9 +253,9 @@ ___
 
 ###  JSON
 
-• **JSON**: *JSON*
+• **JSON**: *typeof JSON*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[JSON](_mock_types_.global.md#json)*
 
 Defined in node_modules/@types/node/globals.d.ts:992
 
@@ -265,7 +265,7 @@ ___
 
 • **Map**: *MapConstructor*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Map](_mock_types_.global.md#map)*
 
 Defined in node_modules/@types/node/globals.d.ts:993
 
@@ -273,9 +273,9 @@ ___
 
 ###  Math
 
-• **Math**: *Math*
+• **Math**: *typeof Math*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Math](_mock_types_.global.md#math)*
 
 Defined in node_modules/@types/node/globals.d.ts:994
 
@@ -283,9 +283,9 @@ ___
 
 ###  NaN
 
-• **NaN**: *number*
+• **NaN**: *typeof NaN*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[NaN](_mock_types_.global.md#nan)*
 
 Defined in node_modules/@types/node/globals.d.ts:995
 
@@ -293,9 +293,9 @@ ___
 
 ###  Number
 
-• **Number**: *NumberConstructor*
+• **Number**: *typeof Number*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Number](_mock_types_.global.md#number)*
 
 Defined in node_modules/@types/node/globals.d.ts:996
 
@@ -303,9 +303,9 @@ ___
 
 ###  Object
 
-• **Object**: *ObjectConstructor*
+• **Object**: *typeof Object*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Object](_mock_types_.global.md#object)*
 
 Defined in node_modules/@types/node/globals.d.ts:997
 
@@ -313,9 +313,9 @@ ___
 
 ###  Promise
 
-• **Promise**: *PromiseConstructor*
+• **Promise**: *typeof Promise*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Promise](_mock_types_.global.md#promise)*
 
 Defined in node_modules/@types/node/globals.d.ts:998
 
@@ -323,9 +323,9 @@ ___
 
 ###  RangeError
 
-• **RangeError**: *RangeErrorConstructor*
+• **RangeError**: *typeof RangeError*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[RangeError](_mock_types_.global.md#rangeerror)*
 
 Defined in node_modules/@types/node/globals.d.ts:999
 
@@ -333,9 +333,9 @@ ___
 
 ###  ReferenceError
 
-• **ReferenceError**: *ReferenceErrorConstructor*
+• **ReferenceError**: *typeof ReferenceError*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[ReferenceError](_mock_types_.global.md#referenceerror)*
 
 Defined in node_modules/@types/node/globals.d.ts:1000
 
@@ -343,9 +343,9 @@ ___
 
 ###  RegExp
 
-• **RegExp**: *RegExpConstructor*
+• **RegExp**: *typeof RegExp*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[RegExp](_mock_types_.global.md#regexp)*
 
 Defined in node_modules/@types/node/globals.d.ts:1001
 
@@ -355,7 +355,7 @@ ___
 
 • **Set**: *SetConstructor*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Set](_mock_types_.global.md#set)*
 
 Defined in node_modules/@types/node/globals.d.ts:1002
 
@@ -363,9 +363,9 @@ ___
 
 ###  String
 
-• **String**: *StringConstructor*
+• **String**: *typeof String*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[String](_mock_types_.global.md#string)*
 
 Defined in node_modules/@types/node/globals.d.ts:1003
 
@@ -375,7 +375,7 @@ ___
 
 • **Symbol**: *Function*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Symbol](_mock_types_.global.md#symbol)*
 
 Defined in node_modules/@types/node/globals.d.ts:1004
 
@@ -383,9 +383,9 @@ ___
 
 ###  SyntaxError
 
-• **SyntaxError**: *SyntaxErrorConstructor*
+• **SyntaxError**: *typeof SyntaxError*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[SyntaxError](_mock_types_.global.md#syntaxerror)*
 
 Defined in node_modules/@types/node/globals.d.ts:1005
 
@@ -393,9 +393,9 @@ ___
 
 ###  TypeError
 
-• **TypeError**: *TypeErrorConstructor*
+• **TypeError**: *typeof TypeError*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[TypeError](_mock_types_.global.md#typeerror)*
 
 Defined in node_modules/@types/node/globals.d.ts:1006
 
@@ -403,9 +403,9 @@ ___
 
 ###  URIError
 
-• **URIError**: *URIErrorConstructor*
+• **URIError**: *typeof URIError*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[URIError](_mock_types_.global.md#urierror)*
 
 Defined in node_modules/@types/node/globals.d.ts:1007
 
@@ -413,9 +413,9 @@ ___
 
 ###  Uint16Array
 
-• **Uint16Array**: *Uint16ArrayConstructor*
+• **Uint16Array**: *typeof Uint16Array*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Uint16Array](_mock_types_.global.md#uint16array)*
 
 Defined in node_modules/@types/node/globals.d.ts:1008
 
@@ -423,9 +423,9 @@ ___
 
 ###  Uint32Array
 
-• **Uint32Array**: *Uint32ArrayConstructor*
+• **Uint32Array**: *typeof Uint32Array*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Uint32Array](_mock_types_.global.md#uint32array)*
 
 Defined in node_modules/@types/node/globals.d.ts:1009
 
@@ -433,9 +433,9 @@ ___
 
 ###  Uint8Array
 
-• **Uint8Array**: *Uint8ArrayConstructor*
+• **Uint8Array**: *typeof Uint8Array*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Uint8Array](_mock_types_.global.md#uint8array)*
 
 Defined in node_modules/@types/node/globals.d.ts:1010
 
@@ -443,9 +443,9 @@ ___
 
 ###  Uint8ClampedArray
 
-• **Uint8ClampedArray**: *Uint8ClampedArrayConstructor*
+• **Uint8ClampedArray**: *typeof Uint8ClampedArray*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[Uint8ClampedArray](_mock_types_.global.md#uint8clampedarray)*
 
 Defined in node_modules/@types/node/globals.d.ts:1011
 
@@ -455,7 +455,7 @@ ___
 
 • **WeakMap**: *WeakMapConstructor*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[WeakMap](_mock_types_.global.md#weakmap)*
 
 Defined in node_modules/@types/node/globals.d.ts:1012
 
@@ -465,7 +465,7 @@ ___
 
 • **WeakSet**: *WeakSetConstructor*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[WeakSet](_mock_types_.global.md#weakset)*
 
 Defined in node_modules/@types/node/globals.d.ts:1013
 
@@ -475,7 +475,7 @@ ___
 
 • **WebSocket**: *Constructor‹WebSocket›*
 
-*Defined in [packages/rpc-provider/src/mock/types.ts:9](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/rpc-provider/src/mock/types.ts#L9)*
+*Defined in [packages/rpc-provider/src/mock/types.ts:9](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/rpc-provider/src/mock/types.ts#L9)*
 
 ___
 
@@ -483,7 +483,7 @@ ___
 
 • **clearImmediate**: *function*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[clearImmediate](_mock_types_.global.md#clearimmediate)*
 
 Defined in node_modules/@types/node/globals.d.ts:1014
 
@@ -503,7 +503,7 @@ ___
 
 • **clearInterval**: *function*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[clearInterval](_mock_types_.global.md#clearinterval)*
 
 Defined in node_modules/@types/node/globals.d.ts:1015
 
@@ -523,7 +523,7 @@ ___
 
 • **clearTimeout**: *function*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[clearTimeout](_mock_types_.global.md#cleartimeout)*
 
 Defined in node_modules/@types/node/globals.d.ts:1016
 
@@ -541,9 +541,9 @@ ___
 
 ###  console
 
-• **console**: *Console*
+• **console**: *typeof console*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[console](_mock_types_.global.md#console)*
 
 Defined in node_modules/@types/node/globals.d.ts:1017
 
@@ -551,9 +551,9 @@ ___
 
 ###  decodeURI
 
-• **decodeURI**: *decodeURI*
+• **decodeURI**: *typeof decodeURI*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[decodeURI](_mock_types_.global.md#decodeuri)*
 
 Defined in node_modules/@types/node/globals.d.ts:1018
 
@@ -561,9 +561,9 @@ ___
 
 ###  decodeURIComponent
 
-• **decodeURIComponent**: *decodeURIComponent*
+• **decodeURIComponent**: *typeof decodeURIComponent*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[decodeURIComponent](_mock_types_.global.md#decodeuricomponent)*
 
 Defined in node_modules/@types/node/globals.d.ts:1019
 
@@ -571,9 +571,9 @@ ___
 
 ###  encodeURI
 
-• **encodeURI**: *encodeURI*
+• **encodeURI**: *typeof encodeURI*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[encodeURI](_mock_types_.global.md#encodeuri)*
 
 Defined in node_modules/@types/node/globals.d.ts:1020
 
@@ -581,9 +581,9 @@ ___
 
 ###  encodeURIComponent
 
-• **encodeURIComponent**: *encodeURIComponent*
+• **encodeURIComponent**: *typeof encodeURIComponent*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[encodeURIComponent](_mock_types_.global.md#encodeuricomponent)*
 
 Defined in node_modules/@types/node/globals.d.ts:1021
 
@@ -593,7 +593,7 @@ ___
 
 • **escape**: *function*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[escape](_mock_types_.global.md#escape)*
 
 Defined in node_modules/@types/node/globals.d.ts:1022
 
@@ -611,9 +611,9 @@ ___
 
 ###  eval
 
-• **eval**: *eval*
+• **eval**: *typeof eval*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[eval](_mock_types_.global.md#eval)*
 
 Defined in node_modules/@types/node/globals.d.ts:1023
 
@@ -623,7 +623,7 @@ ___
 
 • **fetch**: *any*
 
-*Defined in [packages/rpc-provider/src/mock/types.ts:10](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/rpc-provider/src/mock/types.ts#L10)*
+*Defined in [packages/rpc-provider/src/mock/types.ts:10](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/rpc-provider/src/mock/types.ts#L10)*
 
 ___
 
@@ -631,7 +631,7 @@ ___
 
 • **gc**: *function*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[gc](_mock_types_.global.md#gc)*
 
 Defined in node_modules/@types/node/globals.d.ts:1040
 
@@ -645,7 +645,7 @@ ___
 
 • **global**: *Global*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[global](_mock_types_.global.md#global)*
 
 Defined in node_modules/@types/node/globals.d.ts:1024
 
@@ -653,9 +653,9 @@ ___
 
 ###  isFinite
 
-• **isFinite**: *isFinite*
+• **isFinite**: *typeof isFinite*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[isFinite](_mock_types_.global.md#isfinite)*
 
 Defined in node_modules/@types/node/globals.d.ts:1025
 
@@ -663,9 +663,9 @@ ___
 
 ###  isNaN
 
-• **isNaN**: *isNaN*
+• **isNaN**: *typeof isNaN*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[isNaN](_mock_types_.global.md#isnan)*
 
 Defined in node_modules/@types/node/globals.d.ts:1026
 
@@ -673,9 +673,9 @@ ___
 
 ###  parseFloat
 
-• **parseFloat**: *parseFloat*
+• **parseFloat**: *typeof parseFloat*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[parseFloat](_mock_types_.global.md#parsefloat)*
 
 Defined in node_modules/@types/node/globals.d.ts:1027
 
@@ -683,9 +683,9 @@ ___
 
 ###  parseInt
 
-• **parseInt**: *parseInt*
+• **parseInt**: *typeof parseInt*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[parseInt](_mock_types_.global.md#parseint)*
 
 Defined in node_modules/@types/node/globals.d.ts:1028
 
@@ -695,7 +695,7 @@ ___
 
 • **process**: *Process*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[process](_mock_types_.global.md#process)*
 
 Defined in node_modules/@types/node/globals.d.ts:1029
 
@@ -703,9 +703,9 @@ ___
 
 ###  queueMicrotask
 
-• **queueMicrotask**: *queueMicrotask*
+• **queueMicrotask**: *typeof queueMicrotask*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[queueMicrotask](_mock_types_.global.md#queuemicrotask)*
 
 Defined in node_modules/@types/node/globals.d.ts:1037
 
@@ -715,7 +715,7 @@ ___
 
 • **root**: *Global*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[root](_mock_types_.global.md#root)*
 
 Defined in node_modules/@types/node/globals.d.ts:1033
 
@@ -727,7 +727,7 @@ ___
 
 • **setImmediate**: *function*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[setImmediate](_mock_types_.global.md#setimmediate)*
 
 Defined in node_modules/@types/node/globals.d.ts:1034
 
@@ -755,7 +755,7 @@ ___
 
 • **setInterval**: *function*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[setInterval](_mock_types_.global.md#setinterval)*
 
 Defined in node_modules/@types/node/globals.d.ts:1035
 
@@ -785,7 +785,7 @@ ___
 
 • **setTimeout**: *function*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[setTimeout](_mock_types_.global.md#settimeout)*
 
 Defined in node_modules/@types/node/globals.d.ts:1036
 
@@ -813,9 +813,9 @@ ___
 
 ###  undefined
 
-• **undefined**: *undefined*
+• **undefined**: *typeof undefined*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[undefined](_mock_types_.global.md#undefined)*
 
 Defined in node_modules/@types/node/globals.d.ts:1038
 
@@ -825,7 +825,7 @@ ___
 
 • **unescape**: *function*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[unescape](_mock_types_.global.md#unescape)*
 
 Defined in node_modules/@types/node/globals.d.ts:1039
 
@@ -845,6 +845,6 @@ ___
 
 • **v8debug**? : *any*
 
-*Inherited from void*
+*Inherited from [Global](_mock_types_.global.md).[v8debug](_mock_types_.global.md#optional-v8debug)*
 
 Defined in node_modules/@types/node/globals.d.ts:1041

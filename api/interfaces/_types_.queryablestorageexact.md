@@ -9,3 +9,5 @@
 ## Hierarchy
 
 * **QueryableStorageExact**
+
+  ↳ [QueryableStorage](_types_.queryablestorage.md)

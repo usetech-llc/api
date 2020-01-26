@@ -18,6 +18,10 @@
 
 • **registry**: *object*
 
-*Defined in [packages/types/src/codec/create/types.ts:156](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/create/types.ts#L156)*
+*Defined in [packages/types/src/codec/create/types.ts:156](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/create/types.ts#L156)*
 
 #### Type declaration:
+
+* **strings**: *string[]*
+
+* **types**: *[MetaType](_codec_create_types_.metatype.md)[]*

@@ -14,13 +14,17 @@
 
 ▸ **getTypeDef**(`_type`: string, `__namedParameters`: object): *[TypeDef](../interfaces/_codec_create_types_.typedef.md)*
 
-*Defined in [packages/types/src/codec/create/getTypeDef.ts:129](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/create/getTypeDef.ts#L129)*
+*Defined in [packages/types/src/codec/create/getTypeDef.ts:129](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/create/getTypeDef.ts#L129)*
 
 **Parameters:**
 
-Name | Type | Default |
------- | ------ | ------ |
-`_type` | string | - |
-`__namedParameters` | object |  {} |
+▪ **_type**: *string*
+
+▪`Default value`  **__namedParameters**: *object*= {}
+
+Name | Type |
+------ | ------ |
+`displayName` | undefined &#124; string |
+`name` | undefined &#124; string |
 
 **Returns:** *[TypeDef](../interfaces/_codec_create_types_.typedef.md)*

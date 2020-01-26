@@ -65,7 +65,7 @@ Defined in node_modules/@types/bn.js/index.d.ts:12
 
 *Overrides [Int](_codec_int_.int.md).[constructor](_codec_int_.int.md#constructor)*
 
-*Defined in [packages/types/src/primitive/I64.ts:14](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/primitive/I64.ts#L14)*
+*Defined in [packages/types/src/primitive/I64.ts:14](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/I64.ts#L14)*
 
 **Parameters:**
 
@@ -82,11 +82,11 @@ Name | Type |
 
 ▸ **toHex**(`isLe`: boolean): *string*
 
-*Inherited from [Int](_codec_int_.int.md).[toHex](_codec_int_.int.md#tohex)*
+*Inherited from [WeightMultiplier](../interfaces/_interfaces_runtime_types_.weightmultiplier.md).[toHex](../interfaces/_interfaces_runtime_types_.weightmultiplier.md#tohex)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:29](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Int.ts#L29)*
+*Defined in [packages/types/src/codec/Int.ts:29](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Int.ts#L29)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -106,11 +106,11 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Inherited from [Int](_codec_int_.int.md).[toRawType](_codec_int_.int.md#torawtype)*
+*Inherited from [WeightMultiplier](../interfaces/_interfaces_runtime_types_.weightmultiplier.md).[toRawType](../interfaces/_interfaces_runtime_types_.weightmultiplier.md#torawtype)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:40](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Int.ts#L40)*
+*Defined in [packages/types/src/codec/Int.ts:40](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Int.ts#L40)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -120,13 +120,13 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *Uint8Array*
+▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Inherited from [Int](_codec_int_.int.md).[toU8a](_codec_int_.int.md#tou8a)*
+*Inherited from [WeightMultiplier](../interfaces/_interfaces_runtime_types_.weightmultiplier.md).[toU8a](../interfaces/_interfaces_runtime_types_.weightmultiplier.md#tou8a)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:49](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/Int.ts#L49)*
+*Defined in [packages/types/src/codec/Int.ts:49](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Int.ts#L49)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -136,4 +136,4 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `isBare?` | undefined &#124; false &#124; true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** *Uint8Array*
+**Returns:** *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*

@@ -82,7 +82,7 @@ Defined in node_modules/@types/bn.js/index.d.ts:12
 
 *Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [packages/types/src/primitive/U64.ts:14](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/primitive/U64.ts#L14)*
+*Defined in [packages/types/src/primitive/U64.ts:14](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/U64.ts#L14)*
 
 **Parameters:**
 
@@ -99,11 +99,11 @@ Name | Type |
 
 ▸ **toHex**(`isLe`: boolean): *string*
 
-*Inherited from [UInt](_codec_uint_.uint.md).[toHex](_codec_uint_.uint.md#tohex)*
+*Inherited from [AccountIndex](../interfaces/_interfaces_runtime_types_.accountindex.md).[toHex](../interfaces/_interfaces_runtime_types_.accountindex.md#tohex)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/UInt.ts#L38)*
+*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/UInt.ts#L38)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -123,11 +123,11 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_.codec.md)*
 
-*Inherited from [UInt](_codec_uint_.uint.md).[toRawType](_codec_uint_.uint.md#torawtype)*
+*Inherited from [AssetId](../interfaces/_interfaces_runtime_types_.assetid.md).[toRawType](../interfaces/_interfaces_runtime_types_.assetid.md#torawtype)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/UInt.ts#L50)*
+*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/UInt.ts#L50)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -137,13 +137,13 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: undefined | false | true): *Uint8Array*
+▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Inherited from [UInt](_codec_uint_.uint.md).[toU8a](_codec_uint_.uint.md#tou8a)*
+*Inherited from [AccountIndex](../interfaces/_interfaces_runtime_types_.accountindex.md).[toU8a](../interfaces/_interfaces_runtime_types_.accountindex.md#tou8a)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/UInt.ts#L64)*
+*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/UInt.ts#L64)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -153,7 +153,7 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `isBare?` | undefined &#124; false &#124; true | true when the value has none of the type-specific prefixes (internal)  |
 
-**Returns:** *Uint8Array*
+**Returns:** *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
 ___
 
@@ -161,9 +161,9 @@ ___
 
 ▸ **with**(`bitLength?`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)): *[Constructor](../interfaces/_types_.constructor.md)‹[UInt](_codec_uint_.uint.md)›*
 
-*Inherited from [UInt](_codec_uint_.uint.md).[with](_codec_uint_.uint.md#static-with)*
+*Inherited from [AccountIndex](../interfaces/_interfaces_runtime_types_.accountindex.md).[with](../interfaces/_interfaces_runtime_types_.accountindex.md#static-with)*
 
-*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/types/src/codec/UInt.ts#L27)*
+*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/UInt.ts#L27)*
 
 **Parameters:**
 

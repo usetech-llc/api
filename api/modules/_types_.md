@@ -4,6 +4,17 @@
 
 ## Index
 
+### References
+
+* [SignerOptions](_types_.md#signeroptions)
+* [SubmittableExtrinsic](_types_.md#submittableextrinsic)
+* [SubmittablePaymentResult](_types_.md#submittablepaymentresult)
+* [SubmittableResultImpl](_types_.md#submittableresultimpl)
+* [SubmittableResultResult](_types_.md#submittableresultresult)
+* [SubmittableResultSubscription](_types_.md#submittableresultsubscription)
+* [SubmittableResultValue](_types_.md#submittableresultvalue)
+* [SubmittableThis](_types_.md#submittablethis)
+
 ### Interfaces
 
 * [ApiInterfaceRx](../interfaces/_types_.apiinterfacerx.md)
@@ -41,13 +52,61 @@
 * [StorageEntryExact](_types_.md#storageentryexact)
 * [UnsubscribePromise](_types_.md#unsubscribepromise)
 
+## References
+
+###  SignerOptions
+
+• **SignerOptions**:
+
+___
+
+###  SubmittableExtrinsic
+
+• **SubmittableExtrinsic**:
+
+___
+
+###  SubmittablePaymentResult
+
+• **SubmittablePaymentResult**:
+
+___
+
+###  SubmittableResultImpl
+
+• **SubmittableResultImpl**:
+
+___
+
+###  SubmittableResultResult
+
+• **SubmittableResultResult**:
+
+___
+
+###  SubmittableResultSubscription
+
+• **SubmittableResultSubscription**:
+
+___
+
+###  SubmittableResultValue
+
+• **SubmittableResultValue**:
+
+___
+
+###  SubmittableThis
+
+• **SubmittableThis**:
+
 ## Type aliases
 
 ###  ApiInterfaceEvents
 
 Ƭ **ApiInterfaceEvents**: *ProviderInterfaceEmitted | "ready"*
 
-*Defined in [api/src/types.ts:245](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L245)*
+*Defined in [api/src/types.ts:245](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L245)*
 
 ___
 
@@ -55,7 +114,7 @@ ___
 
 Ƭ **ApiTypes**: *"promise" | "rxjs"*
 
-*Defined in [api/src/types.ts:247](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L247)*
+*Defined in [api/src/types.ts:247](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L247)*
 
 ___
 
@@ -63,7 +122,7 @@ ___
 
 Ƭ **DecorateMethod**: *function*
 
-*Defined in [api/src/types.ts:60](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L60)*
+*Defined in [api/src/types.ts:60](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L60)*
 
 #### Type declaration:
 
@@ -86,7 +145,7 @@ ___
 
 Ƭ **DecoratedRpc**: *object*
 
-*Defined in [api/src/types.ts:97](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L97)*
+*Defined in [api/src/types.ts:97](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L97)*
 
 #### Type declaration:
 
@@ -96,7 +155,7 @@ ___
 
 Ƭ **DecoratedRpcSection**: *object*
 
-*Defined in [api/src/types.ts:91](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L91)*
+*Defined in [api/src/types.ts:91](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L91)*
 
 #### Type declaration:
 
@@ -106,7 +165,7 @@ ___
 
 Ƭ **MethodResult**: *ApiType extends "rxjs" ? RxResult<F> : PromiseResult<F>*
 
-*Defined in [api/src/types.ts:87](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L87)*
+*Defined in [api/src/types.ts:87](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L87)*
 
 ___
 
@@ -114,7 +173,7 @@ ___
 
 Ƭ **ObsInnerType**: *O extends Observable<infer U> ? U : never*
 
-*Defined in [api/src/types.ts:50](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L50)*
+*Defined in [api/src/types.ts:50](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L50)*
 
 ___
 
@@ -122,7 +181,7 @@ ___
 
 Ƭ **PromiseOrObs**: *ApiType extends "rxjs" ? Observable<T> : Promise<T>*
 
-*Defined in [api/src/types.ts:82](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L82)*
+*Defined in [api/src/types.ts:82](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L82)*
 
 ___
 
@@ -130,7 +189,7 @@ ___
 
 Ƭ **QueryableStorageEntry**: *ApiType extends "rxjs" ? StorageEntryExact<"rxjs", GenericStorageEntryFunction> : StorageEntryExact<"promise", GenericStorageEntryFunction> & StorageEntryPromiseOverloads*
 
-*Defined in [api/src/types.ts:133](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L133)*
+*Defined in [api/src/types.ts:133](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L133)*
 
 ___
 
@@ -138,7 +197,7 @@ ___
 
 Ƭ **QueryableStorageMulti**: *ApiType extends "rxjs" ? QueryableStorageMultiBase<ApiType> : QueryableStorageMultiPromise<ApiType>*
 
-*Defined in [api/src/types.ts:154](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L154)*
+*Defined in [api/src/types.ts:154](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L154)*
 
 ___
 
@@ -146,7 +205,7 @@ ___
 
 Ƭ **QueryableStorageMultiArg**: *[QueryableStorageEntry](_types_.md#queryablestorageentry)‹ApiType› | [[QueryableStorageEntry](_types_.md#queryablestorageentry)‹ApiType›, undefined | string | number | false | true | Uint8Array‹› | Codec | BN‹› | CodecArgArray‹› | CodecArgObject]*
 
-*Defined in [api/src/types.ts:142](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L142)*
+*Defined in [api/src/types.ts:142](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L142)*
 
 ___
 
@@ -154,7 +213,7 @@ ___
 
 Ƭ **StorageEntryExact**: *[MethodResult](_types_.md#methodresult)‹ApiType, F› & [StorageEntryBase](../interfaces/_types_.storageentrybase.md)‹ApiType, F›*
 
-*Defined in [api/src/types.ts:128](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L128)*
+*Defined in [api/src/types.ts:128](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L128)*
 
 ___
 
@@ -162,4 +221,4 @@ ___
 
 Ƭ **UnsubscribePromise**: *Promise‹function›*
 
-*Defined in [api/src/types.ts:52](https://github.com/polkadot-js/api/blob/7ef945d15b/packages/api/src/types.ts#L52)*
+*Defined in [api/src/types.ts:52](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/api/src/types.ts#L52)*

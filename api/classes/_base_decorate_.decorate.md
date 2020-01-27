@@ -40,7 +40,7 @@
 
 \+ **new Decorate**(`options`: ApiOptions, `type`: ApiTypes, `decorateMethod`: DecorateMethod‹ApiType›): *[Decorate](_base_decorate_.decorate.md)*
 
-*Defined in [base/Decorate.ts:97](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Decorate.ts#L97)*
+*Defined in [base/Decorate.ts:97](https://github.com/polkadot-js/api/blob/2f215fe2de/packages/api/src/base/Decorate.ts#L97)*
 
 **`description`** Create an instance of the class
 
@@ -73,7 +73,7 @@ Name | Type | Description |
 
 • **registry**: *Registry*
 
-*Defined in [base/Decorate.ts:44](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Decorate.ts#L44)*
+*Defined in [base/Decorate.ts:44](https://github.com/polkadot-js/api/blob/2f215fe2de/packages/api/src/base/Decorate.ts#L44)*
 
 ## Accessors
 
@@ -81,7 +81,7 @@ Name | Type | Description |
 
 • **get hasSubscriptions**(): *boolean*
 
-*Defined in [base/Decorate.ts:138](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Decorate.ts#L138)*
+*Defined in [base/Decorate.ts:138](https://github.com/polkadot-js/api/blob/2f215fe2de/packages/api/src/base/Decorate.ts#L138)*
 
 **Returns:** *boolean*
 
@@ -95,7 +95,7 @@ Name | Type | Description |
 
 *Inherited from [Init](_base_init_.init.md).[off](_base_init_.init.md#off)*
 
-*Defined in [base/Events.ts:62](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Events.ts#L62)*
+*Defined in [base/Events.ts:62](https://github.com/polkadot-js/api/blob/2f215fe2de/packages/api/src/base/Events.ts#L62)*
 
 **`description`** Remove the given eventemitter handler
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [Init](_base_init_.init.md).[on](_base_init_.init.md#on)*
 
-*Defined in [base/Events.ts:35](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Events.ts#L35)*
+*Defined in [base/Events.ts:35](https://github.com/polkadot-js/api/blob/2f215fe2de/packages/api/src/base/Events.ts#L35)*
 
 **`description`** Attach an eventemitter handler to listen to a specific event
 
@@ -187,7 +187,7 @@ ___
 
 *Inherited from [Init](_base_init_.init.md).[once](_base_init_.init.md#once)*
 
-*Defined in [base/Events.ts:87](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Events.ts#L87)*
+*Defined in [base/Events.ts:87](https://github.com/polkadot-js/api/blob/2f215fe2de/packages/api/src/base/Events.ts#L87)*
 
 **`description`** Attach an one-time eventemitter handler to listen to a specific event
 

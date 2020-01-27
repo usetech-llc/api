@@ -20,7 +20,7 @@
 
 • **TYPES_CHAIN**: *Record‹string, [OverrideVersionedType](../interfaces/_known_types_.overrideversionedtype.md)[]›*
 
-*Defined in [packages/types/src/known/overrides.ts:61](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/known/overrides.ts#L61)*
+*Defined in [packages/types/src/known/overrides.ts:61](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/known/overrides.ts#L61)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
   }
 ]
 
-*Defined in [packages/types/src/known/overrides.ts:64](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/known/overrides.ts#L64)*
+*Defined in [packages/types/src/known/overrides.ts:64](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/known/overrides.ts#L64)*
 
 ## Object literals
 
@@ -50,7 +50,7 @@ ___
 
 ### ▪ **TYPES_MODULES**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:8](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/known/overrides.ts#L8)*
+*Defined in [packages/types/src/known/overrides.ts:8](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/known/overrides.ts#L8)*
 
 ###  identity
 
@@ -61,7 +61,7 @@ ___
     }
   ]
 
-*Defined in [packages/types/src/known/overrides.ts:9](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/known/overrides.ts#L9)*
+*Defined in [packages/types/src/known/overrides.ts:9](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/known/overrides.ts#L9)*
 
 ###  society
 
@@ -72,7 +72,7 @@ ___
     }
   ]
 
-*Defined in [packages/types/src/known/overrides.ts:15](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/known/overrides.ts#L15)*
+*Defined in [packages/types/src/known/overrides.ts:15](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/known/overrides.ts#L15)*
 
 ___
 
@@ -80,16 +80,16 @@ ___
 
 ### ▪ **TYPES_SPEC**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:81](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/known/overrides.ts#L81)*
+*Defined in [packages/types/src/known/overrides.ts:81](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/known/overrides.ts#L81)*
 
 ###  kusama
 
 • **kusama**: *[OverrideVersionedType](../interfaces/_known_types_.overrideversionedtype.md)[]* = TYPES_KUSAMA_VERSIONED
 
-*Defined in [packages/types/src/known/overrides.ts:82](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/known/overrides.ts#L82)*
+*Defined in [packages/types/src/known/overrides.ts:82](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/known/overrides.ts#L82)*
 
 ###  polkadot
 
 • **polkadot**: *[OverrideVersionedType](../interfaces/_known_types_.overrideversionedtype.md)[]* = TYPES_POLKADOT_VERSIONED
 
-*Defined in [packages/types/src/known/overrides.ts:83](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/known/overrides.ts#L83)*
+*Defined in [packages/types/src/known/overrides.ts:83](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/known/overrides.ts#L83)*

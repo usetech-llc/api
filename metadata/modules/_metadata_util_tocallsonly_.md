@@ -2,30 +2,4 @@
 
 # External module: "Metadata/util/toCallsOnly"
 
-## Index
 
-### Functions
-
-* [toCallsOnly](_metadata_util_tocallsonly_.md#tocallsonly)
-
-## Functions
-
-###  toCallsOnly
-
-▸ **toCallsOnly**(`registry`: Registry, `__namedParameters`: object): *AnyJsonObject | string*
-
-*Defined in [packages/metadata/src/Metadata/util/toCallsOnly.ts:13](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/metadata/src/Metadata/util/toCallsOnly.ts#L13)*
-
-**`description`** Convert from MetadataLatest to a stripped representation of MetadataLatest
-
-**Parameters:**
-
-▪ **registry**: *Registry*
-
-▪ **__namedParameters**: *object*
-
-Name | Type |
------- | ------ |
-`modules` | Vec‹ModuleMetadataV11‹›› |
-
-**Returns:** *AnyJsonObject | string*

@@ -85,7 +85,7 @@ Defined in node_modules/@types/bn.js/index.d.ts:12
 
 *Overrides [UInt](../classes/_codec_uint_.uint.md).[constructor](../classes/_codec_uint_.uint.md#constructor)*
 
-*Defined in [packages/types/src/primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/U32.ts#L14)*
+*Defined in [packages/types/src/primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/U32.ts#L14)*
 
 **Parameters:**
 
@@ -104,7 +104,7 @@ Name | Type |
 
 *Inherited from [AccountIndex](_interfaces_runtime_types_.accountindex.md).[registry](_interfaces_runtime_types_.accountindex.md#registry)*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:25](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/AbstractInt.ts#L25)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:25](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractInt.ts#L25)*
 
 ## Accessors
 
@@ -114,7 +114,7 @@ Name | Type |
 
 *Inherited from [AccountIndex](_interfaces_runtime_types_.accountindex.md).[encodedLength](_interfaces_runtime_types_.accountindex.md#encodedlength)*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:73](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/AbstractInt.ts#L73)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:73](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractInt.ts#L73)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -128,7 +128,7 @@ ___
 
 *Inherited from [AccountIndex](_interfaces_runtime_types_.accountindex.md).[hash](_interfaces_runtime_types_.accountindex.md#hash)*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:80](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/AbstractInt.ts#L80)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:80](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractInt.ts#L80)*
 
 **`description`** returns a hash of the contents
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [ConsensusEngineId](_interfaces_runtime_types_.consensusengineid.md).[isAura](_interfaces_runtime_types_.consensusengineid.md#isaura)*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:43](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L43)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:43](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L43)*
 
 **`description`** `true` if the engine matches aura
 
@@ -156,7 +156,7 @@ ___
 
 *Inherited from [ConsensusEngineId](_interfaces_runtime_types_.consensusengineid.md).[isBabe](_interfaces_runtime_types_.consensusengineid.md#isbabe)*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:50](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L50)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:50](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L50)*
 
 **`description`** `true` is the engine matches babe
 
@@ -170,7 +170,7 @@ ___
 
 *Inherited from [AccountIndex](_interfaces_runtime_types_.accountindex.md).[isEmpty](_interfaces_runtime_types_.accountindex.md#isempty)*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:87](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/AbstractInt.ts#L87)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:87](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractInt.ts#L87)*
 
 **`description`** Checks if the value is a zero value (align elsewhere)
 
@@ -184,7 +184,7 @@ ___
 
 *Inherited from [ConsensusEngineId](_interfaces_runtime_types_.consensusengineid.md).[isGrandpa](_interfaces_runtime_types_.consensusengineid.md#isgrandpa)*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:57](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L57)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:57](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L57)*
 
 **`description`** `true` is the engine matches grandpa
 
@@ -198,7 +198,7 @@ ___
 
 *Inherited from [AccountIndex](_interfaces_runtime_types_.accountindex.md).[bitLength](_interfaces_runtime_types_.accountindex.md#bitlength)*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:94](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/AbstractInt.ts#L94)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:94](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractInt.ts#L94)*
 
 **`description`** Returns the number of bits in the value
 
@@ -212,7 +212,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:102](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/AbstractInt.ts#L102)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:102](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractInt.ts#L102)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -232,7 +232,7 @@ ___
 
 *Inherited from [ConsensusEngineId](_interfaces_runtime_types_.consensusengineid.md).[extractAuthor](_interfaces_runtime_types_.consensusengineid.md#extractauthor)*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:81](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L81)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:81](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L81)*
 
 **`description`** From the input bytes, decode into an author
 
@@ -253,7 +253,7 @@ ___
 
 *Inherited from [AccountIndex](_interfaces_runtime_types_.accountindex.md).[toBn](_interfaces_runtime_types_.accountindex.md#tobn)*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:115](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/AbstractInt.ts#L115)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:115](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractInt.ts#L115)*
 
 **`description`** Returns the BN representation of the number. (Compatibility)
 
@@ -269,7 +269,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/UInt.ts#L38)*
+*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/UInt.ts#L38)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -289,7 +289,7 @@ ___
 
 *Inherited from void*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:127](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/AbstractInt.ts#L127)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:127](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractInt.ts#L127)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -305,7 +305,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/UInt.ts#L50)*
+*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/UInt.ts#L50)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -321,7 +321,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:94](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L94)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:94](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L94)*
 
 **`description`** Override the default toString to return a 4-byte string
 
@@ -337,7 +337,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/UInt.ts#L64)*
+*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/UInt.ts#L64)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -357,7 +357,7 @@ ___
 
 *Inherited from [AccountIndex](_interfaces_runtime_types_.accountindex.md).[decodeAbstracInt](_interfaces_runtime_types_.accountindex.md#static-decodeabstracint)*
 
-*Defined in [packages/types/src/codec/AbstractInt.ts:42](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/AbstractInt.ts#L42)*
+*Defined in [packages/types/src/codec/AbstractInt.ts:42](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractInt.ts#L42)*
 
 **Parameters:**
 
@@ -377,7 +377,7 @@ ___
 
 *Inherited from [ConsensusEngineId](_interfaces_runtime_types_.consensusengineid.md).[idToString](_interfaces_runtime_types_.consensusengineid.md#static-idtostring)*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:26](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L26)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:26](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L26)*
 
 **Parameters:**
 
@@ -395,7 +395,7 @@ ___
 
 *Inherited from [ConsensusEngineId](_interfaces_runtime_types_.consensusengineid.md).[stringToId](_interfaces_runtime_types_.consensusengineid.md#static-stringtoid)*
 
-*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:33](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L33)*
+*Defined in [packages/types/src/primitive/Generic/ConsensusEngineId.ts:33](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/ConsensusEngineId.ts#L33)*
 
 **Parameters:**
 
@@ -413,7 +413,7 @@ ___
 
 *Inherited from [AccountIndex](_interfaces_runtime_types_.accountindex.md).[with](_interfaces_runtime_types_.accountindex.md#static-with)*
 
-*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/UInt.ts#L27)*
+*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/UInt.ts#L27)*
 
 **Parameters:**
 

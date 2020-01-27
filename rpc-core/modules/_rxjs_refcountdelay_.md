@@ -2,22 +2,4 @@
 
 # External module: "rxjs/refCountDelay"
 
-## Index
 
-### Functions
-
-* [refCountDelay](_rxjs_refcountdelay_.md#refcountdelay)
-
-## Functions
-
-###  refCountDelay
-
-▸ **refCountDelay**<**T**>(): *MonoTypeOperatorFunction‹T›*
-
-*Defined in [rxjs/refCountDelay.ts:46](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/rpc-core/src/rxjs/refCountDelay.ts#L46)*
-
-**Type parameters:**
-
-▪ **T**
-
-**Returns:** *MonoTypeOperatorFunction‹T›*

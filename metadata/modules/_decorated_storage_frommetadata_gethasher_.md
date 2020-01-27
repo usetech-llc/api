@@ -9,17 +9,13 @@
 * [HasherFunction](_decorated_storage_frommetadata_gethasher_.md#hasherfunction)
 * [HasherInput](_decorated_storage_frommetadata_gethasher_.md#hasherinput)
 
-### Functions
-
-* [getHasher](_decorated_storage_frommetadata_gethasher_.md#gethasher)
-
 ## Type aliases
 
 ###  HasherFunction
 
 Ƭ **HasherFunction**: *function*
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/getHasher.ts:11](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/metadata/src/Decorated/storage/fromMetadata/getHasher.ts#L11)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/getHasher.ts:11](https://github.com/polkadot-js/api/blob/854a520517/packages/metadata/src/Decorated/storage/fromMetadata/getHasher.ts#L11)*
 
 #### Type declaration:
 
@@ -37,20 +33,4 @@ ___
 
 Ƭ **HasherInput**: *string | Buffer | Uint8Array*
 
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/getHasher.ts:9](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/metadata/src/Decorated/storage/fromMetadata/getHasher.ts#L9)*
-
-## Functions
-
-###  getHasher
-
-▸ **getHasher**(`hasher?`: StorageHasher): *[HasherFunction](_decorated_storage_frommetadata_gethasher_.md#hasherfunction)*
-
-*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/getHasher.ts:26](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/metadata/src/Decorated/storage/fromMetadata/getHasher.ts#L26)*
-
-**Parameters:**
-
-Name | Type |
------- | ------ |
-`hasher?` | StorageHasher |
-
-**Returns:** *[HasherFunction](_decorated_storage_frommetadata_gethasher_.md#hasherfunction)*
+*Defined in [packages/metadata/src/Decorated/storage/fromMetadata/getHasher.ts:9](https://github.com/polkadot-js/api/blob/854a520517/packages/metadata/src/Decorated/storage/fromMetadata/getHasher.ts#L9)*

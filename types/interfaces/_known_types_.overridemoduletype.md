@@ -19,7 +19,7 @@
 
 • **name**: *string*
 
-*Defined in [packages/types/src/known/types.ts:13](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/known/types.ts#L13)*
+*Defined in [packages/types/src/known/types.ts:13](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/known/types.ts#L13)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **override**: *string*
 
-*Defined in [packages/types/src/known/types.ts:14](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/known/types.ts#L14)*
+*Defined in [packages/types/src/known/types.ts:14](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/known/types.ts#L14)*

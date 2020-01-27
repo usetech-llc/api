@@ -37,7 +37,7 @@
 
 *Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[encodedLength](_interfaces_runtime_types_.consensus.md#encodedlength)*
 
-*Defined in [packages/types/src/types.ts:76](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L76)*
+*Defined in [packages/types/src/types.ts:76](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/types.ts#L76)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -49,7 +49,7 @@ ___
 
 *Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[hash](_interfaces_runtime_types_.consensus.md#hash)*
 
-*Defined in [packages/types/src/types.ts:81](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L81)*
+*Defined in [packages/types/src/types.ts:81](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/types.ts#L81)*
 
 **`description`** Returns a hash of the value
 
@@ -61,7 +61,7 @@ ___
 
 *Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[isEmpty](_interfaces_runtime_types_.consensus.md#isempty)*
 
-*Defined in [packages/types/src/types.ts:86](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L86)*
+*Defined in [packages/types/src/types.ts:86](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/types.ts#L86)*
 
 **`description`** Checks if the value is an empty value
 
@@ -73,7 +73,7 @@ ___
 
 *Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[registry](_interfaces_runtime_types_.consensus.md#registry)*
 
-*Defined in [packages/types/src/types.ts:91](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L91)*
+*Defined in [packages/types/src/types.ts:91](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/types.ts#L91)*
 
 **`description`** The registry associated with this object
 
@@ -83,7 +83,7 @@ ___
 
 ▸ **bitLength**(): *[UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)*
 
-*Defined in [packages/types/src/codec/Compact.ts:16](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Compact.ts#L16)*
+*Defined in [packages/types/src/codec/Compact.ts:16](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/Compact.ts#L16)*
 
 **Returns:** *[UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)*
 
@@ -95,7 +95,7 @@ ___
 
 *Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[eq](_interfaces_runtime_types_.consensus.md#eq)*
 
-*Defined in [packages/types/src/types.ts:96](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L96)*
+*Defined in [packages/types/src/types.ts:96](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/types.ts#L96)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -113,7 +113,7 @@ ___
 
 ▸ **toBn**(): *BN*
 
-*Defined in [packages/types/src/codec/Compact.ts:17](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Compact.ts#L17)*
+*Defined in [packages/types/src/codec/Compact.ts:17](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/Compact.ts#L17)*
 
 **Returns:** *BN*
 
@@ -125,7 +125,7 @@ ___
 
 *Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toHex](_interfaces_runtime_types_.consensus.md#tohex)*
 
-*Defined in [packages/types/src/types.ts:101](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L101)*
+*Defined in [packages/types/src/types.ts:101](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/types.ts#L101)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -145,7 +145,7 @@ ___
 
 *Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toJSON](_interfaces_runtime_types_.consensus.md#tojson)*
 
-*Defined in [packages/types/src/types.ts:106](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L106)*
+*Defined in [packages/types/src/types.ts:106](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/types.ts#L106)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -157,7 +157,7 @@ ___
 
 ▸ **toNumber**(): *number*
 
-*Defined in [packages/types/src/codec/Compact.ts:18](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/codec/Compact.ts#L18)*
+*Defined in [packages/types/src/codec/Compact.ts:18](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/Compact.ts#L18)*
 
 **Returns:** *number*
 
@@ -169,7 +169,7 @@ ___
 
 *Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toRawType](_interfaces_runtime_types_.consensus.md#torawtype)*
 
-*Defined in [packages/types/src/types.ts:111](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L111)*
+*Defined in [packages/types/src/types.ts:111](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/types.ts#L111)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -183,7 +183,7 @@ ___
 
 *Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toString](_interfaces_runtime_types_.consensus.md#tostring)*
 
-*Defined in [packages/types/src/types.ts:116](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L116)*
+*Defined in [packages/types/src/types.ts:116](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/types.ts#L116)*
 
 **`description`** Returns the string representation of the value
 
@@ -197,7 +197,7 @@ ___
 
 *Inherited from [Consensus](_interfaces_runtime_types_.consensus.md).[toU8a](_interfaces_runtime_types_.consensus.md#tou8a)*
 
-*Defined in [packages/types/src/types.ts:122](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/types.ts#L122)*
+*Defined in [packages/types/src/types.ts:122](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/types.ts#L122)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

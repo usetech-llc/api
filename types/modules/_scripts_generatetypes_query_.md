@@ -2,18 +2,4 @@
 
 # External module: "scripts/generateTypes/query"
 
-## Index
 
-### Functions
-
-* [generateQuery](_scripts_generatetypes_query_.md#generatequery)
-
-## Functions
-
-###  generateQuery
-
-▸ **generateQuery**(): *void*
-
-*Defined in [packages/types/src/scripts/generateTypes/query.ts:150](https://github.com/polkadot-js/api/blob/3db15e73a5/packages/types/src/scripts/generateTypes/query.ts#L150)*
-
-**Returns:** *void*

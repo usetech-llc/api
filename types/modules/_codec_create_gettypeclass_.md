@@ -12,19 +12,19 @@
 
 ###  getTypeClass
 
-▸ **getTypeClass**<**T**>(`registry`: [Registry](../interfaces/_types_.registry.md), `value`: [TypeDef](../interfaces/_codec_create_types_.typedef.md)): *[Constructor](../interfaces/_types_.constructor.md)‹T›*
+▸ **getTypeClass**<**T**>(`registry`: Registry, `value`: TypeDef): *Constructor‹T›*
 
-*Defined in [packages/types/src/codec/create/getTypeClass.ts:139](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/create/getTypeClass.ts#L139)*
+*Defined in [packages/types/src/codec/create/getTypeClass.ts:139](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/create/getTypeClass.ts#L139)*
 
 **Type parameters:**
 
-▪ **T**: *[Codec](../interfaces/_types_.codec.md)*
+▪ **T**: *Codec*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`registry` | [Registry](../interfaces/_types_.registry.md) |
-`value` | [TypeDef](../interfaces/_codec_create_types_.typedef.md) |
+`registry` | Registry |
+`value` | TypeDef |
 
-**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹T›*
+**Returns:** *Constructor‹T›*

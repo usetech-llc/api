@@ -13,21 +13,21 @@
 
 ###  createType
 
-▸ **createType**<**K**>(`registry`: [Registry](../interfaces/_types_.registry.md), `type`: K, ...`params`: any[]): *InterfaceRegistry[K]*
+▸ **createType**<**K**>(`registry`: Registry, `type`: K, ...`params`: any[]): *InterfaceRegistry[K]*
 
-*Defined in [packages/types/src/codec/create/createType.ts:77](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/create/createType.ts#L77)*
+*Defined in [packages/types/src/codec/create/createType.ts:77](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/create/createType.ts#L77)*
 
 Create an instance of a `type` with a given `params`.
 
 **Type parameters:**
 
-▪ **K**: *[InterfaceTypes](_types_.md#interfacetypes)*
+▪ **K**: *InterfaceTypes*
 
 **Parameters:**
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`registry` | [Registry](../interfaces/_types_.registry.md) | - |
+`registry` | Registry | - |
 `type` | K | A recognizable string representing the type to create an instance from |
 `...params` | any[] | The value to instantiate the type with  |
 
@@ -37,13 +37,13 @@ ___
 
 ###  createTypeUnsafe
 
-▸ **createTypeUnsafe**<**T**, **K**>(`registry`: [Registry](../interfaces/_types_.registry.md), `type`: K, `params`: any[], `isPedantic?`: undefined | false | true): *T*
+▸ **createTypeUnsafe**<**T**, **K**>(`registry`: Registry, `type`: K, `params`: any[], `isPedantic?`: undefined | false | true): *T*
 
-*Defined in [packages/types/src/codec/create/createType.ts:61](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/create/createType.ts#L61)*
+*Defined in [packages/types/src/codec/create/createType.ts:61](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/create/createType.ts#L61)*
 
 **Type parameters:**
 
-▪ **T**: *[Codec](../interfaces/_types_.codec.md)*
+▪ **T**: *Codec*
 
 ▪ **K**: *string*
 
@@ -51,7 +51,7 @@ ___
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`registry` | [Registry](../interfaces/_types_.registry.md) | - |
+`registry` | Registry | - |
 `type` | K | - |
 `params` | any[] | [] |
 `isPedantic?` | undefined &#124; false &#124; true | - |

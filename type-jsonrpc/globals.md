@@ -16,4 +16,3 @@
 * ["rpc"](modules/_rpc_.md)
 * ["state"](modules/_state_.md)
 * ["system"](modules/_system_.md)
-* ["types"](modules/_types_.md)

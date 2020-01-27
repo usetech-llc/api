@@ -14,7 +14,7 @@
 
 ▸ **info**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/accounts/info.ts:106](https://github.com/polkadot-js/api/blob/854a520517/packages/api-derive/src/accounts/info.ts#L106)*
+*Defined in [packages/api-derive/src/accounts/info.ts:106](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api-derive/src/accounts/info.ts#L106)*
 
 **`name`** info
 
@@ -28,7 +28,7 @@ Name | Type |
 
 **Returns:** *function*
 
-▸ (`address?`: AccountIndex | AccountId | Address | string | null): *Observable‹[DeriveAccountInfo](../interfaces/_types_.deriveaccountinfo.md)›*
+▸ (`address?`: AccountIndex | AccountId | Address | string | null): *Observable‹DeriveAccountInfo›*
 
 **Parameters:**
 

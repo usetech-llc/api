@@ -30,7 +30,7 @@ composes it and populates the `.query`, `.tx` and `.consts` sections.
 
 \+ **new Decorated**(`registry`: Registry, `value?`: Uint8Array | string | [Metadata](_metadata_metadata_.metadata.md)): *[Decorated](_decorated_decorated_.decorated.md)*
 
-*Defined in [packages/metadata/src/Decorated/Decorated.ts:27](https://github.com/polkadot-js/api/blob/854a520517/packages/metadata/src/Decorated/Decorated.ts#L27)*
+*Defined in [packages/metadata/src/Decorated/Decorated.ts:27](https://github.com/polkadot-js/api/blob/83aca87dac/packages/metadata/src/Decorated/Decorated.ts#L27)*
 
 **Parameters:**
 
@@ -45,9 +45,9 @@ Name | Type |
 
 ###  consts
 
-• **consts**: *[Constants](../interfaces/_decorated_types_.constants.md)*
+• **consts**: *Constants*
 
-*Defined in [packages/metadata/src/Decorated/Decorated.ts:19](https://github.com/polkadot-js/api/blob/854a520517/packages/metadata/src/Decorated/Decorated.ts#L19)*
+*Defined in [packages/metadata/src/Decorated/Decorated.ts:19](https://github.com/polkadot-js/api/blob/83aca87dac/packages/metadata/src/Decorated/Decorated.ts#L19)*
 
 ___
 
@@ -55,15 +55,15 @@ ___
 
 • **metadata**: *[Metadata](_metadata_metadata_.metadata.md)*
 
-*Defined in [packages/metadata/src/Decorated/Decorated.ts:21](https://github.com/polkadot-js/api/blob/854a520517/packages/metadata/src/Decorated/Decorated.ts#L21)*
+*Defined in [packages/metadata/src/Decorated/Decorated.ts:21](https://github.com/polkadot-js/api/blob/83aca87dac/packages/metadata/src/Decorated/Decorated.ts#L21)*
 
 ___
 
 ###  query
 
-• **query**: *[Storage](../interfaces/_decorated_types_.storage.md)*
+• **query**: *Storage*
 
-*Defined in [packages/metadata/src/Decorated/Decorated.ts:25](https://github.com/polkadot-js/api/blob/854a520517/packages/metadata/src/Decorated/Decorated.ts#L25)*
+*Defined in [packages/metadata/src/Decorated/Decorated.ts:25](https://github.com/polkadot-js/api/blob/83aca87dac/packages/metadata/src/Decorated/Decorated.ts#L25)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 • **registry**: *Registry*
 
-*Defined in [packages/metadata/src/Decorated/Decorated.ts:23](https://github.com/polkadot-js/api/blob/854a520517/packages/metadata/src/Decorated/Decorated.ts#L23)*
+*Defined in [packages/metadata/src/Decorated/Decorated.ts:23](https://github.com/polkadot-js/api/blob/83aca87dac/packages/metadata/src/Decorated/Decorated.ts#L23)*
 
 ___
 
@@ -79,4 +79,4 @@ ___
 
 • **tx**: *ModulesWithCalls*
 
-*Defined in [packages/metadata/src/Decorated/Decorated.ts:27](https://github.com/polkadot-js/api/blob/854a520517/packages/metadata/src/Decorated/Decorated.ts#L27)*
+*Defined in [packages/metadata/src/Decorated/Decorated.ts:27](https://github.com/polkadot-js/api/blob/83aca87dac/packages/metadata/src/Decorated/Decorated.ts#L27)*

@@ -14,7 +14,7 @@
 
 ▸ **infoStash**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/staking/infoStash.ts:42](https://github.com/polkadot-js/api/blob/854a520517/packages/api-derive/src/staking/infoStash.ts#L42)*
+*Defined in [packages/api-derive/src/staking/infoStash.ts:42](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api-derive/src/staking/infoStash.ts#L42)*
 
 **Parameters:**
 
@@ -24,7 +24,7 @@ Name | Type |
 
 **Returns:** *function*
 
-▸ (`stashId`: AccountId): *Observable‹[DerivedStakingStash](../interfaces/_types_.derivedstakingstash.md)›*
+▸ (`stashId`: AccountId): *Observable‹DerivedStakingStash›*
 
 **Parameters:**
 

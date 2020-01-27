@@ -19,7 +19,7 @@ object, inheriting all methods exposed from `String`.
 
 ## Implements
 
-* [Codec](../interfaces/_types_.codec.md)
+* Codec
 
 ## Indexable
 
@@ -57,16 +57,16 @@ object, inheriting all methods exposed from `String`.
 
 ###  constructor
 
-\+ **new Text**(`registry`: [Registry](../interfaces/_types_.registry.md), `value`: [Text](_primitive_text_.text.md) | string | [AnyU8a](../modules/_types_.md#anyu8a) | object): *[Text](_primitive_text_.text.md)*
+\+ **new Text**(`registry`: Registry, `value`: [Text](_primitive_text_.text.md) | string | AnyU8a | object): *[Text](_primitive_text_.text.md)*
 
-*Defined in [packages/types/src/primitive/Text.ts:26](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L26)*
+*Defined in [packages/types/src/primitive/Text.ts:26](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L26)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`registry` | [Registry](../interfaces/_types_.registry.md) | - |
-`value` | [Text](_primitive_text_.text.md) &#124; string &#124; [AnyU8a](../modules/_types_.md#anyu8a) &#124; object | "" |
+`registry` | Registry | - |
+`value` | [Text](_primitive_text_.text.md) &#124; string &#124; AnyU8a &#124; object | "" |
 
 **Returns:** *[Text](_primitive_text_.text.md)*
 
@@ -74,11 +74,9 @@ Name | Type | Default |
 
 ###  registry
 
-• **registry**: *[Registry](../interfaces/_types_.registry.md)*
+• **registry**: *Registry*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md).[registry](../interfaces/_types_.codec.md#registry)*
-
-*Defined in [packages/types/src/primitive/Text.ts:25](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L25)*
+*Defined in [packages/types/src/primitive/Text.ts:25](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L25)*
 
 ___
 
@@ -96,7 +94,7 @@ Allows manipulation and formatting of text strings and determination and locatio
 
 • **get encodedLength**(): *number*
 
-*Defined in [packages/types/src/primitive/Text.ts:62](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L62)*
+*Defined in [packages/types/src/primitive/Text.ts:62](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L62)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -106,13 +104,13 @@ ___
 
 ###  hash
 
-• **get hash**(): *[IHash](../interfaces/_types_.ihash.md)*
+• **get hash**(): *IHash*
 
-*Defined in [packages/types/src/primitive/Text.ts:69](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L69)*
+*Defined in [packages/types/src/primitive/Text.ts:69](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L69)*
 
 **`description`** returns a hash of the contents
 
-**Returns:** *[IHash](../interfaces/_types_.ihash.md)*
+**Returns:** *IHash*
 
 ___
 
@@ -120,7 +118,7 @@ ___
 
 • **get isEmpty**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Text.ts:76](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L76)*
+*Defined in [packages/types/src/primitive/Text.ts:76](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L76)*
 
 **`description`** Checks if the value is an empty value
 
@@ -132,9 +130,9 @@ ___
 
 • **get length**(): *number*
 
-*Overrides [RegistryMetadataText](../interfaces/_types_.registrymetadatatext.md).[length](../interfaces/_types_.registrymetadatatext.md#length)*
+*Overrides void*
 
-*Defined in [packages/types/src/primitive/Text.ts:83](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L83)*
+*Defined in [packages/types/src/primitive/Text.ts:83](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L83)*
 
 **`description`** The length of the value
 
@@ -146,9 +144,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
-
-*Defined in [packages/types/src/primitive/Text.ts:91](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L91)*
+*Defined in [packages/types/src/primitive/Text.ts:91](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L91)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -166,7 +162,7 @@ ___
 
 ▸ **setOverride**(`override`: string): *void*
 
-*Defined in [packages/types/src/primitive/Text.ts:100](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L100)*
+*Defined in [packages/types/src/primitive/Text.ts:100](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L100)*
 
 **`description`** Set an override value for this
 
@@ -184,7 +180,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [packages/types/src/primitive/Text.ts:107](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L107)*
+*Defined in [packages/types/src/primitive/Text.ts:107](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L107)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -196,9 +192,7 @@ ___
 
 ▸ **toJSON**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
-
-*Defined in [packages/types/src/primitive/Text.ts:116](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L116)*
+*Defined in [packages/types/src/primitive/Text.ts:116](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L116)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -210,9 +204,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
-
-*Defined in [packages/types/src/primitive/Text.ts:123](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L123)*
+*Defined in [packages/types/src/primitive/Text.ts:123](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L123)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -224,11 +216,9 @@ ___
 
 ▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
+*Overrides void*
 
-*Overrides [RegistryMetadataText](../interfaces/_types_.registrymetadatatext.md).[toString](../interfaces/_types_.registrymetadatatext.md#tostring)*
-
-*Defined in [packages/types/src/primitive/Text.ts:130](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L130)*
+*Defined in [packages/types/src/primitive/Text.ts:130](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L130)*
 
 **`description`** Returns the string representation of the value
 
@@ -240,7 +230,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Defined in [packages/types/src/primitive/Text.ts:138](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Text.ts#L138)*
+*Defined in [packages/types/src/primitive/Text.ts:138](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Text.ts#L138)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

@@ -8,9 +8,9 @@
 
 ## Callable
 
-▸ (`cb`: Callback‹any›): *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
+▸ (`cb`: Callback‹any›): *UnsubscribePromise*
 
-*Defined in [api/src/promise/Combinator.ts:11](https://github.com/polkadot-js/api/blob/854a520517/packages/api/src/promise/Combinator.ts#L11)*
+*Defined in [promise/Combinator.ts:11](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/promise/Combinator.ts#L11)*
 
 **Parameters:**
 
@@ -18,4 +18,4 @@ Name | Type |
 ------ | ------ |
 `cb` | Callback‹any› |
 
-**Returns:** *[UnsubscribePromise](../modules/_types_.md#unsubscribepromise)*
+**Returns:** *UnsubscribePromise*

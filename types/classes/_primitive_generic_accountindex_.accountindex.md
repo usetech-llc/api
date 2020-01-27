@@ -14,11 +14,9 @@ for an Account. We extends from [U32](_primitive_u32_.u32.md) to provide the num
 
   ↳ **AccountIndex**
 
-  ↳ [AccountIndex](../interfaces/_interfaces_runtime_types_.accountindex.md)
-
 ## Implements
 
-* [Codec](../interfaces/_types_.codec.md)
+* Codec
 
 ## Index
 
@@ -70,18 +68,18 @@ Defined in node_modules/@types/bn.js/index.d.ts:12
 
 ###  constructor
 
-\+ **new AccountIndex**(`registry`: [Registry](../interfaces/_types_.registry.md), `value`: [AnyNumber](../modules/_types_.md#anynumber)): *[AccountIndex](_primitive_generic_accountindex_.accountindex.md)*
+\+ **new AccountIndex**(`registry`: Registry, `value`: AnyNumber): *[AccountIndex](_primitive_generic_accountindex_.accountindex.md)*
 
-*Overrides [AssetId](../interfaces/_interfaces_runtime_types_.assetid.md).[constructor](../interfaces/_interfaces_runtime_types_.assetid.md#constructor)*
+*Overrides [U32](_primitive_u32_.u32.md).[constructor](_primitive_u32_.u32.md#constructor)*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:30](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/AccountIndex.ts#L30)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:30](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Generic/AccountIndex.ts#L30)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`registry` | [Registry](../interfaces/_types_.registry.md) | - |
-`value` | [AnyNumber](../modules/_types_.md#anynumber) | new BN(0) |
+`registry` | Registry | - |
+`value` | AnyNumber | new BN(0) |
 
 **Returns:** *[AccountIndex](_primitive_generic_accountindex_.accountindex.md)*
 
@@ -91,11 +89,9 @@ Name | Type | Default |
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
-
 *Overrides void*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:87](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/AccountIndex.ts#L87)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:87](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Generic/AccountIndex.ts#L87)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -113,11 +109,11 @@ ___
 
 ▸ **toHex**(`isLe`: boolean): *string*
 
-*Inherited from [AccountIndex](../interfaces/_interfaces_runtime_types_.accountindex.md).[toHex](../interfaces/_interfaces_runtime_types_.accountindex.md#tohex)*
+*Inherited from [UInt](_codec_uint_.uint.md).[toHex](_codec_uint_.uint.md#tohex)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/UInt.ts#L38)*
+*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/UInt.ts#L38)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -135,11 +131,9 @@ ___
 
 ▸ **toJSON**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
-
 *Overrides void*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:100](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/AccountIndex.ts#L100)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:100](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Generic/AccountIndex.ts#L100)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -151,11 +145,9 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
+*Overrides [UInt](_codec_uint_.uint.md).[toRawType](_codec_uint_.uint.md#torawtype)*
 
-*Overrides [AssetId](../interfaces/_interfaces_runtime_types_.assetid.md).[toRawType](../interfaces/_interfaces_runtime_types_.assetid.md#torawtype)*
-
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:116](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/AccountIndex.ts#L116)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:116](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Generic/AccountIndex.ts#L116)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -167,11 +159,9 @@ ___
 
 ▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
-
 *Overrides void*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:107](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/AccountIndex.ts#L107)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:107](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Generic/AccountIndex.ts#L107)*
 
 **`description`** Returns the string representation of the value
 
@@ -183,11 +173,11 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Inherited from [AccountIndex](../interfaces/_interfaces_runtime_types_.accountindex.md).[toU8a](../interfaces/_interfaces_runtime_types_.accountindex.md#tou8a)*
+*Inherited from [UInt](_codec_uint_.uint.md).[toU8a](_codec_uint_.uint.md#tou8a)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/UInt.ts#L64)*
+*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/UInt.ts#L64)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -205,7 +195,7 @@ ___
 
 ▸ **calcLength**(`_value`: BN | number): *number*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:47](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/AccountIndex.ts#L47)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:47](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Generic/AccountIndex.ts#L47)*
 
 **Parameters:**
 
@@ -219,15 +209,15 @@ ___
 
 ### `Static` decodeAccountIndex
 
-▸ **decodeAccountIndex**(`value`: [AnyNumber](../modules/_types_.md#anynumber)): *BN | [Uint8Array](_codec_raw_.raw.md#static-uint8array) | number | string*
+▸ **decodeAccountIndex**(`value`: AnyNumber): *BN | [Uint8Array](_codec_raw_.raw.md#static-uint8array) | number | string*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:35](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/AccountIndex.ts#L35)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:35](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Generic/AccountIndex.ts#L35)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`value` | [AnyNumber](../modules/_types_.md#anynumber) |
+`value` | AnyNumber |
 
 **Returns:** *BN | [Uint8Array](_codec_raw_.raw.md#static-uint8array) | number | string*
 
@@ -237,7 +227,7 @@ ___
 
 ▸ **readLength**(`input`: [Uint8Array](_codec_raw_.raw.md#static-uint8array)): *[number, number]*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:61](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/AccountIndex.ts#L61)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:61](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Generic/AccountIndex.ts#L61)*
 
 **Parameters:**
 
@@ -251,11 +241,11 @@ ___
 
 ### `Static` with
 
-▸ **with**(`bitLength?`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)): *[Constructor](../interfaces/_types_.constructor.md)‹[UInt](_codec_uint_.uint.md)›*
+▸ **with**(`bitLength?`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)): *Constructor‹[UInt](_codec_uint_.uint.md)›*
 
-*Inherited from [AccountIndex](../interfaces/_interfaces_runtime_types_.accountindex.md).[with](../interfaces/_interfaces_runtime_types_.accountindex.md#static-with)*
+*Inherited from [UInt](_codec_uint_.uint.md).[with](_codec_uint_.uint.md#static-with)*
 
-*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/UInt.ts#L27)*
+*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/UInt.ts#L27)*
 
 **Parameters:**
 
@@ -263,7 +253,7 @@ Name | Type |
 ------ | ------ |
 `bitLength?` | [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength) |
 
-**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹[UInt](_codec_uint_.uint.md)›*
+**Returns:** *Constructor‹[UInt](_codec_uint_.uint.md)›*
 
 ___
 
@@ -271,7 +261,7 @@ ___
 
 ▸ **writeLength**(`input`: [Uint8Array](_codec_raw_.raw.md#static-uint8array)): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:75](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Generic/AccountIndex.ts#L75)*
+*Defined in [packages/types/src/primitive/Generic/AccountIndex.ts:75](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Generic/AccountIndex.ts#L75)*
 
 **Parameters:**
 

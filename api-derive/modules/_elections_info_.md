@@ -14,7 +14,7 @@
 
 ▸ **info**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/elections/info.ts:50](https://github.com/polkadot-js/api/blob/854a520517/packages/api-derive/src/elections/info.ts#L50)*
+*Defined in [packages/api-derive/src/elections/info.ts:50](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api-derive/src/elections/info.ts#L50)*
 
 **`name`** info
 
@@ -38,4 +38,4 @@ Name | Type |
 An object containing the combined results of the storage queries for
 all relevant election module properties.
 
-▸ (): *Observable‹[DerivedElectionsInfo](../interfaces/_types_.derivedelectionsinfo.md)›*
+▸ (): *Observable‹DerivedElectionsInfo›*

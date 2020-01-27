@@ -4,7 +4,7 @@
 
 ## Type parameters
 
-▪ **ApiType**: *[ApiTypes](../modules/_types_.md#apitypes)*
+▪ **ApiType**: *ApiTypes*
 
 ## Hierarchy
 
@@ -37,19 +37,19 @@
 
 ###  constructor
 
-\+ **new Init**(`options`: [ApiOptions](../interfaces/_types_.apioptions.md), `type`: [ApiTypes](../modules/_types_.md#apitypes), `decorateMethod`: [DecorateMethod](../modules/_types_.md#decoratemethod)‹ApiType›): *[Init](_base_init_.init.md)*
+\+ **new Init**(`options`: ApiOptions, `type`: ApiTypes, `decorateMethod`: DecorateMethod‹ApiType›): *[Init](_base_init_.init.md)*
 
 *Overrides [Decorate](_base_decorate_.decorate.md).[constructor](_base_decorate_.decorate.md#constructor)*
 
-*Defined in [api/src/base/Init.ts:24](https://github.com/polkadot-js/api/blob/854a520517/packages/api/src/base/Init.ts#L24)*
+*Defined in [base/Init.ts:24](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Init.ts#L24)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`options` | [ApiOptions](../interfaces/_types_.apioptions.md) |
-`type` | [ApiTypes](../modules/_types_.md#apitypes) |
-`decorateMethod` | [DecorateMethod](../modules/_types_.md#decoratemethod)‹ApiType› |
+`options` | ApiOptions |
+`type` | ApiTypes |
+`decorateMethod` | DecorateMethod‹ApiType› |
 
 **Returns:** *[Init](_base_init_.init.md)*
 
@@ -61,7 +61,7 @@ Name | Type |
 
 *Inherited from [Init](_base_init_.init.md).[registry](_base_init_.init.md#registry)*
 
-*Defined in [api/src/base/Decorate.ts:44](https://github.com/polkadot-js/api/blob/854a520517/packages/api/src/base/Decorate.ts#L44)*
+*Defined in [base/Decorate.ts:44](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Decorate.ts#L44)*
 
 ## Accessors
 
@@ -71,7 +71,7 @@ Name | Type |
 
 *Inherited from [Init](_base_init_.init.md).[hasSubscriptions](_base_init_.init.md#hassubscriptions)*
 
-*Defined in [api/src/base/Decorate.ts:138](https://github.com/polkadot-js/api/blob/854a520517/packages/api/src/base/Decorate.ts#L138)*
+*Defined in [base/Decorate.ts:138](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Decorate.ts#L138)*
 
 **Returns:** *boolean*
 
@@ -81,11 +81,11 @@ Name | Type |
 
 ###  off
 
-▸ **off**(`type`: [ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents), `handler`: function): *this*
+▸ **off**(`type`: ApiInterfaceEvents, `handler`: function): *this*
 
 *Inherited from [Init](_base_init_.init.md).[off](_base_init_.init.md#off)*
 
-*Defined in [api/src/base/Events.ts:62](https://github.com/polkadot-js/api/blob/854a520517/packages/api/src/base/Events.ts#L62)*
+*Defined in [base/Events.ts:62](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Events.ts#L62)*
 
 **`description`** Remove the given eventemitter handler
 
@@ -106,7 +106,7 @@ api.off('connected', handler);
 
 **Parameters:**
 
-▪ **type**: *[ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents)*
+▪ **type**: *ApiInterfaceEvents*
 
 The type of event the callback was attached to. Available events are `connected`, `disconnected`, `ready` and `error`
 
@@ -128,11 +128,11 @@ ___
 
 ###  on
 
-▸ **on**(`type`: [ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents), `handler`: function): *this*
+▸ **on**(`type`: ApiInterfaceEvents, `handler`: function): *this*
 
 *Inherited from [Init](_base_init_.init.md).[on](_base_init_.init.md#on)*
 
-*Defined in [api/src/base/Events.ts:35](https://github.com/polkadot-js/api/blob/854a520517/packages/api/src/base/Events.ts#L35)*
+*Defined in [base/Events.ts:35](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Events.ts#L35)*
 
 **`description`** Attach an eventemitter handler to listen to a specific event
 
@@ -151,7 +151,7 @@ api.on('disconnected', (): void => {
 
 **Parameters:**
 
-▪ **type**: *[ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents)*
+▪ **type**: *ApiInterfaceEvents*
 
 The type of event to listen to. Available events are `connected`, `disconnected`, `ready` and `error`
 
@@ -173,11 +173,11 @@ ___
 
 ###  once
 
-▸ **once**(`type`: [ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents), `handler`: function): *this*
+▸ **once**(`type`: ApiInterfaceEvents, `handler`: function): *this*
 
 *Inherited from [Init](_base_init_.init.md).[once](_base_init_.init.md#once)*
 
-*Defined in [api/src/base/Events.ts:87](https://github.com/polkadot-js/api/blob/854a520517/packages/api/src/base/Events.ts#L87)*
+*Defined in [base/Events.ts:87](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Events.ts#L87)*
 
 **`description`** Attach an one-time eventemitter handler to listen to a specific event
 
@@ -196,7 +196,7 @@ api.once('disconnected', (): void => {
 
 **Parameters:**
 
-▪ **type**: *[ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents)*
+▪ **type**: *ApiInterfaceEvents*
 
 The type of event to listen to. Available events are `connected`, `disconnected`, `ready` and `error`
 
@@ -220,7 +220,7 @@ ___
 
 ▸ **registerTypes**(`types?`: RegistryTypes): *void*
 
-*Defined in [api/src/base/Init.ts:51](https://github.com/polkadot-js/api/blob/854a520517/packages/api/src/base/Init.ts#L51)*
+*Defined in [base/Init.ts:51](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Init.ts#L51)*
 
 **Parameters:**
 

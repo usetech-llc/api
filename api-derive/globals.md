@@ -52,6 +52,5 @@
 * ["treasury/proposals"](modules/_treasury_proposals_.md)
 * ["type/HeaderExtended"](modules/_type_headerextended_.md)
 * ["type/ReferendumInfoExtended"](modules/_type_referenduminfoextended_.md)
-* ["types"](modules/_types_.md)
 * ["util/approvalFlagsToBools"](modules/_util_approvalflagstobools_.md)
 * ["util/memo"](modules/_util_memo_.md)

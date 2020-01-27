@@ -14,7 +14,7 @@
 
 ▸ **indexes**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/accounts/indexes.ts:33](https://github.com/polkadot-js/api/blob/854a520517/packages/api-derive/src/accounts/indexes.ts#L33)*
+*Defined in [packages/api-derive/src/accounts/indexes.ts:33](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api-derive/src/accounts/indexes.ts#L33)*
 
 **`name`** indexes
 
@@ -41,4 +41,4 @@ Name | Type |
 
 Returns all the indexes on the system.
 
-▸ (): *Observable‹[AccountIndexes](_types_.md#accountindexes)›*
+▸ (): *Observable‹AccountIndexes›*

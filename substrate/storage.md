@@ -19,17 +19,21 @@ The following sections contain Storage methods are part of the default Substrate
 
 - **[grandpa](#grandpa)**
 
+- **[identity](#identity)**
+
 - **[imOnline](#imOnline)**
 
 - **[indices](#indices)**
-
-- **[nicks](#nicks)**
 
 - **[offences](#offences)**
 
 - **[randomnessCollectiveFlip](#randomnessCollectiveFlip)**
 
+- **[recovery](#recovery)**
+
 - **[session](#session)**
+
+- **[society](#society)**
 
 - **[staking](#staking)**
 
@@ -46,6 +50,8 @@ The following sections contain Storage methods are part of the default Substrate
 - **[transactionPayment](#transactionPayment)**
 
 - **[treasury](#treasury)**
+
+- **[utility](#utility)**
 
 - **[substrate](#substrate)**
 
@@ -114,7 +120,7 @@ ___
 
 ### freeBalance(`AccountId`): `Balance`
 - **interface**: api.query.balances.freeBalance
-- **summary**: The 'free' balance of a given account.  This is the only balance that matters in terms of most operations on tokens. It alone is used to determine the balance when in the contract execution environment. When this balance falls below the value of `ExistentialDeposit`, then the 'current account' is deleted: specifically `FreeBalance`. Further, the `OnFreeBalanceZero` callback is invoked, giving a chance to external modules to clean up data associated with the deleted account.  `system::AccountNonce` is also deleted if `ReservedBalance` is also zero (it also gets collapsed to zero if it ever becomes less than `ExistentialDeposit`.
+- **summary**: The 'free' balance of a given account.  This is the only balance that matters in terms of most operations on tokens. It alone is used to determine the balance when in the contract execution environment. When this balance falls below the value of `ExistentialDeposit`, then the 'current account' is deleted: specifically `FreeBalance`. Further, the `OnFreeBalanceZero` callback is invoked, giving a chance to external modules to clean up data associated with the deleted account.  `frame_system::AccountNonce` is also deleted if `ReservedBalance` is also zero (it also gets collapsed to zero if it ever becomes less than `ExistentialDeposit`.
 
 ### locks(`AccountId`): `Vec<BalanceLock>`
 - **interface**: api.query.balances.locks
@@ -122,7 +128,7 @@ ___
 
 ### reservedBalance(`AccountId`): `Balance`
 - **interface**: api.query.balances.reservedBalance
-- **summary**: The amount of the balance of a given account that is externally reserved; this can still get slashed, but gets slashed last of all.  This balance is a 'reserve' balance that other subsystems use in order to set aside tokens that are still 'owned' by the account holder, but which are suspendable.  When this balance falls below the value of `ExistentialDeposit`, then this 'reserve account' is deleted: specifically, `ReservedBalance`.  `system::AccountNonce` is also deleted if `FreeBalance` is also zero (it also gets collapsed to zero if it ever becomes less than `ExistentialDeposit`.)
+- **summary**: The amount of the balance of a given account that is externally reserved; this can still get slashed, but gets slashed last of all.  This balance is a 'reserve' balance that other subsystems use in order to set aside tokens that are still 'owned' by the account holder, but which are suspendable.  When this balance falls below the value of `ExistentialDeposit`, then this 'reserve account' is deleted: specifically, `ReservedBalance`.  `frame_system::AccountNonce` is also deleted if `FreeBalance` is also zero (it also gets collapsed to zero if it ever becomes less than `ExistentialDeposit`.)
 
 ### totalIssuance(): `Balance`
 - **interface**: api.query.balances.totalIssuance
@@ -211,21 +217,21 @@ ___
 - **interface**: api.query.democracy.depositOf
 - **summary**: Those who have locked a deposit.
 
-### dispatchQueue(`BlockNumber`): `Vec<Option<(Hash,ReferendumIndex)>>`
+### dispatchQueue(): `Vec<(BlockNumber,Hash,ReferendumIndex)>`
 - **interface**: api.query.democracy.dispatchQueue
-- **summary**: Queue of successful referenda to be dispatched.
+- **summary**: Queue of successful referenda to be dispatched. Stored ordered by block number.
 
 ### lastTabledWasExternal(): `bool`
 - **interface**: api.query.democracy.lastTabledWasExternal
 - **summary**: True if the last referendum tabled was submitted externally. False if it was a public proposal.
 
+### lowestUnbaked(): `ReferendumIndex`
+- **interface**: api.query.democracy.lowestUnbaked
+- **summary**: The lowest referendum index representing an unbaked referendum. Equal to `ReferendumCount` if there isn't a unbaked referendum.
+
 ### nextExternal(): `Option<(Hash,VoteThreshold)>`
 - **interface**: api.query.democracy.nextExternal
 - **summary**: The referendum to be tabled whenever it would be valid to table an external proposal. This happens when a referendum needs to be tabled and one of two conditions are met: - `LastTabledWasExternal` is `false`; or - `PublicProps` is empty.
-
-### nextTally(): `ReferendumIndex`
-- **interface**: api.query.democracy.nextTally
-- **summary**: The next referendum index that should be tallied.
 
 ### preimages(`Hash`): `Option<(Bytes,AccountId,BalanceOf,BlockNumber)>`
 - **interface**: api.query.democracy.preimages
@@ -266,7 +272,7 @@ ___
 
 ### candidates(): `Vec<AccountId>`
 - **interface**: api.query.elections.candidates
-- **summary**: The present candidate list. Sorted based on account id. A current member can never enter this vector and is always implicitly assumed to be a candidate.
+- **summary**: The present candidate list. Sorted based on account-id. A current member or a runner can never enter this vector and is always implicitly assumed to be a candidate.
 
 ### electionRounds(): `u32`
 - **interface**: api.query.elections.electionRounds
@@ -324,6 +330,27 @@ ___
 ___
 
 
+## identity
+
+### identityOf(`AccountId`): `Option<Registration>`
+- **interface**: api.query.identity.identityOf
+- **summary**: Information that is pertinent to identify the entity behind an account.
+
+### registrars(): `Vec<Option<RegistrarInfo>>`
+- **interface**: api.query.identity.registrars
+- **summary**: The set of registrars. Not expected to get very big as can only be added through a special origin (likely a council motion).  The index into this can be cast to `RegistrarIndex` to get a valid value.
+
+### subsOf(`AccountId`): `(BalanceOf,Vec<AccountId>)`
+- **interface**: api.query.identity.subsOf
+- **summary**: Alternative "sub" identities of this account.  The first item is the deposit, the second is a vector of the accounts.
+
+### superOf(`AccountId`): `Option<(AccountId,Data)>`
+- **interface**: api.query.identity.superOf
+- **summary**: The super-identity of an alternative "sub" identity together with its name, within that context. If the account is not some other account's sub-identity, then just `None`.
+
+___
+
+
 ## imOnline
 
 ### authoredBlocks(`SessionIndex, ValidatorId`): `u32`
@@ -358,15 +385,6 @@ ___
 ___
 
 
-## nicks
-
-### nameOf(`AccountId`): `Option<(Bytes,BalanceOf)>`
-- **interface**: api.query.nicks.nameOf
-- **summary**: The lookup table for names.
-
-___
-
-
 ## offences
 
 ### concurrentReportsIndex(`Kind, OpaqueTimeSlot`): `Vec<ReportIdOf>`
@@ -389,6 +407,23 @@ ___
 ### randomMaterial(): `Vec<Hash>`
 - **interface**: api.query.randomnessCollectiveFlip.randomMaterial
 - **summary**: Series of block headers from the last 81 blocks that acts as random seed material. This is arranged as a ring buffer with `block_number % 81` being the index into the `Vec` of the oldest hash.
+
+___
+
+
+## recovery
+
+### activeRecoveries(`AccountId, AccountId`): `Option<ActiveRecovery>`
+- **interface**: api.query.recovery.activeRecoveries
+- **summary**: Active recovery attempts.  First account is the account to be recovered, and the second account is the user trying to recover the account.
+
+### recoverable(`AccountId`): `Option<RecoveryConfig>`
+- **interface**: api.query.recovery.recoverable
+- **summary**: The set of recoverable accounts and their recovery configuration.
+
+### recovered(`AccountId`): `Option<AccountId>`
+- **interface**: api.query.recovery.recovered
+- **summary**: The final list of recovered accounts.  Map from the recovered account to the user who can access it.
 
 ___
 
@@ -422,6 +457,75 @@ ___
 ### validators(): `Vec<ValidatorId>`
 - **interface**: api.query.session.validators
 - **summary**: The current set of validators.
+
+___
+
+
+## society
+
+### bids(): `Vec<Bid>`
+- **interface**: api.query.society.bids
+- **summary**: The current bids, stored ordered by the value of the bid.
+
+### candidates(): `Vec<Bid>`
+- **interface**: api.query.society.candidates
+- **summary**: The current set of candidates; bidders that are attempting to become members.
+
+### defender(): `Option<AccountId>`
+- **interface**: api.query.society.defender
+- **summary**: The defending member currently being challenged.
+
+### defenderVotes(`AccountId`): `Option<Vote>`
+- **interface**: api.query.society.defenderVotes
+- **summary**: Votes for the defender.
+
+### founder(): `Option<AccountId>`
+- **interface**: api.query.society.founder
+- **summary**: The first member.
+
+### head(): `Option<AccountId>`
+- **interface**: api.query.society.head
+- **summary**: The most primary from the most recently approved members.
+
+### maxMembers(): `u32`
+- **interface**: api.query.society.maxMembers
+- **summary**: The max number of members for the society at one time.
+
+### members(): `Vec<AccountId>`
+- **interface**: api.query.society.members
+- **summary**: The current set of members, ordered.
+
+### payouts(`AccountId`): `Vec<(BlockNumber,BalanceOf)>`
+- **interface**: api.query.society.payouts
+- **summary**: Pending payouts; ordered by block number, with the amount that should be paid out.
+
+### pot(): `BalanceOf`
+- **interface**: api.query.society.pot
+- **summary**: Amount of our account balance that is specifically for the next round's bid(s).
+
+### rules(): `Option<Hash>`
+- **interface**: api.query.society.rules
+- **summary**: A hash of the rules of this society concerning membership. Can only be set once and only by the founder.
+
+### strikes(`AccountId`): `StrikeCount`
+- **interface**: api.query.society.strikes
+- **summary**: The ongoing number of losing votes cast by the member.
+
+### suspendedCandidates(`AccountId`): `Option<(BalanceOf,BidKind)>`
+- **interface**: api.query.society.suspendedCandidates
+- **summary**: The set of suspended candidates.
+
+### suspendedMembers(`AccountId`): `bool`
+- **interface**: api.query.society.suspendedMembers
+- **summary**: The set of suspended members.
+
+### votes(`AccountId, AccountId`): `Option<Vote>`
+- **interface**: api.query.society.votes
+- **summary**: Double map from Candidate -> Voter -> (Maybe) Vote.
+
+### vouching(`AccountId`): `Option<VouchingStatus>`
+- **interface**: api.query.society.vouching
+- **summary**: Members currently vouching or banned from vouching again
 
 ___
 
@@ -574,9 +678,9 @@ ___
 - **interface**: api.query.system.events
 - **summary**: Events deposited for the current block.
 
-### eventTopics(`(), Hash`): `Vec<(BlockNumber,EventIndex)>`
+### eventTopics(`Hash`): `Vec<(BlockNumber,EventIndex)>`
 - **interface**: api.query.system.eventTopics
-- **summary**: Mapping between a topic (represented by T::Hash) and a vector of indexes of events in the `<Events<T>>` list.  The first key serves no purpose. This field is declared as double_map just for convenience of using `remove_prefix`.  All topic vectors have deterministic storage locations depending on the topic. This allows light-clients to leverage the changes trie storage tracking mechanism and in case of changes fetch the list of events of interest.  The value has the type `(T::BlockNumber, EventIndex)` because if we used only just the `EventIndex` then in case if the topic has the same contents on the next block no notification will be triggered thus the event might be lost.
+- **summary**: Mapping between a topic (represented by T::Hash) and a vector of indexes of events in the `<Events<T>>` list.  All topic vectors have deterministic storage locations depending on the topic. This allows light-clients to leverage the changes trie storage tracking mechanism and in case of changes fetch the list of events of interest.  The value has the type `(T::BlockNumber, EventIndex)` because if we used only just the `EventIndex` then in case if the topic has the same contents on the next block no notification will be triggered thus the event might be lost.
 
 ### extrinsicCount(): `Option<u32>`
 - **interface**: api.query.system.extrinsicCount
@@ -669,6 +773,23 @@ ___
 ### proposals(`ProposalIndex`): `Option<TreasuryProposal>`
 - **interface**: api.query.treasury.proposals
 - **summary**: Proposals that have been made.
+
+### reasons(`Hash`): `Option<Bytes>`
+- **interface**: api.query.treasury.reasons
+- **summary**: Simple preimage lookup from the reason's hash to the original data. Again, has an insecure enumerable hash since the key is guaranteed to be the result of a secure hash.
+
+### tips(`Hash`): `Option<OpenTip>`
+- **interface**: api.query.treasury.tips
+- **summary**: Tips that are not yet completed. Keyed by the hash of `(reason, who)` from the value. This has the insecure enumerable hash function since the key itself is already guaranteed to be a secure hash.
+
+___
+
+
+## utility
+
+### multisigs(`AccountId, [u8;32]`): `Option<Multisig>`
+- **interface**: api.query.utility.multisigs
+- **summary**: The set of open multisig operations.
 
 ---
 

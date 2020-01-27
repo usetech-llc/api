@@ -15,9 +15,9 @@ The following sections contain the module constants, also known as parameter typ
 
 - **[finalityTracker](#finalityTracker)**
 
-- **[nicks](#nicks)**
-
 - **[session](#session)**
+
+- **[society](#society)**
 
 - **[staking](#staking)**
 
@@ -196,28 +196,40 @@ ___
 ___
 
 
-## nicks
-
-### maxLength: `u32`
-- **interface**: api.consts.nicks.maxLength
-- **summary**: The maximum length a name may be.
-
-### minLength: `u32`
-- **interface**: api.consts.nicks.minLength
-- **summary**: The minimum length a name may be.
-
-### reservationFee: `BalanceOf`
-- **interface**: api.consts.nicks.reservationFee
-- **summary**: Reservation fee.
-
-___
-
-
 ## session
 
 ### dedupKeyPrefix: `Bytes`
 - **interface**: api.consts.session.dedupKeyPrefix
 - **summary**: Used as first key for `NextKeys` and `KeyOwner` to put all the data into the same branch of the trie.
+
+___
+
+
+## society
+
+### candidateDeposit: `BalanceOf`
+- **interface**: api.consts.society.candidateDeposit
+- **summary**: The minimum amount of a deposit required for a bid to be made.
+
+### challengePeriod: `BlockNumber`
+- **interface**: api.consts.society.challengePeriod
+- **summary**: The number of blocks between membership challenges.
+
+### maxStrikes: `u32`
+- **interface**: api.consts.society.maxStrikes
+- **summary**: The number of times a member may vote the wrong way (or not at all, when they are a skeptic) before they become suspended.
+
+### periodSpend: `BalanceOf`
+- **interface**: api.consts.society.periodSpend
+- **summary**: The amount of incentive paid within each period. Doesn't include VoterTip.
+
+### rotationPeriod: `BlockNumber`
+- **interface**: api.consts.society.rotationPeriod
+- **summary**: The number of blocks between candidate/membership rotation periods.
+
+### wrongSideDeduction: `BalanceOf`
+- **interface**: api.consts.society.wrongSideDeduction
+- **summary**: The amount of the unpaid reward that gets deducted in the case that either a skeptic doesn't vote or someone votes in the wrong way.
 
 ___
 
@@ -274,3 +286,19 @@ ___
 ### spendPeriod: `BlockNumber`
 - **interface**: api.consts.treasury.spendPeriod
 - **summary**: Period between successive spends.
+
+### tipCountdown: `BlockNumber`
+- **interface**: api.consts.treasury.tipCountdown
+- **summary**: The period for which a tip remains open after is has achieved threshold tippers.
+
+### tipFindersFee: `Percent`
+- **interface**: api.consts.treasury.tipFindersFee
+- **summary**: The amount of the final tip which goes to the original reporter of the tip.
+
+### tipReportDepositBase: `BalanceOf`
+- **interface**: api.consts.treasury.tipReportDepositBase
+- **summary**: The amount held on deposit for placing a tip report.
+
+### tipReportDepositPerByte: `BalanceOf`
+- **interface**: api.consts.treasury.tipReportDepositPerByte
+- **summary**: The amount held on deposit per byte within the tip report reason.

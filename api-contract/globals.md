@@ -19,5 +19,4 @@
 * ["rx/RxBlueprint"](modules/_rx_rxblueprint_.md)
 * ["rx/RxCode"](modules/_rx_rxcode_.md)
 * ["rx/RxContract"](modules/_rx_rxcontract_.md)
-* ["types"](modules/_types_.md)
 * ["util"](modules/_util_.md)

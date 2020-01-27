@@ -17,7 +17,7 @@ It is not to be used, since it created consensus mismatches.
 
 ## Implements
 
-* [Codec](../interfaces/_types_.codec.md)
+* Codec
 
 ## Index
 
@@ -62,17 +62,17 @@ Defined in node_modules/@types/bn.js/index.d.ts:12
 
 ###  constructor
 
-\+ **new USize**(`registry`: [Registry](../interfaces/_types_.registry.md), `value?`: any): *[USize](_primitive_usize_.usize.md)*
+\+ **new USize**(`registry`: Registry, `value?`: any): *[USize](_primitive_usize_.usize.md)*
 
-*Overrides [AssetId](../interfaces/_interfaces_runtime_types_.assetid.md).[constructor](../interfaces/_interfaces_runtime_types_.assetid.md#constructor)*
+*Overrides [U32](_primitive_u32_.u32.md).[constructor](_primitive_u32_.u32.md#constructor)*
 
-*Defined in [packages/types/src/primitive/USize.ts:16](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/USize.ts#L16)*
+*Defined in [packages/types/src/primitive/USize.ts:16](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/USize.ts#L16)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`registry` | [Registry](../interfaces/_types_.registry.md) |
+`registry` | Registry |
 `value?` | any |
 
 **Returns:** *[USize](_primitive_usize_.usize.md)*
@@ -83,11 +83,11 @@ Name | Type |
 
 ▸ **toHex**(`isLe`: boolean): *string*
 
-*Inherited from [AccountIndex](../interfaces/_interfaces_runtime_types_.accountindex.md).[toHex](../interfaces/_interfaces_runtime_types_.accountindex.md#tohex)*
+*Inherited from [UInt](_codec_uint_.uint.md).[toHex](_codec_uint_.uint.md#tohex)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/UInt.ts#L38)*
+*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/UInt.ts#L38)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -105,13 +105,11 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
-
-*Inherited from [AssetId](../interfaces/_interfaces_runtime_types_.assetid.md).[toRawType](../interfaces/_interfaces_runtime_types_.assetid.md#torawtype)*
+*Inherited from [UInt](_codec_uint_.uint.md).[toRawType](_codec_uint_.uint.md#torawtype)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/UInt.ts#L50)*
+*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/UInt.ts#L50)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -123,11 +121,11 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Inherited from [AccountIndex](../interfaces/_interfaces_runtime_types_.accountindex.md).[toU8a](../interfaces/_interfaces_runtime_types_.accountindex.md#tou8a)*
+*Inherited from [UInt](_codec_uint_.uint.md).[toU8a](_codec_uint_.uint.md#tou8a)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/UInt.ts#L64)*
+*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/UInt.ts#L64)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -143,11 +141,11 @@ ___
 
 ### `Static` with
 
-▸ **with**(`bitLength?`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)): *[Constructor](../interfaces/_types_.constructor.md)‹[UInt](_codec_uint_.uint.md)›*
+▸ **with**(`bitLength?`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)): *Constructor‹[UInt](_codec_uint_.uint.md)›*
 
-*Inherited from [AccountIndex](../interfaces/_interfaces_runtime_types_.accountindex.md).[with](../interfaces/_interfaces_runtime_types_.accountindex.md#static-with)*
+*Inherited from [UInt](_codec_uint_.uint.md).[with](_codec_uint_.uint.md#static-with)*
 
-*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/UInt.ts#L27)*
+*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/UInt.ts#L27)*
 
 **Parameters:**
 
@@ -155,4 +153,4 @@ Name | Type |
 ------ | ------ |
 `bitLength?` | [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength) |
 
-**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹[UInt](_codec_uint_.uint.md)›*
+**Returns:** *Constructor‹[UInt](_codec_uint_.uint.md)›*

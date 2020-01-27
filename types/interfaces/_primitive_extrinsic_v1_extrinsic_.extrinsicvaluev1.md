@@ -17,9 +17,9 @@
 
 ### `Optional` method
 
-• **method**? : *[Call](_interfaces_runtime_types_.call.md)*
+• **method**? : *[Call](../classes/_primitive_generic_call_.call.md)*
 
-*Defined in [packages/types/src/primitive/Extrinsic/v1/Extrinsic.ts:16](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Extrinsic/v1/Extrinsic.ts#L16)*
+*Defined in [packages/types/src/primitive/Extrinsic/v1/Extrinsic.ts:16](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Extrinsic/v1/Extrinsic.ts#L16)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **signature**? : *[ExtrinsicSignatureV1](../classes/_primitive_extrinsic_v1_extrinsicsignature_.extrinsicsignaturev1.md)*
 
-*Defined in [packages/types/src/primitive/Extrinsic/v1/Extrinsic.ts:17](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/primitive/Extrinsic/v1/Extrinsic.ts#L17)*
+*Defined in [packages/types/src/primitive/Extrinsic/v1/Extrinsic.ts:17](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/primitive/Extrinsic/v1/Extrinsic.ts#L17)*

@@ -20,9 +20,9 @@
 
 ###  off
 
-▸ **off**(`type`: [ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents), `handler`: function): *this*
+▸ **off**(`type`: ApiInterfaceEvents, `handler`: function): *this*
 
-*Defined in [api/src/base/Events.ts:62](https://github.com/polkadot-js/api/blob/854a520517/packages/api/src/base/Events.ts#L62)*
+*Defined in [base/Events.ts:62](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Events.ts#L62)*
 
 **`description`** Remove the given eventemitter handler
 
@@ -43,7 +43,7 @@ api.off('connected', handler);
 
 **Parameters:**
 
-▪ **type**: *[ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents)*
+▪ **type**: *ApiInterfaceEvents*
 
 The type of event the callback was attached to. Available events are `connected`, `disconnected`, `ready` and `error`
 
@@ -65,9 +65,9 @@ ___
 
 ###  on
 
-▸ **on**(`type`: [ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents), `handler`: function): *this*
+▸ **on**(`type`: ApiInterfaceEvents, `handler`: function): *this*
 
-*Defined in [api/src/base/Events.ts:35](https://github.com/polkadot-js/api/blob/854a520517/packages/api/src/base/Events.ts#L35)*
+*Defined in [base/Events.ts:35](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Events.ts#L35)*
 
 **`description`** Attach an eventemitter handler to listen to a specific event
 
@@ -86,7 +86,7 @@ api.on('disconnected', (): void => {
 
 **Parameters:**
 
-▪ **type**: *[ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents)*
+▪ **type**: *ApiInterfaceEvents*
 
 The type of event to listen to. Available events are `connected`, `disconnected`, `ready` and `error`
 
@@ -108,9 +108,9 @@ ___
 
 ###  once
 
-▸ **once**(`type`: [ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents), `handler`: function): *this*
+▸ **once**(`type`: ApiInterfaceEvents, `handler`: function): *this*
 
-*Defined in [api/src/base/Events.ts:87](https://github.com/polkadot-js/api/blob/854a520517/packages/api/src/base/Events.ts#L87)*
+*Defined in [base/Events.ts:87](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/base/Events.ts#L87)*
 
 **`description`** Attach an one-time eventemitter handler to listen to a specific event
 
@@ -129,7 +129,7 @@ api.once('disconnected', (): void => {
 
 **Parameters:**
 
-▪ **type**: *[ApiInterfaceEvents](../modules/_types_.md#apiinterfaceevents)*
+▪ **type**: *ApiInterfaceEvents*
 
 The type of event to listen to. Available events are `connected`, `disconnected`, `ready` and `error`
 

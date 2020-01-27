@@ -15,15 +15,19 @@ Events are emitted for certain operations on the runtime. The following sections
 
 - **[grandpa](#grandpa)**
 
+- **[identity](#identity)**
+
 - **[imOnline](#imOnline)**
 
 - **[indices](#indices)**
 
-- **[nicks](#nicks)**
-
 - **[offences](#offences)**
 
+- **[recovery](#recovery)**
+
 - **[session](#session)**
+
+- **[society](#society)**
 
 - **[staking](#staking)**
 
@@ -45,10 +49,16 @@ ___
 
 ## balances
 
+### BalanceSet(`AccountId`, `Balance`, `Balance`)
+- **summary**: A balance was set by root (who, free, reserved).
+
+### Deposit(`AccountId`, `Balance`)
+- **summary**: Some amount was deposited (e.g. for transaction fees).
+
 ### NewAccount(`AccountId`, `Balance`)
 - **summary**: A new account was created.
 
-### ReapedAccount(`AccountId`)
+### ReapedAccount(`AccountId`, `Balance`)
 - **summary**: An account was reaped.
 
 ### Transfer(`AccountId`, `AccountId`, `Balance`, `Balance`)
@@ -190,6 +200,32 @@ ___
 ___
 
 
+## identity
+
+### IdentityCleared(`AccountId`, `Balance`)
+- **summary**: A name was cleared, and the given balance returned.
+
+### IdentityKilled(`AccountId`, `Balance`)
+- **summary**: A name was removed and the given balance slashed.
+
+### IdentitySet(`AccountId`)
+- **summary**: A name was set or reset (which will remove all judgements).
+
+### JudgementGiven(`AccountId`, `RegistrarIndex`)
+- **summary**: A judgement was given by a registrar.
+
+### JudgementRequested(`AccountId`, `RegistrarIndex`)
+- **summary**: A judgement was asked from a registrar.
+
+### JudgementUnrequested(`AccountId`, `RegistrarIndex`)
+- **summary**: A judgement request was retracted.
+
+### RegistrarAdded(`RegistrarIndex`)
+- **summary**: A registrar was added.
+
+___
+
+
 ## imOnline
 
 ### AllGood()
@@ -212,26 +248,6 @@ ___
 ___
 
 
-## nicks
-
-### NameChanged(`AccountId`)
-- **summary**: A name was changed.
-
-### NameCleared(`AccountId`, `Balance`)
-- **summary**: A name was cleared, and the given balance returned.
-
-### NameForced(`AccountId`)
-- **summary**: A name was forcibly set.
-
-### NameKilled(`AccountId`, `Balance`)
-- **summary**: A name was removed and the given balance slashed.
-
-### NameSet(`AccountId`)
-- **summary**: A name was set.
-
-___
-
-
 ## offences
 
 ### Offence(`Kind`, `OpaqueTimeSlot`)
@@ -240,10 +256,83 @@ ___
 ___
 
 
+## recovery
+
+### AccountRecovered(`AccountId`, `AccountId`)
+- **summary**: Account_1 has been successfully recovered by account_2
+
+### RecoveryClosed(`AccountId`, `AccountId`)
+- **summary**: A recovery process for account_1 by account_2 has been closed
+
+### RecoveryCreated(`AccountId`)
+- **summary**: A recovery process has been set up for an account
+
+### RecoveryInitiated(`AccountId`, `AccountId`)
+- **summary**: A recovery process has been initiated for account_1 by account_2
+
+### RecoveryRemoved(`AccountId`)
+- **summary**: A recovery process has been removed for an account
+
+### RecoveryVouched(`AccountId`, `AccountId`, `AccountId`)
+- **summary**: A recovery process for account_1 by account_2 has been vouched for by account_3
+
+___
+
+
 ## session
 
 ### NewSession(`SessionIndex`)
 - **summary**: New session has happened. Note that the argument is the session index, not the block number as the type might suggest.
+
+___
+
+
+## society
+
+### AutoUnbid(`AccountId`)
+- **summary**: A candidate was dropped (due to an excess of bids in the system).
+
+### Bid(`AccountId`, `Balance`)
+- **summary**: A membership bid just happened. The given account is the candidate's ID and their offer is the second.
+
+### CandidateSuspended(`AccountId`)
+- **summary**: A candidate has been suspended
+
+### Challenged(`AccountId`)
+- **summary**: A member has been challenged
+
+### DefenderVote(`AccountId`, `bool`)
+- **summary**: A vote has been placed for a defending member (voter, vote)
+
+### Founded(`AccountId`)
+- **summary**: The society is founded by the given identity.
+
+### Inducted(`AccountId`, `Vec<AccountId>`)
+- **summary**: A group of candidates have been inducted. The batch's primary is the first value, the batch in full is the second.
+
+### MemberSuspended(`AccountId`)
+- **summary**: A member has been suspended
+
+### NewMaxMembers(`u32`)
+- **summary**: A new max member count has been set
+
+### SuspendedMemberJudgement(`AccountId`, `bool`)
+- **summary**: A suspended member has been judged
+
+### Unbid(`AccountId`)
+- **summary**: A candidate was dropped (by their request).
+
+### Unfounded(`AccountId`)
+- **summary**: Society is unfounded.
+
+### Unvouch(`AccountId`)
+- **summary**: A candidate was dropped (by request of who vouched for them).
+
+### Vote(`AccountId`, `AccountId`, `bool`)
+- **summary**: A vote has been placed (candidate, voter, vote)
+
+### Vouch(`AccountId`, `Balance`, `AccountId`)
+- **summary**: A membership bid just happened by vouching. The given account is the candidate's ID and their offer is the second. The vouching party is the third.
 
 ___
 
@@ -344,8 +433,14 @@ ___
 ### Deposit(`Balance`)
 - **summary**: Some funds have been deposited.
 
+### NewTip(`Hash`)
+- **summary**: A new tip suggestion has been opened.
+
 ### Proposed(`ProposalIndex`)
 - **summary**: New proposal.
+
+### Rejected(`ProposalIndex`, `Balance`)
+- **summary**: A proposal was rejected; funds were slashed.
 
 ### Rollover(`Balance`)
 - **summary**: Spending has finished; this is the amount that rolls over until next spend.
@@ -353,9 +448,34 @@ ___
 ### Spending(`Balance`)
 - **summary**: We have ended a spend period and will now allocate funds.
 
+### TipClosed(`Hash`, `AccountId`, `Balance`)
+- **summary**: A tip suggestion has been closed.
+
+### TipClosing(`Hash`)
+- **summary**: A tip suggestion has reached threshold and is closing.
+
+### TipRetracted(`Hash`)
+- **summary**: A tip suggestion has been retracted.
+
 ___
 
 
 ## utility
 
-### BatchExecuted(`Vec<Result<(),DispatchError>>`)
+### BatchCompleted()
+- **summary**: Batch of dispatches completed fully with no error.
+
+### BatchInterrupted(`u32`, `DispatchError`)
+- **summary**: Batch of dispatches did not complete fully. Index of first failing dispatch given, as well as the error.
+
+### MultisigApproval(`AccountId`, `Timepoint`, `AccountId`)
+- **summary**: A multisig operation has been approved by someone. First param is the account that is approving, third is the multisig account.
+
+### MultisigCancelled(`AccountId`, `Timepoint`, `AccountId`)
+- **summary**: A multisig operation has been cancelled. First param is the account that is cancelling, third is the multisig account.
+
+### MultisigExecuted(`AccountId`, `Timepoint`, `AccountId`, `DispatchResult`)
+- **summary**: A multisig operation has been executed. First param is the account that is approving, third is the multisig account.
+
+### NewMultisig(`AccountId`, `AccountId`)
+- **summary**: A new multisig operation has begun. First param is the account that is approving, second is the multisig account.

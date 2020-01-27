@@ -15,7 +15,7 @@
 
 ▸ **referendumInfo**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/democracy/referendumInfo.ts:56](https://github.com/polkadot-js/api/blob/854a520517/packages/api-derive/src/democracy/referendumInfo.ts#L56)*
+*Defined in [packages/api-derive/src/democracy/referendumInfo.ts:56](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api-derive/src/democracy/referendumInfo.ts#L56)*
 
 **Parameters:**
 
@@ -25,7 +25,7 @@ Name | Type |
 
 **Returns:** *function*
 
-▸ (`index`: BN | number): *Observable‹[DerivedReferendum](../interfaces/_types_.derivedreferendum.md) | null›*
+▸ (`index`: BN | number): *Observable‹DerivedReferendum | null›*
 
 **Parameters:**
 
@@ -37,9 +37,9 @@ ___
 
 ###  retrieveInfo
 
-▸ **retrieveInfo**(`api`: ApiInterfaceRx, `index`: BN | number, `info`: Option‹ReferendumInfo›): *Observable‹[DerivedReferendum](../interfaces/_types_.derivedreferendum.md) | null›*
+▸ **retrieveInfo**(`api`: ApiInterfaceRx, `index`: BN | number, `info`: Option‹ReferendumInfo›): *Observable‹DerivedReferendum | null›*
 
-*Defined in [packages/api-derive/src/democracy/referendumInfo.ts:44](https://github.com/polkadot-js/api/blob/854a520517/packages/api-derive/src/democracy/referendumInfo.ts#L44)*
+*Defined in [packages/api-derive/src/democracy/referendumInfo.ts:44](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api-derive/src/democracy/referendumInfo.ts#L44)*
 
 **Parameters:**
 
@@ -49,4 +49,4 @@ Name | Type |
 `index` | BN &#124; number |
 `info` | Option‹ReferendumInfo› |
 
-**Returns:** *Observable‹[DerivedReferendum](../interfaces/_types_.derivedreferendum.md) | null›*
+**Returns:** *Observable‹DerivedReferendum | null›*

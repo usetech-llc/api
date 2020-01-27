@@ -12,13 +12,13 @@
 
 ###  createClass
 
-▸ **createClass**<**ApiType**>(`__namedParameters`: object): *Constructor‹[SubmittableExtrinsic](../interfaces/_submittable_types_.submittableextrinsic.md)‹ApiType››*
+▸ **createClass**<**ApiType**>(`__namedParameters`: object): *Constructor‹SubmittableExtrinsic‹ApiType››*
 
-*Defined in [api/src/submittable/createClass.ts:33](https://github.com/polkadot-js/api/blob/854a520517/packages/api/src/submittable/createClass.ts#L33)*
+*Defined in [submittable/createClass.ts:33](https://github.com/polkadot-js/api/blob/83aca87dac/packages/api/src/submittable/createClass.ts#L33)*
 
 **Type parameters:**
 
-▪ **ApiType**: *[ApiTypes](_types_.md#apitypes)*
+▪ **ApiType**: *ApiTypes*
 
 **Parameters:**
 
@@ -26,8 +26,8 @@
 
 Name | Type |
 ------ | ------ |
-`api` | [ApiInterfaceRx](../interfaces/_types_.apiinterfacerx.md) |
+`api` | ApiInterfaceRx |
 `apiType` | "promise" &#124; "rxjs" |
 `decorateMethod` | function |
 
-**Returns:** *Constructor‹[SubmittableExtrinsic](../interfaces/_submittable_types_.submittableextrinsic.md)‹ApiType››*
+**Returns:** *Constructor‹SubmittableExtrinsic‹ApiType››*

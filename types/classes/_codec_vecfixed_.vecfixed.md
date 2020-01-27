@@ -9,7 +9,7 @@ This manages codec arrays of a fixed length
 
 ## Type parameters
 
-▪ **T**: *[Codec](../interfaces/_types_.codec.md)*
+▪ **T**: *Codec*
 
 ## Hierarchy
 
@@ -19,7 +19,7 @@ This manages codec arrays of a fixed length
 
 ## Implements
 
-* [Codec](../interfaces/_types_.codec.md)
+* Codec
 
 ## Indexable
 
@@ -62,16 +62,16 @@ This manages codec arrays of a fixed length
 
 ###  constructor
 
-\+ **new VecFixed**(`registry`: [Registry](../interfaces/_types_.registry.md), `Type`: [Constructor](../interfaces/_types_.constructor.md)‹T› | [InterfaceTypes](../modules/_types_.md#interfacetypes), `length`: number, `value`: [VecFixed](_codec_vecfixed_.vecfixed.md)‹any› | [Uint8Array](_codec_raw_.raw.md#static-uint8array) | string | any[]): *[VecFixed](_codec_vecfixed_.vecfixed.md)*
+\+ **new VecFixed**(`registry`: Registry, `Type`: Constructor‹T› | InterfaceTypes, `length`: number, `value`: [VecFixed](_codec_vecfixed_.vecfixed.md)‹any› | [Uint8Array](_codec_raw_.raw.md#static-uint8array) | string | any[]): *[VecFixed](_codec_vecfixed_.vecfixed.md)*
 
-*Defined in [packages/types/src/codec/VecFixed.ts:18](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/VecFixed.ts#L18)*
+*Defined in [packages/types/src/codec/VecFixed.ts:18](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/VecFixed.ts#L18)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`registry` | [Registry](../interfaces/_types_.registry.md) | - |
-`Type` | [Constructor](../interfaces/_types_.constructor.md)‹T› &#124; [InterfaceTypes](../modules/_types_.md#interfacetypes) | - |
+`registry` | Registry | - |
+`Type` | Constructor‹T› &#124; InterfaceTypes | - |
 `length` | number | - |
 `value` | [VecFixed](_codec_vecfixed_.vecfixed.md)‹any› &#124; [Uint8Array](_codec_raw_.raw.md#static-uint8array) &#124; string &#124; any[] | [] as any[] |
 
@@ -81,13 +81,11 @@ Name | Type | Default |
 
 ###  registry
 
-• **registry**: *[Registry](../interfaces/_types_.registry.md)*
-
-*Implementation of [Codec](../interfaces/_types_.codec.md).[registry](../interfaces/_types_.codec.md#registry)*
+• **registry**: *Registry*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[registry](_codec_abstractarray_.abstractarray.md#registry)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L22)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L22)*
 
 ## Accessors
 
@@ -95,7 +93,7 @@ Name | Type | Default |
 
 • **get Type**(): *string*
 
-*Defined in [packages/types/src/codec/VecFixed.ts:57](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/VecFixed.ts#L57)*
+*Defined in [packages/types/src/codec/VecFixed.ts:57](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/VecFixed.ts#L57)*
 
 **`description`** The type for the items
 
@@ -109,7 +107,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[encodedLength](_codec_abstractarray_.abstractarray.md#encodedlength)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:33](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L33)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:33](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L33)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -119,15 +117,15 @@ ___
 
 ###  hash
 
-• **get hash**(): *[IHash](../interfaces/_types_.ihash.md)*
+• **get hash**(): *IHash*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[hash](_codec_abstractarray_.abstractarray.md#hash)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:42](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L42)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:42](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L42)*
 
 **`description`** returns a hash of the contents
 
-**Returns:** *[IHash](../interfaces/_types_.ihash.md)*
+**Returns:** *IHash*
 
 ___
 
@@ -137,7 +135,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[isEmpty](_codec_abstractarray_.abstractarray.md#isempty)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:49](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L49)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:49](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L49)*
 
 **`description`** Checks if the value is an empty value
 
@@ -151,9 +149,9 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[length](_codec_abstractarray_.abstractarray.md#length)*
 
-*Overrides [AnyJsonArray](../interfaces/_types_.anyjsonarray.md).[length](../interfaces/_types_.anyjsonarray.md#length)*
+*Overrides void*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:56](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L56)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:56](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L56)*
 
 **`description`** The length of the value
 
@@ -165,11 +163,9 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
-
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[eq](_codec_abstractarray_.abstractarray.md#eq)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:64](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L64)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:64](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L64)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -189,9 +185,9 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[filter](_codec_abstractarray_.abstractarray.md#filter)*
 
-*Overrides [AnyJsonArray](../interfaces/_types_.anyjsonarray.md).[filter](../interfaces/_types_.anyjsonarray.md#filter)*
+*Overrides void*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:134](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L134)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:134](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L134)*
 
 **`description`** Filters the array with the callback
 
@@ -225,7 +221,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[includes](_codec_abstractarray_.abstractarray.md#includes)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:150](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L150)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:150](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L150)*
 
 **`description`** Checks if the array includes a specific value
 
@@ -245,9 +241,9 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[map](_codec_abstractarray_.abstractarray.md#map)*
 
-*Overrides [AnyJsonArray](../interfaces/_types_.anyjsonarray.md).[map](../interfaces/_types_.anyjsonarray.md#map)*
+*Overrides void*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:143](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L143)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:143](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L143)*
 
 **`description`** Maps the array with the callback
 
@@ -285,7 +281,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toArray](_codec_abstractarray_.abstractarray.md#toarray)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:71](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L71)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:71](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L71)*
 
 **`description`** Converts the Object to an standard JavaScript Array
 
@@ -299,7 +295,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toHex](_codec_abstractarray_.abstractarray.md#tohex)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:78](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L78)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:78](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L78)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -309,17 +305,15 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *[AnyJsonArray](../interfaces/_types_.anyjsonarray.md)*
-
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
+▸ **toJSON**(): *AnyJsonArray*
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toJSON](_codec_abstractarray_.abstractarray.md#tojson)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:85](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L85)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:85](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L85)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *[AnyJsonArray](../interfaces/_types_.anyjsonarray.md)*
+**Returns:** *AnyJsonArray*
 
 ___
 
@@ -327,11 +321,9 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
-
 *Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toRawType](_codec_abstractarray_.abstractarray.md#abstract-torawtype)*
 
-*Defined in [packages/types/src/codec/VecFixed.ts:72](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/VecFixed.ts#L72)*
+*Defined in [packages/types/src/codec/VecFixed.ts:72](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/VecFixed.ts#L72)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -343,13 +335,11 @@ ___
 
 ▸ **toString**(): *string*
 
-*Implementation of [Codec](../interfaces/_types_.codec.md)*
-
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toString](_codec_abstractarray_.abstractarray.md#tostring)*
 
-*Overrides [AnyJsonArray](../interfaces/_types_.anyjsonarray.md).[toString](../interfaces/_types_.anyjsonarray.md#tostring)*
+*Overrides void*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:99](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/AbstractArray.ts#L99)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:99](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/AbstractArray.ts#L99)*
 
 **`description`** Returns the string representation of the value
 
@@ -363,7 +353,7 @@ ___
 
 *Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toU8a](_codec_abstractarray_.abstractarray.md#tou8a)*
 
-*Defined in [packages/types/src/codec/VecFixed.ts:61](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/VecFixed.ts#L61)*
+*Defined in [packages/types/src/codec/VecFixed.ts:61](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/VecFixed.ts#L61)*
 
 **Returns:** *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
@@ -371,20 +361,20 @@ ___
 
 ### `Static` decodeVecFixed
 
-▸ **decodeVecFixed**<**T**>(`registry`: [Registry](../interfaces/_types_.registry.md), `Type`: [Constructor](../interfaces/_types_.constructor.md)‹T›, `allocLength`: number, `value`: [VecFixed](_codec_vecfixed_.vecfixed.md)‹any› | [Uint8Array](_codec_raw_.raw.md#static-uint8array) | string | any[]): *T[]*
+▸ **decodeVecFixed**<**T**>(`registry`: Registry, `Type`: Constructor‹T›, `allocLength`: number, `value`: [VecFixed](_codec_vecfixed_.vecfixed.md)‹any› | [Uint8Array](_codec_raw_.raw.md#static-uint8array) | string | any[]): *T[]*
 
-*Defined in [packages/types/src/codec/VecFixed.ts:28](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/VecFixed.ts#L28)*
+*Defined in [packages/types/src/codec/VecFixed.ts:28](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/VecFixed.ts#L28)*
 
 **Type parameters:**
 
-▪ **T**: *[Codec](../interfaces/_types_.codec.md)*
+▪ **T**: *Codec*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`registry` | [Registry](../interfaces/_types_.registry.md) |
-`Type` | [Constructor](../interfaces/_types_.constructor.md)‹T› |
+`registry` | Registry |
+`Type` | Constructor‹T› |
 `allocLength` | number |
 `value` | [VecFixed](_codec_vecfixed_.vecfixed.md)‹any› &#124; [Uint8Array](_codec_raw_.raw.md#static-uint8array) &#124; string &#124; any[] |
 
@@ -394,19 +384,19 @@ ___
 
 ### `Static` with
 
-▸ **with**<**O**>(`Type`: [Constructor](../interfaces/_types_.constructor.md)‹O› | [InterfaceTypes](../modules/_types_.md#interfacetypes), `length`: number): *[Constructor](../interfaces/_types_.constructor.md)‹[VecFixed](_codec_vecfixed_.vecfixed.md)‹O››*
+▸ **with**<**O**>(`Type`: Constructor‹O› | InterfaceTypes, `length`: number): *Constructor‹[VecFixed](_codec_vecfixed_.vecfixed.md)‹O››*
 
-*Defined in [packages/types/src/codec/VecFixed.ts:46](https://github.com/polkadot-js/api/blob/854a520517/packages/types/src/codec/VecFixed.ts#L46)*
+*Defined in [packages/types/src/codec/VecFixed.ts:46](https://github.com/polkadot-js/api/blob/83aca87dac/packages/types/src/codec/VecFixed.ts#L46)*
 
 **Type parameters:**
 
-▪ **O**: *[Codec](../interfaces/_types_.codec.md)*
+▪ **O**: *Codec*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`Type` | [Constructor](../interfaces/_types_.constructor.md)‹O› &#124; [InterfaceTypes](../modules/_types_.md#interfacetypes) |
+`Type` | Constructor‹O› &#124; InterfaceTypes |
 `length` | number |
 
-**Returns:** *[Constructor](../interfaces/_types_.constructor.md)‹[VecFixed](_codec_vecfixed_.vecfixed.md)‹O››*
+**Returns:** *Constructor‹[VecFixed](_codec_vecfixed_.vecfixed.md)‹O››*

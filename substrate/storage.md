@@ -475,7 +475,7 @@ ___
 - **interface**: api.query.society.defender
 - **summary**: The defending member currently being challenged.
 
-### defenderVotes(`AccountId`): `Option<Vote>`
+### defenderVotes(`AccountId`): `Option<SocietyVote>`
 - **interface**: api.query.society.defenderVotes
 - **summary**: Votes for the defender.
 
@@ -519,7 +519,7 @@ ___
 - **interface**: api.query.society.suspendedMembers
 - **summary**: The set of suspended members.
 
-### votes(`AccountId, AccountId`): `Option<Vote>`
+### votes(`AccountId, AccountId`): `Option<SocietyVote>`
 - **interface**: api.query.society.votes
 - **summary**: Double map from Candidate -> Voter -> (Maybe) Vote.
 

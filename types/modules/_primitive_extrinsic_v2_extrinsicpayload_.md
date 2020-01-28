@@ -18,28 +18,28 @@
 
 ### ▪ **SignedPayloadBaseV2**: *object*
 
-*Defined in [packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts:23](https://github.com/polkadot-js/api/blob/8ca194a3d2/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L23)*
+*Defined in [packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts:23](https://github.com/polkadot-js/api/blob/51423e20b5/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L23)*
 
 ###  era
 
 • **era**: *"ExtrinsicEra"* = "ExtrinsicEra"
 
-*Defined in [packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts:25](https://github.com/polkadot-js/api/blob/8ca194a3d2/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L25)*
+*Defined in [packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts:25](https://github.com/polkadot-js/api/blob/51423e20b5/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L25)*
 
 ###  method
 
 • **method**: *"Bytes"* = "Bytes"
 
-*Defined in [packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts:24](https://github.com/polkadot-js/api/blob/8ca194a3d2/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L24)*
+*Defined in [packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts:24](https://github.com/polkadot-js/api/blob/51423e20b5/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L24)*
 
 ###  nonce
 
 • **nonce**: *"Compact<Index>"* = "Compact<Index>"
 
-*Defined in [packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts:26](https://github.com/polkadot-js/api/blob/8ca194a3d2/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L26)*
+*Defined in [packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts:26](https://github.com/polkadot-js/api/blob/51423e20b5/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L26)*
 
 ###  tip
 
 • **tip**: *"Compact<Balance>"* = "Compact<Balance>"
 
-*Defined in [packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts:27](https://github.com/polkadot-js/api/blob/8ca194a3d2/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L27)*
+*Defined in [packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts:27](https://github.com/polkadot-js/api/blob/51423e20b5/packages/types/src/primitive/Extrinsic/v2/ExtrinsicPayload.ts#L27)*

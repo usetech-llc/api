@@ -18,7 +18,7 @@
 
 ▸ **decorateMethod**<**Method**>(`method`: Method, `options?`: DecorateMethodOptions): *StorageEntryPromiseOverloads*
 
-*Defined in [promise/Api.ts:63](https://github.com/polkadot-js/api/blob/2a5c5ce3fe/packages/api/src/promise/Api.ts#L63)*
+*Defined in [promise/Api.ts:63](https://github.com/polkadot-js/api/blob/cba34b4b65/packages/api/src/promise/Api.ts#L63)*
 
 **`description`** Decorate method for ApiPromise, where the results are converted to the Promise equivalent
 

@@ -17,18 +17,18 @@
 "* = "
 "
 
-*Defined in [packages/types/src/scripts/util/formatting.ts:12](https://github.com/polkadot-js/api/blob/8b518a909b/packages/types/src/scripts/util/formatting.ts#L12)*
+*Defined in [packages/types/src/scripts/util/formatting.ts:12](https://github.com/polkadot-js/api/blob/4329c0a411/packages/types/src/scripts/util/formatting.ts#L12)*
 
 ___
 
 ### `Const` HEADER
 
-• **HEADER**: *"// Auto-generated via `yarn build:interfaces`, do not edit
+• **HEADER**: *"// Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable @typescript-eslint/no-empty-interface */
 
-"* = "// Auto-generated via `yarn build:interfaces`, do not edit
+"* = "// Auto-generated via `yarn polkadot-types-from-defs`, do not edit
 /* eslint-disable @typescript-eslint/no-empty-interface */
 
 "
 
-*Defined in [packages/types/src/scripts/util/formatting.ts:11](https://github.com/polkadot-js/api/blob/8b518a909b/packages/types/src/scripts/util/formatting.ts#L11)*
+*Defined in [packages/types/src/scripts/util/formatting.ts:11](https://github.com/polkadot-js/api/blob/4329c0a411/packages/types/src/scripts/util/formatting.ts#L11)*

@@ -56,6 +56,7 @@
 * ["interfaces/democracy/definitions"](modules/_interfaces_democracy_definitions_.md)
 * ["interfaces/deprecated/definitions"](modules/_interfaces_deprecated_definitions_.md)
 * ["interfaces/elections/definitions"](modules/_interfaces_elections_definitions_.md)
+* ["interfaces/evm/definitions"](modules/_interfaces_evm_definitions_.md)
 * ["interfaces/genericAsset/definitions"](modules/_interfaces_genericasset_definitions_.md)
 * ["interfaces/grandpa/definitions"](modules/_interfaces_grandpa_definitions_.md)
 * ["interfaces/identity/definitions"](modules/_interfaces_identity_definitions_.md)

@@ -77,7 +77,7 @@ A [[ReferendumInfo]] with an additional `index` field
 
 *Overrides void*
 
-*Defined in [packages/api-derive/src/type/ReferendumInfoExtended.ts:21](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/api-derive/src/type/ReferendumInfoExtended.ts#L21)*
+*Defined in [packages/api-derive/src/type/ReferendumInfoExtended.ts:21](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/api-derive/src/type/ReferendumInfoExtended.ts#L21)*
 
 **Parameters:**
 
@@ -97,7 +97,7 @@ Name | Type |
 
 *Inherited from [ReferendumInfoExtended](_type_referenduminfoextended_.referenduminfoextended.md).[delay](_type_referenduminfoextended_.referenduminfoextended.md#delay)*
 
-*Defined in [packages/types/src/interfaces/democracy/types.ts:34](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/interfaces/democracy/types.ts#L34)*
+*Defined in [packages/types/src/interfaces/democracy/types.ts:34](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/interfaces/democracy/types.ts#L34)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from [ReferendumInfoExtended](_type_referenduminfoextended_.referenduminfoextended.md).[end](_type_referenduminfoextended_.referenduminfoextended.md#end)*
 
-*Defined in [packages/types/src/interfaces/democracy/types.ts:31](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/interfaces/democracy/types.ts#L31)*
+*Defined in [packages/types/src/interfaces/democracy/types.ts:31](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/interfaces/democracy/types.ts#L31)*
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from [ReferendumInfoExtended](_type_referenduminfoextended_.referenduminfoextended.md).[proposalHash](_type_referenduminfoextended_.referenduminfoextended.md#proposalhash)*
 
-*Defined in [packages/types/src/interfaces/democracy/types.ts:32](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/interfaces/democracy/types.ts#L32)*
+*Defined in [packages/types/src/interfaces/democracy/types.ts:32](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/interfaces/democracy/types.ts#L32)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[registry](_type_headerextended_.headerextended.md#registry)*
 
-*Defined in [packages/types/src/codec/Struct.ts:34](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L34)*
+*Defined in [packages/types/src/codec/Struct.ts:34](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L34)*
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 *Inherited from [ReferendumInfoExtended](_type_referenduminfoextended_.referenduminfoextended.md).[threshold](_type_referenduminfoextended_.referenduminfoextended.md#threshold)*
 
-*Defined in [packages/types/src/interfaces/democracy/types.ts:33](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/interfaces/democracy/types.ts#L33)*
+*Defined in [packages/types/src/interfaces/democracy/types.ts:33](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/interfaces/democracy/types.ts#L33)*
 
 ## Accessors
 
@@ -157,7 +157,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[Type](_type_headerextended_.headerextended.md#type)*
 
-*Defined in [packages/types/src/codec/Struct.ts:158](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L158)*
+*Defined in [packages/types/src/codec/Struct.ts:158](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L158)*
 
 **`description`** Returns the Type description to sthe structure
 
@@ -171,7 +171,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[encodedLength](_type_headerextended_.headerextended.md#encodedlength)*
 
-*Defined in [packages/types/src/codec/Struct.ts:171](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L171)*
+*Defined in [packages/types/src/codec/Struct.ts:171](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L171)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -185,7 +185,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[hash](_type_headerextended_.headerextended.md#hash)*
 
-*Defined in [packages/types/src/codec/Struct.ts:182](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L182)*
+*Defined in [packages/types/src/codec/Struct.ts:182](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L182)*
 
 **`description`** returns a hash of the contents
 
@@ -197,7 +197,7 @@ ___
 
 • **get index**(): *ReferendumIndex*
 
-*Defined in [packages/api-derive/src/type/ReferendumInfoExtended.ts:34](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/api-derive/src/type/ReferendumInfoExtended.ts#L34)*
+*Defined in [packages/api-derive/src/type/ReferendumInfoExtended.ts:34](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/api-derive/src/type/ReferendumInfoExtended.ts#L34)*
 
 **`description`** Convenience getter, returns the referendumIndex
 
@@ -211,7 +211,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[isEmpty](_type_headerextended_.headerextended.md#isempty)*
 
-*Defined in [packages/types/src/codec/Struct.ts:143](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L143)*
+*Defined in [packages/types/src/codec/Struct.ts:143](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L143)*
 
 **`description`** Checks if the value is an empty value
 
@@ -255,7 +255,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[eq](_type_headerextended_.headerextended.md#eq)*
 
-*Defined in [packages/types/src/codec/Struct.ts:189](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L189)*
+*Defined in [packages/types/src/codec/Struct.ts:189](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L189)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -305,7 +305,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Struct.ts:197](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L197)*
+*Defined in [packages/types/src/codec/Struct.ts:197](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L197)*
 
 **`description`** Returns a specific names entry in the structure
 
@@ -325,7 +325,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[getAtIndex](_type_headerextended_.headerextended.md#getatindex)*
 
-*Defined in [packages/types/src/codec/Struct.ts:204](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L204)*
+*Defined in [packages/types/src/codec/Struct.ts:204](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L204)*
 
 **`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -382,7 +382,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[toArray](_type_headerextended_.headerextended.md#toarray)*
 
-*Defined in [packages/types/src/codec/Struct.ts:211](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L211)*
+*Defined in [packages/types/src/codec/Struct.ts:211](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L211)*
 
 **`description`** Converts the Object to an standard JavaScript Array
 
@@ -396,7 +396,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[toHex](_type_headerextended_.headerextended.md#tohex)*
 
-*Defined in [packages/types/src/codec/Struct.ts:218](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L218)*
+*Defined in [packages/types/src/codec/Struct.ts:218](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L218)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -410,7 +410,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/api-derive/src/type/ReferendumInfoExtended.ts:41](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/api-derive/src/type/ReferendumInfoExtended.ts#L41)*
+*Defined in [packages/api-derive/src/type/ReferendumInfoExtended.ts:41](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/api-derive/src/type/ReferendumInfoExtended.ts#L41)*
 
 **`description`** Creates the JSON representation
 
@@ -424,7 +424,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[toRawType](_type_headerextended_.headerextended.md#torawtype)*
 
-*Defined in [packages/types/src/codec/Struct.ts:249](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L249)*
+*Defined in [packages/types/src/codec/Struct.ts:249](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L249)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -438,7 +438,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[toString](_type_headerextended_.headerextended.md#tostring)*
 
-*Defined in [packages/types/src/codec/Struct.ts:258](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L258)*
+*Defined in [packages/types/src/codec/Struct.ts:258](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L258)*
 
 **`description`** Returns the string representation of the value
 
@@ -452,7 +452,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[toU8a](_type_headerextended_.headerextended.md#tou8a)*
 
-*Defined in [packages/types/src/codec/Struct.ts:266](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L266)*
+*Defined in [packages/types/src/codec/Struct.ts:266](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L266)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -472,7 +472,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[typesToMap](_type_headerextended_.headerextended.md#static-typestomap)*
 
-*Defined in [packages/types/src/codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L238)*
+*Defined in [packages/types/src/codec/Struct.ts:238](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L238)*
 
 **Parameters:**
 
@@ -491,7 +491,7 @@ ___
 
 *Inherited from [HeaderExtended](_type_headerextended_.headerextended.md).[with](_type_headerextended_.headerextended.md#static-with)*
 
-*Defined in [packages/types/src/codec/Struct.ts:120](https://github.com/polkadot-js/api/blob/1c327c60d9/packages/types/src/codec/Struct.ts#L120)*
+*Defined in [packages/types/src/codec/Struct.ts:120](https://github.com/polkadot-js/api/blob/ca7edf1593/packages/types/src/codec/Struct.ts#L120)*
 
 **Type parameters:**
 

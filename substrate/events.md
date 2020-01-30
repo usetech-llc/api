@@ -72,14 +72,20 @@ ___
 ### CodeStored(`Hash`)
 - **summary**: Code with the specified hash has been stored.
 
-### Contract(`AccountId`, `Bytes`)
-- **summary**: An event from contract of account.
+### ContractExecution(`AccountId`, `Bytes`)
+- **summary**: An event deposited upon execution of a contract from the account.
 
 ### Dispatched(`AccountId`, `bool`)
 - **summary**: A call was dispatched from the given account. The bool signals whether it was successful execution or not.
 
+### Evicted(`AccountId`, `bool`)
+- **summary**: Contract has been evicted and is now in tombstone state.  # Params  - `contract`: `AccountId`: The account ID of the evicted contract. - `tombstone`: `bool`: True if the evicted contract left behind a tombstone.
+
 ### Instantiated(`AccountId`, `AccountId`)
 - **summary**: Contract deployed by address at the specified address.
+
+### Restored(`AccountId`, `AccountId`, `Hash`, `Balance`, `bool`)
+- **summary**: Restoration for a contract has been initiated.  # Params  - `donor`: `AccountId`: Account ID of the restoring contract - `dest`: `AccountId`: Account ID of the restored contract - `code_hash`: `Hash`: Code hash of the restored contract - `rent_allowance: `Balance`: Rent allowance of the restored contract - `success`: `bool`: True if the restoration was successful
 
 ### ScheduleUpdated(`u32`)
 - **summary**: Triggered when the current schedule is updated.
@@ -366,6 +372,9 @@ ___
 
 
 ## system
+
+### CodeUpdated()
+- **summary**: `:code` was updated.
 
 ### ExtrinsicFailed(`DispatchError`, `DispatchInfo`)
 - **summary**: An extrinsic failed.

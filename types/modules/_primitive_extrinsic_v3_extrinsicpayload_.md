@@ -7,15 +7,3 @@
 ### Classes
 
 * [ExtrinsicPayloadV3](../classes/_primitive_extrinsic_v3_extrinsicpayload_.extrinsicpayloadv3.md)
-
-### Object literals
-
-* [SignedPayloadDefV3](_primitive_extrinsic_v3_extrinsicpayload_.md#const-signedpayloaddefv3)
-
-## Object literals
-
-### `Const` SignedPayloadDefV3
-
-### ▪ **SignedPayloadDefV3**: *object*
-
-*Defined in [packages/types/src/primitive/Extrinsic/v3/ExtrinsicPayload.ts:29](https://github.com/polkadot-js/api/blob/9c913fb482/packages/types/src/primitive/Extrinsic/v3/ExtrinsicPayload.ts#L29)*

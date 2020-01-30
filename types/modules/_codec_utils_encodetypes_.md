@@ -21,7 +21,7 @@
 
 • **SPECIAL_TYPES**: *string[]* = ['AccountId', 'AccountIndex', 'Address', 'Balance']
 
-*Defined in [packages/types/src/codec/utils/encodeTypes.ts:9](https://github.com/polkadot-js/api/blob/aa91e0b8b5/packages/types/src/codec/utils/encodeTypes.ts#L9)*
+*Defined in [packages/types/src/codec/utils/encodeTypes.ts:9](https://github.com/polkadot-js/api/blob/9c913fb482/packages/types/src/codec/utils/encodeTypes.ts#L9)*
 
 ## Functions
 
@@ -29,7 +29,7 @@
 
 ▸ **displayType**(`typeDef`: Pick‹TypeDef, any›): *string*
 
-*Defined in [packages/types/src/codec/utils/encodeTypes.ts:142](https://github.com/polkadot-js/api/blob/aa91e0b8b5/packages/types/src/codec/utils/encodeTypes.ts#L142)*
+*Defined in [packages/types/src/codec/utils/encodeTypes.ts:142](https://github.com/polkadot-js/api/blob/9c913fb482/packages/types/src/codec/utils/encodeTypes.ts#L142)*
 
 **Parameters:**
 
@@ -45,7 +45,7 @@ ___
 
 ▸ **encodeType**(`typeDef`: Pick‹TypeDef, any›): *string*
 
-*Defined in [packages/types/src/codec/utils/encodeTypes.ts:134](https://github.com/polkadot-js/api/blob/aa91e0b8b5/packages/types/src/codec/utils/encodeTypes.ts#L134)*
+*Defined in [packages/types/src/codec/utils/encodeTypes.ts:134](https://github.com/polkadot-js/api/blob/9c913fb482/packages/types/src/codec/utils/encodeTypes.ts#L134)*
 
 **Parameters:**
 
@@ -61,7 +61,7 @@ ___
 
 ▸ **paramsNotation**(`outer`: string, `inner?`: string | any[], `transform`: function): *string*
 
-*Defined in [packages/types/src/codec/utils/encodeTypes.ts:13](https://github.com/polkadot-js/api/blob/aa91e0b8b5/packages/types/src/codec/utils/encodeTypes.ts#L13)*
+*Defined in [packages/types/src/codec/utils/encodeTypes.ts:13](https://github.com/polkadot-js/api/blob/9c913fb482/packages/types/src/codec/utils/encodeTypes.ts#L13)*
 
 **Parameters:**
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **withTypeString**(`typeDef`: Pick‹TypeDef, any›): *Pick‹TypeDef, any›*
 
-*Defined in [packages/types/src/codec/utils/encodeTypes.ts:157](https://github.com/polkadot-js/api/blob/aa91e0b8b5/packages/types/src/codec/utils/encodeTypes.ts#L157)*
+*Defined in [packages/types/src/codec/utils/encodeTypes.ts:157](https://github.com/polkadot-js/api/blob/9c913fb482/packages/types/src/codec/utils/encodeTypes.ts#L157)*
 
 **Parameters:**
 

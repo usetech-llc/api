@@ -143,5 +143,6 @@
 * ["scripts/interfacesTs"](modules/_scripts_interfacests_.md)
 * ["scripts/util/class"](modules/_scripts_util_class_.md)
 * ["scripts/util/derived"](modules/_scripts_util_derived_.md)
+* ["scripts/util/docs"](modules/_scripts_util_docs_.md)
 * ["scripts/util/formatting"](modules/_scripts_util_formatting_.md)
 * ["scripts/util/imports"](modules/_scripts_util_imports_.md)

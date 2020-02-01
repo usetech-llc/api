@@ -13,12 +13,12 @@
 
 ### Type aliases
 
-* [AugmentedExtrinsic](_types_submittable_.md#augmentedextrinsic)
+* [AugmentedSubmittable](_types_submittable_.md#augmentedsubmittable)
 
 ## Type aliases
 
-###  AugmentedExtrinsic
+###  AugmentedSubmittable
 
-Ƭ **AugmentedExtrinsic**: *T & CallFunction*
+Ƭ **AugmentedSubmittable**: *T & CallFunction*
 
-*Defined in [api/src/types/submittable.ts:13](https://github.com/polkadot-js/api/blob/4f0e573adf/packages/api/src/types/submittable.ts#L13)*
+*Defined in [api/src/types/submittable.ts:13](https://github.com/polkadot-js/api/blob/89d029eca3/packages/api/src/types/submittable.ts#L13)*

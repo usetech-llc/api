@@ -83,6 +83,7 @@
 * ["primitive/Extrinsic/ExtrinsicPayload"](modules/_primitive_extrinsic_extrinsicpayload_.md)
 * ["primitive/Extrinsic/ExtrinsicPayloadUnknown"](modules/_primitive_extrinsic_extrinsicpayloadunknown_.md)
 * ["primitive/Extrinsic/ExtrinsicUnknown"](modules/_primitive_extrinsic_extrinsicunknown_.md)
+* ["primitive/Extrinsic/SignedExtensions"](modules/_primitive_extrinsic_signedextensions_.md)
 * ["primitive/Extrinsic/SignerPayload"](modules/_primitive_extrinsic_signerpayload_.md)
 * ["primitive/Extrinsic/constants"](modules/_primitive_extrinsic_constants_.md)
 * ["primitive/Extrinsic/util"](modules/_primitive_extrinsic_util_.md)

@@ -27,7 +27,7 @@
 
 Ƭ **AugmentedQuery**: *[MethodResult](_types_base_.md#methodresult)‹ApiType, F› & [StorageEntryBase](../interfaces/_types_storage_.storageentrybase.md)‹ApiType, F›*
 
-*Defined in [api/src/types/storage.ts:16](https://github.com/polkadot-js/api/blob/3d0fd5a6a8/packages/api/src/types/storage.ts#L16)*
+*Defined in [api/src/types/storage.ts:16](https://github.com/polkadot-js/api/blob/7221a3637c/packages/api/src/types/storage.ts#L16)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 Ƭ **QueryableStorageEntry**: *ApiType extends "rxjs" ? AugmentedQuery<"rxjs", GenericStorageEntryFunction> : AugmentedQuery<"promise", GenericStorageEntryFunction> & StorageEntryPromiseOverloads*
 
-*Defined in [api/src/types/storage.ts:21](https://github.com/polkadot-js/api/blob/3d0fd5a6a8/packages/api/src/types/storage.ts#L21)*
+*Defined in [api/src/types/storage.ts:21](https://github.com/polkadot-js/api/blob/7221a3637c/packages/api/src/types/storage.ts#L21)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 Ƭ **QueryableStorageMulti**: *ApiType extends "rxjs" ? QueryableStorageMultiBase<ApiType> : QueryableStorageMultiPromise<ApiType>*
 
-*Defined in [api/src/types/storage.ts:69](https://github.com/polkadot-js/api/blob/3d0fd5a6a8/packages/api/src/types/storage.ts#L69)*
+*Defined in [api/src/types/storage.ts:69](https://github.com/polkadot-js/api/blob/7221a3637c/packages/api/src/types/storage.ts#L69)*
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 Ƭ **QueryableStorageMultiArg**: *[QueryableStorageEntry](_types_storage_.md#queryablestorageentry)‹ApiType› | [[QueryableStorageEntry](_types_storage_.md#queryablestorageentry)‹ApiType›, undefined | string | number | false | true | Codec | Uint8Array‹› | BN‹› | CodecArgArray‹› | CodecArgObject]*
 
-*Defined in [api/src/types/storage.ts:57](https://github.com/polkadot-js/api/blob/3d0fd5a6a8/packages/api/src/types/storage.ts#L57)*
+*Defined in [api/src/types/storage.ts:57](https://github.com/polkadot-js/api/blob/7221a3637c/packages/api/src/types/storage.ts#L57)*

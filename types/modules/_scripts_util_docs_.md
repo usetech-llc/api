@@ -14,7 +14,7 @@
 
 ▸ **createDocComments**(`docs`: [Text](../classes/_primitive_text_.text.md)[], `args`: Arg[]): *string[]*
 
-*Defined in [packages/types/src/scripts/util/docs.ts:9](https://github.com/polkadot-js/api/blob/b24a1ff350/packages/types/src/scripts/util/docs.ts#L9)*
+*Defined in [packages/types/src/scripts/util/docs.ts:9](https://github.com/polkadot-js/api/blob/3d0fd5a6a8/packages/types/src/scripts/util/docs.ts#L9)*
 
 **Parameters:**
 

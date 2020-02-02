@@ -6,5 +6,6 @@
 
 ### External modules
 
-* ["drr"](modules/_drr_.md)
-* ["refCountDelay"](modules/_refcountdelay_.md)
+* ["rxjs/drr"](modules/_rxjs_drr_.md)
+* ["rxjs/refCountDelay"](modules/_rxjs_refcountdelay_.md)
+* ["types.jsonrpc"](modules/_types_jsonrpc_.md)

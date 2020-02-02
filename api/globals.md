@@ -18,6 +18,7 @@
 * ["submittable/createSubmittable"](modules/_submittable_createsubmittable_.md)
 * ["types/augment/consts"](modules/_types_augment_consts_.md)
 * ["types/augment/query"](modules/_types_augment_query_.md)
+* ["types/augment/rpc"](modules/_types_augment_rpc_.md)
 * ["types/augment/tx"](modules/_types_augment_tx_.md)
 * ["types/base"](modules/_types_base_.md)
 * ["types/rpc"](modules/_types_rpc_.md)

@@ -7,3 +7,15 @@
 ### Classes
 
 * [Vote](../classes/_primitive_generic_vote_.vote.md)
+
+### Variables
+
+* [convictionNames](_primitive_generic_vote_.md#const-convictionnames)
+
+## Variables
+
+### `Const` convictionNames
+
+• **convictionNames**: *string[]* = democracyDef.types.Conviction._enum
+
+*Defined in [packages/types/src/primitive/Generic/Vote.ts:15](https://github.com/polkadot-js/api/blob/b3d592357f/packages/types/src/primitive/Generic/Vote.ts#L15)*

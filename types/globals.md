@@ -74,6 +74,7 @@
 * ["interfaces/treasury/definitions"](modules/_interfaces_treasury_definitions_.md)
 * ["interfaces/txpayment/definitions"](modules/_interfaces_txpayment_definitions_.md)
 * ["interfaces/utility/definitions"](modules/_interfaces_utility_definitions_.md)
+* ["interfaces/vesting/definitions"](modules/_interfaces_vesting_definitions_.md)
 * ["known/overrides"](modules/_known_overrides_.md)
 * ["primitive/Bool"](modules/_primitive_bool_.md)
 * ["primitive/Bytes"](modules/_primitive_bytes_.md)

@@ -14,7 +14,7 @@
 
 ▸ **all**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/balances/all.ts:84](https://github.com/polkadot-js/api/blob/7221a3637c/packages/api-derive/src/balances/all.ts#L84)*
+*Defined in [packages/api-derive/src/balances/all.ts:127](https://github.com/polkadot-js/api/blob/9d4b0ea56a/packages/api-derive/src/balances/all.ts#L127)*
 
 **`name`** all
 
@@ -39,7 +39,7 @@ Name | Type |
 
 An object containing the results of various balance queries
 
-▸ (`address`: AccountIndex | AccountId | Address | string): *Observable‹DerivedBalances›*
+▸ (`address`: AccountIndex | AccountId | Address | string): *Observable‹DerivedBalancesAll›*
 
 **Parameters:**
 

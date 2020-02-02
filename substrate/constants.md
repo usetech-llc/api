@@ -54,10 +54,6 @@ ___
 - **interface**: api.consts.balances.existentialDeposit
 - **summary**: The minimum amount required to keep an account open.
 
-### transferFee: `Balance`
-- **interface**: api.consts.balances.transferFee
-- **summary**: The fee required to make a transfer.
-
 ___
 
 
@@ -122,10 +118,6 @@ ___
 ### transactionByteFee: `BalanceOf`
 - **interface**: api.consts.contracts.transactionByteFee
 - **summary**: The fee to be paid for making a transaction; the per-byte portion.
-
-### transferFee: `BalanceOf`
-- **interface**: api.consts.contracts.transferFee
-- **summary**: The fee required to make a transfer.
 
 ___
 

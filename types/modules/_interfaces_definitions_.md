@@ -36,6 +36,7 @@
 * [treasury](_interfaces_definitions_.md#treasury)
 * [txpayment](_interfaces_definitions_.md#txpayment)
 * [utility](_interfaces_definitions_.md#utility)
+* [vesting](_interfaces_definitions_.md#vesting)
 
 ## References
 
@@ -216,3 +217,9 @@ ___
 ###  utility
 
 • **utility**:
+
+___
+
+###  vesting
+
+• **vesting**:

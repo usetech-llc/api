@@ -43,6 +43,8 @@ Events are emitted for certain operations on the runtime. The following sections
 
 - **[utility](#utility)**
 
+- **[vesting](#vesting)**
+
 
 ___
 
@@ -165,6 +167,9 @@ ___
 
 ### Undelegated(`AccountId`)
 - **summary**: An account has cancelled a previous delegation operation.
+
+### Unlocked(`AccountId`)
+- **summary**: An account has been unlocked successfully.
 
 ### Vetoed(`AccountId`, `Hash`, `BlockNumber`)
 - **summary**: An external proposal has been vetoed.
@@ -488,3 +493,14 @@ ___
 
 ### NewMultisig(`AccountId`, `AccountId`)
 - **summary**: A new multisig operation has begun. First param is the account that is approving, second is the multisig account.
+
+___
+
+
+## vesting
+
+### VestingCompleted(`AccountId`)
+- **summary**: An account (given) has become fully vested. No further vesting can happen.
+
+### VestingUpdated(`AccountId`, `Balance`)
+- **summary**: The amount vested has been updated. This could indicate more funds are available. The balance given is the amount which is left unvested (and thus locked).

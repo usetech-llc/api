@@ -11,6 +11,7 @@
 * ["accounts/indexToId"](modules/_accounts_indextoid_.md)
 * ["accounts/indexes"](modules/_accounts_indexes_.md)
 * ["accounts/info"](modules/_accounts_info_.md)
+* ["balances/account"](modules/_balances_account_.md)
 * ["balances/all"](modules/_balances_all_.md)
 * ["balances/fees"](modules/_balances_fees_.md)
 * ["balances/votingBalances"](modules/_balances_votingbalances_.md)

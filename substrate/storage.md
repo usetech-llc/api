@@ -53,6 +53,8 @@ The following sections contain Storage methods are part of the default Substrate
 
 - **[utility](#utility)**
 
+- **[vesting](#vesting)**
+
 - **[substrate](#substrate)**
 
 
@@ -118,25 +120,21 @@ ___
 
 ## balances
 
-### freeBalance(`AccountId`): `Balance`
-- **interface**: api.query.balances.freeBalance
-- **summary**: The 'free' balance of a given account.  This is the only balance that matters in terms of most operations on tokens. It alone is used to determine the balance when in the contract execution environment. When this balance falls below the value of `ExistentialDeposit`, then the 'current account' is deleted: specifically `FreeBalance`. Further, the `OnFreeBalanceZero` callback is invoked, giving a chance to external modules to clean up data associated with the deleted account.  `frame_system::AccountNonce` is also deleted if `ReservedBalance` is also zero (it also gets collapsed to zero if it ever becomes less than `ExistentialDeposit`.
+### account(`AccountId`): `AccountData`
+- **interface**: api.query.balances.account
+- **summary**: The balance of an account.  NOTE: THIS MAY NEVER BE IN EXISTENCE AND YET HAVE A `total().is_zero()`. If the total is ever zero, then the entry *MUST* be removed.
+
+### isUpgraded(): `bool`
+- **interface**: api.query.balances.isUpgraded
+- **summary**: True if network has been upgraded to this version.  True for new networks.
 
 ### locks(`AccountId`): `Vec<BalanceLock>`
 - **interface**: api.query.balances.locks
-- **summary**: Any liquidity locks on some account balances.
-
-### reservedBalance(`AccountId`): `Balance`
-- **interface**: api.query.balances.reservedBalance
-- **summary**: The amount of the balance of a given account that is externally reserved; this can still get slashed, but gets slashed last of all.  This balance is a 'reserve' balance that other subsystems use in order to set aside tokens that are still 'owned' by the account holder, but which are suspendable.  When this balance falls below the value of `ExistentialDeposit`, then this 'reserve account' is deleted: specifically, `ReservedBalance`.  `frame_system::AccountNonce` is also deleted if `FreeBalance` is also zero (it also gets collapsed to zero if it ever becomes less than `ExistentialDeposit`.)
+- **summary**: Any liquidity locks on some account balances. NOTE: Should only be accessed when setting, changing and freeing a lock.
 
 ### totalIssuance(): `Balance`
 - **interface**: api.query.balances.totalIssuance
 - **summary**: The total units issued in the system.
-
-### vesting(`AccountId`): `Option<VestingSchedule>`
-- **interface**: api.query.balances.vesting
-- **summary**: Information regarding the vesting of a given account.
 
 ___
 
@@ -224,6 +222,10 @@ ___
 ### lastTabledWasExternal(): `bool`
 - **interface**: api.query.democracy.lastTabledWasExternal
 - **summary**: True if the last referendum tabled was submitted externally. False if it was a public proposal.
+
+### locks(`AccountId`): `Option<BlockNumber>`
+- **interface**: api.query.democracy.locks
+- **summary**: Accounts for which there are locks in action which may be removed at some point in the future. The value is the block number at which the lock expires and may be removed.
 
 ### lowestUnbaked(): `ReferendumIndex`
 - **interface**: api.query.democracy.lowestUnbaked
@@ -357,9 +359,9 @@ ___
 - **interface**: api.query.imOnline.authoredBlocks
 - **summary**: For each session index, we keep a mapping of `T::ValidatorId` to the number of blocks authored by the given authority.
 
-### gossipAt(): `BlockNumber`
-- **interface**: api.query.imOnline.gossipAt
-- **summary**: The block number when we should gossip.
+### heartbeatAfter(): `BlockNumber`
+- **interface**: api.query.imOnline.heartbeatAfter
+- **summary**: The block number after which it's ok to send heartbeats in current session.  At the beginning of each session we set this to a value that should fall roughly in the middle of the session duration. The idea is to first wait for the validators to produce a block in the current session, so that the heartbeat later on will not be necessary.
 
 ### keys(): `Vec<AuthorityId>`
 - **interface**: api.query.imOnline.keys
@@ -790,6 +792,15 @@ ___
 ### multisigs(`AccountId, [u8;32]`): `Option<Multisig>`
 - **interface**: api.query.utility.multisigs
 - **summary**: The set of open multisig operations.
+
+___
+
+
+## vesting
+
+### vesting(`AccountId`): `Option<VestingInfo>`
+- **interface**: api.query.vesting.vesting
+- **summary**: Information regarding the vesting of a given account.
 
 ---
 

@@ -45,6 +45,8 @@ The following sections contain Extrinsics methods are part of the default Substr
 
 - **[utility](#utility)**
 
+- **[vesting](#vesting)**
+
 
 ___
 
@@ -70,7 +72,7 @@ ___
 
 ### transfer(dest: `Address`, value: `Compact<Balance>`)
 - **interface**: api.tx.balances.transfer
-- **summary**: Transfer some liquid free balance to another account.  `transfer` will set the `FreeBalance` of the sender and receiver. It will decrease the total issuance of the system by the `TransferFee`. If the sender's account is below the existential deposit as a result of the transfer, the account will be reaped.  The dispatch origin for this call must be `Signed` by the transactor.  # <weight> - Dependent on arguments but not critical, given proper implementations for input config types. See related functions below. - It contains a limited number of reads and writes internally and no complex computation.  Related functions:  - `ensure_can_withdraw` is always called internally but has a bounded complexity. - Transferring balances to accounts that did not exist before will cause `T::OnNewAccount::on_new_account` to be called. - Removing enough funds from an account will trigger `T::DustRemoval::on_unbalanced` and `T::OnFreeBalanceZero::on_free_balance_zero`. - `transfer_keep_alive` works the same way as `transfer`, but has an additional check that the transfer will not kill the origin account.  # </weight>
+- **summary**: Transfer some liquid free balance to another account.  `transfer` will set the `FreeBalance` of the sender and receiver. It will decrease the total issuance of the system by the `TransferFee`. If the sender's account is below the existential deposit as a result of the transfer, the account will be reaped.  The dispatch origin for this call must be `Signed` by the transactor.  # <weight> - Dependent on arguments but not critical, given proper implementations for input config types. See related functions below. - It contains a limited number of reads and writes internally and no complex computation.  Related functions:  - `ensure_can_withdraw` is always called internally but has a bounded complexity. - Transferring balances to accounts that did not exist before will cause `T::OnNewAccount::on_new_account` to be called. - Removing enough funds from an account will trigger `T::DustRemoval::on_unbalanced`. - `transfer_keep_alive` works the same way as `transfer`, but has an additional check that the transfer will not kill the origin account.  # </weight>
 
 ### transferKeepAlive(dest: `Address`, value: `Compact<Balance>`)
 - **interface**: api.tx.balances.transferKeepAlive
@@ -203,6 +205,9 @@ ___
 - **interface**: api.tx.democracy.undelegate
 - **summary**: Undelegate vote.  # <weight> - O(1). # </weight>
 
+### unlock(target: `AccountId`)
+- **interface**: api.tx.democracy.unlock
+
 ### vetoExternal(proposal_hash: `Hash`)
 - **interface**: api.tx.democracy.vetoExternal
 - **summary**: Veto and blacklist the external proposal hash.
@@ -301,7 +306,7 @@ ___
 
 ### setIdentity(info: `IdentityInfo`)
 - **interface**: api.tx.identity.setIdentity
-- **summary**: Set an account's identity information and reserve the appropriate deposit.  If the account already has identity information, the deposit is taken as part payment for the new deposit.  The dispatch origin for this call must be _Signed_ and the sender must have a registered identity.  - `info`: The identity information.  Emits `IdentitySet` if successful.  # <weight> - `O(X + R)` where `X` additional-field-count (deposit-bounded). - At most two balance operations. - One storage mutation (codec `O(X + R)`). - One event. # </weight>
+- **summary**: Set an account's identity information and reserve the appropriate deposit.  If the account already has identity information, the deposit is taken as part payment for the new deposit.  The dispatch origin for this call must be _Signed_ and the sender must have a registered identity.  - `info`: The identity information.  Emits `IdentitySet` if successful.  # <weight> - `O(X + X' + R)` where `X` additional-field-count (deposit-bounded and code-bounded). - At most two balance operations. - One storage mutation (codec-read `O(X' + R)`, codec-write `O(X + R)`). - One event. # </weight>
 
 ### setSubs(subs: `Vec<(AccountId,Data)>`)
 - **interface**: api.tx.identity.setSubs
@@ -661,3 +666,16 @@ ___
 ### cancelAsMulti(threshold: `u16`, other_signatories: `Vec<AccountId>`, timepoint: `Timepoint`, call_hash: `[u8;32]`)
 - **interface**: api.tx.utility.cancelAsMulti
 - **summary**: Cancel a pre-existing, on-going multisig transaction. Any deposit reserved previously for this operation will be unreserved on success.  The dispatch origin for this call must be _Signed_.  - `threshold`: The total number of approvals for this dispatch before it is executed. - `other_signatories`: The accounts (other than the sender) who can approve this dispatch. May not be empty. - `timepoint`: The timepoint (block number and transaction index) of the first approval transaction for this dispatch. - `call_hash`: The hash of the call to be executed.  # <weight> - `O(S)`. - Up to one balance-reserve or unreserve operation. - One passthrough operation, one insert, both `O(S)` where `S` is the number of signatories. `S` is capped by `MaxSignatories`, with weight being proportional. - One encode & hash, both of complexity `O(S)`. - One event. - I/O: 1 read `O(S)`, one remove. - Storage: removes one item. # </weight>
+
+___
+
+
+## vesting
+
+### vest()
+- **interface**: api.tx.vesting.vest
+- **summary**: Unlock any vested funds of the sender account.  The dispatch origin for this call must be _Signed_ and the sender must have funds still locked under this module.  Emits either `VestingCompleted` or `VestingUpdated`.  # <weight> - `O(1)`. - One balance-lock operation. - One storage read (codec `O(1)`) and up to one removal. - One event. # </weight>
+
+### vestOther(target: `Address`)
+- **interface**: api.tx.vesting.vestOther
+- **summary**: Unlock any vested funds of a `target` account.  The dispatch origin for this call must be _Signed_.  - `target`: The account whose vested funds should be unlocked. Must have funds still locked under this module.  Emits either `VestingCompleted` or `VestingUpdated`.  # <weight> - `O(1)`. - Up to one account lookup. - One balance-lock operation. - One storage read (codec `O(1)`) and up to one removal. - One event. # </weight>

@@ -14,6 +14,6 @@
 
 ▸ **generateDefaultInterfaceRegistry**(): *void*
 
-*Defined in [packages/types/src/scripts/generate/interfaceRegistry.ts:80](https://github.com/polkadot-js/api/blob/b3d592357f/packages/types/src/scripts/generate/interfaceRegistry.ts#L80)*
+*Defined in [packages/types/src/scripts/generate/interfaceRegistry.ts:80](https://github.com/polkadot-js/api/blob/6ba28c8ad2/packages/types/src/scripts/generate/interfaceRegistry.ts#L80)*
 
 **Returns:** *void*

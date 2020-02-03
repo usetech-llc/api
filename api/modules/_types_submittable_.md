@@ -21,4 +21,4 @@
 
 Ƭ **AugmentedSubmittable**: *T & CallFunction*
 
-*Defined in [api/src/types/submittable.ts:13](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/api/src/types/submittable.ts#L13)*
+*Defined in [api/src/types/submittable.ts:13](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/api/src/types/submittable.ts#L13)*

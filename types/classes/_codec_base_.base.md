@@ -57,7 +57,7 @@
 
 • **registry**: *Registry*
 
-*Defined in [packages/types/src/codec/Base.ts:16](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/codec/Base.ts#L16)*
+*Defined in [packages/types/src/codec/Base.ts:16](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Base.ts#L16)*
 
 ## Accessors
 
@@ -65,7 +65,7 @@
 
 • **get encodedLength**(): *number*
 
-*Defined in [packages/types/src/codec/Base.ts:28](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/codec/Base.ts#L28)*
+*Defined in [packages/types/src/codec/Base.ts:28](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Base.ts#L28)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -77,7 +77,7 @@ ___
 
 • **get hash**(): *IHash*
 
-*Defined in [packages/types/src/codec/Base.ts:35](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/codec/Base.ts#L35)*
+*Defined in [packages/types/src/codec/Base.ts:35](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Base.ts#L35)*
 
 **`description`** returns a hash of the contents
 
@@ -89,7 +89,7 @@ ___
 
 • **get isEmpty**(): *boolean*
 
-*Defined in [packages/types/src/codec/Base.ts:42](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/codec/Base.ts#L42)*
+*Defined in [packages/types/src/codec/Base.ts:42](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Base.ts#L42)*
 
 **`description`** Checks if the value is an empty value
 
@@ -101,7 +101,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [packages/types/src/codec/Base.ts:49](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/codec/Base.ts#L49)*
+*Defined in [packages/types/src/codec/Base.ts:49](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Base.ts#L49)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -119,7 +119,7 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Defined in [packages/types/src/codec/Base.ts:56](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/codec/Base.ts#L56)*
+*Defined in [packages/types/src/codec/Base.ts:56](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Base.ts#L56)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -137,7 +137,7 @@ ___
 
 ▸ **toJSON**(): *AnyJson*
 
-*Defined in [packages/types/src/codec/Base.ts:63](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/codec/Base.ts#L63)*
+*Defined in [packages/types/src/codec/Base.ts:63](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Base.ts#L63)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -149,7 +149,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [packages/types/src/codec/Base.ts:85](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/codec/Base.ts#L85)*
+*Defined in [packages/types/src/codec/Base.ts:85](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Base.ts#L85)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -161,7 +161,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [packages/types/src/codec/Base.ts:70](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/codec/Base.ts#L70)*
+*Defined in [packages/types/src/codec/Base.ts:70](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Base.ts#L70)*
 
 **`description`** Returns the string representation of the value
 
@@ -173,7 +173,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: BareOpts): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Defined in [packages/types/src/codec/Base.ts:78](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/codec/Base.ts#L78)*
+*Defined in [packages/types/src/codec/Base.ts:78](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Base.ts#L78)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

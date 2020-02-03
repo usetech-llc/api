@@ -14,7 +14,7 @@
 
 ▸ **sanitize**(`value`: string): *string*
 
-*Defined in [packages/types/src/codec/create/sanitize.ts:201](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/codec/create/sanitize.ts#L201)*
+*Defined in [packages/types/src/codec/create/sanitize.ts:201](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/create/sanitize.ts#L201)*
 
 **Parameters:**
 

@@ -31,7 +31,7 @@
   'CheckBlockGasLimit'
 ]
 
-*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:61](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L61)*
+*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:61](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L61)*
 
 ## Functions
 
@@ -39,7 +39,7 @@
 
 ▸ **expandExtensionTypes**(`extensions`: string[], `type`: keyof ExtInfo): *ExtTypes*
 
-*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:77](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L77)*
+*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:77](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L77)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ ___
 
 ▸ **findUnknownExtensions**(`extensions`: string[]): *string[]*
 
-*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:71](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L71)*
+*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:71](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L71)*
 
 **Parameters:**
 
@@ -72,11 +72,11 @@ Name | Type |
 
 ### ▪ **allExtensions**: *object*
 
-*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:17](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L17)*
+*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:17](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L17)*
 
 ▪ **ChargeTransactionPayment**: *object*
 
-*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:18](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L18)*
+*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:18](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L18)*
 
 * **extra**(): *object*
 
@@ -86,7 +86,7 @@ Name | Type |
 
 ▪ **CheckBlockGasLimit**: *object*
 
-*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:24](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L24)*
+*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:24](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L24)*
 
 * **extra**(): *object*
 
@@ -94,7 +94,7 @@ Name | Type |
 
 ▪ **CheckEra**: *object*
 
-*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:28](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L28)*
+*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:28](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L28)*
 
 * **extra**: *object*
 
@@ -106,7 +106,7 @@ Name | Type |
 
 ▪ **CheckGenesis**: *object*
 
-*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:36](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L36)*
+*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:36](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L36)*
 
 * **types**(): *object*
 
@@ -116,7 +116,7 @@ Name | Type |
 
 ▪ **CheckNonce**: *object*
 
-*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:42](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L42)*
+*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:42](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L42)*
 
 * **extra**(): *object*
 
@@ -126,7 +126,7 @@ Name | Type |
 
 ▪ **CheckVersion**: *object*
 
-*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:48](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L48)*
+*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:48](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L48)*
 
 * **types**(): *object*
 
@@ -136,7 +136,7 @@ Name | Type |
 
 ▪ **CheckWeight**: *object*
 
-*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:54](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L54)*
+*Defined in [packages/types/src/primitive/Extrinsic/SignedExtensions.ts:54](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/primitive/Extrinsic/SignedExtensions.ts#L54)*
 
 * **extra**(): *object*
 

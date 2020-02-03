@@ -20,7 +20,7 @@
 
 • **TYPES_CHAIN**: *Record‹string, OverrideVersionedType[]›*
 
-*Defined in [packages/types/src/known/overrides.ts:65](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/known/overrides.ts#L65)*
+*Defined in [packages/types/src/known/overrides.ts:65](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/known/overrides.ts#L65)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
   }
 ]
 
-*Defined in [packages/types/src/known/overrides.ts:68](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/known/overrides.ts#L68)*
+*Defined in [packages/types/src/known/overrides.ts:68](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/known/overrides.ts#L68)*
 
 ## Object literals
 
@@ -50,23 +50,23 @@ ___
 
 ### ▪ **TYPES_MODULES**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:8](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/known/overrides.ts#L8)*
+*Defined in [packages/types/src/known/overrides.ts:8](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/known/overrides.ts#L8)*
 
 ▪ **contracts**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:9](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/known/overrides.ts#L9)*
+*Defined in [packages/types/src/known/overrides.ts:9](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/known/overrides.ts#L9)*
 
 * **StorageKey**: *string* = "ContractStorageKey"
 
 ▪ **identity**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:12](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/known/overrides.ts#L12)*
+*Defined in [packages/types/src/known/overrides.ts:12](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/known/overrides.ts#L12)*
 
 * **Judgement**: *string* = "IdentityJudgement"
 
 ▪ **society**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:15](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/known/overrides.ts#L15)*
+*Defined in [packages/types/src/known/overrides.ts:15](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/known/overrides.ts#L15)*
 
 * **Judgement**: *string* = "SocietyJudgement"
 
@@ -74,7 +74,7 @@ ___
 
 ▪ **treasury**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:19](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/known/overrides.ts#L19)*
+*Defined in [packages/types/src/known/overrides.ts:19](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/known/overrides.ts#L19)*
 
 * **Proposal**: *string* = "TreasuryProposal"
 
@@ -84,16 +84,16 @@ ___
 
 ### ▪ **TYPES_SPEC**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:85](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/known/overrides.ts#L85)*
+*Defined in [packages/types/src/known/overrides.ts:85](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/known/overrides.ts#L85)*
 
 ###  kusama
 
 • **kusama**: *OverrideVersionedType[]* = TYPES_KUSAMA_VERSIONED
 
-*Defined in [packages/types/src/known/overrides.ts:86](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/known/overrides.ts#L86)*
+*Defined in [packages/types/src/known/overrides.ts:86](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/known/overrides.ts#L86)*
 
 ###  polkadot
 
 • **polkadot**: *OverrideVersionedType[]* = TYPES_POLKADOT_VERSIONED
 
-*Defined in [packages/types/src/known/overrides.ts:87](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/known/overrides.ts#L87)*
+*Defined in [packages/types/src/known/overrides.ts:87](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/known/overrides.ts#L87)*

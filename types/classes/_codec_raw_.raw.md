@@ -65,7 +65,7 @@ actual lengths instead of used directly.
 
 \+ **new Raw**(`registry`: Registry, `value?`: AnyU8a): *[Raw](_codec_raw_.raw.md)*
 
-*Defined in [packages/types/src/codec/Raw.ts:20](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L20)*
+*Defined in [packages/types/src/codec/Raw.ts:20](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L20)*
 
 **Parameters:**
 
@@ -82,7 +82,7 @@ Name | Type |
 
 • **registry**: *Registry*
 
-*Defined in [packages/types/src/codec/Raw.ts:20](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L20)*
+*Defined in [packages/types/src/codec/Raw.ts:20](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L20)*
 
 ___
 
@@ -98,7 +98,7 @@ Defined in node_modules/typescript/lib/lib.es5.d.ts:2257
 
 • **get encodedLength**(): *number*
 
-*Defined in [packages/types/src/codec/Raw.ts:40](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L40)*
+*Defined in [packages/types/src/codec/Raw.ts:40](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L40)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -110,7 +110,7 @@ ___
 
 • **get hash**(): *IHash*
 
-*Defined in [packages/types/src/codec/Raw.ts:47](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L47)*
+*Defined in [packages/types/src/codec/Raw.ts:47](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L47)*
 
 **`description`** returns a hash of the contents
 
@@ -122,7 +122,7 @@ ___
 
 • **get isEmpty**(): *boolean*
 
-*Defined in [packages/types/src/codec/Raw.ts:54](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L54)*
+*Defined in [packages/types/src/codec/Raw.ts:54](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L54)*
 
 **`description`** Returns true if the type wraps an empty/default all-0 value
 
@@ -136,7 +136,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Raw.ts:61](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L61)*
+*Defined in [packages/types/src/codec/Raw.ts:61](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L61)*
 
 **`description`** The length of the value
 
@@ -148,7 +148,7 @@ ___
 
 ▸ **bitLength**(): *number*
 
-*Defined in [packages/types/src/codec/Raw.ts:69](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L69)*
+*Defined in [packages/types/src/codec/Raw.ts:69](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L69)*
 
 **`description`** Returns the number of bits in the value
 
@@ -160,7 +160,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [packages/types/src/codec/Raw.ts:76](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L76)*
+*Defined in [packages/types/src/codec/Raw.ts:76](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L76)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -180,7 +180,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Raw.ts:90](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L90)*
+*Defined in [packages/types/src/codec/Raw.ts:90](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L90)*
 
 **`description`** Create a new subarray from the actual buffer. This is needed for compat reasons since a new Uint8Array gets returned here
 
@@ -199,7 +199,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [packages/types/src/codec/Raw.ts:97](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L97)*
+*Defined in [packages/types/src/codec/Raw.ts:97](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L97)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -211,7 +211,7 @@ ___
 
 ▸ **toJSON**(): *string*
 
-*Defined in [packages/types/src/codec/Raw.ts:104](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L104)*
+*Defined in [packages/types/src/codec/Raw.ts:104](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L104)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -223,7 +223,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [packages/types/src/codec/Raw.ts:111](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L111)*
+*Defined in [packages/types/src/codec/Raw.ts:111](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L111)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -237,7 +237,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Raw.ts:118](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L118)*
+*Defined in [packages/types/src/codec/Raw.ts:118](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L118)*
 
 **`description`** Returns the string representation of the value
 
@@ -249,7 +249,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Defined in [packages/types/src/codec/Raw.ts:127](https://github.com/polkadot-js/api/blob/eeb8d20e58/packages/types/src/codec/Raw.ts#L127)*
+*Defined in [packages/types/src/codec/Raw.ts:127](https://github.com/polkadot-js/api/blob/9e29e89baf/packages/types/src/codec/Raw.ts#L127)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

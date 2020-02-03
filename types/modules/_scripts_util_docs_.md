@@ -12,15 +12,16 @@
 
 ###  createDocComments
 
-▸ **createDocComments**(`docs`: [Text](../classes/_primitive_text_.text.md)[], `args`: Arg[]): *string[]*
+▸ **createDocComments**(`spaces`: number, `docs`: AnyString[], `args`: Arg[]): *string*
 
-*Defined in [packages/types/src/scripts/util/docs.ts:9](https://github.com/polkadot-js/api/blob/325080cf71/packages/types/src/scripts/util/docs.ts#L9)*
+*Defined in [packages/types/src/scripts/util/docs.ts:12](https://github.com/polkadot-js/api/blob/2ee3afcd61/packages/types/src/scripts/util/docs.ts#L12)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`docs` | [Text](../classes/_primitive_text_.text.md)[] | - |
+`spaces` | number | - |
+`docs` | AnyString[] | - |
 `args` | Arg[] | [] |
 
-**Returns:** *string[]*
+**Returns:** *string*

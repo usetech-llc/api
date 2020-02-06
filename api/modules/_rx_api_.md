@@ -18,7 +18,7 @@
 
 ▸ **decorateMethod**<**Method**>(`method`: Method): *Method*
 
-*Defined in [api/src/rx/Api.ts:12](https://github.com/polkadot-js/api/blob/19f87aac4d/packages/api/src/rx/Api.ts#L12)*
+*Defined in [api/src/rx/Api.ts:12](https://github.com/polkadot-js/api/blob/6be25966d8/packages/api/src/rx/Api.ts#L12)*
 
 **Type parameters:**
 

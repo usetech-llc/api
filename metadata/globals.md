@@ -29,6 +29,7 @@
 * ["Metadata/v10/static.polkadot"](modules/_metadata_v10_static_polkadot_.md)
 * ["Metadata/v10/toV11"](modules/_metadata_v10_tov11_.md)
 * ["Metadata/v11/static"](modules/_metadata_v11_static_.md)
+* ["Metadata/v11/static.polkadot"](modules/_metadata_v11_static_polkadot_.md)
 * ["Metadata/v11/toLatest"](modules/_metadata_v11_tolatest_.md)
 * ["Metadata/v2/static"](modules/_metadata_v2_static_.md)
 * ["Metadata/v2/toV3"](modules/_metadata_v2_tov3_.md)

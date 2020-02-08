@@ -62,19 +62,19 @@ ___
 
 ## balances
 
-### forceTransfer(source: `Address`, dest: `Address`, value: `Compact<Balance>`)
+### forceTransfer(source: `LookupSource`, dest: `LookupSource`, value: `Compact<Balance>`)
 - **interface**: api.tx.balances.forceTransfer
 - **summary**: Exactly as `transfer`, except the origin must be root and the source account may be specified.
 
-### setBalance(who: `Address`, new_free: `Compact<Balance>`, new_reserved: `Compact<Balance>`)
+### setBalance(who: `LookupSource`, new_free: `Compact<Balance>`, new_reserved: `Compact<Balance>`)
 - **interface**: api.tx.balances.setBalance
 - **summary**: Set the balances of a given account.  This will alter `FreeBalance` and `ReservedBalance` in storage. it will also decrease the total issuance of the system (`TotalIssuance`). If the new free or reserved balance is below the existential deposit, it will reset the account nonce (`frame_system::AccountNonce`).  The dispatch origin for this call is `root`.  # <weight> - Independent of the arguments. - Contains a limited number of reads and writes. # </weight>
 
-### transfer(dest: `Address`, value: `Compact<Balance>`)
+### transfer(dest: `LookupSource`, value: `Compact<Balance>`)
 - **interface**: api.tx.balances.transfer
 - **summary**: Transfer some liquid free balance to another account.  `transfer` will set the `FreeBalance` of the sender and receiver. It will decrease the total issuance of the system by the `TransferFee`. If the sender's account is below the existential deposit as a result of the transfer, the account will be reaped.  The dispatch origin for this call must be `Signed` by the transactor.  # <weight> - Dependent on arguments but not critical, given proper implementations for input config types. See related functions below. - It contains a limited number of reads and writes internally and no complex computation.  Related functions:  - `ensure_can_withdraw` is always called internally but has a bounded complexity. - Transferring balances to accounts that did not exist before will cause `T::OnNewAccount::on_new_account` to be called. - Removing enough funds from an account will trigger `T::DustRemoval::on_unbalanced`. - `transfer_keep_alive` works the same way as `transfer`, but has an additional check that the transfer will not kill the origin account.  # </weight>
 
-### transferKeepAlive(dest: `Address`, value: `Compact<Balance>`)
+### transferKeepAlive(dest: `LookupSource`, value: `Compact<Balance>`)
 - **interface**: api.tx.balances.transferKeepAlive
 - **summary**: Same as the [`transfer`] call, but with a check that the transfer will not kill the origin account.  99% of the time you want [`transfer`] instead.  [`transfer`]: struct.Module.html#method.transfer
 
@@ -83,7 +83,7 @@ ___
 
 ## contracts
 
-### call(dest: `Address`, value: `Compact<BalanceOf>`, gas_limit: `Compact<Gas>`, data: `Bytes`)
+### call(dest: `LookupSource`, value: `Compact<BalanceOf>`, gas_limit: `Compact<Gas>`, data: `Bytes`)
 - **interface**: api.tx.contracts.call
 - **summary**: Makes a call to an account, optionally transferring some balance.  * If the account is a smart-contract account, the associated code will be executed and any value will be transferred. * If the account is a regular account, any value will be transferred. * If no account exists and the call value is not less than `existential_deposit`, a regular account will be created and any value will be transferred.
 
@@ -221,7 +221,7 @@ ___
 
 ## elections
 
-### removeMember(who: `Address`)
+### removeMember(who: `LookupSource`)
 - **interface**: api.tx.elections.removeMember
 - **summary**: Remove a particular member from the set. This is effective immediately and the bond of the outgoing member is slashed.  If a runner-up is available, then the best runner-up will be removed and replaces the outgoing member. Otherwise, a new phragmen round is started.  Note that this does not affect the designated block number of the next election.  # <weight> #### State Reads: O(do_phragmen) Writes: O(do_phragmen) # </weight>
 
@@ -233,7 +233,7 @@ ___
 - **interface**: api.tx.elections.renounceCandidacy
 - **summary**: Renounce one's intention to be a candidate for the next election round. 3 potential outcomes exist: - `origin` is a candidate and not elected in any set. In this case, the bond is unreserved, returned and origin is removed as a candidate. - `origin` is a current runner up. In this case, the bond is unreserved, returned and origin is removed as a runner. - `origin` is a current member. In this case, the bond is unreserved and origin is removed as a member, consequently not being a candidate for the next round anymore. Similar to [`remove_voter`], if replacement runners exists, they are immediately used.
 
-### reportDefunctVoter(target: `Address`)
+### reportDefunctVoter(target: `LookupSource`)
 - **interface**: api.tx.elections.reportDefunctVoter
 - **summary**: Report `target` for being an defunct voter. In case of a valid report, the reporter is rewarded by the bond amount of `target`. Otherwise, the reporter itself is removed and their bond is slashed.  A defunct voter is defined to be: - a voter whose current submitted votes are all invalid. i.e. all of them are no longer a candidate nor an active member.  # <weight> #### State Reads: O(NLogM) given M current candidates and N votes for `target`. Writes: O(1) # </weight>
 
@@ -280,11 +280,11 @@ ___
 - **interface**: api.tx.identity.clearIdentity
 - **summary**: Clear an account's identity info and all sub-account and return all deposits.  Payment: All reserved balances on the account are returned.  The dispatch origin for this call must be _Signed_ and the sender must have a registered identity.  Emits `IdentityCleared` if successful.  # <weight> - `O(R + S + X)`. - One balance-reserve operation. - `S + 2` storage deletions. - One event. # </weight>
 
-### killIdentity(target: `Address`)
+### killIdentity(target: `LookupSource`)
 - **interface**: api.tx.identity.killIdentity
 - **summary**: Remove an account's identity and sub-account information and slash the deposits.  Payment: Reserved balances from `set_subs` and `set_identity` are slashed and handled by `Slash`. Verification request deposits are not returned; they should be cancelled manually using `cancel_request`.  The dispatch origin for this call must be _Root_ or match `T::ForceOrigin`.  - `target`: the account whose identity the judgement is upon. This must be an account with a registered identity.  Emits `IdentityKilled` if successful.  # <weight> - `O(R + S + X)`. - One balance-reserve operation. - `S + 2` storage mutations. - One event. # </weight>
 
-### provideJudgement(reg_index: `Compact<RegistrarIndex>`, target: `Address`, judgement: `Judgement`)
+### provideJudgement(reg_index: `Compact<RegistrarIndex>`, target: `LookupSource`, judgement: `Judgement`)
 - **interface**: api.tx.identity.provideJudgement
 - **summary**: Provide a judgement for an account's identity.  The dispatch origin for this call must be _Signed_ and the sender must be the account of the registrar whose index is `reg_index`.  - `reg_index`: the index of the registrar whose judgement is being made. - `target`: the account whose identity the judgement is upon. This must be an account with a registered identity. - `judgement`: the judgement of the registrar of index `reg_index` about `target`.  Emits `JudgementGiven` if successful.  # <weight> - `O(R + X)`. - One balance-transfer operation. - Up to one account-lookup operation. - Storage: 1 read `O(R)`, 1 mutate `O(R + X)`. - One event. # </weight>
 
@@ -411,7 +411,7 @@ ___
 - **interface**: api.tx.society.unvouch
 - **summary**: As a vouching member, unvouch a bid. This only works while vouched user is only a bidder (and not a candidate).  The dispatch origin for this call must be _Signed_ and a vouching member.  Parameters: - `pos`: Position in the `Bids` vector of the bid who should be unvouched.  # <weight> Key: B (len of bids) - One storage read O(1) to check the signer is a vouching member. - One storage mutate to retrieve and update the bids. O(B) - One vouching storage removal. O(1) - One event.  Total Complexity: O(B) # </weight>
 
-### vote(candidate: `Address`, approve: `bool`)
+### vote(candidate: `LookupSource`, approve: `bool`)
 - **interface**: api.tx.society.vote
 - **summary**: As a member, vote on a candidate.  The dispatch origin for this call must be _Signed_ and a member.  Parameters: - `candidate`: The candidate that the member would like to bid on. - `approve`: A boolean which says if the candidate should be approved (`true`) or rejected (`false`).  # <weight> Key: C (len of candidates), M (len of members) - One storage read O(M) and O(log M) search to check user is a member. - One account lookup. - One storage read O(C) and O(C) search to check that user is a candidate. - One storage write to add vote to votes. O(1) - One event.  Total Complexity: O(M + logM + C) # </weight>
 
@@ -424,7 +424,7 @@ ___
 
 ## staking
 
-### bond(controller: `Address`, value: `Compact<BalanceOf>`, payee: `RewardDestination`)
+### bond(controller: `LookupSource`, value: `Compact<BalanceOf>`, payee: `RewardDestination`)
 - **interface**: api.tx.staking.bond
 - **summary**: Take the origin account as a stash and lock up `value` of its balance. `controller` will be the account that controls it.  `value` must be more than the `minimum_balance` specified by `T::Currency`.  The dispatch origin for this call must be _Signed_ by the stash account.  # <weight> - Independent of the arguments. Moderate complexity. - O(1). - Three extra DB entries.  NOTE: Two of the storage writes (`Self::bonded`, `Self::payee`) are _never_ cleaned unless the `origin` falls below _existential deposit_ and gets removed as dust. # </weight>
 
@@ -456,7 +456,7 @@ ___
 - **interface**: api.tx.staking.forceUnstake
 - **summary**: Force a current staker to become completely unstaked, immediately.
 
-### nominate(targets: `Vec<Address>`)
+### nominate(targets: `Vec<LookupSource>`)
 - **interface**: api.tx.staking.nominate
 - **summary**: Declare the desire to nominate `targets` for the origin controller.  Effects will be felt at the beginning of the next era.  The dispatch origin for this call must be _Signed_ by the controller, not the stash.  # <weight> - The transaction's complexity is proportional to the size of `targets`, which is capped at `MAX_NOMINATIONS`. - Both the reads and writes follow a similar pattern. # </weight>
 
@@ -464,7 +464,7 @@ ___
 - **interface**: api.tx.staking.rebond
 - **summary**: Rebond a portion of the stash scheduled to be unlocked.  # <weight> - Time complexity: O(1). Bounded by `MAX_UNLOCKING_CHUNKS`. - Storage changes: Can't increase storage, only decrease it. # </weight>
 
-### setController(controller: `Address`)
+### setController(controller: `LookupSource`)
 - **interface**: api.tx.staking.setController
 - **summary**: (Re-)set the controller of a stash.  Effects will be felt at the beginning of the next era.  The dispatch origin for this call must be _Signed_ by the stash, not the controller.  # <weight> - Independent of the arguments. Insignificant complexity. - Contains a limited number of reads. - Writes are limited to the `origin` account key. # </weight>
 
@@ -497,7 +497,7 @@ ___
 
 ## sudo
 
-### setKey(new: `Address`)
+### setKey(new: `LookupSource`)
 - **interface**: api.tx.sudo.setKey
 - **summary**: Authenticates the current sudo key and sets the given AccountId (`new`) as the new sudo key.  The dispatch origin for this call must be _Signed_.  # <weight> - O(1). - Limited storage reads. - One DB change. # </weight>
 
@@ -505,7 +505,7 @@ ___
 - **interface**: api.tx.sudo.sudo
 - **summary**: Authenticates the sudo key and dispatches a function call with `Root` origin.  The dispatch origin for this call must be _Signed_.  # <weight> - O(1). - Limited storage reads. - One DB write (event). - Unknown weight of derivative `proposal` execution. # </weight>
 
-### sudoAs(who: `Address`, proposal: `Proposal`)
+### sudoAs(who: `LookupSource`, proposal: `Proposal`)
 - **interface**: api.tx.sudo.sudoAs
 - **summary**: Authenticates the sudo key and dispatches a function call with `Signed` origin from a given account.  The dispatch origin for this call must be _Signed_.  # <weight> - O(1). - Limited storage reads. - One DB write (event). - Unknown weight of derivative `proposal` execution. # </weight>
 
@@ -618,7 +618,7 @@ ___
 - **interface**: api.tx.treasury.closeTip
 - **summary**: Close and payout a tip.  The dispatch origin for this call must be _Signed_.  The tip identified by `hash` must have finished its countdown period.  - `hash`: The identity of the open tip for which a tip value is declared. This is formed as the hash of the tuple of the original tip `reason` and the beneficiary account ID.  # <weight> - `O(T)` - One storage retrieval (codec `O(T)`) and two removals. - Up to three balance operations. # </weight>
 
-### proposeSpend(value: `Compact<BalanceOf>`, beneficiary: `Address`)
+### proposeSpend(value: `Compact<BalanceOf>`, beneficiary: `LookupSource`)
 - **interface**: api.tx.treasury.proposeSpend
 - **summary**: Put forward a suggestion for spending. A deposit proportional to the value is reserved and slashed if the proposal is rejected. It is returned once the proposal is awarded.  # <weight> - O(1). - Limited storage reads. - One DB change, one extra DB entry. # </weight>
 
@@ -676,6 +676,6 @@ ___
 - **interface**: api.tx.vesting.vest
 - **summary**: Unlock any vested funds of the sender account.  The dispatch origin for this call must be _Signed_ and the sender must have funds still locked under this module.  Emits either `VestingCompleted` or `VestingUpdated`.  # <weight> - `O(1)`. - One balance-lock operation. - One storage read (codec `O(1)`) and up to one removal. - One event. # </weight>
 
-### vestOther(target: `Address`)
+### vestOther(target: `LookupSource`)
 - **interface**: api.tx.vesting.vestOther
 - **summary**: Unlock any vested funds of a `target` account.  The dispatch origin for this call must be _Signed_.  - `target`: The account whose vested funds should be unlocked. Must have funds still locked under this module.  Emits either `VestingCompleted` or `VestingUpdated`.  # <weight> - `O(1)`. - Up to one account lookup. - One balance-lock operation. - One storage read (codec `O(1)`) and up to one removal. - One event. # </weight>

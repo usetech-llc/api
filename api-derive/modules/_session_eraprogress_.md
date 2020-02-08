@@ -14,7 +14,7 @@
 
 ▸ **eraProgress**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/session/eraProgress.ts:14](https://github.com/polkadot-js/api/blob/d8141198e1/packages/api-derive/src/session/eraProgress.ts#L14)*
+*Defined in [packages/api-derive/src/session/eraProgress.ts:14](https://github.com/polkadot-js/api/blob/480c0abda8/packages/api-derive/src/session/eraProgress.ts#L14)*
 
 **Parameters:**
 

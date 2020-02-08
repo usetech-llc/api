@@ -76,6 +76,7 @@
 * ["interfaces/utility/definitions"](modules/_interfaces_utility_definitions_.md)
 * ["interfaces/vesting/definitions"](modules/_interfaces_vesting_definitions_.md)
 * ["known/overrides"](modules/_known_overrides_.md)
+* ["primitive/BitVec"](modules/_primitive_bitvec_.md)
 * ["primitive/Bool"](modules/_primitive_bool_.md)
 * ["primitive/Bytes"](modules/_primitive_bytes_.md)
 * ["primitive/Data"](modules/_primitive_data_.md)

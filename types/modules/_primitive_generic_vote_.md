@@ -18,4 +18,4 @@
 
 • **convictionNames**: *string[]* = democracyDef.types.Conviction._enum
 
-*Defined in [packages/types/src/primitive/Generic/Vote.ts:15](https://github.com/polkadot-js/api/blob/d8141198e1/packages/types/src/primitive/Generic/Vote.ts#L15)*
+*Defined in [packages/types/src/primitive/Generic/Vote.ts:15](https://github.com/polkadot-js/api/blob/480c0abda8/packages/types/src/primitive/Generic/Vote.ts#L15)*

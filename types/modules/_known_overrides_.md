@@ -20,7 +20,7 @@
 
 • **TYPES_CHAIN**: *Record‹string, OverrideVersionedType[]›*
 
-*Defined in [packages/types/src/known/overrides.ts:90](https://github.com/polkadot-js/api/blob/52ffa175a9/packages/types/src/known/overrides.ts#L90)*
+*Defined in [packages/types/src/known/overrides.ts:89](https://github.com/polkadot-js/api/blob/d4e3e546dc/packages/types/src/known/overrides.ts#L89)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
   }
 ]
 
-*Defined in [packages/types/src/known/overrides.ts:93](https://github.com/polkadot-js/api/blob/52ffa175a9/packages/types/src/known/overrides.ts#L93)*
+*Defined in [packages/types/src/known/overrides.ts:92](https://github.com/polkadot-js/api/blob/d4e3e546dc/packages/types/src/known/overrides.ts#L92)*
 
 ## Object literals
 
@@ -51,29 +51,29 @@ ___
 
 ### ▪ **TYPES_MODULES**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:8](https://github.com/polkadot-js/api/blob/52ffa175a9/packages/types/src/known/overrides.ts#L8)*
+*Defined in [packages/types/src/known/overrides.ts:8](https://github.com/polkadot-js/api/blob/d4e3e546dc/packages/types/src/known/overrides.ts#L8)*
 
 ▪ **contracts**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:9](https://github.com/polkadot-js/api/blob/52ffa175a9/packages/types/src/known/overrides.ts#L9)*
+*Defined in [packages/types/src/known/overrides.ts:9](https://github.com/polkadot-js/api/blob/d4e3e546dc/packages/types/src/known/overrides.ts#L9)*
 
 * **StorageKey**: *string* = "ContractStorageKey"
 
 ▪ **identity**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:12](https://github.com/polkadot-js/api/blob/52ffa175a9/packages/types/src/known/overrides.ts#L12)*
+*Defined in [packages/types/src/known/overrides.ts:12](https://github.com/polkadot-js/api/blob/d4e3e546dc/packages/types/src/known/overrides.ts#L12)*
 
 * **Judgement**: *string* = "IdentityJudgement"
 
 ▪ **parachains**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:15](https://github.com/polkadot-js/api/blob/52ffa175a9/packages/types/src/known/overrides.ts#L15)*
+*Defined in [packages/types/src/known/overrides.ts:15](https://github.com/polkadot-js/api/blob/d4e3e546dc/packages/types/src/known/overrides.ts#L15)*
 
 * **Id**: *string* = "ParaId"
 
 ▪ **society**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:18](https://github.com/polkadot-js/api/blob/52ffa175a9/packages/types/src/known/overrides.ts#L18)*
+*Defined in [packages/types/src/known/overrides.ts:18](https://github.com/polkadot-js/api/blob/d4e3e546dc/packages/types/src/known/overrides.ts#L18)*
 
 * **Judgement**: *string* = "SocietyJudgement"
 
@@ -81,7 +81,7 @@ ___
 
 ▪ **treasury**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:22](https://github.com/polkadot-js/api/blob/52ffa175a9/packages/types/src/known/overrides.ts#L22)*
+*Defined in [packages/types/src/known/overrides.ts:22](https://github.com/polkadot-js/api/blob/d4e3e546dc/packages/types/src/known/overrides.ts#L22)*
 
 * **Proposal**: *string* = "TreasuryProposal"
 
@@ -91,16 +91,16 @@ ___
 
 ### ▪ **TYPES_SPEC**: *object*
 
-*Defined in [packages/types/src/known/overrides.ts:111](https://github.com/polkadot-js/api/blob/52ffa175a9/packages/types/src/known/overrides.ts#L111)*
+*Defined in [packages/types/src/known/overrides.ts:110](https://github.com/polkadot-js/api/blob/d4e3e546dc/packages/types/src/known/overrides.ts#L110)*
 
 ###  kusama
 
 • **kusama**: *OverrideVersionedType[]* = TYPES_KUSAMA_VERSIONED
 
-*Defined in [packages/types/src/known/overrides.ts:112](https://github.com/polkadot-js/api/blob/52ffa175a9/packages/types/src/known/overrides.ts#L112)*
+*Defined in [packages/types/src/known/overrides.ts:111](https://github.com/polkadot-js/api/blob/d4e3e546dc/packages/types/src/known/overrides.ts#L111)*
 
 ###  polkadot
 
 • **polkadot**: *OverrideVersionedType[]* = TYPES_POLKADOT_VERSIONED
 
-*Defined in [packages/types/src/known/overrides.ts:113](https://github.com/polkadot-js/api/blob/52ffa175a9/packages/types/src/known/overrides.ts#L113)*
+*Defined in [packages/types/src/known/overrides.ts:112](https://github.com/polkadot-js/api/blob/d4e3e546dc/packages/types/src/known/overrides.ts#L112)*

@@ -51,7 +51,7 @@ Representation for a boolean value in the system. It extends the base JS `Boolea
 
 \+ **new Bool**(`registry`: Registry, `value`: [Bool](_primitive_bool_.bool.md) | [Boolean](_primitive_bool_.bool.md#static-boolean) | [Uint8Array](_codec_raw_.raw.md#static-uint8array) | boolean | number): *[Bool](_primitive_bool_.bool.md)*
 
-*Defined in [packages/types/src/primitive/Bool.ts:30](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L30)*
+*Defined in [packages/types/src/primitive/Bool.ts:30](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L30)*
 
 **Parameters:**
 
@@ -68,7 +68,7 @@ Name | Type | Default |
 
 • **registry**: *Registry*
 
-*Defined in [packages/types/src/primitive/Bool.ts:30](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L30)*
+*Defined in [packages/types/src/primitive/Bool.ts:30](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L30)*
 
 ___
 
@@ -84,7 +84,7 @@ Defined in node_modules/typescript/lib/lib.es5.d.ts:540
 
 • **get encodedLength**(): *number*
 
-*Defined in [packages/types/src/primitive/Bool.ts:42](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L42)*
+*Defined in [packages/types/src/primitive/Bool.ts:42](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L42)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -96,7 +96,7 @@ ___
 
 • **get hash**(): *IHash*
 
-*Defined in [packages/types/src/primitive/Bool.ts:49](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L49)*
+*Defined in [packages/types/src/primitive/Bool.ts:49](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L49)*
 
 **`description`** returns a hash of the contents
 
@@ -108,7 +108,7 @@ ___
 
 • **get isEmpty**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Bool.ts:56](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L56)*
+*Defined in [packages/types/src/primitive/Bool.ts:56](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L56)*
 
 **`description`** Checks if the value is an empty value (always false)
 
@@ -120,7 +120,7 @@ ___
 
 • **get isFalse**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Bool.ts:63](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L63)*
+*Defined in [packages/types/src/primitive/Bool.ts:63](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L63)*
 
 **`description`** Checks if the value is an empty value (always false)
 
@@ -132,7 +132,7 @@ ___
 
 • **get isTrue**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Bool.ts:70](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L70)*
+*Defined in [packages/types/src/primitive/Bool.ts:70](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L70)*
 
 **`description`** Checks if the value is an empty value (always false)
 
@@ -144,7 +144,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [packages/types/src/primitive/Bool.ts:77](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L77)*
+*Defined in [packages/types/src/primitive/Bool.ts:77](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L77)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -162,7 +162,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [packages/types/src/primitive/Bool.ts:88](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L88)*
+*Defined in [packages/types/src/primitive/Bool.ts:88](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L88)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -174,7 +174,7 @@ ___
 
 ▸ **toJSON**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Bool.ts:95](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L95)*
+*Defined in [packages/types/src/primitive/Bool.ts:95](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L95)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -186,7 +186,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [packages/types/src/primitive/Bool.ts:102](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L102)*
+*Defined in [packages/types/src/primitive/Bool.ts:102](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L102)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -198,7 +198,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [packages/types/src/primitive/Bool.ts:109](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L109)*
+*Defined in [packages/types/src/primitive/Bool.ts:109](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L109)*
 
 **`description`** Returns the string representation of the value
 
@@ -210,7 +210,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Defined in [packages/types/src/primitive/Bool.ts:118](https://github.com/polkadot-js/api/blob/52953f248b/packages/types/src/primitive/Bool.ts#L118)*
+*Defined in [packages/types/src/primitive/Bool.ts:118](https://github.com/polkadot-js/api/blob/beddc3e0a5/packages/types/src/primitive/Bool.ts#L118)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

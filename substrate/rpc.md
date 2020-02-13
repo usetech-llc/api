@@ -38,6 +38,16 @@ ___
 
 _Authoring of network items_
 
+### hasKey(publicKey: `Bytes`, keyType: `Text`): `bool`
+- **jsonrpc**: author_hasKey
+- **interface**: api.rpc.author.hasKey
+- **summary**: Returns true if the keystore has private keys for the given public key and key type.
+
+### hasSessionKeys(sessionKeys: `Bytes`): `bool`
+- **jsonrpc**: author_hasSessionKeys
+- **interface**: api.rpc.author.hasSessionKeys
+- **summary**: Returns true if the keystore has private keys for the given session public keys.
+
 ### insertKey(keyType: `Text`, suri: `Text`, publicKey: `Bytes`): `Bytes`
 - **jsonrpc**: author_insertKey
 - **interface**: api.rpc.author.insertKey

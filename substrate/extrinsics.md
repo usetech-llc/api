@@ -15,13 +15,13 @@ The following sections contain Extrinsics methods are part of the default Substr
 
 - **[elections](#elections)**
 
-- **[finalityTracker](#finalityTracker)**
+- **[finalityTracker](#finalitytracker)**
 
 - **[grandpa](#grandpa)**
 
 - **[identity](#identity)**
 
-- **[imOnline](#imOnline)**
+- **[imOnline](#imonline)**
 
 - **[recovery](#recovery)**
 
@@ -35,9 +35,9 @@ The following sections contain Extrinsics methods are part of the default Substr
 
 - **[system](#system)**
 
-- **[technicalCommittee](#technicalCommittee)**
+- **[technicalCommittee](#technicalcommittee)**
 
-- **[technicalMembership](#technicalMembership)**
+- **[technicalMembership](#technicalmembership)**
 
 - **[timestamp](#timestamp)**
 

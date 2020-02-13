@@ -21,13 +21,13 @@ The following sections contain Storage methods are part of the default Substrate
 
 - **[identity](#identity)**
 
-- **[imOnline](#imOnline)**
+- **[imOnline](#imonline)**
 
 - **[indices](#indices)**
 
 - **[offences](#offences)**
 
-- **[randomnessCollectiveFlip](#randomnessCollectiveFlip)**
+- **[randomnessCollectiveFlip](#randomnesscollectiveflip)**
 
 - **[recovery](#recovery)**
 
@@ -41,13 +41,13 @@ The following sections contain Storage methods are part of the default Substrate
 
 - **[system](#system)**
 
-- **[technicalCommittee](#technicalCommittee)**
+- **[technicalCommittee](#technicalcommittee)**
 
-- **[technicalMembership](#technicalMembership)**
+- **[technicalMembership](#technicalmembership)**
 
 - **[timestamp](#timestamp)**
 
-- **[transactionPayment](#transactionPayment)**
+- **[transactionPayment](#transactionpayment)**
 
 - **[treasury](#treasury)**
 

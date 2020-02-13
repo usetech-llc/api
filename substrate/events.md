@@ -17,7 +17,7 @@ Events are emitted for certain operations on the runtime. The following sections
 
 - **[identity](#identity)**
 
-- **[imOnline](#imOnline)**
+- **[imOnline](#imonline)**
 
 - **[indices](#indices)**
 
@@ -35,9 +35,9 @@ Events are emitted for certain operations on the runtime. The following sections
 
 - **[system](#system)**
 
-- **[technicalCommittee](#technicalCommittee)**
+- **[technicalCommittee](#technicalcommittee)**
 
-- **[technicalMembership](#technicalMembership)**
+- **[technicalMembership](#technicalmembership)**
 
 - **[treasury](#treasury)**
 

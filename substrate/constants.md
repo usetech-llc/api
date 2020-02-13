@@ -13,7 +13,7 @@ The following sections contain the module constants, also known as parameter typ
 
 - **[elections](#elections)**
 
-- **[finalityTracker](#finalityTracker)**
+- **[finalityTracker](#finalitytracker)**
 
 - **[session](#session)**
 
@@ -23,7 +23,7 @@ The following sections contain the module constants, also known as parameter typ
 
 - **[timestamp](#timestamp)**
 
-- **[transactionPayment](#transactionPayment)**
+- **[transactionPayment](#transactionpayment)**
 
 - **[treasury](#treasury)**
 

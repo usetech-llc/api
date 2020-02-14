@@ -14,7 +14,7 @@
 
 ▸ **decodeU8a**(`registry`: Registry, `u8a`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array), `_types`: Constructor[] | object): *Codec[]*
 
-*Defined in [packages/types/src/codec/utils/decodeU8a.ts:14](https://github.com/polkadot-js/api/blob/0e7c508d7f/packages/types/src/codec/utils/decodeU8a.ts#L14)*
+*Defined in [packages/types/src/codec/utils/decodeU8a.ts:14](https://github.com/polkadot-js/api/blob/7e25145fbf/packages/types/src/codec/utils/decodeU8a.ts#L14)*
 
 Given an u8a, and an array of Type constructors, decode the u8a against the
 types, and return an array of decoded values.

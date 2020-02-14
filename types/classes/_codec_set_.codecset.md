@@ -68,7 +68,7 @@ a bitwise representation of the values.
 
 \+ **new CodecSet**(`registry`: Registry, `setValues`: SetValues, `value?`: string[] | [Set](_codec_btreeset_.btreeset.md#static-set)‹string› | [Uint8Array](_codec_raw_.raw.md#static-uint8array) | BN | number | string): *[CodecSet](_codec_set_.codecset.md)*
 
-*Defined in [packages/types/src/codec/Set.ts:26](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L26)*
+*Defined in [packages/types/src/codec/Set.ts:26](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L26)*
 
 **Parameters:**
 
@@ -96,7 +96,7 @@ ___
 
 • **registry**: *Registry*
 
-*Defined in [packages/types/src/codec/Set.ts:24](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L24)*
+*Defined in [packages/types/src/codec/Set.ts:24](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L24)*
 
 ___
 
@@ -122,7 +122,7 @@ Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:71
 
 • **get encodedLength**(): *number*
 
-*Defined in [packages/types/src/codec/Set.ts:111](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L111)*
+*Defined in [packages/types/src/codec/Set.ts:111](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L111)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -134,7 +134,7 @@ ___
 
 • **get hash**(): *IHash*
 
-*Defined in [packages/types/src/codec/Set.ts:118](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L118)*
+*Defined in [packages/types/src/codec/Set.ts:118](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L118)*
 
 **`description`** returns a hash of the contents
 
@@ -146,7 +146,7 @@ ___
 
 • **get isEmpty**(): *boolean*
 
-*Defined in [packages/types/src/codec/Set.ts:125](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L125)*
+*Defined in [packages/types/src/codec/Set.ts:125](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L125)*
 
 **`description`** true is the Set contains no values
 
@@ -158,7 +158,7 @@ ___
 
 • **get strings**(): *string[]*
 
-*Defined in [packages/types/src/codec/Set.ts:132](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L132)*
+*Defined in [packages/types/src/codec/Set.ts:132](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L132)*
 
 **`description`** The actual set values as a string[]
 
@@ -170,7 +170,7 @@ ___
 
 • **get valueEncoded**(): *BN*
 
-*Defined in [packages/types/src/codec/Set.ts:139](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L139)*
+*Defined in [packages/types/src/codec/Set.ts:139](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L139)*
 
 **`description`** The encoded value for the set members
 
@@ -198,7 +198,7 @@ ___
 
 *Overrides [BTreeSet](_codec_btreeset_.btreeset.md).[add](_codec_btreeset_.btreeset.md#add)*
 
-*Defined in [packages/types/src/codec/Set.ts:146](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L146)*
+*Defined in [packages/types/src/codec/Set.ts:146](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L146)*
 
 **`description`** adds a value to the Set (extended to allow for validity checking)
 
@@ -260,7 +260,7 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [packages/types/src/codec/Set.ts:159](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L159)*
+*Defined in [packages/types/src/codec/Set.ts:159](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L159)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -338,7 +338,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [packages/types/src/codec/Set.ts:175](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L175)*
+*Defined in [packages/types/src/codec/Set.ts:175](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L175)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -350,7 +350,7 @@ ___
 
 ▸ **toJSON**(): *string[]*
 
-*Defined in [packages/types/src/codec/Set.ts:182](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L182)*
+*Defined in [packages/types/src/codec/Set.ts:182](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L182)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -362,7 +362,7 @@ ___
 
 ▸ **toNumber**(): *number*
 
-*Defined in [packages/types/src/codec/Set.ts:189](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L189)*
+*Defined in [packages/types/src/codec/Set.ts:189](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L189)*
 
 **`description`** The encoded value for the set members
 
@@ -374,7 +374,7 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [packages/types/src/codec/Set.ts:196](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L196)*
+*Defined in [packages/types/src/codec/Set.ts:196](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L196)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -386,7 +386,7 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [packages/types/src/codec/Set.ts:204](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L204)*
+*Defined in [packages/types/src/codec/Set.ts:204](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L204)*
 
 **`description`** Returns the string representation of the value
 
@@ -398,7 +398,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Defined in [packages/types/src/codec/Set.ts:213](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L213)*
+*Defined in [packages/types/src/codec/Set.ts:213](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L213)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -430,7 +430,7 @@ ___
 
 ▸ **encodeSet**(`setValues`: SetValues, `value`: string[]): *BN*
 
-*Defined in [packages/types/src/codec/Set.ts:81](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L81)*
+*Defined in [packages/types/src/codec/Set.ts:81](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L81)*
 
 **Parameters:**
 
@@ -447,7 +447,7 @@ ___
 
 ▸ **with**(`values`: SetValues): *Constructor‹[CodecSet](_codec_set_.codecset.md)›*
 
-*Defined in [packages/types/src/codec/Set.ts:87](https://github.com/polkadot-js/api/blob/8e5b43bf62/packages/types/src/codec/Set.ts#L87)*
+*Defined in [packages/types/src/codec/Set.ts:87](https://github.com/polkadot-js/api/blob/07ed405610/packages/types/src/codec/Set.ts#L87)*
 
 **Parameters:**
 

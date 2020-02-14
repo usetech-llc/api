@@ -46,10 +46,6 @@ ___
 
 ## balances
 
-### creationFee: `Balance`
-- **interface**: api.consts.balances.creationFee
-- **summary**: The fee required to create an account.
-
 ### existentialDeposit: `Balance`
 - **interface**: api.consts.balances.existentialDeposit
 - **summary**: The minimum amount required to keep an account open.
@@ -70,10 +66,6 @@ ___
 ### contractFee: `BalanceOf`
 - **interface**: api.consts.contracts.contractFee
 - **summary**: The fee required to instantiate a contract instance. A reasonable default value is 21.
-
-### creationFee: `BalanceOf`
-- **interface**: api.consts.contracts.creationFee
-- **summary**: The fee required to create an account.
 
 ### instantiateBaseFee: `Gas`
 - **interface**: api.consts.contracts.instantiateBaseFee

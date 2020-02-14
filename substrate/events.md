@@ -57,14 +57,14 @@ ___
 ### Deposit(`AccountId`, `Balance`)
 - **summary**: Some amount was deposited (e.g. for transaction fees).
 
-### NewAccount(`AccountId`, `Balance`)
-- **summary**: A new account was created.
+### DustLost(`AccountId`, `Balance`)
+- **summary**: An account was removed whose balance was non-zero but below ExistentialDeposit, resulting in an outright loss.
 
-### ReapedAccount(`AccountId`, `Balance`)
-- **summary**: An account was reaped.
+### Endowed(`AccountId`, `Balance`)
+- **summary**: An account was created with some free balance.
 
-### Transfer(`AccountId`, `AccountId`, `Balance`, `Balance`)
-- **summary**: Transfer succeeded (from, to, value, fees).
+### Transfer(`AccountId`, `AccountId`, `Balance`)
+- **summary**: Transfer succeeded (from, to, value).
 
 ___
 
@@ -253,8 +253,11 @@ ___
 
 ## indices
 
-### NewAccountIndex(`AccountId`, `AccountIndex`)
-- **summary**: A new account index was assigned.  This event is not triggered when an existing index is reassigned to another `AccountId`.
+### IndexAssigned(`AccountId`, `AccountIndex`)
+- **summary**: A account index was assigned.
+
+### IndexFreed(`AccountIndex`)
+- **summary**: A account index has been freed up (unassigned).
 
 ___
 
@@ -386,6 +389,12 @@ ___
 
 ### ExtrinsicSuccess(`DispatchInfo`)
 - **summary**: An extrinsic completed successfully.
+
+### NewAccount(`AccountId`)
+- **summary**: A new account was created.
+
+### ReapedAccount(`AccountId`)
+- **summary**: An account was reaped.
 
 ___
 

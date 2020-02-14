@@ -23,6 +23,8 @@ The following sections contain Extrinsics methods are part of the default Substr
 
 - **[imOnline](#imonline)**
 
+- **[indices](#indices)**
+
 - **[recovery](#recovery)**
 
 - **[session](#session)**
@@ -319,6 +321,27 @@ ___
 
 ### heartbeat(heartbeat: `Heartbeat`, _signature: `Signature`)
 - **interface**: api.tx.imOnline.heartbeat
+
+___
+
+
+## indices
+
+### claim(index: `AccountIndex`)
+- **interface**: api.tx.indices.claim
+- **summary**: Assign an previously unassigned index.  Payment: `Deposit` is reserved from the sender account.  The dispatch origin for this call must be _Signed_.  - `index`: the index to be claimed. This must not be in use.  Emits `IndexAssigned` if successful.  # <weight> - `O(1)`. - One storage mutation (codec `O(1)`). - One reserve operation. - One event. # </weight>
+
+### forceTransfer(new: `AccountId`, index: `AccountIndex`)
+- **interface**: api.tx.indices.forceTransfer
+- **summary**: Force an index to an account. This doesn't require a deposit. If the index is already held, then any deposit is reimbursed to its current owner.  The dispatch origin for this call must be _Root_.  - `index`: the index to be (re-)assigned. - `new`: the new owner of the index. This function is a no-op if it is equal to sender.  Emits `IndexAssigned` if successful.  # <weight> - `O(1)`. - One storage mutation (codec `O(1)`). - Up to one reserve operation. - One event. # </weight>
+
+### free(index: `AccountIndex`)
+- **interface**: api.tx.indices.free
+- **summary**: Free up an index owned by the sender.  Payment: Any previous deposit placed for the index is unreserved in the sender account.  The dispatch origin for this call must be _Signed_ and the sender must own the index.  - `index`: the index to be freed. This must be owned by the sender.  Emits `IndexFreed` if successful.  # <weight> - `O(1)`. - One storage mutation (codec `O(1)`). - One reserve operation. - One event. # </weight>
+
+### transfer(new: `AccountId`, index: `AccountIndex`)
+- **interface**: api.tx.indices.transfer
+- **summary**: Assign an index already owned by the sender to another account. The balance reservation is effectively transfered to the new account.  The dispatch origin for this call must be _Signed_.  - `index`: the index to be re-assigned. This must be owned by the sender. - `new`: the new owner of the index. This function is a no-op if it is equal to sender.  Emits `IndexAssigned` if successful.  # <weight> - `O(1)`. - One storage mutation (codec `O(1)`). - One transfer operation. - One event. # </weight>
 
 ___
 

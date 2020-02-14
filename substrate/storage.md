@@ -122,7 +122,7 @@ ___
 
 ### account(`AccountId`): `AccountData`
 - **interface**: api.query.balances.account
-- **summary**: The balance of an account.  NOTE: THIS MAY NEVER BE IN EXISTENCE AND YET HAVE A `total().is_zero()`. If the total is ever zero, then the entry *MUST* be removed.
+- **summary**: The balance of an account.  NOTE: THIS MAY NEVER BE IN EXISTENCE AND YET HAVE A `total().is_zero()`. If the total is ever zero, then the entry *MUST* be removed.  NOTE: This is only used in the case that this module is used to store balances.
 
 ### isUpgraded(): `bool`
 - **interface**: api.query.balances.isUpgraded
@@ -261,7 +261,7 @@ ___
 
 ### voteOf(`(ReferendumIndex,AccountId)`): `Vote`
 - **interface**: api.query.democracy.voteOf
-- **summary**: Get the vote in a given referendum of a particular voter. The result is meaningful only if `voters_for` includes the voter when called with the referendum (you'll get the default `Vote` value otherwise). If you don't want to check `voters_for`, then you can also check for simple existence with `VoteOf::exists` first.
+- **summary**: Get the vote in a given referendum of a particular voter. The result is meaningful only if `voters_for` includes the voter when called with the referendum (you'll get the default `Vote` value otherwise). If you don't want to check `voters_for`, then you can also check for simple existence with `VoteOf::contains_key` first.
 
 ### votersFor(`ReferendumIndex`): `Vec<AccountId>`
 - **interface**: api.query.democracy.votersFor
@@ -376,13 +376,9 @@ ___
 
 ## indices
 
-### enumSet(`AccountIndex`): `Vec<AccountId>`
-- **interface**: api.query.indices.enumSet
-- **summary**: The enumeration sets.
-
-### nextEnumSet(): `AccountIndex`
-- **interface**: api.query.indices.nextEnumSet
-- **summary**: The next free enumeration set.
+### accounts(`AccountIndex`): `Option<(AccountId,BalanceOf)>`
+- **interface**: api.query.indices.accounts
+- **summary**: The lookup from index to account.
 
 ___
 
@@ -618,10 +614,6 @@ ___
 - **interface**: api.query.staking.stakers
 - **summary**: Nominators for a particular account that is in action right now. You can't iterate through validators here, but you can find them in the Session module.  This is keyed by the stash account.
 
-### storageVersion(): `u32`
-- **interface**: api.query.staking.storageVersion
-- **summary**: The version of storage for upgrade.
-
 ### unappliedSlashes(`EraIndex`): `Vec<UnappliedSlash>`
 - **interface**: api.query.staking.unappliedSlashes
 - **summary**: All unapplied slashes that are queued for later.
@@ -652,9 +644,9 @@ ___
 
 ## system
 
-### accountNonce(`AccountId`): `Index`
-- **interface**: api.query.system.accountNonce
-- **summary**: Extrinsics nonce for accounts.
+### account(`AccountId`): `(Index,AccountData)`
+- **interface**: api.query.system.account
+- **summary**: The full account information for a particular account ID.
 
 ### allExtrinsicsLen(): `Option<u32>`
 - **interface**: api.query.system.allExtrinsicsLen

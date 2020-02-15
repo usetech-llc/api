@@ -3,6 +3,7 @@
 This page lists the errors that can be encountered in the different modules. 
 
 (NOTE: These were generated from a static/snapshot view of a recent Substrate master node. Some items may not be available in older nodes, or in any customized implementations.)
+
 - **[authorship](#authorship)**
 
 - **[balances](#balances)**
@@ -43,600 +44,600 @@ This page lists the errors that can be encountered in the different modules.
 
 - **[vesting](#vesting)**
 
-- **[substrate](#substrate)**
-
 
 ___
 
 
 ## authorship
-
+ 
 ### GenesisUncle
-- **summary**: The uncle is genesis.
-
+- **summary**:   The uncle is genesis. 
+ 
 ### InvalidUncleParent
-- **summary**: The uncle parent not in the chain.
-
+- **summary**:   The uncle parent not in the chain. 
+ 
 ### OldUncle
-- **summary**: The uncle isn't recent enough to be included.
-
+- **summary**:   The uncle isn't recent enough to be included. 
+ 
 ### TooHighUncle
-- **summary**: The uncle is too high in chain.
-
+- **summary**:   The uncle is too high in chain. 
+ 
 ### TooManyUncles
-- **summary**: Too many uncles.
-
+- **summary**:   Too many uncles. 
+ 
 ### UncleAlreadyIncluded
-- **summary**: The uncle is already included.
-
+- **summary**:   The uncle is already included. 
+ 
 ### UnclesAlreadySet
-- **summary**: Uncles already set in the block.
+- **summary**:   Uncles already set in the block. 
 
 ___
 
 
 ## balances
-
+ 
 ### DeadAccount
-- **summary**: Beneficiary account must pre-exist
-
+- **summary**:   Beneficiary account must pre-exist 
+ 
 ### ExistentialDeposit
-- **summary**: Value too low to create account due to existential deposit
-
+- **summary**:   Value too low to create account due to existential deposit 
+ 
 ### ExistingVestingSchedule
-- **summary**: A vesting schedule already exists for this account
-
+- **summary**:   A vesting schedule already exists for this account 
+ 
 ### InsufficientBalance
-- **summary**: Balance too low to send value
-
+- **summary**:   Balance too low to send value 
+ 
 ### KeepAlive
-- **summary**: Transfer/payment would kill account
-
+- **summary**:   Transfer/payment would kill account 
+ 
 ### LiquidityRestrictions
-- **summary**: Account liquidity restrictions prevent withdrawal
-
+- **summary**:   Account liquidity restrictions prevent withdrawal 
+ 
 ### Overflow
-- **summary**: Got an overflow after adding
-
+- **summary**:   Got an overflow after adding 
+ 
 ### VestingBalance
-- **summary**: Vesting balance too high to send value
+- **summary**:   Vesting balance too high to send value 
 
 ___
 
 
 ## contracts
-
+ 
 ### InvalidContractOrigin
-- **summary**: An origin TrieId written in the current block.
-
+- **summary**:   An origin TrieId written in the current block. 
+ 
 ### InvalidDestinationContract
-- **summary**: Cannot restore to nonexisting or alive contract.
-
+- **summary**:   Cannot restore to nonexisting or alive contract. 
+ 
 ### InvalidScheduleVersion
-- **summary**: A new schedule must have a greater version than the current one.
-
+- **summary**:   A new schedule must have a greater version than the current one. 
+ 
 ### InvalidSourceContract
-- **summary**: Cannot restore from nonexisting or tombstone contract.
-
+- **summary**:   Cannot restore from nonexisting or tombstone contract. 
+ 
 ### InvalidSurchargeClaim
-- **summary**: An origin must be signed or inherent and auxiliary sender only provided on inherent.
-
+- **summary**:   An origin must be signed or inherent and auxiliary sender only provided on inherent. 
+ 
 ### InvalidTombstone
-- **summary**: Tombstones don't match.
+- **summary**:   Tombstones don't match. 
 
 ___
 
 
 ## council
-
+ 
 ### AlreadyInitialized
-- **summary**: Members are already initialized!
-
+- **summary**:   Members are already initialized! 
+ 
 ### DuplicateProposal
-- **summary**: Duplicate proposals not allowed
-
+- **summary**:   Duplicate proposals not allowed 
+ 
 ### DuplicateVote
-- **summary**: Duplicate vote ignored
-
+- **summary**:   Duplicate vote ignored 
+ 
 ### NotMember
-- **summary**: Account is not a member
-
+- **summary**:   Account is not a member 
+ 
 ### ProposalMissing
-- **summary**: Proposal must exist
-
+- **summary**:   Proposal must exist 
+ 
 ### WrongIndex
-- **summary**: Mismatched index
+- **summary**:   Mismatched index 
 
 ___
 
 
 ## democracy
-
+ 
 ### AlreadyCanceled
-- **summary**: Cannot cancel the same proposal twice
-
+- **summary**:   Cannot cancel the same proposal twice 
+ 
 ### AlreadyProxy
-- **summary**: Already a proxy
-
+- **summary**:   Already a proxy 
+ 
 ### AlreadyVetoed
-- **summary**: Identity may not veto a proposal twice
-
+- **summary**:   Identity may not veto a proposal twice 
+ 
 ### BadIndex
-- **summary**: Unknown index
-
+- **summary**:   Unknown index 
+ 
 ### DuplicatePreimage
-- **summary**: Preimage already noted
-
+- **summary**:   Preimage already noted 
+ 
 ### DuplicateProposal
-- **summary**: Proposal already made
-
+- **summary**:   Proposal already made 
+ 
 ### Early
-- **summary**: Too early
-
+- **summary**:   Too early 
+ 
 ### Imminent
-- **summary**: Imminent
-
+- **summary**:   Imminent 
+ 
 ### InvalidHash
-- **summary**: Invalid hash
-
+- **summary**:   Invalid hash 
+ 
 ### NoneWaiting
-- **summary**: No proposals waiting
-
+- **summary**:   No proposals waiting 
+ 
 ### NoProposal
-- **summary**: No external proposal
-
+- **summary**:   No external proposal 
+ 
 ### NotDelegated
-- **summary**: Not delegated
-
+- **summary**:   Not delegated 
+ 
 ### NotExpired
-- **summary**: The lock on the account to be unlocked has not yet expired.
-
+- **summary**:   The lock on the account to be unlocked has not yet expired. 
+ 
 ### NotImminent
-- **summary**: Not imminent
-
+- **summary**:   Not imminent 
+ 
 ### NotLocked
-- **summary**: The target account does not have a lock.
-
+- **summary**:   The target account does not have a lock. 
+ 
 ### NotProxy
-- **summary**: Not a proxy
-
+- **summary**:   Not a proxy 
+ 
 ### NotSimpleMajority
-- **summary**: Next external proposal not simple majority
-
+- **summary**:   Next external proposal not simple majority 
+ 
 ### PreimageInvalid
-- **summary**: Invalid preimage
-
+- **summary**:   Invalid preimage 
+ 
 ### PreimageMissing
-- **summary**: Preimage not found
-
+- **summary**:   Preimage not found 
+ 
 ### ProposalBlacklisted
-- **summary**: Proposal still blacklisted
-
+- **summary**:   Proposal still blacklisted 
+ 
 ### ProposalMissing
-- **summary**: Proposal does not exist
-
+- **summary**:   Proposal does not exist 
+ 
 ### ReferendumInvalid
-- **summary**: Vote given for invalid referendum
-
+- **summary**:   Vote given for invalid referendum 
+ 
 ### ValueLow
-- **summary**: Value too low
-
+- **summary**:   Value too low 
+ 
 ### WrongProxy
-- **summary**: Wrong proxy
+- **summary**:   Wrong proxy 
 
 ___
 
 
 ## elections
-
+ 
 ### DuplicatedCandidate
-- **summary**: Duplicated candidate submission.
-
+- **summary**:   Duplicated candidate submission. 
+ 
 ### InsufficientCandidateFunds
-- **summary**: Candidate does not have enough funds.
-
+- **summary**:   Candidate does not have enough funds. 
+ 
 ### InvalidOrigin
-- **summary**: Origin is not a candidate, member or a runner up.
-
+- **summary**:   Origin is not a candidate, member or a runner up. 
+ 
 ### LowBalance
-- **summary**: Cannot vote with stake less than minimum balance.
-
+- **summary**:   Cannot vote with stake less than minimum balance. 
+ 
 ### MaximumVotesExceeded
-- **summary**: Cannot vote more than maximum allowed.
-
+- **summary**:   Cannot vote more than maximum allowed. 
+ 
 ### MemberSubmit
-- **summary**: Member cannot re-submit candidacy.
-
+- **summary**:   Member cannot re-submit candidacy. 
+ 
 ### MustBeVoter
-- **summary**: Must be a voter.
-
+- **summary**:   Must be a voter. 
+ 
 ### NotMember
-- **summary**: Not a member.
-
+- **summary**:   Not a member. 
+ 
 ### NoVotes
-- **summary**: Must vote for at least one candidate.
-
+- **summary**:   Must vote for at least one candidate. 
+ 
 ### ReportSelf
-- **summary**: Cannot report self.
-
+- **summary**:   Cannot report self. 
+ 
 ### RunnerSubmit
-- **summary**: Runner cannot re-submit candidacy.
-
+- **summary**:   Runner cannot re-submit candidacy. 
+ 
 ### TooManyVotes
-- **summary**: Cannot vote more than candidates.
-
+- **summary**:   Cannot vote more than candidates. 
+ 
 ### UnableToPayBond
-- **summary**: Voter can not pay voting bond.
-
+- **summary**:   Voter can not pay voting bond. 
+ 
 ### UnableToVote
-- **summary**: Cannot vote when no candidates or members exist.
+- **summary**:   Cannot vote when no candidates or members exist. 
 
 ___
 
 
 ## finalityTracker
-
+ 
 ### AlreadyUpdated
-- **summary**: Final hint must be updated only once in the block
-
+- **summary**:   Final hint must be updated only once in the block 
+ 
 ### BadHint
-- **summary**: Finalized height above block number
+- **summary**:   Finalized height above block number 
 
 ___
 
 
 ## grandpa
-
+ 
 ### ChangePending
-- **summary**: Attempt to signal GRANDPA change with one already pending.
-
+- **summary**:   Attempt to signal GRANDPA change with one already pending. 
+ 
 ### PauseFailed
-- **summary**: Attempt to signal GRANDPA pause when the authority set isn't live (either paused or already pending pause).
-
+- **summary**:   Attempt to signal GRANDPA pause when the authority set isn't live (either paused or already pending pause). 
+ 
 ### ResumeFailed
-- **summary**: Attempt to signal GRANDPA resume when the authority set isn't paused (either live or already pending resume).
-
+- **summary**:   Attempt to signal GRANDPA resume when the authority set isn't paused (either live or already pending resume). 
+ 
 ### TooSoon
-- **summary**: Cannot signal forced change so soon after last.
+- **summary**:   Cannot signal forced change so soon after last. 
 
 ___
 
 
 ## identity
-
+ 
 ### EmptyIndex
-- **summary**: Empty index.
-
+- **summary**:   Empty index. 
+ 
 ### FeeChanged
-- **summary**: Fee is changed.
-
+- **summary**:   Fee is changed. 
+ 
 ### InvalidIndex
-- **summary**: The index is invalid.
-
+- **summary**:   The index is invalid. 
+ 
 ### InvalidJudgement
-- **summary**: Invalid judgement.
-
+- **summary**:   Invalid judgement. 
+ 
 ### InvalidTarget
-- **summary**: The target is invalid.
-
+- **summary**:   The target is invalid. 
+ 
 ### JudgementGiven
-- **summary**: Judgement given.
-
+- **summary**:   Judgement given. 
+ 
 ### NoIdentity
-- **summary**: No identity found.
-
+- **summary**:   No identity found. 
+ 
 ### NotFound
-- **summary**: Account isn't found.
-
+- **summary**:   Account isn't found. 
+ 
 ### NotNamed
-- **summary**: Account isn't named.
-
+- **summary**:   Account isn't named. 
+ 
 ### StickyJudgement
-- **summary**: Sticky judgement.
-
+- **summary**:   Sticky judgement. 
+ 
 ### TooManyFields
-- **summary**: Too many additional fields.
-
+- **summary**:   Too many additional fields. 
+ 
 ### TooManySubAccounts
-- **summary**: Too many subs-accounts.
+- **summary**:   Too many subs-accounts. 
 
 ___
 
 
 ## imOnline
-
+ 
 ### DuplicatedHeartbeat
-- **summary**: Duplicated heartbeat.
-
+- **summary**:   Duplicated heartbeat. 
+ 
 ### InvalidKey
-- **summary**: Non existent public key.
+- **summary**:   Non existent public key. 
 
 ___
 
 
 ## recovery
-
+ 
 ### AlreadyRecoverable
-- **summary**: This account is already set up for recovery
-
+- **summary**:   This account is already set up for recovery 
+ 
 ### AlreadyStarted
-- **summary**: A recovery process has already started for this account
-
+- **summary**:   A recovery process has already started for this account 
+ 
 ### AlreadyVouched
-- **summary**: This user has already vouched for this recovery
-
+- **summary**:   This user has already vouched for this recovery 
+ 
 ### DelayPeriod
-- **summary**: The friend must wait until the delay period to vouch for this recovery
-
+- **summary**:   The friend must wait until the delay period to vouch for this recovery 
+ 
 ### MaxFriends
-- **summary**: Friends list must be less than max friends
-
+- **summary**:   Friends list must be less than max friends 
+ 
 ### NotAllowed
-- **summary**: User is not allowed to make a call on behalf of this account
-
+- **summary**:   User is not allowed to make a call on behalf of this account 
+ 
 ### NotEnoughFriends
-- **summary**: Friends list must be greater than zero and threshold
-
+- **summary**:   Friends list must be greater than zero and threshold 
+ 
 ### NotFriend
-- **summary**: This account is not a friend who can vouch
-
+- **summary**:   This account is not a friend who can vouch 
+ 
 ### NotRecoverable
-- **summary**: This account is not set up for recovery
-
+- **summary**:   This account is not set up for recovery 
+ 
 ### NotSorted
-- **summary**: Friends list must be sorted and free of duplicates
-
+- **summary**:   Friends list must be sorted and free of duplicates 
+ 
 ### NotStarted
-- **summary**: A recovery process has not started for this rescuer
-
+- **summary**:   A recovery process has not started for this rescuer 
+ 
 ### Overflow
-- **summary**: There was an overflow in a calculation
-
+- **summary**:   There was an overflow in a calculation 
+ 
 ### StillActive
-- **summary**: There are still active recovery attempts that need to be closed
-
+- **summary**:   There are still active recovery attempts that need to be closed 
+ 
 ### Threshold
-- **summary**: The threshold for recovering this account has not been met
-
+- **summary**:   The threshold for recovering this account has not been met 
+ 
 ### ZeroThreshold
-- **summary**: Threshold must be greater than zero
+- **summary**:   Threshold must be greater than zero 
 
 ___
 
 
 ## session
-
+ 
 ### DuplicatedKey
-- **summary**: Registered duplicate key.
-
+- **summary**:   Registered duplicate key. 
+ 
 ### InvalidProof
-- **summary**: Invalid ownership proof.
-
+- **summary**:   Invalid ownership proof. 
+ 
 ### NoAssociatedValidatorId
-- **summary**: No associated validator ID for account.
+- **summary**:   No associated validator ID for account. 
 
 ___
 
 
 ## society
-
+ 
 ### AlreadyBid
-- **summary**: User has already made a bid.
-
+- **summary**:   User has already made a bid. 
+ 
 ### AlreadyCandidate
-- **summary**: User is already a candidate.
-
+- **summary**:   User is already a candidate. 
+ 
 ### AlreadyFounded
-- **summary**: Society already founded.
-
+- **summary**:   Society already founded. 
+ 
 ### AlreadyMember
-- **summary**: User is already a member.
-
+- **summary**:   User is already a member. 
+ 
 ### AlreadyVouching
-- **summary**: Member is already vouching or banned from vouching again.
-
+- **summary**:   Member is already vouching or banned from vouching again. 
+ 
 ### BadPosition
-- **summary**: An incorrect position was provided.
-
+- **summary**:   An incorrect position was provided. 
+ 
 ### Founder
-- **summary**: Cannot remove the founder.
-
+- **summary**:   Cannot remove the founder. 
+ 
 ### Head
-- **summary**: Cannot remove the head of the chain.
-
+- **summary**:   Cannot remove the head of the chain. 
+ 
 ### InsufficientPot
-- **summary**: Not enough in pot to accept candidate.
-
+- **summary**:   Not enough in pot to accept candidate. 
+ 
 ### MaxMembers
-- **summary**: Too many members in the society.
-
+- **summary**:   Too many members in the society. 
+ 
 ### NoPayout
-- **summary**: Nothing to payout.
-
+- **summary**:   Nothing to payout. 
+ 
 ### NotCandidate
-- **summary**: User is not a candidate.
-
+- **summary**:   User is not a candidate. 
+ 
 ### NotFounder
-- **summary**: The caller is not the founder.
-
+- **summary**:   The caller is not the founder. 
+ 
 ### NotHead
-- **summary**: The caller is not the head.
-
+- **summary**:   The caller is not the head. 
+ 
 ### NotMember
-- **summary**: User is not a member.
-
+- **summary**:   User is not a member. 
+ 
 ### NotSuspended
-- **summary**: User is not suspended.
-
+- **summary**:   User is not suspended. 
+ 
 ### NotVouching
-- **summary**: Member is not vouching.
-
+- **summary**:   Member is not vouching. 
+ 
 ### Suspended
-- **summary**: User is suspended.
+- **summary**:   User is suspended. 
 
 ___
 
 
 ## staking
-
+ 
 ### AlreadyBonded
-- **summary**: Stash is already bonded.
-
+- **summary**:   Stash is already bonded. 
+ 
 ### AlreadyPaired
-- **summary**: Controller is already paired.
-
+- **summary**:   Controller is already paired. 
+ 
 ### DuplicateIndex
-- **summary**: Duplicate index.
-
+- **summary**:   Duplicate index. 
+ 
 ### EmptyTargets
-- **summary**: Targets cannot be empty.
-
+- **summary**:   Targets cannot be empty. 
+ 
 ### InsufficientValue
-- **summary**: Can not bond with value less than minimum balance.
-
+- **summary**:   Can not bond with value less than minimum balance. 
+ 
 ### InvalidSlashIndex
-- **summary**: Slash record index out of bounds.
-
+- **summary**:   Slash record index out of bounds. 
+ 
 ### NoMoreChunks
-- **summary**: Can not schedule more unlock chunks.
-
+- **summary**:   Can not schedule more unlock chunks. 
+ 
 ### NotController
-- **summary**: Not a controller account.
-
+- **summary**:   Not a controller account. 
+ 
 ### NotStash
-- **summary**: Not a stash account.
-
+- **summary**:   Not a stash account. 
+ 
 ### NoUnlockChunk
-- **summary**: Can not rebond without unlocking chunks.
+- **summary**:   Can not rebond without unlocking chunks. 
 
 ___
 
 
 ## sudo
-
+ 
 ### RequireSudo
-- **summary**: Sender must be the Sudo account
+- **summary**:   Sender must be the Sudo account 
 
 ___
 
 
 ## system
-
+ 
 ### FailedToExtractRuntimeVersion
-- **summary**: Failed to extract the runtime version from the new runtime.  Either calling `Core_version` or decoding `RuntimeVersion` failed.
+- **summary**:   Failed to extract the runtime version from the new runtime. 
 
+  Either calling `Core_version` or decoding `RuntimeVersion` failed. 
+ 
 ### ImplVersionNotAllowedToDecrease
-- **summary**: The implementation version is not allowed to decrease between the current runtime and the new runtime.
-
+- **summary**:   The implementation version is not allowed to decrease between the current runtime and the new runtime. 
+ 
 ### InvalidSpecName
-- **summary**: The name of specification does not match between the current runtime and the new runtime.
-
+- **summary**:   The name of specification does not match between the current runtime and the new runtime. 
+ 
 ### SpecOrImplVersionNeedToIncrease
-- **summary**: The specification or the implementation version need to increase between the current runtime and the new runtime.
-
+- **summary**:   The specification or the implementation version need to increase between the current runtime and the new runtime. 
+ 
 ### SpecVersionNotAllowedToDecrease
-- **summary**: The specification version is not allowed to decrease between the current runtime and the new runtime.
+- **summary**:   The specification version is not allowed to decrease between the current runtime and the new runtime. 
 
 ___
 
 
 ## technicalCommittee
-
+ 
 ### AlreadyInitialized
-- **summary**: Members are already initialized!
-
+- **summary**:   Members are already initialized! 
+ 
 ### DuplicateProposal
-- **summary**: Duplicate proposals not allowed
-
+- **summary**:   Duplicate proposals not allowed 
+ 
 ### DuplicateVote
-- **summary**: Duplicate vote ignored
-
+- **summary**:   Duplicate vote ignored 
+ 
 ### NotMember
-- **summary**: Account is not a member
-
+- **summary**:   Account is not a member 
+ 
 ### ProposalMissing
-- **summary**: Proposal must exist
-
+- **summary**:   Proposal must exist 
+ 
 ### WrongIndex
-- **summary**: Mismatched index
+- **summary**:   Mismatched index 
 
 ___
 
 
 ## treasury
-
+ 
 ### AlreadyKnown
-- **summary**: The tip was already found/started.
-
+- **summary**:   The tip was already found/started. 
+ 
 ### InsufficientProposersBalance
-- **summary**: Proposer's balance is too low.
-
+- **summary**:   Proposer's balance is too low. 
+ 
 ### InvalidProposalIndex
-- **summary**: No proposal at that index.
-
+- **summary**:   No proposal at that index. 
+ 
 ### NotFinder
-- **summary**: The account attempting to retract the tip is not the finder of the tip.
-
+- **summary**:   The account attempting to retract the tip is not the finder of the tip. 
+ 
 ### Premature
-- **summary**: The tip cannot be claimed/closed because it's still in the countdown period.
-
+- **summary**:   The tip cannot be claimed/closed because it's still in the countdown period. 
+ 
 ### ReasonTooBig
-- **summary**: The reason given is just too big.
-
+- **summary**:   The reason given is just too big. 
+ 
 ### StillOpen
-- **summary**: The tip cannot be claimed/closed because there are not enough tippers yet.
-
+- **summary**:   The tip cannot be claimed/closed because there are not enough tippers yet. 
+ 
 ### UnknownTip
-- **summary**: The tip hash is unknown.
+- **summary**:   The tip hash is unknown. 
 
 ___
 
 
 ## utility
-
+ 
 ### AlreadyApproved
-- **summary**: Call is already approved by this signatory.
-
+- **summary**:   Call is already approved by this signatory. 
+ 
 ### NoApprovalsNeeded
-- **summary**: Call doesn't need any (more) approvals.
-
+- **summary**:   Call doesn't need any (more) approvals. 
+ 
 ### NotFound
-- **summary**: Multisig operation not found when attempting to cancel.
-
+- **summary**:   Multisig operation not found when attempting to cancel. 
+ 
 ### NoTimepoint
-- **summary**: No timepoint was given, yet the multisig operation is already underway.
-
+- **summary**:   No timepoint was given, yet the multisig operation is already underway. 
+ 
 ### NotOwner
-- **summary**: Only the account that originally created the multisig is able to cancel it.
-
+- **summary**:   Only the account that originally created the multisig is able to cancel it. 
+ 
 ### SenderInSignatories
-- **summary**: The sender was contained in the other signatories; it shouldn't be.
-
+- **summary**:   The sender was contained in the other signatories; it shouldn't be. 
+ 
 ### SignatoriesOutOfOrder
-- **summary**: The signatories were provided out of order; they should be ordered.
-
+- **summary**:   The signatories were provided out of order; they should be ordered. 
+ 
 ### TooFewSignatories
-- **summary**: There are too few signatories in the list.
-
+- **summary**:   There are too few signatories in the list. 
+ 
 ### TooManySignatories
-- **summary**: There are too many signatories in the list.
-
+- **summary**:   There are too many signatories in the list. 
+ 
 ### UnexpectedTimepoint
-- **summary**: A timepoint was given, yet no multisig operation is underway.
-
+- **summary**:   A timepoint was given, yet no multisig operation is underway. 
+ 
 ### WrongTimepoint
-- **summary**: A different timepoint was given to the multisig operation that is underway.
-
+- **summary**:   A different timepoint was given to the multisig operation that is underway. 
+ 
 ### ZeroThreshold
-- **summary**: Threshold is too low (zero).
+- **summary**:   Threshold is too low (zero). 
 
 ___
 
 
 ## vesting
-
+ 
 ### ExistingVestingSchedule
-- **summary**: An existing vesting schedule already exists for this account that cannot be clobbered.
-
+- **summary**:   An existing vesting schedule already exists for this account that cannot be clobbered. 
+ 
 ### NotVesting
-- **summary**: The account given is not vesting.
+- **summary**:   The account given is not vesting. 

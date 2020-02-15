@@ -31,6 +31,7 @@
 * ["democracy/votes"](modules/_democracy_votes_.md)
 * ["elections/info"](modules/_elections_info_.md)
 * ["imOnline/receivedHeartbeats"](modules/_imonline_receivedheartbeats_.md)
+* ["parachains/all"](modules/_parachains_all_.md)
 * ["session/eraLength"](modules/_session_eralength_.md)
 * ["session/eraProgress"](modules/_session_eraprogress_.md)
 * ["session/indexes"](modules/_session_indexes_.md)

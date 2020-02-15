@@ -14,7 +14,7 @@
 
 ▸ **writeFile**(`dest`: string, `generator`: function): *void*
 
-*Defined in [packages/types/src/scripts/util/file.ts:7](https://github.com/polkadot-js/api/blob/79ee2ede3d/packages/types/src/scripts/util/file.ts#L7)*
+*Defined in [packages/types/src/scripts/util/file.ts:7](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/types/src/scripts/util/file.ts#L7)*
 
 **Parameters:**
 

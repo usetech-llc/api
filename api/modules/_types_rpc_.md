@@ -15,7 +15,7 @@
 
 Ƭ **DecoratedRpc**: *object*
 
-*Defined in [api/src/types/rpc.ts:15](https://github.com/polkadot-js/api/blob/79ee2ede3d/packages/api/src/types/rpc.ts#L15)*
+*Defined in [api/src/types/rpc.ts:15](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/api/src/types/rpc.ts#L15)*
 
 #### Type declaration:
 
@@ -25,6 +25,6 @@ ___
 
 Ƭ **DecoratedRpcSection**: *object*
 
-*Defined in [api/src/types/rpc.ts:9](https://github.com/polkadot-js/api/blob/79ee2ede3d/packages/api/src/types/rpc.ts#L9)*
+*Defined in [api/src/types/rpc.ts:9](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/api/src/types/rpc.ts#L9)*
 
 #### Type declaration:

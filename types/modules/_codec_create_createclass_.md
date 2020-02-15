@@ -16,7 +16,7 @@
 
 ▸ **ClassOf**<**K**>(`registry`: Registry, `name`: K): *Constructor‹InterfaceRegistry[K]›*
 
-*Defined in [packages/types/src/codec/create/createClass.ts:24](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/types/src/codec/create/createClass.ts#L24)*
+*Defined in [packages/types/src/codec/create/createClass.ts:24](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/types/src/codec/create/createClass.ts#L24)*
 
 **Type parameters:**
 
@@ -37,7 +37,7 @@ ___
 
 ▸ **ClassOfUnsafe**<**T**, **K**>(`registry`: Registry, `name`: K): *Constructor‹FromReg‹T, K››*
 
-*Defined in [packages/types/src/codec/create/createClass.ts:19](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/types/src/codec/create/createClass.ts#L19)*
+*Defined in [packages/types/src/codec/create/createClass.ts:19](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/types/src/codec/create/createClass.ts#L19)*
 
 **Type parameters:**
 
@@ -60,7 +60,7 @@ ___
 
 ▸ **createClass**<**T**, **K**>(`registry`: Registry, `type`: K): *Constructor‹FromReg‹T, K››*
 
-*Defined in [packages/types/src/codec/create/createClass.ts:12](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/types/src/codec/create/createClass.ts#L12)*
+*Defined in [packages/types/src/codec/create/createClass.ts:12](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/types/src/codec/create/createClass.ts#L12)*
 
 **Type parameters:**
 

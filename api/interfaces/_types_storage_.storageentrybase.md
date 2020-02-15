@@ -12,6 +12,8 @@
 
 * **StorageEntryBase**
 
+  ↳ [StorageEntryDoubleMap](_types_storage_.storageentrydoublemap.md)
+
 ## Index
 
 ### Properties
@@ -31,7 +33,7 @@
 
 • **at**: *function*
 
-*Defined in [api/src/types/storage.ts:27](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/api/src/types/storage.ts#L27)*
+*Defined in [api/src/types/storage.ts:29](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/api/src/types/storage.ts#L29)*
 
 #### Type declaration:
 
@@ -50,7 +52,7 @@ ___
 
 • **creator**: *StorageEntry*
 
-*Defined in [api/src/types/storage.ts:28](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/api/src/types/storage.ts#L28)*
+*Defined in [api/src/types/storage.ts:30](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/api/src/types/storage.ts#L30)*
 
 ___
 
@@ -58,11 +60,17 @@ ___
 
 • **entries**: *function*
 
-*Defined in [api/src/types/storage.ts:29](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/api/src/types/storage.ts#L29)*
+*Defined in [api/src/types/storage.ts:31](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/api/src/types/storage.ts#L31)*
 
 #### Type declaration:
 
-▸ (): *[PromiseOrObs](../modules/_types_base_.md#promiseorobs)‹ApiType, [StorageKey, [ObsInnerType](../modules/_types_base_.md#obsinnertype)‹ReturnType‹F››][]›*
+▸ (`arg?`: any): *[PromiseOrObs](../modules/_types_base_.md#promiseorobs)‹ApiType, [StorageKey, [ObsInnerType](../modules/_types_base_.md#obsinnertype)‹ReturnType‹F››][]›*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`arg?` | any |
 
 ___
 
@@ -70,7 +78,7 @@ ___
 
 • **hash**: *function*
 
-*Defined in [api/src/types/storage.ts:30](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/api/src/types/storage.ts#L30)*
+*Defined in [api/src/types/storage.ts:32](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/api/src/types/storage.ts#L32)*
 
 #### Type declaration:
 
@@ -88,7 +96,7 @@ ___
 
 • **key**: *function*
 
-*Defined in [api/src/types/storage.ts:31](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/api/src/types/storage.ts#L31)*
+*Defined in [api/src/types/storage.ts:33](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/api/src/types/storage.ts#L33)*
 
 #### Type declaration:
 
@@ -106,7 +114,7 @@ ___
 
 • **keyPrefix**: *function*
 
-*Defined in [api/src/types/storage.ts:32](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/api/src/types/storage.ts#L32)*
+*Defined in [api/src/types/storage.ts:34](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/api/src/types/storage.ts#L34)*
 
 #### Type declaration:
 
@@ -118,7 +126,7 @@ ___
 
 • **multi**: *ApiType extends "rxjs" ? StorageEntryObservableMulti : StorageEntryPromiseMulti*
 
-*Defined in [api/src/types/storage.ts:34](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/api/src/types/storage.ts#L34)*
+*Defined in [api/src/types/storage.ts:36](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/api/src/types/storage.ts#L36)*
 
 ___
 
@@ -126,7 +134,7 @@ ___
 
 • **size**: *function*
 
-*Defined in [api/src/types/storage.ts:33](https://github.com/polkadot-js/api/blob/9a7e0bf82d/packages/api/src/types/storage.ts#L33)*
+*Defined in [api/src/types/storage.ts:35](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/api/src/types/storage.ts#L35)*
 
 #### Type declaration:
 

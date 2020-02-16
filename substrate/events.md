@@ -75,7 +75,7 @@ ___
 ### CodeStored(`Hash`)
 - **summary**:   Code with the specified hash has been stored. 
  
-### ContractExecution(`AccountId`, `Bytes`)
+### ContractExecution(`AccountId`, `Vec<u8>`)
 - **summary**:   An event deposited upon execution of a contract from the account. 
  
 ### Dispatched(`AccountId`, `bool`)
@@ -207,7 +207,7 @@ ___
 ### MemberRenounced(`AccountId`)
 - **summary**:   A member has renounced their candidacy. 
  
-### NewTerm(`Vec<(AccountId,Balance)>`)
+### NewTerm(`Vec<(AccountId, Balance)>`)
 - **summary**:   A new term with new members. This indicates that enough candidates existed, not that enough have has been elected. The inner value must be examined for this purpose. 
  
 ### VoterReported(`AccountId`, `AccountId`, `bool`)
@@ -443,7 +443,7 @@ ___
 
 ## technicalMembership
  
-### Dummy(`PhantomData`)
+### Dummy(`sp_std::marker::PhantomData<(AccountId, Event)>`)
 - **summary**:   Phantom member, never used. 
  
 ### KeyChanged()
@@ -510,13 +510,13 @@ ___
 ### BatchInterrupted(`u32`, `DispatchError`)
 - **summary**:   Batch of dispatches did not complete fully. Index of first failing dispatch given, as well as the error. 
  
-### MultisigApproval(`AccountId`, `Timepoint`, `AccountId`)
+### MultisigApproval(`AccountId`, `Timepoint<BlockNumber>`, `AccountId`)
 - **summary**:   A multisig operation has been approved by someone. First param is the account that is approving, third is the multisig account. 
  
-### MultisigCancelled(`AccountId`, `Timepoint`, `AccountId`)
+### MultisigCancelled(`AccountId`, `Timepoint<BlockNumber>`, `AccountId`)
 - **summary**:   A multisig operation has been cancelled. First param is the account that is cancelling, third is the multisig account. 
  
-### MultisigExecuted(`AccountId`, `Timepoint`, `AccountId`, `DispatchResult`)
+### MultisigExecuted(`AccountId`, `Timepoint<BlockNumber>`, `AccountId`, `DispatchResult`)
 - **summary**:   A multisig operation has been executed. First param is the account that is approving, third is the multisig account. 
  
 ### NewMultisig(`AccountId`, `AccountId`)

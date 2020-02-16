@@ -17,7 +17,7 @@
 "* = "
 "
 
-*Defined in [packages/types/src/scripts/util/formatting.ts:12](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/types/src/scripts/util/formatting.ts#L12)*
+*Defined in [packages/types/src/scripts/util/formatting.ts:12](https://github.com/polkadot-js/api/blob/c465252e69/packages/types/src/scripts/util/formatting.ts#L12)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 "
 
-*Defined in [packages/types/src/scripts/util/formatting.ts:11](https://github.com/polkadot-js/api/blob/2c3eee4c67/packages/types/src/scripts/util/formatting.ts#L11)*
+*Defined in [packages/types/src/scripts/util/formatting.ts:11](https://github.com/polkadot-js/api/blob/c465252e69/packages/types/src/scripts/util/formatting.ts#L11)*

@@ -17,7 +17,7 @@ Implements a type that does not contain anything (apart from `null`)
 
 ## Implements
 
-* Codec
+* [Codec](../interfaces/_types_codec_.codec.md)
 
 ## Index
 
@@ -48,15 +48,15 @@ Implements a type that does not contain anything (apart from `null`)
 
 ###  constructor
 
-\+ **new Null**(`registry`: Registry): *[Null](_primitive_null_.null.md)*
+\+ **new Null**(`registry`: [Registry](../interfaces/_types_registry_.registry.md)): *[Null](_primitive_null_.null.md)*
 
-*Defined in [packages/types/src/primitive/Null.ts:15](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Null.ts#L15)*
+*Defined in [packages/types/src/primitive/Null.ts:15](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Null.ts#L15)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`registry` | Registry |
+`registry` | [Registry](../interfaces/_types_registry_.registry.md) |
 
 **Returns:** *[Null](_primitive_null_.null.md)*
 
@@ -64,9 +64,11 @@ Name | Type |
 
 ###  registry
 
-• **registry**: *Registry*
+• **registry**: *[Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/primitive/Null.ts:15](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Null.ts#L15)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md).[registry](../interfaces/_types_codec_.codec.md#registry)*
+
+*Defined in [packages/types/src/primitive/Null.ts:15](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Null.ts#L15)*
 
 ## Accessors
 
@@ -74,7 +76,7 @@ Name | Type |
 
 • **get encodedLength**(): *number*
 
-*Defined in [packages/types/src/primitive/Null.ts:24](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Null.ts#L24)*
+*Defined in [packages/types/src/primitive/Null.ts:24](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Null.ts#L24)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -84,13 +86,13 @@ ___
 
 ###  hash
 
-• **get hash**(): *IHash*
+• **get hash**(): *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
-*Defined in [packages/types/src/primitive/Null.ts:31](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Null.ts#L31)*
+*Defined in [packages/types/src/primitive/Null.ts:31](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Null.ts#L31)*
 
 **`description`** returns a hash of the contents
 
-**Returns:** *IHash*
+**Returns:** *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
 ___
 
@@ -98,7 +100,7 @@ ___
 
 • **get isEmpty**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Null.ts:38](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Null.ts#L38)*
+*Defined in [packages/types/src/primitive/Null.ts:38](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Null.ts#L38)*
 
 **`description`** Checks if the value is an empty value (always true)
 
@@ -110,7 +112,9 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [packages/types/src/primitive/Null.ts:45](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Null.ts#L45)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/primitive/Null.ts:45](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Null.ts#L45)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -128,7 +132,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [packages/types/src/primitive/Null.ts:52](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Null.ts#L52)*
+*Defined in [packages/types/src/primitive/Null.ts:52](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Null.ts#L52)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -140,7 +144,9 @@ ___
 
 ▸ **toJSON**(): *null*
 
-*Defined in [packages/types/src/primitive/Null.ts:59](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Null.ts#L59)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/primitive/Null.ts:59](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Null.ts#L59)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -152,7 +158,9 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [packages/types/src/primitive/Null.ts:66](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Null.ts#L66)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/primitive/Null.ts:66](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Null.ts#L66)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -164,7 +172,9 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [packages/types/src/primitive/Null.ts:73](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Null.ts#L73)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/primitive/Null.ts:73](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Null.ts#L73)*
 
 **`description`** Returns the string representation of the value
 
@@ -176,7 +186,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Defined in [packages/types/src/primitive/Null.ts:82](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Null.ts#L82)*
+*Defined in [packages/types/src/primitive/Null.ts:82](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Null.ts#L82)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

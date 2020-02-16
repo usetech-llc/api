@@ -12,16 +12,16 @@
 
 ###  createDocComments
 
-▸ **createDocComments**(`spaces`: number, `docs`: AnyString[], `args`: Arg[]): *string*
+▸ **createDocComments**(`spaces`: number, `docs`: [AnyString](_types_helpers_.md#anystring)[], `args`: Arg[]): *string*
 
-*Defined in [packages/types/src/scripts/util/docs.ts:12](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/scripts/util/docs.ts#L12)*
+*Defined in [packages/types/src/scripts/util/docs.ts:12](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/scripts/util/docs.ts#L12)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
 `spaces` | number | - |
-`docs` | AnyString[] | - |
+`docs` | [AnyString](_types_helpers_.md#anystring)[] | - |
 `args` | Arg[] | [] |
 
 **Returns:** *string*

@@ -4,7 +4,7 @@
 
 ## Type parameters
 
-▪ **V**: *Codec*
+▪ **V**: *[Codec](../interfaces/_types_codec_.codec.md)*
 
 ## Hierarchy
 
@@ -14,7 +14,7 @@
 
 ## Implements
 
-* Codec
+* [Codec](../interfaces/_types_codec_.codec.md)
 
 ## Index
 
@@ -58,16 +58,16 @@
 
 ###  constructor
 
-\+ **new BTreeSet**(`registry`: Registry, `valType`: Constructor‹V› | InterfaceTypes, `rawValue`: any): *[BTreeSet](_codec_btreeset_.btreeset.md)*
+\+ **new BTreeSet**(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `valType`: [Constructor](../interfaces/_types_codec_.constructor.md)‹V› | [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes), `rawValue`: any): *[BTreeSet](_codec_btreeset_.btreeset.md)*
 
-*Defined in [packages/types/src/codec/BTreeSet.ts:17](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/BTreeSet.ts#L17)*
+*Defined in [packages/types/src/codec/BTreeSet.ts:17](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/BTreeSet.ts#L17)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`registry` | Registry |
-`valType` | Constructor‹V› &#124; InterfaceTypes |
+`registry` | [Registry](../interfaces/_types_registry_.registry.md) |
+`valType` | [Constructor](../interfaces/_types_codec_.constructor.md)‹V› &#124; [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes) |
 `rawValue` | any |
 
 **Returns:** *[BTreeSet](_codec_btreeset_.btreeset.md)*
@@ -86,9 +86,11 @@ ___
 
 ###  registry
 
-• **registry**: *Registry*
+• **registry**: *[Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/codec/BTreeSet.ts:15](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/BTreeSet.ts#L15)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md).[registry](../interfaces/_types_codec_.codec.md#registry)*
+
+*Defined in [packages/types/src/codec/BTreeSet.ts:15](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/BTreeSet.ts#L15)*
 
 ___
 
@@ -114,7 +116,7 @@ Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:71
 
 • **get encodedLength**(): *number*
 
-*Defined in [packages/types/src/codec/BTreeSet.ts:105](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/BTreeSet.ts#L105)*
+*Defined in [packages/types/src/codec/BTreeSet.ts:105](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/BTreeSet.ts#L105)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -124,13 +126,13 @@ ___
 
 ###  hash
 
-• **get hash**(): *IHash*
+• **get hash**(): *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
-*Defined in [packages/types/src/codec/BTreeSet.ts:118](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/BTreeSet.ts#L118)*
+*Defined in [packages/types/src/codec/BTreeSet.ts:118](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/BTreeSet.ts#L118)*
 
 **`description`** Returns a hash of the value
 
-**Returns:** *IHash*
+**Returns:** *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
 ___
 
@@ -138,7 +140,7 @@ ___
 
 • **get isEmpty**(): *boolean*
 
-*Defined in [packages/types/src/codec/BTreeSet.ts:125](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/BTreeSet.ts#L125)*
+*Defined in [packages/types/src/codec/BTreeSet.ts:125](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/BTreeSet.ts#L125)*
 
 **`description`** Checks if the value is an empty value
 
@@ -226,7 +228,9 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [packages/types/src/codec/BTreeSet.ts:132](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/BTreeSet.ts#L132)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/codec/BTreeSet.ts:132](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/BTreeSet.ts#L132)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -304,7 +308,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [packages/types/src/codec/BTreeSet.ts:139](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/BTreeSet.ts#L139)*
+*Defined in [packages/types/src/codec/BTreeSet.ts:139](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/BTreeSet.ts#L139)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -314,13 +318,15 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *AnyJsonArray*
+▸ **toJSON**(): *[AnyJsonArray](../interfaces/_types_helpers_.anyjsonarray.md)*
 
-*Defined in [packages/types/src/codec/BTreeSet.ts:146](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/BTreeSet.ts#L146)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/codec/BTreeSet.ts:146](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/BTreeSet.ts#L146)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *AnyJsonArray*
+**Returns:** *[AnyJsonArray](../interfaces/_types_helpers_.anyjsonarray.md)*
 
 ___
 
@@ -328,7 +334,9 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [packages/types/src/codec/BTreeSet.ts:157](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/BTreeSet.ts#L157)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/codec/BTreeSet.ts:157](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/BTreeSet.ts#L157)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -340,7 +348,9 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [packages/types/src/codec/BTreeSet.ts:164](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/BTreeSet.ts#L164)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/codec/BTreeSet.ts:164](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/BTreeSet.ts#L164)*
 
 **`description`** Returns the string representation of the value
 
@@ -352,7 +362,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Defined in [packages/types/src/codec/BTreeSet.ts:172](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/BTreeSet.ts#L172)*
+*Defined in [packages/types/src/codec/BTreeSet.ts:172](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/BTreeSet.ts#L172)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -382,18 +392,18 @@ ___
 
 ### `Static` with
 
-▸ **with**<**V**>(`valType`: Constructor‹V› | InterfaceTypes): *Constructor‹[BTreeSet](_codec_btreeset_.btreeset.md)‹V››*
+▸ **with**<**V**>(`valType`: [Constructor](../interfaces/_types_codec_.constructor.md)‹V› | [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes)): *[Constructor](../interfaces/_types_codec_.constructor.md)‹[BTreeSet](_codec_btreeset_.btreeset.md)‹V››*
 
-*Defined in [packages/types/src/codec/BTreeSet.ts:94](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/BTreeSet.ts#L94)*
+*Defined in [packages/types/src/codec/BTreeSet.ts:94](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/BTreeSet.ts#L94)*
 
 **Type parameters:**
 
-▪ **V**: *Codec*
+▪ **V**: *[Codec](../interfaces/_types_codec_.codec.md)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`valType` | Constructor‹V› &#124; InterfaceTypes |
+`valType` | [Constructor](../interfaces/_types_codec_.constructor.md)‹V› &#124; [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes) |
 
-**Returns:** *Constructor‹[BTreeSet](_codec_btreeset_.btreeset.md)‹V››*
+**Returns:** *[Constructor](../interfaces/_types_codec_.constructor.md)‹[BTreeSet](_codec_btreeset_.btreeset.md)‹V››*

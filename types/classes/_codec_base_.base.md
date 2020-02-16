@@ -8,7 +8,7 @@
 
 ## Type parameters
 
-▪ **T**: *Codec*
+▪ **T**: *[Codec](../interfaces/_types_codec_.codec.md)*
 
 ## Hierarchy
 
@@ -18,17 +18,17 @@
 
   ↳ [Option](_codec_option_.option.md)
 
+  ↳ [Compact](_codec_compact_.compact.md)
+
   ↳ [Address](_primitive_generic_address_.address.md)
 
   ↳ [Extrinsic](_primitive_extrinsic_extrinsic_.extrinsic.md)
 
   ↳ [ExtrinsicPayload](_primitive_extrinsic_extrinsicpayload_.extrinsicpayload.md)
 
-  ↳ [Compact](_codec_compact_.compact.md)
-
 ## Implements
 
-* Codec
+* [Codec](../interfaces/_types_codec_.codec.md)
 
 ## Index
 
@@ -55,9 +55,11 @@
 
 ###  registry
 
-• **registry**: *Registry*
+• **registry**: *[Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/codec/Base.ts:16](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Base.ts#L16)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md).[registry](../interfaces/_types_codec_.codec.md#registry)*
+
+*Defined in [packages/types/src/codec/Base.ts:16](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Base.ts#L16)*
 
 ## Accessors
 
@@ -65,7 +67,7 @@
 
 • **get encodedLength**(): *number*
 
-*Defined in [packages/types/src/codec/Base.ts:28](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Base.ts#L28)*
+*Defined in [packages/types/src/codec/Base.ts:28](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Base.ts#L28)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -75,13 +77,13 @@ ___
 
 ###  hash
 
-• **get hash**(): *IHash*
+• **get hash**(): *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
-*Defined in [packages/types/src/codec/Base.ts:35](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Base.ts#L35)*
+*Defined in [packages/types/src/codec/Base.ts:35](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Base.ts#L35)*
 
 **`description`** returns a hash of the contents
 
-**Returns:** *IHash*
+**Returns:** *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
 ___
 
@@ -89,7 +91,7 @@ ___
 
 • **get isEmpty**(): *boolean*
 
-*Defined in [packages/types/src/codec/Base.ts:42](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Base.ts#L42)*
+*Defined in [packages/types/src/codec/Base.ts:42](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Base.ts#L42)*
 
 **`description`** Checks if the value is an empty value
 
@@ -101,7 +103,9 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
-*Defined in [packages/types/src/codec/Base.ts:49](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Base.ts#L49)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/codec/Base.ts:49](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Base.ts#L49)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -119,7 +123,9 @@ ___
 
 ▸ **toHex**(`isLe?`: undefined | false | true): *string*
 
-*Defined in [packages/types/src/codec/Base.ts:56](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Base.ts#L56)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/codec/Base.ts:56](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Base.ts#L56)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -135,13 +141,15 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *AnyJson*
+▸ **toJSON**(): *[AnyJson](../modules/_types_helpers_.md#anyjson)*
 
-*Defined in [packages/types/src/codec/Base.ts:63](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Base.ts#L63)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/codec/Base.ts:63](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Base.ts#L63)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *AnyJson*
+**Returns:** *[AnyJson](../modules/_types_helpers_.md#anyjson)*
 
 ___
 
@@ -149,7 +157,9 @@ ___
 
 ▸ **toRawType**(): *string*
 
-*Defined in [packages/types/src/codec/Base.ts:85](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Base.ts#L85)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/codec/Base.ts:85](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Base.ts#L85)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -161,7 +171,9 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [packages/types/src/codec/Base.ts:70](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Base.ts#L70)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/codec/Base.ts:70](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Base.ts#L70)*
 
 **`description`** Returns the string representation of the value
 
@@ -171,9 +183,11 @@ ___
 
 ###  toU8a
 
-▸ **toU8a**(`isBare?`: BareOpts): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
+▸ **toU8a**(`isBare?`: [BareOpts](../modules/_types_helpers_.md#bareopts)): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Defined in [packages/types/src/codec/Base.ts:78](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Base.ts#L78)*
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/codec/Base.ts:78](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Base.ts#L78)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -181,6 +195,6 @@ ___
 
 Name | Type | Description |
 ------ | ------ | ------ |
-`isBare?` | BareOpts | true when the value has none of the type-specific prefixes (internal)  |
+`isBare?` | [BareOpts](../modules/_types_helpers_.md#bareopts) | true when the value has none of the type-specific prefixes (internal)  |
 
 **Returns:** *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*

@@ -15,7 +15,7 @@ Encoder/Decoder class fo registry IdentityFields
 
 ## Implements
 
-* Codec
+* [Codec](../interfaces/_types_codec_.codec.md)
 
 ## Index
 
@@ -57,17 +57,17 @@ Encoder/Decoder class fo registry IdentityFields
 
 ###  constructor
 
-\+ **new IdentityFields**(`registry`: Registry, `value?`: any): *[IdentityFields](_primitive_identityfields_.identityfields.md)*
+\+ **new IdentityFields**(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `value?`: any): *[IdentityFields](_primitive_identityfields_.identityfields.md)*
 
 *Overrides [CodecSet](_codec_set_.codecset.md).[constructor](_codec_set_.codecset.md#constructor)*
 
-*Defined in [packages/types/src/primitive/IdentityFields.ts:29](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/IdentityFields.ts#L29)*
+*Defined in [packages/types/src/primitive/IdentityFields.ts:29](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/IdentityFields.ts#L29)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`registry` | Registry |
+`registry` | [Registry](../interfaces/_types_registry_.registry.md) |
 `value?` | any |
 
 **Returns:** *[IdentityFields](_primitive_identityfields_.identityfields.md)*
@@ -76,11 +76,13 @@ Name | Type |
 
 ###  registry
 
-• **registry**: *Registry*
+• **registry**: *[Registry](../interfaces/_types_registry_.registry.md)*
+
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md).[registry](../interfaces/_types_codec_.codec.md#registry)*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[registry](_codec_set_.codecset.md#registry)*
 
-*Defined in [packages/types/src/codec/Set.ts:24](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L24)*
+*Defined in [packages/types/src/codec/Set.ts:24](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L24)*
 
 ___
 
@@ -100,7 +102,7 @@ Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:64
 
 *Overrides [CodecSet](_codec_set_.codecset.md).[encodedLength](_codec_set_.codecset.md#encodedlength)*
 
-*Defined in [packages/types/src/primitive/IdentityFields.ts:46](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/IdentityFields.ts#L46)*
+*Defined in [packages/types/src/primitive/IdentityFields.ts:46](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/IdentityFields.ts#L46)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -110,15 +112,15 @@ ___
 
 ###  hash
 
-• **get hash**(): *IHash*
+• **get hash**(): *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[hash](_codec_set_.codecset.md#hash)*
 
-*Defined in [packages/types/src/codec/Set.ts:118](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L118)*
+*Defined in [packages/types/src/codec/Set.ts:118](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L118)*
 
 **`description`** returns a hash of the contents
 
-**Returns:** *IHash*
+**Returns:** *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
 ___
 
@@ -128,7 +130,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[isEmpty](_codec_set_.codecset.md#isempty)*
 
-*Defined in [packages/types/src/codec/Set.ts:125](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L125)*
+*Defined in [packages/types/src/codec/Set.ts:125](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L125)*
 
 **`description`** true is the Set contains no values
 
@@ -142,7 +144,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[strings](_codec_set_.codecset.md#strings)*
 
-*Defined in [packages/types/src/codec/Set.ts:132](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L132)*
+*Defined in [packages/types/src/codec/Set.ts:132](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L132)*
 
 **`description`** The actual set values as a string[]
 
@@ -156,7 +158,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[valueEncoded](_codec_set_.codecset.md#valueencoded)*
 
-*Defined in [packages/types/src/codec/Set.ts:139](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L139)*
+*Defined in [packages/types/src/codec/Set.ts:139](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L139)*
 
 **`description`** The encoded value for the set members
 
@@ -172,7 +174,7 @@ ___
 
 *Overrides [BTreeSet](_codec_btreeset_.btreeset.md).[add](_codec_btreeset_.btreeset.md#add)*
 
-*Defined in [packages/types/src/codec/Set.ts:146](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L146)*
+*Defined in [packages/types/src/codec/Set.ts:146](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L146)*
 
 **`description`** adds a value to the Set (extended to allow for validity checking)
 
@@ -220,9 +222,11 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
 *Inherited from [CodecSet](_codec_set_.codecset.md).[eq](_codec_set_.codecset.md#eq)*
 
-*Defined in [packages/types/src/codec/Set.ts:159](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L159)*
+*Defined in [packages/types/src/codec/Set.ts:159](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L159)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -288,7 +292,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toHex](_codec_set_.codecset.md#tohex)*
 
-*Defined in [packages/types/src/codec/Set.ts:175](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L175)*
+*Defined in [packages/types/src/codec/Set.ts:175](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L175)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -300,9 +304,11 @@ ___
 
 ▸ **toJSON**(): *string[]*
 
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toJSON](_codec_set_.codecset.md#tojson)*
 
-*Defined in [packages/types/src/codec/Set.ts:182](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L182)*
+*Defined in [packages/types/src/codec/Set.ts:182](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L182)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -316,7 +322,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toNumber](_codec_set_.codecset.md#tonumber)*
 
-*Defined in [packages/types/src/codec/Set.ts:189](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L189)*
+*Defined in [packages/types/src/codec/Set.ts:189](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L189)*
 
 **`description`** The encoded value for the set members
 
@@ -328,9 +334,11 @@ ___
 
 ▸ **toRawType**(): *string*
 
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toRawType](_codec_set_.codecset.md#torawtype)*
 
-*Defined in [packages/types/src/codec/Set.ts:196](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L196)*
+*Defined in [packages/types/src/codec/Set.ts:196](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L196)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -342,9 +350,11 @@ ___
 
 ▸ **toString**(): *string*
 
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
 *Inherited from [CodecSet](_codec_set_.codecset.md).[toString](_codec_set_.codecset.md#tostring)*
 
-*Defined in [packages/types/src/codec/Set.ts:204](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L204)*
+*Defined in [packages/types/src/codec/Set.ts:204](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L204)*
 
 **`description`** Returns the string representation of the value
 
@@ -358,7 +368,7 @@ ___
 
 *Overrides [CodecSet](_codec_set_.codecset.md).[toU8a](_codec_set_.codecset.md#tou8a)*
 
-*Defined in [packages/types/src/primitive/IdentityFields.ts:53](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/IdentityFields.ts#L53)*
+*Defined in [packages/types/src/primitive/IdentityFields.ts:53](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/IdentityFields.ts#L53)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -372,7 +382,7 @@ ___
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[encodeSet](_codec_set_.codecset.md#static-encodeset)*
 
-*Defined in [packages/types/src/codec/Set.ts:81](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L81)*
+*Defined in [packages/types/src/codec/Set.ts:81](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L81)*
 
 **Parameters:**
 
@@ -387,11 +397,11 @@ ___
 
 ### `Static` with
 
-▸ **with**(`values`: SetValues): *Constructor‹[CodecSet](_codec_set_.codecset.md)›*
+▸ **with**(`values`: SetValues): *[Constructor](../interfaces/_types_codec_.constructor.md)‹[CodecSet](_codec_set_.codecset.md)›*
 
 *Inherited from [CodecSet](_codec_set_.codecset.md).[with](_codec_set_.codecset.md#static-with)*
 
-*Defined in [packages/types/src/codec/Set.ts:87](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Set.ts#L87)*
+*Defined in [packages/types/src/codec/Set.ts:87](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Set.ts#L87)*
 
 **Parameters:**
 
@@ -399,4 +409,4 @@ Name | Type |
 ------ | ------ |
 `values` | SetValues |
 
-**Returns:** *Constructor‹[CodecSet](_codec_set_.codecset.md)›*
+**Returns:** *[Constructor](../interfaces/_types_codec_.constructor.md)‹[CodecSet](_codec_set_.codecset.md)›*

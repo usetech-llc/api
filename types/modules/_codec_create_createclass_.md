@@ -14,34 +14,34 @@
 
 ###  ClassOf
 
-▸ **ClassOf**<**K**>(`registry`: Registry, `name`: K): *Constructor‹InterfaceRegistry[K]›*
+▸ **ClassOf**<**K**>(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `name`: K): *[Constructor](../interfaces/_types_codec_.constructor.md)‹InterfaceRegistry[K]›*
 
-*Defined in [packages/types/src/codec/create/createClass.ts:24](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/create/createClass.ts#L24)*
+*Defined in [packages/types/src/codec/create/createClass.ts:24](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/create/createClass.ts#L24)*
 
 **Type parameters:**
 
-▪ **K**: *InterfaceTypes*
+▪ **K**: *[InterfaceTypes](_types_helpers_.md#interfacetypes)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`registry` | Registry |
+`registry` | [Registry](../interfaces/_types_registry_.registry.md) |
 `name` | K |
 
-**Returns:** *Constructor‹InterfaceRegistry[K]›*
+**Returns:** *[Constructor](../interfaces/_types_codec_.constructor.md)‹InterfaceRegistry[K]›*
 
 ___
 
 ###  ClassOfUnsafe
 
-▸ **ClassOfUnsafe**<**T**, **K**>(`registry`: Registry, `name`: K): *Constructor‹FromReg‹T, K››*
+▸ **ClassOfUnsafe**<**T**, **K**>(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `name`: K): *[Constructor](../interfaces/_types_codec_.constructor.md)‹FromReg‹T, K››*
 
-*Defined in [packages/types/src/codec/create/createClass.ts:19](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/create/createClass.ts#L19)*
+*Defined in [packages/types/src/codec/create/createClass.ts:19](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/create/createClass.ts#L19)*
 
 **Type parameters:**
 
-▪ **T**: *Codec*
+▪ **T**: *[Codec](../interfaces/_types_codec_.codec.md)*
 
 ▪ **K**: *string*
 
@@ -49,22 +49,22 @@ ___
 
 Name | Type |
 ------ | ------ |
-`registry` | Registry |
+`registry` | [Registry](../interfaces/_types_registry_.registry.md) |
 `name` | K |
 
-**Returns:** *Constructor‹FromReg‹T, K››*
+**Returns:** *[Constructor](../interfaces/_types_codec_.constructor.md)‹FromReg‹T, K››*
 
 ___
 
 ###  createClass
 
-▸ **createClass**<**T**, **K**>(`registry`: Registry, `type`: K): *Constructor‹FromReg‹T, K››*
+▸ **createClass**<**T**, **K**>(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `type`: K): *[Constructor](../interfaces/_types_codec_.constructor.md)‹FromReg‹T, K››*
 
-*Defined in [packages/types/src/codec/create/createClass.ts:12](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/create/createClass.ts#L12)*
+*Defined in [packages/types/src/codec/create/createClass.ts:12](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/create/createClass.ts#L12)*
 
 **Type parameters:**
 
-▪ **T**: *Codec*
+▪ **T**: *[Codec](../interfaces/_types_codec_.codec.md)*
 
 ▪ **K**: *string*
 
@@ -72,7 +72,7 @@ ___
 
 Name | Type |
 ------ | ------ |
-`registry` | Registry |
+`registry` | [Registry](../interfaces/_types_registry_.registry.md) |
 `type` | K |
 
-**Returns:** *Constructor‹FromReg‹T, K››*
+**Returns:** *[Constructor](../interfaces/_types_codec_.constructor.md)‹FromReg‹T, K››*

@@ -15,7 +15,7 @@ A 256-bit signed integer
 
 ## Implements
 
-* Codec
+* [Codec](../interfaces/_types_codec_.codec.md)
 
 ## Index
 
@@ -59,18 +59,18 @@ Defined in node_modules/@types/bn.js/index.d.ts:12
 
 ###  constructor
 
-\+ **new I256**(`registry`: Registry, `value?`: AnyNumber): *[I256](_primitive_i256_.i256.md)*
+\+ **new I256**(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `value?`: [AnyNumber](../modules/_types_helpers_.md#anynumber)): *[I256](_primitive_i256_.i256.md)*
 
 *Overrides [Int](_codec_int_.int.md).[constructor](_codec_int_.int.md#constructor)*
 
-*Defined in [packages/types/src/primitive/I256.ts:14](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/I256.ts#L14)*
+*Defined in [packages/types/src/primitive/I256.ts:14](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/I256.ts#L14)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`registry` | Registry |
-`value?` | AnyNumber |
+`registry` | [Registry](../interfaces/_types_registry_.registry.md) |
+`value?` | [AnyNumber](../modules/_types_helpers_.md#anynumber) |
 
 **Returns:** *[I256](_primitive_i256_.i256.md)*
 
@@ -84,7 +84,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:29](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Int.ts#L29)*
+*Defined in [packages/types/src/codec/Int.ts:29](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Int.ts#L29)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -102,11 +102,13 @@ ___
 
 ▸ **toRawType**(): *string*
 
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
 *Inherited from [Int](_codec_int_.int.md).[toRawType](_codec_int_.int.md#torawtype)*
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:40](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Int.ts#L40)*
+*Defined in [packages/types/src/codec/Int.ts:40](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Int.ts#L40)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -122,7 +124,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:49](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Int.ts#L49)*
+*Defined in [packages/types/src/codec/Int.ts:49](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Int.ts#L49)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

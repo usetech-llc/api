@@ -8,7 +8,7 @@
 
 ## Type parameters
 
-▪ **T**: *Codec*
+▪ **T**: *[Codec](../interfaces/_types_codec_.codec.md)*
 
 ▪ **S**: *TypesDef*
 
@@ -26,7 +26,7 @@
 
 ## Implements
 
-* Codec
+* [Codec](../interfaces/_types_codec_.codec.md)
 
 ## Index
 
@@ -67,18 +67,18 @@
 
 ###  constructor
 
-\+ **new Linkage**(`registry`: Registry, `Type`: Constructor | InterfaceTypes, `value?`: any): *[Linkage](_codec_linkage_.linkage.md)*
+\+ **new Linkage**(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `Type`: [Constructor](../interfaces/_types_codec_.constructor.md) | [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes), `value?`: any): *[Linkage](_codec_linkage_.linkage.md)*
 
 *Overrides [Struct](_codec_struct_.struct.md).[constructor](_codec_struct_.struct.md#constructor)*
 
-*Defined in [packages/types/src/codec/Linkage.ts:20](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Linkage.ts#L20)*
+*Defined in [packages/types/src/codec/Linkage.ts:20](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Linkage.ts#L20)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`registry` | Registry |
-`Type` | Constructor &#124; InterfaceTypes |
+`registry` | [Registry](../interfaces/_types_registry_.registry.md) |
+`Type` | [Constructor](../interfaces/_types_codec_.constructor.md) &#124; [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes) |
 `value?` | any |
 
 **Returns:** *[Linkage](_codec_linkage_.linkage.md)*
@@ -87,11 +87,13 @@ Name | Type |
 
 ###  registry
 
-• **registry**: *Registry*
+• **registry**: *[Registry](../interfaces/_types_registry_.registry.md)*
+
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md).[registry](../interfaces/_types_codec_.codec.md#registry)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[registry](_codec_struct_.struct.md#registry)*
 
-*Defined in [packages/types/src/codec/Struct.ts:105](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L105)*
+*Defined in [packages/types/src/codec/Struct.ts:105](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L105)*
 
 ## Accessors
 
@@ -101,7 +103,7 @@ Name | Type |
 
 *Inherited from [Struct](_codec_struct_.struct.md).[Type](_codec_struct_.struct.md#type)*
 
-*Defined in [packages/types/src/codec/Struct.ts:167](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L167)*
+*Defined in [packages/types/src/codec/Struct.ts:167](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L167)*
 
 **`description`** Returns the Type description to sthe structure
 
@@ -115,7 +117,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[defKeys](_codec_struct_.struct.md#defkeys)*
 
-*Defined in [packages/types/src/codec/Struct.ts:145](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L145)*
+*Defined in [packages/types/src/codec/Struct.ts:145](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L145)*
 
 **`description`** The available keys for this enum
 
@@ -129,7 +131,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[encodedLength](_codec_struct_.struct.md#encodedlength)*
 
-*Defined in [packages/types/src/codec/Struct.ts:180](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L180)*
+*Defined in [packages/types/src/codec/Struct.ts:180](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L180)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -139,15 +141,15 @@ ___
 
 ###  hash
 
-• **get hash**(): *IHash*
+• **get hash**(): *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[hash](_codec_struct_.struct.md#hash)*
 
-*Defined in [packages/types/src/codec/Struct.ts:191](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L191)*
+*Defined in [packages/types/src/codec/Struct.ts:191](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L191)*
 
 **`description`** returns a hash of the contents
 
-**Returns:** *IHash*
+**Returns:** *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
 ___
 
@@ -157,7 +159,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[isEmpty](_codec_struct_.struct.md#isempty)*
 
-*Defined in [packages/types/src/codec/Struct.ts:152](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L152)*
+*Defined in [packages/types/src/codec/Struct.ts:152](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L152)*
 
 **`description`** Checks if the value is an empty value
 
@@ -169,7 +171,7 @@ ___
 
 • **get next**(): *[Option](_codec_option_.option.md)‹T›*
 
-*Defined in [packages/types/src/codec/Linkage.ts:40](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Linkage.ts#L40)*
+*Defined in [packages/types/src/codec/Linkage.ts:40](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Linkage.ts#L40)*
 
 **Returns:** *[Option](_codec_option_.option.md)‹T›*
 
@@ -179,7 +181,7 @@ ___
 
 • **get previous**(): *[Option](_codec_option_.option.md)‹T›*
 
-*Defined in [packages/types/src/codec/Linkage.ts:36](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Linkage.ts#L36)*
+*Defined in [packages/types/src/codec/Linkage.ts:36](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Linkage.ts#L36)*
 
 **Returns:** *[Option](_codec_option_.option.md)‹T›*
 
@@ -189,9 +191,11 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
 *Inherited from [Struct](_codec_struct_.struct.md).[eq](_codec_struct_.struct.md#eq)*
 
-*Defined in [packages/types/src/codec/Struct.ts:198](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L198)*
+*Defined in [packages/types/src/codec/Struct.ts:198](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L198)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -207,13 +211,13 @@ ___
 
 ###  get
 
-▸ **get**(`name`: keyof S): *Codec | undefined*
+▸ **get**(`name`: keyof S): *[Codec](../interfaces/_types_codec_.codec.md) | undefined*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[get](_codec_struct_.struct.md#get)*
 
 *Overrides [BTreeMap](_codec_btreemap_.btreemap.md).[get](_codec_btreemap_.btreemap.md#get)*
 
-*Defined in [packages/types/src/codec/Struct.ts:206](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L206)*
+*Defined in [packages/types/src/codec/Struct.ts:206](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L206)*
 
 **`description`** Returns a specific names entry in the structure
 
@@ -223,17 +227,17 @@ Name | Type | Description |
 ------ | ------ | ------ |
 `name` | keyof S | The name of the entry to retrieve  |
 
-**Returns:** *Codec | undefined*
+**Returns:** *[Codec](../interfaces/_types_codec_.codec.md) | undefined*
 
 ___
 
 ###  getAtIndex
 
-▸ **getAtIndex**(`index`: number): *Codec*
+▸ **getAtIndex**(`index`: number): *[Codec](../interfaces/_types_codec_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[getAtIndex](_codec_struct_.struct.md#getatindex)*
 
-*Defined in [packages/types/src/codec/Struct.ts:213](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L213)*
+*Defined in [packages/types/src/codec/Struct.ts:213](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L213)*
 
 **`description`** Returns the values of a member at a specific index (Rather use get(name) for performance)
 
@@ -243,21 +247,21 @@ Name | Type |
 ------ | ------ |
 `index` | number |
 
-**Returns:** *Codec*
+**Returns:** *[Codec](../interfaces/_types_codec_.codec.md)*
 
 ___
 
 ###  toArray
 
-▸ **toArray**(): *Codec[]*
+▸ **toArray**(): *[Codec](../interfaces/_types_codec_.codec.md)[]*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toArray](_codec_struct_.struct.md#toarray)*
 
-*Defined in [packages/types/src/codec/Struct.ts:220](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L220)*
+*Defined in [packages/types/src/codec/Struct.ts:220](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L220)*
 
 **`description`** Converts the Object to an standard JavaScript Array
 
-**Returns:** *Codec[]*
+**Returns:** *[Codec](../interfaces/_types_codec_.codec.md)[]*
 
 ___
 
@@ -267,7 +271,7 @@ ___
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toHex](_codec_struct_.struct.md#tohex)*
 
-*Defined in [packages/types/src/codec/Struct.ts:227](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L227)*
+*Defined in [packages/types/src/codec/Struct.ts:227](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L227)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -277,15 +281,17 @@ ___
 
 ###  toJSON
 
-▸ **toJSON**(): *AnyJsonObject*
+▸ **toJSON**(): *[AnyJsonObject](../interfaces/_types_helpers_.anyjsonobject.md)*
+
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[toJSON](_codec_struct_.struct.md#tojson)*
 
-*Defined in [packages/types/src/codec/Struct.ts:234](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L234)*
+*Defined in [packages/types/src/codec/Struct.ts:234](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L234)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
-**Returns:** *AnyJsonObject*
+**Returns:** *[AnyJsonObject](../interfaces/_types_helpers_.anyjsonobject.md)*
 
 ___
 
@@ -293,9 +299,11 @@ ___
 
 ▸ **toRawType**(): *string*
 
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
 *Overrides [Struct](_codec_struct_.struct.md).[toRawType](_codec_struct_.struct.md#torawtype)*
 
-*Defined in [packages/types/src/codec/Linkage.ts:47](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Linkage.ts#L47)*
+*Defined in [packages/types/src/codec/Linkage.ts:47](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Linkage.ts#L47)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -307,9 +315,11 @@ ___
 
 ▸ **toString**(): *string*
 
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
 *Inherited from [Struct](_codec_struct_.struct.md).[toString](_codec_struct_.struct.md#tostring)*
 
-*Defined in [packages/types/src/codec/Struct.ts:267](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L267)*
+*Defined in [packages/types/src/codec/Struct.ts:267](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L267)*
 
 **`description`** Returns the string representation of the value
 
@@ -323,7 +333,7 @@ ___
 
 *Overrides [Struct](_codec_struct_.struct.md).[toU8a](_codec_struct_.struct.md#tou8a)*
 
-*Defined in [packages/types/src/codec/Linkage.ts:54](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Linkage.ts#L54)*
+*Defined in [packages/types/src/codec/Linkage.ts:54](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Linkage.ts#L54)*
 
 **`description`** Custom toU8a which with bare mode does not return the linkage if empty
 
@@ -333,18 +343,18 @@ ___
 
 ### `Static` typesToMap
 
-▸ **typesToMap**(`registry`: Registry, `Types`: Record‹string, Constructor›): *Record‹string, string›*
+▸ **typesToMap**(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `Types`: Record‹string, [Constructor](../interfaces/_types_codec_.constructor.md)›): *Record‹string, string›*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[typesToMap](_codec_struct_.struct.md#static-typestomap)*
 
-*Defined in [packages/types/src/codec/Struct.ts:247](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L247)*
+*Defined in [packages/types/src/codec/Struct.ts:247](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L247)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`registry` | Registry |
-`Types` | Record‹string, Constructor› |
+`registry` | [Registry](../interfaces/_types_registry_.registry.md) |
+`Types` | Record‹string, [Constructor](../interfaces/_types_codec_.constructor.md)› |
 
 **Returns:** *Record‹string, string›*
 
@@ -352,11 +362,11 @@ ___
 
 ### `Static` with
 
-▸ **with**<**S**>(`Types`: S): *Constructor‹[Struct](_codec_struct_.struct.md)‹S››*
+▸ **with**<**S**>(`Types`: S): *[Constructor](../interfaces/_types_codec_.constructor.md)‹[Struct](_codec_struct_.struct.md)‹S››*
 
 *Inherited from [Struct](_codec_struct_.struct.md).[with](_codec_struct_.struct.md#static-with)*
 
-*Defined in [packages/types/src/codec/Struct.ts:122](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Struct.ts#L122)*
+*Defined in [packages/types/src/codec/Struct.ts:122](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Struct.ts#L122)*
 
 **Type parameters:**
 
@@ -368,24 +378,24 @@ Name | Type |
 ------ | ------ |
 `Types` | S |
 
-**Returns:** *Constructor‹[Struct](_codec_struct_.struct.md)‹S››*
+**Returns:** *[Constructor](../interfaces/_types_codec_.constructor.md)‹[Struct](_codec_struct_.struct.md)‹S››*
 
 ___
 
 ### `Static` withKey
 
-▸ **withKey**<**O**>(`Type`: Constructor | InterfaceTypes): *Constructor‹[Linkage](_codec_linkage_.linkage.md)‹O››*
+▸ **withKey**<**O**>(`Type`: [Constructor](../interfaces/_types_codec_.constructor.md) | [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes)): *[Constructor](../interfaces/_types_codec_.constructor.md)‹[Linkage](_codec_linkage_.linkage.md)‹O››*
 
-*Defined in [packages/types/src/codec/Linkage.ts:28](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Linkage.ts#L28)*
+*Defined in [packages/types/src/codec/Linkage.ts:28](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Linkage.ts#L28)*
 
 **Type parameters:**
 
-▪ **O**: *Codec*
+▪ **O**: *[Codec](../interfaces/_types_codec_.codec.md)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`Type` | Constructor &#124; InterfaceTypes |
+`Type` | [Constructor](../interfaces/_types_codec_.constructor.md) &#124; [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes) |
 
-**Returns:** *Constructor‹[Linkage](_codec_linkage_.linkage.md)‹O››*
+**Returns:** *[Constructor](../interfaces/_types_codec_.constructor.md)‹[Linkage](_codec_linkage_.linkage.md)‹O››*

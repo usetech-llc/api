@@ -22,36 +22,36 @@
 
 • **digest**? : *Digest | object*
 
-*Defined in [packages/types/src/primitive/Generic/Block.ts:16](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Generic/Block.ts#L16)*
+*Defined in [packages/types/src/primitive/Generic/Block.ts:16](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Generic/Block.ts#L16)*
 
 ___
 
 ### `Optional` extrinsicsRoot
 
-• **extrinsicsRoot**? : *AnyU8a*
+• **extrinsicsRoot**? : *[AnyU8a](../modules/_types_helpers_.md#anyu8a)*
 
-*Defined in [packages/types/src/primitive/Generic/Block.ts:17](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Generic/Block.ts#L17)*
+*Defined in [packages/types/src/primitive/Generic/Block.ts:17](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Generic/Block.ts#L17)*
 
 ___
 
 ### `Optional` number
 
-• **number**? : *AnyNumber*
+• **number**? : *[AnyNumber](../modules/_types_helpers_.md#anynumber)*
 
-*Defined in [packages/types/src/primitive/Generic/Block.ts:18](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Generic/Block.ts#L18)*
+*Defined in [packages/types/src/primitive/Generic/Block.ts:18](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Generic/Block.ts#L18)*
 
 ___
 
 ### `Optional` parentHash
 
-• **parentHash**? : *AnyU8a*
+• **parentHash**? : *[AnyU8a](../modules/_types_helpers_.md#anyu8a)*
 
-*Defined in [packages/types/src/primitive/Generic/Block.ts:19](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Generic/Block.ts#L19)*
+*Defined in [packages/types/src/primitive/Generic/Block.ts:19](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Generic/Block.ts#L19)*
 
 ___
 
 ### `Optional` stateRoot
 
-• **stateRoot**? : *AnyU8a*
+• **stateRoot**? : *[AnyU8a](../modules/_types_helpers_.md#anyu8a)*
 
-*Defined in [packages/types/src/primitive/Generic/Block.ts:20](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Generic/Block.ts#L20)*
+*Defined in [packages/types/src/primitive/Generic/Block.ts:20](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Generic/Block.ts#L20)*

@@ -16,7 +16,7 @@ constructed by passing in a raw key or a StorageEntry with (optional) arguments.
 
 ## Implements
 
-* IU8a
+* [IU8a](../interfaces/_types_interfaces_.iu8a.md)
 
 ## Indexable
 
@@ -62,18 +62,18 @@ constructed by passing in a raw key or a StorageEntry with (optional) arguments.
 
 ###  constructor
 
-\+ **new StorageKey**(`registry`: Registry, `value?`: AnyU8a | [StorageKey](_primitive_storagekey_.storagekey.md) | [StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md) | [[StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md), any], `override`: Partial‹StorageKeyExtra›): *[StorageKey](_primitive_storagekey_.storagekey.md)*
+\+ **new StorageKey**(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `value?`: [AnyU8a](../modules/_types_helpers_.md#anyu8a) | [StorageKey](_primitive_storagekey_.storagekey.md) | [StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md) | [[StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md), any], `override`: Partial‹StorageKeyExtra›): *[StorageKey](_primitive_storagekey_.storagekey.md)*
 
 *Overrides [Bytes](_primitive_bytes_.bytes.md).[constructor](_primitive_bytes_.bytes.md#constructor)*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:65](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/StorageKey.ts#L65)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:65](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/StorageKey.ts#L65)*
 
 **Parameters:**
 
 Name | Type | Default |
 ------ | ------ | ------ |
-`registry` | Registry | - |
-`value?` | AnyU8a &#124; [StorageKey](_primitive_storagekey_.storagekey.md) &#124; [StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md) &#124; [[StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md), any] | - |
+`registry` | [Registry](../interfaces/_types_registry_.registry.md) | - |
+`value?` | [AnyU8a](../modules/_types_helpers_.md#anyu8a) &#124; [StorageKey](_primitive_storagekey_.storagekey.md) &#124; [StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md) &#124; [[StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md), any] | - |
 `override` | Partial‹StorageKeyExtra› | {} |
 
 **Returns:** *[StorageKey](_primitive_storagekey_.storagekey.md)*
@@ -82,11 +82,13 @@ Name | Type | Default |
 
 ###  registry
 
-• **registry**: *Registry*
+• **registry**: *[Registry](../interfaces/_types_registry_.registry.md)*
+
+*Implementation of [IU8a](../interfaces/_types_interfaces_.iu8a.md).[registry](../interfaces/_types_interfaces_.iu8a.md#registry)*
 
 *Inherited from [Raw](_codec_raw_.raw.md).[registry](_codec_raw_.raw.md#registry)*
 
-*Defined in [packages/types/src/codec/Raw.ts:29](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Raw.ts#L29)*
+*Defined in [packages/types/src/codec/Raw.ts:29](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Raw.ts#L29)*
 
 ## Accessors
 
@@ -98,7 +100,7 @@ Name | Type | Default |
 
 *Overrides [Raw](_codec_raw_.raw.md).[encodedLength](_codec_raw_.raw.md#encodedlength)*
 
-*Defined in [packages/types/src/primitive/Bytes.ts:55](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Bytes.ts#L55)*
+*Defined in [packages/types/src/primitive/Bytes.ts:55](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Bytes.ts#L55)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -108,15 +110,15 @@ ___
 
 ###  hash
 
-• **get hash**(): *IHash*
+• **get hash**(): *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
 *Inherited from [Raw](_codec_raw_.raw.md).[hash](_codec_raw_.raw.md#hash)*
 
-*Defined in [packages/types/src/codec/Raw.ts:47](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Raw.ts#L47)*
+*Defined in [packages/types/src/codec/Raw.ts:47](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Raw.ts#L47)*
 
 **`description`** returns a hash of the contents
 
-**Returns:** *IHash*
+**Returns:** *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
 ___
 
@@ -126,7 +128,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[isEmpty](_codec_raw_.raw.md#isempty)*
 
-*Defined in [packages/types/src/codec/Raw.ts:54](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Raw.ts#L54)*
+*Defined in [packages/types/src/codec/Raw.ts:54](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Raw.ts#L54)*
 
 **`description`** Returns true if the type wraps an empty/default all-0 value
 
@@ -140,9 +142,9 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[length](_codec_raw_.raw.md#length)*
 
-*Overrides void*
+*Overrides [IHash](../interfaces/_types_interfaces_.ihash.md).[length](../interfaces/_types_interfaces_.ihash.md#length)*
 
-*Defined in [packages/types/src/codec/Raw.ts:61](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Raw.ts#L61)*
+*Defined in [packages/types/src/codec/Raw.ts:61](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Raw.ts#L61)*
 
 **`description`** The length of the value
 
@@ -154,7 +156,7 @@ ___
 
 • **get meta**(): *StorageEntryMetadataLatest | undefined*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:143](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/StorageKey.ts#L143)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:143](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/StorageKey.ts#L143)*
 
 **`description`** The metadata or `undefined` when not available
 
@@ -166,7 +168,7 @@ ___
 
 • **get method**(): *string | undefined*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:150](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/StorageKey.ts#L150)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:150](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/StorageKey.ts#L150)*
 
 **`description`** The key method or `undefined` when not specified
 
@@ -178,7 +180,7 @@ ___
 
 • **get outputType**(): *string | undefined*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:157](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/StorageKey.ts#L157)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:157](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/StorageKey.ts#L157)*
 
 **`description`** The output type, `null` when not available
 
@@ -190,7 +192,7 @@ ___
 
 • **get section**(): *string | undefined*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:164](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/StorageKey.ts#L164)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:164](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/StorageKey.ts#L164)*
 
 **`description`** The key section or `undefined` when not specified
 
@@ -202,9 +204,11 @@ ___
 
 ▸ **bitLength**(): *number*
 
+*Implementation of [IU8a](../interfaces/_types_interfaces_.iu8a.md)*
+
 *Inherited from [Raw](_codec_raw_.raw.md).[bitLength](_codec_raw_.raw.md#bitlength)*
 
-*Defined in [packages/types/src/codec/Raw.ts:69](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Raw.ts#L69)*
+*Defined in [packages/types/src/codec/Raw.ts:69](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Raw.ts#L69)*
 
 **`description`** Returns the number of bits in the value
 
@@ -216,9 +220,11 @@ ___
 
 ▸ **eq**(`other?`: any): *boolean*
 
+*Implementation of [IU8a](../interfaces/_types_interfaces_.iu8a.md)*
+
 *Inherited from [Raw](_codec_raw_.raw.md).[eq](_codec_raw_.raw.md#eq)*
 
-*Defined in [packages/types/src/codec/Raw.ts:76](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Raw.ts#L76)*
+*Defined in [packages/types/src/codec/Raw.ts:76](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Raw.ts#L76)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -236,7 +242,7 @@ ___
 
 ▸ **setMeta**(`meta?`: [StorageEntryMetadataLatest](../interfaces/_interfaceregistry_.interfaceregistry.md#storageentrymetadatalatest)): *this*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:171](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/StorageKey.ts#L171)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:171](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/StorageKey.ts#L171)*
 
 **`description`** Sets the meta for this key
 
@@ -254,7 +260,7 @@ ___
 
 ▸ **setOutputType**(`outputType?`: undefined | string): *this*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:180](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/StorageKey.ts#L180)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:180](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/StorageKey.ts#L180)*
 
 **`description`** Sets the output type for this storage key
 
@@ -274,9 +280,9 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[subarray](_codec_raw_.raw.md#subarray)*
 
-*Overrides void*
+*Overrides [IHash](../interfaces/_types_interfaces_.ihash.md).[subarray](../interfaces/_types_interfaces_.ihash.md#subarray)*
 
-*Defined in [packages/types/src/codec/Raw.ts:90](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Raw.ts#L90)*
+*Defined in [packages/types/src/codec/Raw.ts:90](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Raw.ts#L90)*
 
 **`description`** Create a new subarray from the actual buffer. This is needed for compat reasons since a new Uint8Array gets returned here
 
@@ -297,7 +303,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[toHex](_codec_raw_.raw.md#tohex)*
 
-*Defined in [packages/types/src/codec/Raw.ts:97](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Raw.ts#L97)*
+*Defined in [packages/types/src/codec/Raw.ts:97](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Raw.ts#L97)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -309,9 +315,11 @@ ___
 
 ▸ **toJSON**(): *string*
 
+*Implementation of [IU8a](../interfaces/_types_interfaces_.iu8a.md)*
+
 *Inherited from [Raw](_codec_raw_.raw.md).[toJSON](_codec_raw_.raw.md#tojson)*
 
-*Defined in [packages/types/src/codec/Raw.ts:104](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Raw.ts#L104)*
+*Defined in [packages/types/src/codec/Raw.ts:104](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Raw.ts#L104)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -323,11 +331,13 @@ ___
 
 ▸ **toRawType**(): *string*
 
+*Implementation of [IU8a](../interfaces/_types_interfaces_.iu8a.md)*
+
 *Inherited from [Bytes](_primitive_bytes_.bytes.md).[toRawType](_primitive_bytes_.bytes.md#torawtype)*
 
 *Overrides [Raw](_codec_raw_.raw.md).[toRawType](_codec_raw_.raw.md#torawtype)*
 
-*Defined in [packages/types/src/primitive/Bytes.ts:62](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Bytes.ts#L62)*
+*Defined in [packages/types/src/primitive/Bytes.ts:62](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Bytes.ts#L62)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -339,11 +349,13 @@ ___
 
 ▸ **toString**(): *string*
 
+*Implementation of [IU8a](../interfaces/_types_interfaces_.iu8a.md)*
+
 *Inherited from [Raw](_codec_raw_.raw.md).[toString](_codec_raw_.raw.md#tostring)*
 
-*Overrides void*
+*Overrides [IHash](../interfaces/_types_interfaces_.ihash.md).[toString](../interfaces/_types_interfaces_.ihash.md#tostring)*
 
-*Defined in [packages/types/src/codec/Raw.ts:118](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/codec/Raw.ts#L118)*
+*Defined in [packages/types/src/codec/Raw.ts:118](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/codec/Raw.ts#L118)*
 
 **`description`** Returns the string representation of the value
 
@@ -359,7 +371,7 @@ ___
 
 *Overrides [Raw](_codec_raw_.raw.md).[toU8a](_codec_raw_.raw.md#tou8a)*
 
-*Defined in [packages/types/src/primitive/Bytes.ts:70](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/Bytes.ts#L70)*
+*Defined in [packages/types/src/primitive/Bytes.ts:70](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/Bytes.ts#L70)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -377,7 +389,7 @@ ___
 
 ▸ **getMeta**(`value`: [StorageKey](_primitive_storagekey_.storagekey.md) | [StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md) | [[StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md), any]): *StorageEntryMetadataLatest | undefined*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:110](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/StorageKey.ts#L110)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:110](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/StorageKey.ts#L110)*
 
 **Parameters:**
 
@@ -393,7 +405,7 @@ ___
 
 ▸ **getType**(`value`: [StorageKey](_primitive_storagekey_.storagekey.md) | [StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md) | [[StorageEntry](../interfaces/_primitive_storagekey_.storageentry.md), any]): *string | undefined*
 
-*Defined in [packages/types/src/primitive/StorageKey.ts:124](https://github.com/polkadot-js/api/blob/1e975c68ee/packages/types/src/primitive/StorageKey.ts#L124)*
+*Defined in [packages/types/src/primitive/StorageKey.ts:124](https://github.com/polkadot-js/api/blob/6e535b0502/packages/types/src/primitive/StorageKey.ts#L124)*
 
 **Parameters:**
 

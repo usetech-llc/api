@@ -42,7 +42,7 @@
 
 • **chainDecimals**: *number*
 
-*Defined in [packages/types/src/types/registry.ts:85](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L85)*
+*Defined in [packages/types/src/types/registry.ts:85](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L85)*
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 • **chainSS58**: *number | undefined*
 
-*Defined in [packages/types/src/types/registry.ts:86](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L86)*
+*Defined in [packages/types/src/types/registry.ts:86](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L86)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **chainToken**: *string*
 
-*Defined in [packages/types/src/types/registry.ts:87](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L87)*
+*Defined in [packages/types/src/types/registry.ts:87](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L87)*
 
 ## Methods
 
@@ -66,7 +66,7 @@ ___
 
 ▸ **findMetaCall**(`callIndex`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *[CallFunction](_types_calls_.callfunction.md)*
 
-*Defined in [packages/types/src/types/registry.ts:89](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L89)*
+*Defined in [packages/types/src/types/registry.ts:89](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L89)*
 
 **Parameters:**
 
@@ -82,7 +82,7 @@ ___
 
 ▸ **findMetaError**(`errorIndex`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *any*
 
-*Defined in [packages/types/src/types/registry.ts:90](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L90)*
+*Defined in [packages/types/src/types/registry.ts:90](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L90)*
 
 **Parameters:**
 
@@ -98,7 +98,7 @@ ___
 
 ▸ **findMetaEvent**(`eventIndex`: [Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)): *[Constructor](_types_codec_.constructor.md)‹any›*
 
-*Defined in [packages/types/src/types/registry.ts:93](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L93)*
+*Defined in [packages/types/src/types/registry.ts:93](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L93)*
 
 **Parameters:**
 
@@ -114,7 +114,7 @@ ___
 
 ▸ **get**<**T**>(`name`: string): *[Constructor](_types_codec_.constructor.md)‹T› | undefined*
 
-*Defined in [packages/types/src/types/registry.ts:95](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L95)*
+*Defined in [packages/types/src/types/registry.ts:95](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L95)*
 
 **Type parameters:**
 
@@ -134,7 +134,7 @@ ___
 
 ▸ **getChainProperties**(): *ChainProperties | undefined*
 
-*Defined in [packages/types/src/types/registry.ts:96](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L96)*
+*Defined in [packages/types/src/types/registry.ts:96](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L96)*
 
 **Returns:** *ChainProperties | undefined*
 
@@ -144,7 +144,7 @@ ___
 
 ▸ **getDefinition**(`name`: string): *string | undefined*
 
-*Defined in [packages/types/src/types/registry.ts:97](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L97)*
+*Defined in [packages/types/src/types/registry.ts:97](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L97)*
 
 **Parameters:**
 
@@ -160,7 +160,7 @@ ___
 
 ▸ **getOrThrow**<**T**>(`name`: string, `msg?`: undefined | string): *[Constructor](_types_codec_.constructor.md)‹T›*
 
-*Defined in [packages/types/src/types/registry.ts:98](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L98)*
+*Defined in [packages/types/src/types/registry.ts:98](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L98)*
 
 **Type parameters:**
 
@@ -181,7 +181,7 @@ ___
 
 ▸ **getSignedExtensionExtra**(): *Record‹string, [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes)›*
 
-*Defined in [packages/types/src/types/registry.ts:99](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L99)*
+*Defined in [packages/types/src/types/registry.ts:99](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L99)*
 
 **Returns:** *Record‹string, [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes)›*
 
@@ -191,7 +191,7 @@ ___
 
 ▸ **getSignedExtensionTypes**(): *Record‹string, [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes)›*
 
-*Defined in [packages/types/src/types/registry.ts:100](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L100)*
+*Defined in [packages/types/src/types/registry.ts:100](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L100)*
 
 **Returns:** *Record‹string, [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes)›*
 
@@ -201,7 +201,7 @@ ___
 
 ▸ **hasClass**(`name`: string): *boolean*
 
-*Defined in [packages/types/src/types/registry.ts:101](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L101)*
+*Defined in [packages/types/src/types/registry.ts:101](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L101)*
 
 **Parameters:**
 
@@ -217,7 +217,7 @@ ___
 
 ▸ **hasDef**(`name`: string): *boolean*
 
-*Defined in [packages/types/src/types/registry.ts:102](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L102)*
+*Defined in [packages/types/src/types/registry.ts:102](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L102)*
 
 **Parameters:**
 
@@ -233,7 +233,7 @@ ___
 
 ▸ **hasType**(`name`: string): *boolean*
 
-*Defined in [packages/types/src/types/registry.ts:103](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L103)*
+*Defined in [packages/types/src/types/registry.ts:103](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L103)*
 
 **Parameters:**
 
@@ -249,7 +249,7 @@ ___
 
 ▸ **register**(`type`: [Constructor](_types_codec_.constructor.md) | [RegistryTypes](../modules/_types_registry_.md#registrytypes)): *void*
 
-*Defined in [packages/types/src/types/registry.ts:104](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L104)*
+*Defined in [packages/types/src/types/registry.ts:104](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L104)*
 
 **Parameters:**
 
@@ -261,7 +261,7 @@ Name | Type |
 
 ▸ **register**(`name`: string, `type`: [Constructor](_types_codec_.constructor.md)): *void*
 
-*Defined in [packages/types/src/types/registry.ts:105](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L105)*
+*Defined in [packages/types/src/types/registry.ts:105](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L105)*
 
 **Parameters:**
 
@@ -274,7 +274,7 @@ Name | Type |
 
 ▸ **register**(`arg1`: string | [Constructor](_types_codec_.constructor.md) | [RegistryTypes](../modules/_types_registry_.md#registrytypes), `arg2?`: [Constructor](_types_codec_.constructor.md)): *void*
 
-*Defined in [packages/types/src/types/registry.ts:106](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L106)*
+*Defined in [packages/types/src/types/registry.ts:106](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L106)*
 
 **Parameters:**
 
@@ -291,7 +291,7 @@ ___
 
 ▸ **setChainProperties**(`properties?`: [ChainProperties](_interfaceregistry_.interfaceregistry.md#chainproperties)): *void*
 
-*Defined in [packages/types/src/types/registry.ts:107](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L107)*
+*Defined in [packages/types/src/types/registry.ts:107](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L107)*
 
 **Parameters:**
 
@@ -307,7 +307,7 @@ ___
 
 ▸ **setMetadata**(`metadata`: [RegistryMetadata](_types_registry_.registrymetadata.md)): *void*
 
-*Defined in [packages/types/src/types/registry.ts:108](https://github.com/polkadot-js/api/blob/921e55a82e/packages/types/src/types/registry.ts#L108)*
+*Defined in [packages/types/src/types/registry.ts:108](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/registry.ts#L108)*
 
 **Parameters:**
 

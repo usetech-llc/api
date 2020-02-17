@@ -64,7 +64,7 @@
 
 *Overrides [MetaRegistry](_metaregistry_.metaregistry.md).[constructor](_metaregistry_.metaregistry.md#constructor)*
 
-*Defined in [Abi.ts:17](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/Abi.ts#L17)*
+*Defined in [Abi.ts:17](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/Abi.ts#L17)*
 
 **Parameters:**
 
@@ -81,7 +81,7 @@ Name | Type |
 
 • **abi**: *ContractABI*
 
-*Defined in [Abi.ts:13](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/Abi.ts#L13)*
+*Defined in [Abi.ts:13](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/Abi.ts#L13)*
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 • **constructors**: *AbiConstructors*
 
-*Defined in [Abi.ts:15](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/Abi.ts#L15)*
+*Defined in [Abi.ts:15](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/Abi.ts#L15)*
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 • **messages**: *AbiMessages*
 
-*Defined in [Abi.ts:17](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/Abi.ts#L17)*
+*Defined in [Abi.ts:17](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/Abi.ts#L17)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[registry](_metaregistry_.metaregistry.md#registry)*
 
-*Defined in [MetaRegistry.ts:37](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L37)*
+*Defined in [MetaRegistry.ts:37](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L37)*
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[typeDefs](_metaregistry_.metaregistry.md#typedefs)*
 
-*Defined in [MetaRegistry.ts:43](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L43)*
+*Defined in [MetaRegistry.ts:43](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L43)*
 
 ## Methods
 
@@ -127,7 +127,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[convertAbi](_contractregistry_.contractregistry.md#convertabi)*
 
-*Defined in [ContractRegistry.ts:142](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L142)*
+*Defined in [ContractRegistry.ts:142](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L142)*
 
 **Parameters:**
 
@@ -148,7 +148,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[convertArgs](_contractregistry_.contractregistry.md#convertargs)*
 
-*Defined in [ContractRegistry.ts:149](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L149)*
+*Defined in [ContractRegistry.ts:149](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L149)*
 
 **Parameters:**
 
@@ -166,7 +166,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[convertConstructors](_contractregistry_.contractregistry.md#convertconstructors)*
 
-*Defined in [ContractRegistry.ts:170](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L170)*
+*Defined in [ContractRegistry.ts:170](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L170)*
 
 **Parameters:**
 
@@ -184,7 +184,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[convertContract](_contractregistry_.contractregistry.md#convertcontract)*
 
-*Defined in [ContractRegistry.ts:158](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L158)*
+*Defined in [ContractRegistry.ts:158](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L158)*
 
 **Parameters:**
 
@@ -208,7 +208,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[convertEvent](_contractregistry_.contractregistry.md#convertevent)*
 
-*Defined in [ContractRegistry.ts:187](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L187)*
+*Defined in [ContractRegistry.ts:187](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L187)*
 
 **Parameters:**
 
@@ -228,7 +228,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[convertMessage](_contractregistry_.contractregistry.md#convertmessage)*
 
-*Defined in [ContractRegistry.ts:178](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L178)*
+*Defined in [ContractRegistry.ts:178](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L178)*
 
 **Parameters:**
 
@@ -251,7 +251,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[convertStorage](_contractregistry_.contractregistry.md#convertstorage)*
 
-*Defined in [ContractRegistry.ts:193](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L193)*
+*Defined in [ContractRegistry.ts:193](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L193)*
 
 **Parameters:**
 
@@ -269,7 +269,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[convertStorageLayout](_contractregistry_.contractregistry.md#convertstoragelayout)*
 
-*Defined in [ContractRegistry.ts:197](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L197)*
+*Defined in [ContractRegistry.ts:197](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L197)*
 
 **Parameters:**
 
@@ -287,7 +287,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[convertStorageRange](_contractregistry_.contractregistry.md#convertstoragerange)*
 
-*Defined in [ContractRegistry.ts:215](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L215)*
+*Defined in [ContractRegistry.ts:215](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L215)*
 
 **Parameters:**
 
@@ -308,7 +308,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[convertStorageStruct](_contractregistry_.contractregistry.md#convertstoragestruct)*
 
-*Defined in [ContractRegistry.ts:205](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L205)*
+*Defined in [ContractRegistry.ts:205](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L205)*
 
 **Parameters:**
 
@@ -329,7 +329,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[convertType](_contractregistry_.contractregistry.md#converttype)*
 
-*Defined in [ContractRegistry.ts:153](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L153)*
+*Defined in [ContractRegistry.ts:153](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L153)*
 
 **Parameters:**
 
@@ -350,7 +350,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[createMessage](_contractregistry_.contractregistry.md#createmessage)*
 
-*Defined in [ContractRegistry.ts:109](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L109)*
+*Defined in [ContractRegistry.ts:109](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L109)*
 
 **Parameters:**
 
@@ -369,7 +369,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[hasTypeDefAt](_metaregistry_.metaregistry.md#hastypedefat)*
 
-*Defined in [MetaRegistry.ts:95](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L95)*
+*Defined in [MetaRegistry.ts:95](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L95)*
 
 **Parameters:**
 
@@ -387,7 +387,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[setTypeDefAtIndex](_metaregistry_.metaregistry.md#settypedefatindex)*
 
-*Defined in [MetaRegistry.ts:115](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L115)*
+*Defined in [MetaRegistry.ts:115](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L115)*
 
 **Parameters:**
 
@@ -405,7 +405,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[stringsAt](_metaregistry_.metaregistry.md#stringsat)*
 
-*Defined in [MetaRegistry.ts:83](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L83)*
+*Defined in [MetaRegistry.ts:83](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L83)*
 
 **Parameters:**
 
@@ -423,7 +423,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[typeAt](_metaregistry_.metaregistry.md#typeat)*
 
-*Defined in [MetaRegistry.ts:87](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L87)*
+*Defined in [MetaRegistry.ts:87](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L87)*
 
 **Parameters:**
 
@@ -441,7 +441,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[typeDefAt](_metaregistry_.metaregistry.md#typedefat)*
 
-*Defined in [MetaRegistry.ts:99](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L99)*
+*Defined in [MetaRegistry.ts:99](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L99)*
 
 **Parameters:**
 
@@ -460,7 +460,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[typeDefForOption](_metaregistry_.metaregistry.md#typedefforoption)*
 
-*Defined in [MetaRegistry.ts:300](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L300)*
+*Defined in [MetaRegistry.ts:300](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L300)*
 
 **Parameters:**
 
@@ -479,7 +479,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[typeDefForResult](_metaregistry_.metaregistry.md#typedefforresult)*
 
-*Defined in [MetaRegistry.ts:309](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L309)*
+*Defined in [MetaRegistry.ts:309](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L309)*
 
 **Parameters:**
 
@@ -498,7 +498,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[typeDefForStruct](_metaregistry_.metaregistry.md#typedefforstruct)*
 
-*Defined in [MetaRegistry.ts:318](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L318)*
+*Defined in [MetaRegistry.ts:318](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L318)*
 
 **Parameters:**
 
@@ -516,7 +516,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[typeDefFromMetaType](_metaregistry_.metaregistry.md#typedeffrommetatype)*
 
-*Defined in [MetaRegistry.ts:175](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L175)*
+*Defined in [MetaRegistry.ts:175](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L175)*
 
 **Parameters:**
 
@@ -535,7 +535,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[typeDefFromMetaTypeAt](_metaregistry_.metaregistry.md#typedeffrommetatypeat)*
 
-*Defined in [MetaRegistry.ts:184](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L184)*
+*Defined in [MetaRegistry.ts:184](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L184)*
 
 **Parameters:**
 
@@ -553,7 +553,7 @@ ___
 
 *Inherited from [MetaRegistry](_metaregistry_.metaregistry.md).[typesAt](_metaregistry_.metaregistry.md#typesat)*
 
-*Defined in [MetaRegistry.ts:91](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/MetaRegistry.ts#L91)*
+*Defined in [MetaRegistry.ts:91](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/MetaRegistry.ts#L91)*
 
 **Parameters:**
 
@@ -571,7 +571,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[validateAbi](_contractregistry_.contractregistry.md#validateabi)*
 
-*Defined in [ContractRegistry.ts:96](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L96)*
+*Defined in [ContractRegistry.ts:96](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L96)*
 
 **Parameters:**
 
@@ -589,7 +589,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[validateArgs](_contractregistry_.contractregistry.md#validateargs)*
 
-*Defined in [ContractRegistry.ts:57](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L57)*
+*Defined in [ContractRegistry.ts:57](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L57)*
 
 **Parameters:**
 
@@ -608,7 +608,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[validateConstructors](_contractregistry_.contractregistry.md#validateconstructors)*
 
-*Defined in [ContractRegistry.ts:69](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L69)*
+*Defined in [ContractRegistry.ts:69](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L69)*
 
 **Parameters:**
 
@@ -628,7 +628,7 @@ ___
 
 *Inherited from [ContractRegistry](_contractregistry_.contractregistry.md).[validateMessages](_contractregistry_.contractregistry.md#validatemessages)*
 
-*Defined in [ContractRegistry.ts:79](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/api-contract/src/ContractRegistry.ts#L79)*
+*Defined in [ContractRegistry.ts:79](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/api-contract/src/ContractRegistry.ts#L79)*
 
 **Parameters:**
 

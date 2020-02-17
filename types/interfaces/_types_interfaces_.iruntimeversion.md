@@ -23,7 +23,7 @@
 
 • **apis**: *any[]*
 
-*Defined in [packages/types/src/types/interfaces.ts:41](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/interfaces.ts#L41)*
+*Defined in [packages/types/src/types/interfaces.ts:41](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/interfaces.ts#L41)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **authoringVersion**: *BN*
 
-*Defined in [packages/types/src/types/interfaces.ts:42](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/interfaces.ts#L42)*
+*Defined in [packages/types/src/types/interfaces.ts:42](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/interfaces.ts#L42)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **implName**: *[String](../classes/_primitive_text_.text.md#static-string)*
 
-*Defined in [packages/types/src/types/interfaces.ts:44](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/interfaces.ts#L44)*
+*Defined in [packages/types/src/types/interfaces.ts:44](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/interfaces.ts#L44)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **implVersion**: *BN*
 
-*Defined in [packages/types/src/types/interfaces.ts:45](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/interfaces.ts#L45)*
+*Defined in [packages/types/src/types/interfaces.ts:45](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/interfaces.ts#L45)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **specName**: *[String](../classes/_primitive_text_.text.md#static-string)*
 
-*Defined in [packages/types/src/types/interfaces.ts:47](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/interfaces.ts#L47)*
+*Defined in [packages/types/src/types/interfaces.ts:47](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/interfaces.ts#L47)*
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 • **specVersion**: *BN*
 
-*Defined in [packages/types/src/types/interfaces.ts:48](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/interfaces.ts#L48)*
+*Defined in [packages/types/src/types/interfaces.ts:48](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/interfaces.ts#L48)*

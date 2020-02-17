@@ -44,7 +44,6 @@
 * ["staking/account"](modules/_staking_account_.md)
 * ["staking/controllers"](modules/_staking_controllers_.md)
 * ["staking/electedInfo"](modules/_staking_electedinfo_.md)
-* ["staking/infoStash"](modules/_staking_infostash_.md)
 * ["staking/overview"](modules/_staking_overview_.md)
 * ["staking/query"](modules/_staking_query_.md)
 * ["staking/validators"](modules/_staking_validators_.md)

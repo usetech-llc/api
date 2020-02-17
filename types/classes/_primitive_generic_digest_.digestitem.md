@@ -59,6 +59,7 @@ A [Enum](_codec_enum_.enum.md) the specifies the specific item in the logs of a 
 
 * [eq](_primitive_generic_digest_.digestitem.md#eq)
 * [toHex](_primitive_generic_digest_.digestitem.md#tohex)
+* [toHuman](_primitive_generic_digest_.digestitem.md#tohuman)
 * [toJSON](_primitive_generic_digest_.digestitem.md#tojson)
 * [toNumber](_primitive_generic_digest_.digestitem.md#tonumber)
 * [toRawType](_primitive_generic_digest_.digestitem.md#torawtype)
@@ -74,7 +75,7 @@ A [Enum](_codec_enum_.enum.md) the specifies the specific item in the logs of a 
 
 *Overrides [Enum](_codec_enum_.enum.md).[constructor](_codec_enum_.enum.md#constructor)*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:21](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L21)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:21](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L21)*
 
 **Parameters:**
 
@@ -95,7 +96,7 @@ Name | Type |
 
 *Inherited from [Base](_codec_base_.base.md).[registry](_codec_base_.base.md#registry)*
 
-*Defined in [packages/types/src/codec/Base.ts:16](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L16)*
+*Defined in [packages/types/src/codec/Base.ts:16](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L16)*
 
 ## Accessors
 
@@ -103,7 +104,7 @@ Name | Type |
 
 • **get asAuthoritiesChange**(): *[Vec](_codec_vec_.vec.md)‹AuthorityId›*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:37](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L37)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:37](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L37)*
 
 **`description`** Returns the item as a [Vec<AuthorityId>](../interfaces/_interfaceregistry_.interfaceregistry.md#vec<authorityid>)
 
@@ -115,7 +116,7 @@ ___
 
 • **get asChangesTrieRoot**(): *Hash*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:46](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L46)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:46](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L46)*
 
 **`description`** Returns the item as a [[ChangesTrieRoot]]
 
@@ -127,7 +128,7 @@ ___
 
 • **get asConsensus**(): *Consensus*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:55](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L55)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:55](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L55)*
 
 **`desciption`** Retuns the item as a [Consensus](../interfaces/_interfaceregistry_.interfaceregistry.md#consensus)
 
@@ -139,7 +140,7 @@ ___
 
 • **get asOther**(): *[Bytes](_primitive_bytes_.bytes.md)*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:64](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L64)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:64](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L64)*
 
 **`description`** Returns the item as a [Bytes](_primitive_bytes_.bytes.md)
 
@@ -151,7 +152,7 @@ ___
 
 • **get asPreRuntime**(): *PreRuntime*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:73](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L73)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:73](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L73)*
 
 **`description`** Returns the item as a [PreRuntime](../interfaces/_interfaceregistry_.interfaceregistry.md#preruntime)
 
@@ -163,7 +164,7 @@ ___
 
 • **get asSeal**(): *Seal*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:82](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L82)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:82](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L82)*
 
 **`description`** Returns the item as a [Seal](../interfaces/_interfaceregistry_.interfaceregistry.md#seal)
 
@@ -175,7 +176,7 @@ ___
 
 • **get asSealV0**(): *SealV0*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:91](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L91)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:91](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L91)*
 
 **`description`** Returns the item as a [SealV0](../interfaces/_interfaceregistry_.interfaceregistry.md#sealv0)
 
@@ -189,7 +190,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[defEntries](_codec_enum_.enum.md#defentries)*
 
-*Defined in [packages/types/src/codec/Enum.ts:209](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L209)*
+*Defined in [packages/types/src/codec/Enum.ts:209](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L209)*
 
 **`description`** The available keys for this enum
 
@@ -203,7 +204,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[defKeys](_codec_enum_.enum.md#defkeys)*
 
-*Defined in [packages/types/src/codec/Enum.ts:216](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L216)*
+*Defined in [packages/types/src/codec/Enum.ts:216](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L216)*
 
 **`description`** The available keys for this enum
 
@@ -219,7 +220,7 @@ ___
 
 *Overrides [Base](_codec_base_.base.md).[encodedLength](_codec_base_.base.md#encodedlength)*
 
-*Defined in [packages/types/src/codec/Enum.ts:174](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L174)*
+*Defined in [packages/types/src/codec/Enum.ts:174](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L174)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -233,7 +234,7 @@ ___
 
 *Inherited from [Base](_codec_base_.base.md).[hash](_codec_base_.base.md#hash)*
 
-*Defined in [packages/types/src/codec/Base.ts:35](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L35)*
+*Defined in [packages/types/src/codec/Base.ts:35](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L35)*
 
 **`description`** returns a hash of the contents
 
@@ -247,7 +248,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[index](_codec_enum_.enum.md#index)*
 
-*Defined in [packages/types/src/codec/Enum.ts:181](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L181)*
+*Defined in [packages/types/src/codec/Enum.ts:181](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L181)*
 
 **`description`** The index of the metadata value
 
@@ -259,7 +260,7 @@ ___
 
 • **get isAuthoritiesChange**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:100](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L100)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:100](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L100)*
 
 **`description`** Returns true on [[AuthoritiesChange]]
 
@@ -273,7 +274,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[isBasic](_codec_enum_.enum.md#isbasic)*
 
-*Defined in [packages/types/src/codec/Enum.ts:188](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L188)*
+*Defined in [packages/types/src/codec/Enum.ts:188](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L188)*
 
 **`description`** true if this is a basic enum (no values)
 
@@ -285,7 +286,7 @@ ___
 
 • **get isChangesTrieRoot**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:107](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L107)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:107](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L107)*
 
 **`description`** Returns true on [[ChangesTrieRoot]]
 
@@ -297,7 +298,7 @@ ___
 
 • **get isConsensus**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:114](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L114)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:114](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L114)*
 
 **`description`** Returns true on [Consensus](../interfaces/_interfaceregistry_.interfaceregistry.md#consensus)
 
@@ -311,7 +312,7 @@ ___
 
 *Inherited from [Base](_codec_base_.base.md).[isEmpty](_codec_base_.base.md#isempty)*
 
-*Defined in [packages/types/src/codec/Base.ts:42](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L42)*
+*Defined in [packages/types/src/codec/Base.ts:42](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L42)*
 
 **`description`** Checks if the value is an empty value
 
@@ -325,7 +326,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[isNone](_codec_enum_.enum.md#isnone)*
 
-*Defined in [packages/types/src/codec/Enum.ts:195](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L195)*
+*Defined in [packages/types/src/codec/Enum.ts:195](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L195)*
 
 **`description`** Checks if the Enum points to a [Null](_primitive_null_.null.md) type
 
@@ -339,7 +340,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[isNull](_codec_enum_.enum.md#isnull)*
 
-*Defined in [packages/types/src/codec/Enum.ts:202](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L202)*
+*Defined in [packages/types/src/codec/Enum.ts:202](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L202)*
 
 **`description`** Checks if the Enum points to a [Null](_primitive_null_.null.md) type (deprecated, use isNone)
 
@@ -351,7 +352,7 @@ ___
 
 • **get isOther**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:121](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L121)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:121](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L121)*
 
 **`description`** Returns true on [[Other]]
 
@@ -363,7 +364,7 @@ ___
 
 • **get isPreRuntime**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:128](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L128)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:128](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L128)*
 
 **`description`** Returns true on [PreRuntime](../interfaces/_interfaceregistry_.interfaceregistry.md#preruntime)
 
@@ -375,7 +376,7 @@ ___
 
 • **get isSeal**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:135](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L135)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:135](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L135)*
 
 **`description`** Returns true on [Seal](../interfaces/_interfaceregistry_.interfaceregistry.md#seal)
 
@@ -387,7 +388,7 @@ ___
 
 • **get isSealV0**(): *boolean*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:142](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L142)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:142](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L142)*
 
 **`description`** Returns true on [SealV0](../interfaces/_interfaceregistry_.interfaceregistry.md#sealv0)
 
@@ -401,7 +402,7 @@ ___
 
 *Overrides [Enum](_codec_enum_.enum.md).[type](_codec_enum_.enum.md#type)*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:156](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L156)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:156](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L156)*
 
 **`description`** Returns the type of engine
 
@@ -415,7 +416,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[value](_codec_enum_.enum.md#value)*
 
-*Defined in [packages/types/src/codec/Enum.ts:230](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L230)*
+*Defined in [packages/types/src/codec/Enum.ts:230](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L230)*
 
 **`description`** The value of the enum
 
@@ -433,7 +434,7 @@ ___
 
 *Overrides [Base](_codec_base_.base.md).[eq](_codec_base_.base.md#eq)*
 
-*Defined in [packages/types/src/codec/Enum.ts:237](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L237)*
+*Defined in [packages/types/src/codec/Enum.ts:237](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L237)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -455,11 +456,35 @@ ___
 
 *Overrides [Base](_codec_base_.base.md).[toHex](_codec_base_.base.md#tohex)*
 
-*Defined in [packages/types/src/codec/Enum.ts:260](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L260)*
+*Defined in [packages/types/src/codec/Enum.ts:260](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L260)*
 
 **`description`** Returns a hex string representation of the value
 
 **Returns:** *string*
+
+___
+
+###  toHuman
+
+▸ **toHuman**(`isExtended?`: undefined | false | true): *[AnyJson](../modules/_types_helpers_.md#anyjson)*
+
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Inherited from [Enum](_codec_enum_.enum.md).[toHuman](_codec_enum_.enum.md#tohuman)*
+
+*Overrides [Base](_codec_base_.base.md).[toHuman](_codec_base_.base.md#tohuman)*
+
+*Defined in [packages/types/src/codec/Enum.ts:267](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L267)*
+
+**`description`** Converts the Object to to a human-friendly JSON, with additional fields, expansion and formatting of information
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`isExtended?` | undefined &#124; false &#124; true |
+
+**Returns:** *[AnyJson](../modules/_types_helpers_.md#anyjson)*
 
 ___
 
@@ -471,7 +496,7 @@ ___
 
 *Overrides [Enum](_codec_enum_.enum.md).[toJSON](_codec_enum_.enum.md#tojson)*
 
-*Defined in [packages/types/src/primitive/Generic/Digest.ts:149](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Generic/Digest.ts#L149)*
+*Defined in [packages/types/src/primitive/Generic/Digest.ts:149](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Generic/Digest.ts#L149)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers. For logs, we overrides to produce the hex version (sligning with substrate gives in actual JSON responses)
 
@@ -485,7 +510,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[toNumber](_codec_enum_.enum.md#tonumber)*
 
-*Defined in [packages/types/src/codec/Enum.ts:276](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L276)*
+*Defined in [packages/types/src/codec/Enum.ts:285](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L285)*
 
 **`description`** Returns the number representation for the value
 
@@ -503,7 +528,7 @@ ___
 
 *Overrides [Base](_codec_base_.base.md).[toRawType](_codec_base_.base.md#torawtype)*
 
-*Defined in [packages/types/src/codec/Enum.ts:292](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L292)*
+*Defined in [packages/types/src/codec/Enum.ts:301](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L301)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -521,7 +546,7 @@ ___
 
 *Overrides [Base](_codec_base_.base.md).[toString](_codec_base_.base.md#tostring)*
 
-*Defined in [packages/types/src/codec/Enum.ts:299](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L299)*
+*Defined in [packages/types/src/codec/Enum.ts:308](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L308)*
 
 **`description`** Returns the string representation of the value
 
@@ -537,7 +562,7 @@ ___
 
 *Overrides [Base](_codec_base_.base.md).[toU8a](_codec_base_.base.md#tou8a)*
 
-*Defined in [packages/types/src/codec/Enum.ts:309](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L309)*
+*Defined in [packages/types/src/codec/Enum.ts:318](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L318)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -557,7 +582,7 @@ ___
 
 *Inherited from [Enum](_codec_enum_.enum.md).[with](_codec_enum_.enum.md#static-with)*
 
-*Defined in [packages/types/src/codec/Enum.ts:138](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Enum.ts#L138)*
+*Defined in [packages/types/src/codec/Enum.ts:138](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Enum.ts#L138)*
 
 **Parameters:**
 

@@ -66,6 +66,7 @@
 * [substring](_types_registry_.registrymetadatatext.md#substring)
 * [sup](_types_registry_.registrymetadatatext.md#sup)
 * [toHex](_types_registry_.registrymetadatatext.md#tohex)
+* [toHuman](_types_registry_.registrymetadatatext.md#tohuman)
 * [toJSON](_types_registry_.registrymetadatatext.md#tojson)
 * [toLocaleLowerCase](_types_registry_.registrymetadatatext.md#tolocalelowercase)
 * [toLocaleUpperCase](_types_registry_.registrymetadatatext.md#tolocaleuppercase)
@@ -99,7 +100,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[encodedLength](_codec_compact_.compactencodable.md#encodedlength)*
 
-*Defined in [packages/types/src/types/codec.ts:43](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/codec.ts#L43)*
+*Defined in [packages/types/src/types/codec.ts:43](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/types/codec.ts#L43)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -111,7 +112,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[hash](_codec_compact_.compactencodable.md#hash)*
 
-*Defined in [packages/types/src/types/codec.ts:48](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/codec.ts#L48)*
+*Defined in [packages/types/src/types/codec.ts:48](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/types/codec.ts#L48)*
 
 **`description`** Returns a hash of the value
 
@@ -123,7 +124,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[isEmpty](_codec_compact_.compactencodable.md#isempty)*
 
-*Defined in [packages/types/src/types/codec.ts:53](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/codec.ts#L53)*
+*Defined in [packages/types/src/types/codec.ts:53](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/types/codec.ts#L53)*
 
 **`description`** Checks if the value is an empty value
 
@@ -147,7 +148,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[registry](_codec_compact_.compactencodable.md#registry)*
 
-*Defined in [packages/types/src/types/codec.ts:58](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/codec.ts#L58)*
+*Defined in [packages/types/src/types/codec.ts:58](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/types/codec.ts#L58)*
 
 **`description`** The registry associated with this object
 
@@ -342,7 +343,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[eq](_codec_compact_.compactencodable.md#eq)*
 
-*Defined in [packages/types/src/types/codec.ts:63](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/codec.ts#L63)*
+*Defined in [packages/types/src/types/codec.ts:63](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/types/codec.ts#L63)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -773,7 +774,7 @@ ___
 
 ▸ **setOverride**(`override`: string): *void*
 
-*Defined in [packages/types/src/types/registry.ts:16](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/registry.ts#L16)*
+*Defined in [packages/types/src/types/registry.ts:16](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/types/registry.ts#L16)*
 
 **Parameters:**
 
@@ -956,7 +957,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[toHex](_codec_compact_.compactencodable.md#tohex)*
 
-*Defined in [packages/types/src/types/codec.ts:68](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/codec.ts#L68)*
+*Defined in [packages/types/src/types/codec.ts:68](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/types/codec.ts#L68)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -970,13 +971,33 @@ Name | Type |
 
 ___
 
+###  toHuman
+
+▸ **toHuman**(`isExtended?`: undefined | false | true): *[AnyJson](../modules/_types_helpers_.md#anyjson)*
+
+*Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[toHuman](_codec_compact_.compactencodable.md#tohuman)*
+
+*Defined in [packages/types/src/types/codec.ts:73](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/types/codec.ts#L73)*
+
+**`description`** Converts the Object to to a human-friendly JSON, with additional fields, expansion and formatting of information
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`isExtended?` | undefined &#124; false &#124; true |
+
+**Returns:** *[AnyJson](../modules/_types_helpers_.md#anyjson)*
+
+___
+
 ###  toJSON
 
 ▸ **toJSON**(): *[AnyJson](../modules/_types_helpers_.md#anyjson)*
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[toJSON](_codec_compact_.compactencodable.md#tojson)*
 
-*Defined in [packages/types/src/types/codec.ts:73](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/codec.ts#L73)*
+*Defined in [packages/types/src/types/codec.ts:78](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/types/codec.ts#L78)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -1044,7 +1065,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[toRawType](_codec_compact_.compactencodable.md#torawtype)*
 
-*Defined in [packages/types/src/types/codec.ts:78](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/codec.ts#L78)*
+*Defined in [packages/types/src/types/codec.ts:83](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/types/codec.ts#L83)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -1074,7 +1095,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[toU8a](_codec_compact_.compactencodable.md#tou8a)*
 
-*Defined in [packages/types/src/types/codec.ts:89](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/types/codec.ts#L89)*
+*Defined in [packages/types/src/types/codec.ts:94](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/types/codec.ts#L94)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

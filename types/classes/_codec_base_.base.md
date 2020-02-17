@@ -46,6 +46,7 @@
 
 * [eq](_codec_base_.base.md#eq)
 * [toHex](_codec_base_.base.md#tohex)
+* [toHuman](_codec_base_.base.md#tohuman)
 * [toJSON](_codec_base_.base.md#tojson)
 * [toRawType](_codec_base_.base.md#torawtype)
 * [toString](_codec_base_.base.md#tostring)
@@ -59,7 +60,7 @@
 
 *Implementation of [Codec](../interfaces/_types_codec_.codec.md).[registry](../interfaces/_types_codec_.codec.md#registry)*
 
-*Defined in [packages/types/src/codec/Base.ts:16](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L16)*
+*Defined in [packages/types/src/codec/Base.ts:16](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L16)*
 
 ## Accessors
 
@@ -67,7 +68,7 @@
 
 • **get encodedLength**(): *number*
 
-*Defined in [packages/types/src/codec/Base.ts:28](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L28)*
+*Defined in [packages/types/src/codec/Base.ts:28](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L28)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -79,7 +80,7 @@ ___
 
 • **get hash**(): *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
-*Defined in [packages/types/src/codec/Base.ts:35](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L35)*
+*Defined in [packages/types/src/codec/Base.ts:35](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L35)*
 
 **`description`** returns a hash of the contents
 
@@ -91,7 +92,7 @@ ___
 
 • **get isEmpty**(): *boolean*
 
-*Defined in [packages/types/src/codec/Base.ts:42](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L42)*
+*Defined in [packages/types/src/codec/Base.ts:42](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L42)*
 
 **`description`** Checks if the value is an empty value
 
@@ -105,7 +106,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
 
-*Defined in [packages/types/src/codec/Base.ts:49](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L49)*
+*Defined in [packages/types/src/codec/Base.ts:49](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L49)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -125,7 +126,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
 
-*Defined in [packages/types/src/codec/Base.ts:56](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L56)*
+*Defined in [packages/types/src/codec/Base.ts:56](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L56)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -139,13 +140,33 @@ Name | Type |
 
 ___
 
+###  toHuman
+
+▸ **toHuman**(`isExtended?`: undefined | false | true): *[AnyJson](../modules/_types_helpers_.md#anyjson)*
+
+*Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
+
+*Defined in [packages/types/src/codec/Base.ts:63](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L63)*
+
+**`description`** Converts the Object to to a human-friendly JSON, with additional fields, expansion and formatting of information
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`isExtended?` | undefined &#124; false &#124; true |
+
+**Returns:** *[AnyJson](../modules/_types_helpers_.md#anyjson)*
+
+___
+
 ###  toJSON
 
 ▸ **toJSON**(): *[AnyJson](../modules/_types_helpers_.md#anyjson)*
 
 *Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
 
-*Defined in [packages/types/src/codec/Base.ts:63](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L63)*
+*Defined in [packages/types/src/codec/Base.ts:70](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L70)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -159,7 +180,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
 
-*Defined in [packages/types/src/codec/Base.ts:85](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L85)*
+*Defined in [packages/types/src/codec/Base.ts:92](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L92)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -173,7 +194,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
 
-*Defined in [packages/types/src/codec/Base.ts:70](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L70)*
+*Defined in [packages/types/src/codec/Base.ts:77](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L77)*
 
 **`description`** Returns the string representation of the value
 
@@ -187,7 +208,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
 
-*Defined in [packages/types/src/codec/Base.ts:78](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Base.ts#L78)*
+*Defined in [packages/types/src/codec/Base.ts:85](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Base.ts#L85)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

@@ -51,6 +51,7 @@ The MortalEra for an extrinsic, indicating period and phase
 * [map](_primitive_extrinsic_extrinsicera_.mortalera.md#map)
 * [toArray](_primitive_extrinsic_extrinsicera_.mortalera.md#toarray)
 * [toHex](_primitive_extrinsic_extrinsicera_.mortalera.md#tohex)
+* [toHuman](_primitive_extrinsic_extrinsicera_.mortalera.md#tohuman)
 * [toJSON](_primitive_extrinsic_extrinsicera_.mortalera.md#tojson)
 * [toRawType](_primitive_extrinsic_extrinsicera_.mortalera.md#torawtype)
 * [toString](_primitive_extrinsic_extrinsicera_.mortalera.md#tostring)
@@ -65,7 +66,7 @@ The MortalEra for an extrinsic, indicating period and phase
 
 *Overrides [Tuple](_codec_tuple_.tuple.md).[constructor](_codec_tuple_.tuple.md#constructor)*
 
-*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:50](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L50)*
+*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:50](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L50)*
 
 **Parameters:**
 
@@ -86,7 +87,7 @@ Name | Type |
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[registry](_codec_abstractarray_.abstractarray.md#registry)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/AbstractArray.ts#L22)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:22](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/AbstractArray.ts#L22)*
 
 ## Accessors
 
@@ -96,7 +97,7 @@ Name | Type |
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[Types](_codec_tuple_.tuple.md#types)*
 
-*Defined in [packages/types/src/codec/Tuple.ts:82](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Tuple.ts#L82)*
+*Defined in [packages/types/src/codec/Tuple.ts:82](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Tuple.ts#L82)*
 
 **`description`** The types definition of the tuple
 
@@ -110,7 +111,7 @@ ___
 
 *Overrides [Tuple](_codec_tuple_.tuple.md).[encodedLength](_codec_tuple_.tuple.md#encodedlength)*
 
-*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:108](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L108)*
+*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:108](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L108)*
 
 **`description`** Encoded length for mortals occupy 2 bytes, different from the actual Tuple since it is encoded. This is a shortcut fro `toU8a().length`
 
@@ -124,7 +125,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[hash](_codec_abstractarray_.abstractarray.md#hash)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:42](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/AbstractArray.ts#L42)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:42](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/AbstractArray.ts#L42)*
 
 **`description`** returns a hash of the contents
 
@@ -138,7 +139,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[isEmpty](_codec_abstractarray_.abstractarray.md#isempty)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:49](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/AbstractArray.ts#L49)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:49](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/AbstractArray.ts#L49)*
 
 **`description`** Checks if the value is an empty value
 
@@ -154,7 +155,7 @@ ___
 
 *Overrides [AnyJsonArray](../interfaces/_types_helpers_.anyjsonarray.md).[length](../interfaces/_types_helpers_.anyjsonarray.md#length)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:56](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/AbstractArray.ts#L56)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:56](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/AbstractArray.ts#L56)*
 
 **`description`** The length of the value
 
@@ -166,7 +167,7 @@ ___
 
 • **get period**(): *[U64](_primitive_u64_.u64.md)*
 
-*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:115](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L115)*
+*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:115](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L115)*
 
 **`description`** The period of this Mortal wraps as a [U64](_primitive_u64_.u64.md)
 
@@ -178,7 +179,7 @@ ___
 
 • **get phase**(): *[U64](_primitive_u64_.u64.md)*
 
-*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:122](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L122)*
+*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:122](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L122)*
 
 **`description`** The phase of this Mortal wraps as a [U64](_primitive_u64_.u64.md)
 
@@ -190,7 +191,7 @@ ___
 
 ▸ **birth**(`current`: BN | number): *number*
 
-*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:159](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L159)*
+*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:167](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L167)*
 
 **`description`** Get the block number of the start of the era whose properties this object describes that `current` belongs to.
 
@@ -208,7 +209,7 @@ ___
 
 ▸ **death**(`current`: BN | number): *number*
 
-*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:171](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L171)*
+*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:179](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L179)*
 
 **`description`** Get the block number of the first block at which the era has ended.
 
@@ -230,7 +231,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[eq](_codec_abstractarray_.abstractarray.md#eq)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:64](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/AbstractArray.ts#L64)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:64](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/AbstractArray.ts#L64)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -252,7 +253,7 @@ ___
 
 *Overrides [AnyJsonArray](../interfaces/_types_helpers_.anyjsonarray.md).[filter](../interfaces/_types_helpers_.anyjsonarray.md#filter)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:134](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/AbstractArray.ts#L134)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:143](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/AbstractArray.ts#L143)*
 
 **`description`** Filters the array with the callback
 
@@ -286,7 +287,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[includes](_codec_abstractarray_.abstractarray.md#includes)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:150](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/AbstractArray.ts#L150)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:159](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/AbstractArray.ts#L159)*
 
 **`description`** Checks if the array includes a specific value
 
@@ -308,7 +309,7 @@ ___
 
 *Overrides [AnyJsonArray](../interfaces/_types_helpers_.anyjsonarray.md).[map](../interfaces/_types_helpers_.anyjsonarray.md#map)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:143](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/AbstractArray.ts#L143)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:152](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/AbstractArray.ts#L152)*
 
 **`description`** Maps the array with the callback
 
@@ -346,7 +347,7 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toArray](_codec_abstractarray_.abstractarray.md#toarray)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:71](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/AbstractArray.ts#L71)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:71](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/AbstractArray.ts#L71)*
 
 **`description`** Converts the Object to an standard JavaScript Array
 
@@ -360,11 +361,25 @@ ___
 
 *Inherited from [AbstractArray](_codec_abstractarray_.abstractarray.md).[toHex](_codec_abstractarray_.abstractarray.md#tohex)*
 
-*Defined in [packages/types/src/codec/AbstractArray.ts:78](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/AbstractArray.ts#L78)*
+*Defined in [packages/types/src/codec/AbstractArray.ts:78](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/AbstractArray.ts#L78)*
 
 **`description`** Returns a hex string representation of the value
 
 **Returns:** *string*
+
+___
+
+###  toHuman
+
+▸ **toHuman**(): *any*
+
+*Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toHuman](_codec_abstractarray_.abstractarray.md#tohuman)*
+
+*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:129](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L129)*
+
+**`description`** Converts the Object to to a human-friendly JSON, with additional fields, expansion and formatting of information
+
+**Returns:** *any*
 
 ___
 
@@ -376,7 +391,7 @@ ___
 
 *Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toJSON](_codec_abstractarray_.abstractarray.md#tojson)*
 
-*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:129](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L129)*
+*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:137](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L137)*
 
 **`description`** Returns a JSON representation of the actual value
 
@@ -394,7 +409,7 @@ ___
 
 *Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toRawType](_codec_abstractarray_.abstractarray.md#abstract-torawtype)*
 
-*Defined in [packages/types/src/codec/Tuple.ts:91](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Tuple.ts#L91)*
+*Defined in [packages/types/src/codec/Tuple.ts:91](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Tuple.ts#L91)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -412,7 +427,7 @@ ___
 
 *Overrides [AbstractArray](_codec_abstractarray_.abstractarray.md).[toString](_codec_abstractarray_.abstractarray.md#tostring)*
 
-*Defined in [packages/types/src/codec/Tuple.ts:104](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Tuple.ts#L104)*
+*Defined in [packages/types/src/codec/Tuple.ts:104](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Tuple.ts#L104)*
 
 **`description`** Returns the string representation of the value
 
@@ -426,7 +441,7 @@ ___
 
 *Overrides [Tuple](_codec_tuple_.tuple.md).[toU8a](_codec_tuple_.tuple.md#tou8a)*
 
-*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:144](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L144)*
+*Defined in [packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts:152](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/primitive/Extrinsic/ExtrinsicEra.ts#L152)*
 
 **`description`** Encodes the value as a Uint8Array as per the parity-codec specifications
 
@@ -446,7 +461,7 @@ ___
 
 *Inherited from [Tuple](_codec_tuple_.tuple.md).[with](_codec_tuple_.tuple.md#static-with)*
 
-*Defined in [packages/types/src/codec/Tuple.ts:60](https://github.com/polkadot-js/api/blob/2b5be7eaab/packages/types/src/codec/Tuple.ts#L60)*
+*Defined in [packages/types/src/codec/Tuple.ts:60](https://github.com/polkadot-js/api/blob/83d780220c/packages/types/src/codec/Tuple.ts#L60)*
 
 **Parameters:**
 

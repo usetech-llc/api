@@ -46,7 +46,7 @@
 
 \+ **new TypeRegistry**(): *[TypeRegistry](_create_registry_.typeregistry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:91](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L91)*
+*Defined in [packages/types/src/create/registry.ts:91](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L91)*
 
 **Returns:** *[TypeRegistry](_create_registry_.typeregistry.md)*
 
@@ -56,7 +56,7 @@
 
 • **get chainDecimals**(): *number*
 
-*Defined in [packages/types/src/create/registry.ts:109](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L109)*
+*Defined in [packages/types/src/create/registry.ts:109](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L109)*
 
 **Returns:** *number*
 
@@ -66,7 +66,7 @@ ___
 
 • **get chainSS58**(): *number | undefined*
 
-*Defined in [packages/types/src/create/registry.ts:115](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L115)*
+*Defined in [packages/types/src/create/registry.ts:115](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L115)*
 
 **Returns:** *number | undefined*
 
@@ -76,7 +76,7 @@ ___
 
 • **get chainToken**(): *string*
 
-*Defined in [packages/types/src/create/registry.ts:121](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L121)*
+*Defined in [packages/types/src/create/registry.ts:121](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L121)*
 
 **Returns:** *string*
 
@@ -88,7 +88,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:128](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L128)*
+*Defined in [packages/types/src/create/registry.ts:128](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L128)*
 
 **Parameters:**
 
@@ -104,7 +104,7 @@ ___
 
 ▸ **findMetaError**(`errorIndex`: [Uint8Array](_codec_raw_.raw.md#static-uint8array) | DispatchErrorModule): *[RegistryError](../interfaces/_types_registry_.registryerror.md)*
 
-*Defined in [packages/types/src/create/registry.ts:138](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L138)*
+*Defined in [packages/types/src/create/registry.ts:138](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L138)*
 
 **Parameters:**
 
@@ -122,7 +122,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:151](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L151)*
+*Defined in [packages/types/src/create/registry.ts:151](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L151)*
 
 **Parameters:**
 
@@ -140,7 +140,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:160](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L160)*
+*Defined in [packages/types/src/create/registry.ts:160](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L160)*
 
 **Type parameters:**
 
@@ -162,7 +162,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:183](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L183)*
+*Defined in [packages/types/src/create/registry.ts:183](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L183)*
 
 **Returns:** *ChainProperties | undefined*
 
@@ -174,7 +174,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:187](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L187)*
+*Defined in [packages/types/src/create/registry.ts:187](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L187)*
 
 **Parameters:**
 
@@ -192,7 +192,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:191](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L191)*
+*Defined in [packages/types/src/create/registry.ts:191](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L191)*
 
 **Type parameters:**
 
@@ -215,7 +215,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:201](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L201)*
+*Defined in [packages/types/src/create/registry.ts:201](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L201)*
 
 **Returns:** *Record‹string, [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes)›*
 
@@ -227,7 +227,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:205](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L205)*
+*Defined in [packages/types/src/create/registry.ts:205](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L205)*
 
 **Returns:** *Record‹string, [InterfaceTypes](../modules/_types_helpers_.md#interfacetypes)›*
 
@@ -239,7 +239,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:209](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L209)*
+*Defined in [packages/types/src/create/registry.ts:209](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L209)*
 
 **Parameters:**
 
@@ -257,7 +257,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:213](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L213)*
+*Defined in [packages/types/src/create/registry.ts:213](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L213)*
 
 **Parameters:**
 
@@ -275,7 +275,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:217](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L217)*
+*Defined in [packages/types/src/create/registry.ts:217](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L217)*
 
 **Parameters:**
 
@@ -293,7 +293,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:221](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L221)*
+*Defined in [packages/types/src/create/registry.ts:221](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L221)*
 
 **Parameters:**
 
@@ -307,7 +307,7 @@ Name | Type |
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:224](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L224)*
+*Defined in [packages/types/src/create/registry.ts:224](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L224)*
 
 **Parameters:**
 
@@ -326,7 +326,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:261](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L261)*
+*Defined in [packages/types/src/create/registry.ts:261](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L261)*
 
 **Parameters:**
 
@@ -344,7 +344,7 @@ ___
 
 *Implementation of [Registry](../interfaces/_types_registry_.registry.md)*
 
-*Defined in [packages/types/src/create/registry.ts:268](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/create/registry.ts#L268)*
+*Defined in [packages/types/src/create/registry.ts:268](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/create/registry.ts#L268)*
 
 **Parameters:**
 

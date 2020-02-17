@@ -49,7 +49,7 @@
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[encodedLength](_codec_compact_.compactencodable.md#encodedlength)*
 
-*Defined in [packages/types/src/types/codec.ts:43](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/codec.ts#L43)*
+*Defined in [packages/types/src/types/codec.ts:43](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/codec.ts#L43)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -61,7 +61,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[hash](_codec_compact_.compactencodable.md#hash)*
 
-*Defined in [packages/types/src/types/codec.ts:48](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/codec.ts#L48)*
+*Defined in [packages/types/src/types/codec.ts:48](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/codec.ts#L48)*
 
 **`description`** Returns a hash of the value
 
@@ -73,7 +73,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[isEmpty](_codec_compact_.compactencodable.md#isempty)*
 
-*Defined in [packages/types/src/types/codec.ts:53](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/codec.ts#L53)*
+*Defined in [packages/types/src/types/codec.ts:53](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/codec.ts#L53)*
 
 **`description`** Checks if the value is an empty value
 
@@ -83,7 +83,7 @@ ___
 
 • **method**: *Call*
 
-*Defined in [packages/types/src/types/extrinsic.ts:105](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/extrinsic.ts#L105)*
+*Defined in [packages/types/src/types/extrinsic.ts:105](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L105)*
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[registry](_codec_compact_.compactencodable.md#registry)*
 
-*Defined in [packages/types/src/types/codec.ts:58](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/codec.ts#L58)*
+*Defined in [packages/types/src/types/codec.ts:58](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/codec.ts#L58)*
 
 **`description`** The registry associated with this object
 
@@ -103,7 +103,7 @@ ___
 
 • **signature**: *[IExtrinsicSignature](_types_extrinsic_.iextrinsicsignature.md)*
 
-*Defined in [packages/types/src/types/extrinsic.ts:106](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/extrinsic.ts#L106)*
+*Defined in [packages/types/src/types/extrinsic.ts:106](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L106)*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 • **version**: *number*
 
-*Defined in [packages/types/src/types/extrinsic.ts:107](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/extrinsic.ts#L107)*
+*Defined in [packages/types/src/types/extrinsic.ts:107](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L107)*
 
 ## Methods
 
@@ -121,7 +121,7 @@ ___
 
 *Inherited from [IExtrinsicImpl](_types_extrinsic_.iextrinsicimpl.md).[addSignature](_types_extrinsic_.iextrinsicimpl.md#addsignature)*
 
-*Defined in [packages/types/src/types/extrinsic.ts:98](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/extrinsic.ts#L98)*
+*Defined in [packages/types/src/types/extrinsic.ts:98](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L98)*
 
 **Parameters:**
 
@@ -141,7 +141,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[eq](_codec_compact_.compactencodable.md#eq)*
 
-*Defined in [packages/types/src/types/codec.ts:63](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/codec.ts#L63)*
+*Defined in [packages/types/src/types/codec.ts:63](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/codec.ts#L63)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -161,7 +161,7 @@ ___
 
 *Inherited from [IExtrinsicImpl](_types_extrinsic_.iextrinsicimpl.md).[sign](_types_extrinsic_.iextrinsicimpl.md#sign)*
 
-*Defined in [packages/types/src/types/extrinsic.ts:99](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/extrinsic.ts#L99)*
+*Defined in [packages/types/src/types/extrinsic.ts:99](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L99)*
 
 **Parameters:**
 
@@ -180,7 +180,7 @@ ___
 
 *Inherited from [IExtrinsicImpl](_types_extrinsic_.iextrinsicimpl.md).[signFake](_types_extrinsic_.iextrinsicimpl.md#signfake)*
 
-*Defined in [packages/types/src/types/extrinsic.ts:100](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/extrinsic.ts#L100)*
+*Defined in [packages/types/src/types/extrinsic.ts:100](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L100)*
 
 **Parameters:**
 
@@ -199,7 +199,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[toHex](_codec_compact_.compactencodable.md#tohex)*
 
-*Defined in [packages/types/src/types/codec.ts:68](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/codec.ts#L68)*
+*Defined in [packages/types/src/types/codec.ts:68](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/codec.ts#L68)*
 
 **`description`** Returns a hex string representation of the value. isLe returns a LE (number-only) representation
 
@@ -219,7 +219,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[toJSON](_codec_compact_.compactencodable.md#tojson)*
 
-*Defined in [packages/types/src/types/codec.ts:73](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/codec.ts#L73)*
+*Defined in [packages/types/src/types/codec.ts:73](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/codec.ts#L73)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -233,7 +233,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[toRawType](_codec_compact_.compactencodable.md#torawtype)*
 
-*Defined in [packages/types/src/types/codec.ts:78](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/codec.ts#L78)*
+*Defined in [packages/types/src/types/codec.ts:78](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/codec.ts#L78)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -247,7 +247,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[toString](_codec_compact_.compactencodable.md#tostring)*
 
-*Defined in [packages/types/src/types/codec.ts:83](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/codec.ts#L83)*
+*Defined in [packages/types/src/types/codec.ts:83](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/codec.ts#L83)*
 
 **`description`** Returns the string representation of the value
 
@@ -261,7 +261,7 @@ ___
 
 *Inherited from [CompactEncodable](_codec_compact_.compactencodable.md).[toU8a](_codec_compact_.compactencodable.md#tou8a)*
 
-*Defined in [packages/types/src/types/codec.ts:89](https://github.com/polkadot-js/api/blob/ad2b1abdc9/packages/types/src/types/codec.ts#L89)*
+*Defined in [packages/types/src/types/codec.ts:89](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/codec.ts#L89)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

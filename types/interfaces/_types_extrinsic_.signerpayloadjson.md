@@ -27,7 +27,7 @@
 
 • **address**: *string*
 
-*Defined in [packages/types/src/types/extrinsic.ts:122](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L122)*
+*Defined in [packages/types/src/types/extrinsic.ts:122](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/extrinsic.ts#L122)*
 
 **`description`** The ss-58 encoded address
 
@@ -37,7 +37,7 @@ ___
 
 • **blockHash**: *string*
 
-*Defined in [packages/types/src/types/extrinsic.ts:127](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L127)*
+*Defined in [packages/types/src/types/extrinsic.ts:127](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/extrinsic.ts#L127)*
 
 **`description`** The checkpoint hash of the block, in hex
 
@@ -47,7 +47,7 @@ ___
 
 • **blockNumber**: *string*
 
-*Defined in [packages/types/src/types/extrinsic.ts:132](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L132)*
+*Defined in [packages/types/src/types/extrinsic.ts:132](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/extrinsic.ts#L132)*
 
 **`description`** The checkpoint block number, in hex
 
@@ -57,7 +57,7 @@ ___
 
 • **era**: *string*
 
-*Defined in [packages/types/src/types/extrinsic.ts:137](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L137)*
+*Defined in [packages/types/src/types/extrinsic.ts:137](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/extrinsic.ts#L137)*
 
 **`description`** The era for this transaction, in hex
 
@@ -67,7 +67,7 @@ ___
 
 • **genesisHash**: *string*
 
-*Defined in [packages/types/src/types/extrinsic.ts:142](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L142)*
+*Defined in [packages/types/src/types/extrinsic.ts:142](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/extrinsic.ts#L142)*
 
 **`description`** The genesis hash of the chain, in hex
 
@@ -77,7 +77,7 @@ ___
 
 • **method**: *string*
 
-*Defined in [packages/types/src/types/extrinsic.ts:147](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L147)*
+*Defined in [packages/types/src/types/extrinsic.ts:147](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/extrinsic.ts#L147)*
 
 **`description`** The encoded method (with arguments) in hex
 
@@ -87,7 +87,7 @@ ___
 
 • **nonce**: *string*
 
-*Defined in [packages/types/src/types/extrinsic.ts:152](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L152)*
+*Defined in [packages/types/src/types/extrinsic.ts:152](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/extrinsic.ts#L152)*
 
 **`description`** The nonce for this transaction, in hex
 
@@ -97,7 +97,7 @@ ___
 
 • **specVersion**: *string*
 
-*Defined in [packages/types/src/types/extrinsic.ts:157](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L157)*
+*Defined in [packages/types/src/types/extrinsic.ts:157](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/extrinsic.ts#L157)*
 
 **`description`** The current spec version for  the runtime
 
@@ -107,7 +107,7 @@ ___
 
 • **tip**: *string*
 
-*Defined in [packages/types/src/types/extrinsic.ts:162](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L162)*
+*Defined in [packages/types/src/types/extrinsic.ts:162](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/extrinsic.ts#L162)*
 
 **`description`** The tip for this transaction, in hex
 
@@ -117,6 +117,6 @@ ___
 
 • **version**: *number*
 
-*Defined in [packages/types/src/types/extrinsic.ts:167](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/types/extrinsic.ts#L167)*
+*Defined in [packages/types/src/types/extrinsic.ts:167](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/types/extrinsic.ts#L167)*
 
 **`description`** The version of the extrinsic we are dealing with

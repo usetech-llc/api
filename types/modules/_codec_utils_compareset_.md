@@ -14,7 +14,7 @@
 
 ▸ **compareSet**(`a`: [Set](../classes/_codec_btreeset_.btreeset.md#static-set)‹any›, `b?`: any): *boolean*
 
-*Defined in [packages/types/src/codec/utils/compareSet.ts:9](https://github.com/polkadot-js/api/blob/5df22835f6/packages/types/src/codec/utils/compareSet.ts#L9)*
+*Defined in [packages/types/src/codec/utils/compareSet.ts:9](https://github.com/polkadot-js/api/blob/8a152ea4c0/packages/types/src/codec/utils/compareSet.ts#L9)*
 
 **Parameters:**
 

@@ -24,6 +24,7 @@
 * ["types/rpc"](modules/_types_rpc_.md)
 * ["types/storage"](modules/_types_storage_.md)
 * ["types/submittable"](modules/_types_submittable_.md)
+* ["util/augmentObject"](modules/_util_augmentobject_.md)
 * ["util/decorate"](modules/_util_decorate_.md)
 * ["util/filterEvents"](modules/_util_filterevents_.md)
 * ["util/isKeyringPair"](modules/_util_iskeyringpair_.md)

@@ -29,6 +29,7 @@
 ### Methods
 
 * [createType](_base_init_.init.md#abstract-createtype)
+* [injectMetadata](_base_init_.init.md#injectmetadata)
 * [off](_base_init_.init.md#off)
 * [on](_base_init_.init.md#on)
 * [once](_base_init_.init.md#once)
@@ -42,7 +43,7 @@
 
 *Overrides [Decorate](_base_decorate_.decorate.md).[constructor](_base_decorate_.decorate.md#constructor)*
 
-*Defined in [api/src/base/Init.ts:22](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/base/Init.ts#L22)*
+*Defined in [api/src/base/Init.ts:21](https://github.com/polkadot-js/api/blob/c8af75088a/packages/api/src/base/Init.ts#L21)*
 
 **Parameters:**
 
@@ -62,7 +63,7 @@ Name | Type |
 
 *Inherited from [Init](_base_init_.init.md).[registry](_base_init_.init.md#registry)*
 
-*Defined in [api/src/base/Decorate.ts:41](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/base/Decorate.ts#L41)*
+*Defined in [api/src/base/Decorate.ts:43](https://github.com/polkadot-js/api/blob/c8af75088a/packages/api/src/base/Decorate.ts#L43)*
 
 ## Accessors
 
@@ -72,7 +73,7 @@ Name | Type |
 
 *Inherited from [Init](_base_init_.init.md).[hasSubscriptions](_base_init_.init.md#hassubscriptions)*
 
-*Defined in [api/src/base/Decorate.ts:139](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/base/Decorate.ts#L139)*
+*Defined in [api/src/base/Decorate.ts:145](https://github.com/polkadot-js/api/blob/c8af75088a/packages/api/src/base/Decorate.ts#L145)*
 
 **Returns:** *boolean*
 
@@ -86,7 +87,7 @@ Name | Type |
 
 *Inherited from [Init](_base_init_.init.md).[createType](_base_init_.init.md#abstract-createtype)*
 
-*Defined in [api/src/base/Decorate.ts:132](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/base/Decorate.ts#L132)*
+*Defined in [api/src/base/Decorate.ts:138](https://github.com/polkadot-js/api/blob/c8af75088a/packages/api/src/base/Decorate.ts#L138)*
 
 **Type parameters:**
 
@@ -103,13 +104,31 @@ Name | Type |
 
 ___
 
+###  injectMetadata
+
+▸ **injectMetadata**(`metadata`: Metadata): *void*
+
+*Inherited from [Init](_base_init_.init.md).[injectMetadata](_base_init_.init.md#injectmetadata)*
+
+*Defined in [api/src/base/Decorate.ts:149](https://github.com/polkadot-js/api/blob/c8af75088a/packages/api/src/base/Decorate.ts#L149)*
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`metadata` | Metadata |
+
+**Returns:** *void*
+
+___
+
 ###  off
 
 ▸ **off**(`type`: ApiInterfaceEvents, `handler`: function): *this*
 
 *Inherited from [Init](_base_init_.init.md).[off](_base_init_.init.md#off)*
 
-*Defined in [api/src/base/Events.ts:62](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/base/Events.ts#L62)*
+*Defined in [api/src/base/Events.ts:62](https://github.com/polkadot-js/api/blob/c8af75088a/packages/api/src/base/Events.ts#L62)*
 
 **`description`** Remove the given eventemitter handler
 
@@ -156,7 +175,7 @@ ___
 
 *Inherited from [Init](_base_init_.init.md).[on](_base_init_.init.md#on)*
 
-*Defined in [api/src/base/Events.ts:35](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/base/Events.ts#L35)*
+*Defined in [api/src/base/Events.ts:35](https://github.com/polkadot-js/api/blob/c8af75088a/packages/api/src/base/Events.ts#L35)*
 
 **`description`** Attach an eventemitter handler to listen to a specific event
 
@@ -201,7 +220,7 @@ ___
 
 *Inherited from [Init](_base_init_.init.md).[once](_base_init_.init.md#once)*
 
-*Defined in [api/src/base/Events.ts:87](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/base/Events.ts#L87)*
+*Defined in [api/src/base/Events.ts:87](https://github.com/polkadot-js/api/blob/c8af75088a/packages/api/src/base/Events.ts#L87)*
 
 **`description`** Attach an one-time eventemitter handler to listen to a specific event
 
@@ -246,7 +265,7 @@ ___
 
 *Inherited from [Init](_base_init_.init.md).[registerTypes](_base_init_.init.md#abstract-registertypes)*
 
-*Defined in [api/src/base/Decorate.ts:134](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/base/Decorate.ts#L134)*
+*Defined in [api/src/base/Decorate.ts:140](https://github.com/polkadot-js/api/blob/c8af75088a/packages/api/src/base/Decorate.ts#L140)*
 
 **Parameters:**
 

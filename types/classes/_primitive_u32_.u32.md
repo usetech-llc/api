@@ -67,18 +67,20 @@ Defined in node_modules/@types/bn.js/index.d.ts:12
 
 ###  constructor
 
-\+ **new U32**(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `value?`: [AnyNumber](../modules/_types_helpers_.md#anynumber)): *[U32](_primitive_u32_.u32.md)*
+\+ **new U32**(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `value`: [AnyNumber](../modules/_types_helpers_.md#anynumber), `bitLength`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength), `isHexJson`: boolean): *[U32](_primitive_u32_.u32.md)*
 
-*Overrides [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
+*Inherited from [UInt](_codec_uint_.uint.md).[constructor](_codec_uint_.uint.md#constructor)*
 
-*Defined in [packages/types/src/primitive/U32.ts:14](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/primitive/U32.ts#L14)*
+*Defined in [packages/types/src/codec/UInt.ts:22](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/codec/UInt.ts#L22)*
 
 **Parameters:**
 
-Name | Type |
------- | ------ |
-`registry` | [Registry](../interfaces/_types_registry_.registry.md) |
-`value?` | [AnyNumber](../modules/_types_helpers_.md#anynumber) |
+Name | Type | Default |
+------ | ------ | ------ |
+`registry` | [Registry](../interfaces/_types_registry_.registry.md) | - |
+`value` | [AnyNumber](../modules/_types_helpers_.md#anynumber) | 0 |
+`bitLength` | [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength) | DEFAULT_UINT_BITS |
+`isHexJson` | boolean | false |
 
 **Returns:** *[U32](_primitive_u32_.u32.md)*
 
@@ -92,7 +94,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:38](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/codec/UInt.ts#L38)*
+*Defined in [packages/types/src/codec/UInt.ts:42](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/codec/UInt.ts#L42)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -116,7 +118,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:50](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/codec/UInt.ts#L50)*
+*Defined in [packages/types/src/codec/UInt.ts:54](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/codec/UInt.ts#L54)*
 
 **`description`** Converts the Object to to a human-friendly JSON, with additional fields, expansion and formatting of information
 
@@ -140,7 +142,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:60](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/codec/UInt.ts#L60)*
+*Defined in [packages/types/src/codec/UInt.ts:64](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/codec/UInt.ts#L64)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -156,7 +158,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/UInt.ts:74](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/codec/UInt.ts#L74)*
+*Defined in [packages/types/src/codec/UInt.ts:78](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/codec/UInt.ts#L78)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -172,16 +174,17 @@ ___
 
 ### `Static` with
 
-▸ **with**(`bitLength?`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength)): *[Constructor](../interfaces/_types_codec_.constructor.md)‹[UInt](_codec_uint_.uint.md)›*
+▸ **with**(`bitLength`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength), `typeName?`: undefined | string): *[Constructor](../interfaces/_types_codec_.constructor.md)‹[UInt](_codec_uint_.uint.md)›*
 
 *Inherited from [UInt](_codec_uint_.uint.md).[with](_codec_uint_.uint.md#static-with)*
 
-*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/codec/UInt.ts#L27)*
+*Defined in [packages/types/src/codec/UInt.ts:27](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/codec/UInt.ts#L27)*
 
 **Parameters:**
 
 Name | Type |
 ------ | ------ |
-`bitLength?` | [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength) |
+`bitLength` | [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength) |
+`typeName?` | undefined &#124; string |
 
 **Returns:** *[Constructor](../interfaces/_types_codec_.constructor.md)‹[UInt](_codec_uint_.uint.md)›*

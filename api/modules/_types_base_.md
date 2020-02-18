@@ -25,7 +25,7 @@
 
 Ƭ **ApiTypes**: *"promise" | "rxjs"*
 
-*Defined in [api/src/types/base.ts:28](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/api/src/types/base.ts#L28)*
+*Defined in [api/src/types/base.ts:28](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/api/src/types/base.ts#L28)*
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 Ƭ **DecorateMethod**: *function*
 
-*Defined in [api/src/types/base.ts:70](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/api/src/types/base.ts#L70)*
+*Defined in [api/src/types/base.ts:70](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/api/src/types/base.ts#L70)*
 
 #### Type declaration:
 
@@ -56,7 +56,7 @@ ___
 
 Ƭ **MethodResult**: *ApiType extends "rxjs" ? RxResult<F> : PromiseResult<F>*
 
-*Defined in [api/src/types/base.ts:60](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/api/src/types/base.ts#L60)*
+*Defined in [api/src/types/base.ts:60](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/api/src/types/base.ts#L60)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 Ƭ **ObsInnerType**: *O extends Observable<infer U> ? U : never*
 
-*Defined in [api/src/types/base.ts:31](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/api/src/types/base.ts#L31)*
+*Defined in [api/src/types/base.ts:31](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/api/src/types/base.ts#L31)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 Ƭ **PromiseOrObs**: *ApiType extends "rxjs" ? Observable<T> : Promise<T>*
 
-*Defined in [api/src/types/base.ts:36](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/api/src/types/base.ts#L36)*
+*Defined in [api/src/types/base.ts:36](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/api/src/types/base.ts#L36)*
 
 ___
 
@@ -80,4 +80,4 @@ ___
 
 Ƭ **UnsubscribePromise**: *Promise‹function›*
 
-*Defined in [api/src/types/base.ts:33](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/api/src/types/base.ts#L33)*
+*Defined in [api/src/types/base.ts:33](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/api/src/types/base.ts#L33)*

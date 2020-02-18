@@ -63,7 +63,7 @@ Defined in node_modules/@types/bn.js/index.d.ts:12
 
 *Overrides [Int](_codec_int_.int.md).[constructor](_codec_int_.int.md#constructor)*
 
-*Defined in [packages/types/src/primitive/I32.ts:14](https://github.com/polkadot-js/api/blob/a5c8e3c4e1/packages/types/src/primitive/I32.ts#L14)*
+*Defined in [packages/types/src/primitive/I32.ts:14](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/primitive/I32.ts#L14)*
 
 **Parameters:**
 
@@ -84,7 +84,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:29](https://github.com/polkadot-js/api/blob/a5c8e3c4e1/packages/types/src/codec/Int.ts#L29)*
+*Defined in [packages/types/src/codec/Int.ts:29](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/codec/Int.ts#L29)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -108,7 +108,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:40](https://github.com/polkadot-js/api/blob/a5c8e3c4e1/packages/types/src/codec/Int.ts#L40)*
+*Defined in [packages/types/src/codec/Int.ts:40](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/codec/Int.ts#L40)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -124,7 +124,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:49](https://github.com/polkadot-js/api/blob/a5c8e3c4e1/packages/types/src/codec/Int.ts#L49)*
+*Defined in [packages/types/src/codec/Int.ts:49](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/codec/Int.ts#L49)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

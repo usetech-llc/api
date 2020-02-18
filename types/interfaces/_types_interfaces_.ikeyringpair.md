@@ -20,7 +20,7 @@
 
 • **address**: *string*
 
-*Defined in [packages/types/src/types/interfaces.ts:23](https://github.com/polkadot-js/api/blob/a5c8e3c4e1/packages/types/src/types/interfaces.ts#L23)*
+*Defined in [packages/types/src/types/interfaces.ts:23](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/types/interfaces.ts#L23)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **publicKey**: *[Uint8Array](../classes/_codec_raw_.raw.md#static-uint8array)*
 
-*Defined in [packages/types/src/types/interfaces.ts:24](https://github.com/polkadot-js/api/blob/a5c8e3c4e1/packages/types/src/types/interfaces.ts#L24)*
+*Defined in [packages/types/src/types/interfaces.ts:24](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/types/interfaces.ts#L24)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **sign**: *function*
 
-*Defined in [packages/types/src/types/interfaces.ts:25](https://github.com/polkadot-js/api/blob/a5c8e3c4e1/packages/types/src/types/interfaces.ts#L25)*
+*Defined in [packages/types/src/types/interfaces.ts:25](https://github.com/polkadot-js/api/blob/ad2939cc4f/packages/types/src/types/interfaces.ts#L25)*
 
 #### Type declaration:
 

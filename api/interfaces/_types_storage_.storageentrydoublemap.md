@@ -37,7 +37,7 @@
 
 *Inherited from [StorageEntryBase](_types_storage_.storageentrybase.md).[at](_types_storage_.storageentrybase.md#at)*
 
-*Defined in [api/src/types/storage.ts:29](https://github.com/polkadot-js/api/blob/d041c0abb2/packages/api/src/types/storage.ts#L29)*
+*Defined in [api/src/types/storage.ts:29](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/types/storage.ts#L29)*
 
 #### Type declaration:
 
@@ -58,7 +58,7 @@ ___
 
 *Inherited from [StorageEntryBase](_types_storage_.storageentrybase.md).[creator](_types_storage_.storageentrybase.md#creator)*
 
-*Defined in [api/src/types/storage.ts:30](https://github.com/polkadot-js/api/blob/d041c0abb2/packages/api/src/types/storage.ts#L30)*
+*Defined in [api/src/types/storage.ts:30](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/types/storage.ts#L30)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 *Overrides [StorageEntryBase](_types_storage_.storageentrybase.md).[entries](_types_storage_.storageentrybase.md#entries)*
 
-*Defined in [api/src/types/storage.ts:40](https://github.com/polkadot-js/api/blob/d041c0abb2/packages/api/src/types/storage.ts#L40)*
+*Defined in [api/src/types/storage.ts:40](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/types/storage.ts#L40)*
 
 #### Type declaration:
 
@@ -88,7 +88,7 @@ ___
 
 *Inherited from [StorageEntryBase](_types_storage_.storageentrybase.md).[hash](_types_storage_.storageentrybase.md#hash)*
 
-*Defined in [api/src/types/storage.ts:32](https://github.com/polkadot-js/api/blob/d041c0abb2/packages/api/src/types/storage.ts#L32)*
+*Defined in [api/src/types/storage.ts:32](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/types/storage.ts#L32)*
 
 #### Type declaration:
 
@@ -108,7 +108,7 @@ ___
 
 *Inherited from [StorageEntryBase](_types_storage_.storageentrybase.md).[key](_types_storage_.storageentrybase.md#key)*
 
-*Defined in [api/src/types/storage.ts:33](https://github.com/polkadot-js/api/blob/d041c0abb2/packages/api/src/types/storage.ts#L33)*
+*Defined in [api/src/types/storage.ts:33](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/types/storage.ts#L33)*
 
 #### Type declaration:
 
@@ -128,7 +128,7 @@ ___
 
 *Inherited from [StorageEntryBase](_types_storage_.storageentrybase.md).[keyPrefix](_types_storage_.storageentrybase.md#keyprefix)*
 
-*Defined in [api/src/types/storage.ts:34](https://github.com/polkadot-js/api/blob/d041c0abb2/packages/api/src/types/storage.ts#L34)*
+*Defined in [api/src/types/storage.ts:34](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/types/storage.ts#L34)*
 
 #### Type declaration:
 
@@ -142,7 +142,7 @@ ___
 
 *Inherited from [StorageEntryBase](_types_storage_.storageentrybase.md).[multi](_types_storage_.storageentrybase.md#multi)*
 
-*Defined in [api/src/types/storage.ts:36](https://github.com/polkadot-js/api/blob/d041c0abb2/packages/api/src/types/storage.ts#L36)*
+*Defined in [api/src/types/storage.ts:36](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/types/storage.ts#L36)*
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 *Inherited from [StorageEntryBase](_types_storage_.storageentrybase.md).[size](_types_storage_.storageentrybase.md#size)*
 
-*Defined in [api/src/types/storage.ts:35](https://github.com/polkadot-js/api/blob/d041c0abb2/packages/api/src/types/storage.ts#L35)*
+*Defined in [api/src/types/storage.ts:35](https://github.com/polkadot-js/api/blob/30f5baa906/packages/api/src/types/storage.ts#L35)*
 
 #### Type declaration:
 

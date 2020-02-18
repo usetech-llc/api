@@ -59,7 +59,7 @@ These primitive types are available:
 | [StorageData](classes/_primitive_storagedata_.storagedata.md) | Data retrieved via Storage queries and data for key-value pairs |
 | [StorageKey](classes/_primitive_storagekey_.storagekey.md) |  A representation of a storage key (typically hashed) in the system |
 | [Text](classes/_primitive_text_.text.md) | This is a string wrapper, along with the length. |
-| [[Type]] | This is a extended version of String, specifically to handle types |
+| [Type](classes/_codec_struct_.struct.md#type) | This is a extended version of String, specifically to handle types |
 | [u8](interfaces/_interfaceregistry_.interfaceregistry.md#u8) | An 8-bit unsigned integer |
 | [u16](interfaces/_interfaceregistry_.interfaceregistry.md#u16) | A 16-bit unsigned integer |
 | [u32](interfaces/_interfaceregistry_.interfaceregistry.md#u32) | A 32-bit unsigned integer |

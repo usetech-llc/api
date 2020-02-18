@@ -31,7 +31,7 @@
 
 Ƭ **RegistryMetadataErrors**: *[RegistryMetadataError](../interfaces/_types_registry_.registrymetadataerror.md)[]*
 
-*Defined in [packages/types/src/types/registry.ts:50](https://github.com/polkadot-js/api/blob/bdd1e4c917/packages/types/src/types/registry.ts#L50)*
+*Defined in [packages/types/src/types/registry.ts:50](https://github.com/polkadot-js/api/blob/d041c0abb2/packages/types/src/types/registry.ts#L50)*
 
 ___
 
@@ -39,4 +39,4 @@ ___
 
 Ƭ **RegistryTypes**: *Record‹string, [Constructor](../interfaces/_types_codec_.constructor.md) | string | Record‹string, string› | object | object›*
 
-*Defined in [packages/types/src/types/registry.ts:13](https://github.com/polkadot-js/api/blob/bdd1e4c917/packages/types/src/types/registry.ts#L13)*
+*Defined in [packages/types/src/types/registry.ts:13](https://github.com/polkadot-js/api/blob/d041c0abb2/packages/types/src/types/registry.ts#L13)*

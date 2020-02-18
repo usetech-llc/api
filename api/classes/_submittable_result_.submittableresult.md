@@ -32,6 +32,7 @@
 
 * [filterRecords](_submittable_result_.submittableresult.md#filterrecords)
 * [findRecord](_submittable_result_.submittableresult.md#findrecord)
+* [toHuman](_submittable_result_.submittableresult.md#tohuman)
 
 ## Constructors
 
@@ -39,7 +40,7 @@
 
 \+ **new SubmittableResult**(`__namedParameters`: object): *[SubmittableResult](_submittable_result_.submittableresult.md)*
 
-*Defined in [api/src/submittable/Result.ts:12](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/api/src/submittable/Result.ts#L12)*
+*Defined in [api/src/submittable/Result.ts:12](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/api/src/submittable/Result.ts#L12)*
 
 **Parameters:**
 
@@ -58,7 +59,7 @@ Name | Type |
 
 • **events**: *EventRecord[]*
 
-*Defined in [api/src/submittable/Result.ts:10](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/api/src/submittable/Result.ts#L10)*
+*Defined in [api/src/submittable/Result.ts:10](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/api/src/submittable/Result.ts#L10)*
 
 ___
 
@@ -66,7 +67,7 @@ ___
 
 • **status**: *ExtrinsicStatus*
 
-*Defined in [api/src/submittable/Result.ts:12](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/api/src/submittable/Result.ts#L12)*
+*Defined in [api/src/submittable/Result.ts:12](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/api/src/submittable/Result.ts#L12)*
 
 ## Accessors
 
@@ -74,7 +75,7 @@ ___
 
 • **get isCompleted**(): *boolean*
 
-*Defined in [api/src/submittable/Result.ts:19](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/api/src/submittable/Result.ts#L19)*
+*Defined in [api/src/submittable/Result.ts:19](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/api/src/submittable/Result.ts#L19)*
 
 **Returns:** *boolean*
 
@@ -84,7 +85,7 @@ ___
 
 • **get isError**(): *boolean*
 
-*Defined in [api/src/submittable/Result.ts:23](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/api/src/submittable/Result.ts#L23)*
+*Defined in [api/src/submittable/Result.ts:23](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/api/src/submittable/Result.ts#L23)*
 
 **Returns:** *boolean*
 
@@ -94,7 +95,7 @@ ___
 
 • **get isFinalized**(): *boolean*
 
-*Defined in [api/src/submittable/Result.ts:27](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/api/src/submittable/Result.ts#L27)*
+*Defined in [api/src/submittable/Result.ts:27](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/api/src/submittable/Result.ts#L27)*
 
 **Returns:** *boolean*
 
@@ -104,7 +105,7 @@ ___
 
 • **get isInBlock**(): *boolean*
 
-*Defined in [api/src/submittable/Result.ts:31](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/api/src/submittable/Result.ts#L31)*
+*Defined in [api/src/submittable/Result.ts:31](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/api/src/submittable/Result.ts#L31)*
 
 **Returns:** *boolean*
 
@@ -114,7 +115,7 @@ ___
 
 ▸ **filterRecords**(`section`: string, `method`: string): *EventRecord[]*
 
-*Defined in [api/src/submittable/Result.ts:38](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/api/src/submittable/Result.ts#L38)*
+*Defined in [api/src/submittable/Result.ts:38](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/api/src/submittable/Result.ts#L38)*
 
 **`description`** Filters EventRecords for the specified method & section (there could be multiple)
 
@@ -133,7 +134,7 @@ ___
 
 ▸ **findRecord**(`section`: string, `method`: string): *EventRecord | undefined*
 
-*Defined in [api/src/submittable/Result.ts:47](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/api/src/submittable/Result.ts#L47)*
+*Defined in [api/src/submittable/Result.ts:47](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/api/src/submittable/Result.ts#L47)*
 
 **`description`** Finds an EventRecord for the specified method & section
 
@@ -145,3 +146,21 @@ Name | Type |
 `method` | string |
 
 **Returns:** *EventRecord | undefined*
+
+___
+
+###  toHuman
+
+▸ **toHuman**(`isExtended?`: undefined | false | true): *AnyJson*
+
+*Defined in [api/src/submittable/Result.ts:56](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/api/src/submittable/Result.ts#L56)*
+
+**`description`** Creates a human representation of the output
+
+**Parameters:**
+
+Name | Type |
+------ | ------ |
+`isExtended?` | undefined &#124; false &#124; true |
+
+**Returns:** *AnyJson*

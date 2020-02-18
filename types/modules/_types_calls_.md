@@ -20,7 +20,7 @@
 
 Ƭ **Calls**: *Record‹string, [CallFunction](../interfaces/_types_calls_.callfunction.md)›*
 
-*Defined in [packages/types/src/types/calls.ts:20](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/types/calls.ts#L20)*
+*Defined in [packages/types/src/types/calls.ts:20](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/types/calls.ts#L20)*
 
 ___
 
@@ -28,4 +28,4 @@ ___
 
 Ƭ **ModulesWithCalls**: *Record‹string, [Calls](_types_calls_.md#calls)›*
 
-*Defined in [packages/types/src/types/calls.ts:22](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/types/calls.ts#L22)*
+*Defined in [packages/types/src/types/calls.ts:22](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/types/calls.ts#L22)*

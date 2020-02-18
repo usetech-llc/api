@@ -14,7 +14,7 @@
 
 ▸ **isKeyringPair**(`account`: string | IKeyringPair | AccountId | Address): *account is IKeyringPair*
 
-*Defined in [api/src/util/isKeyringPair.ts:10](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/api/src/util/isKeyringPair.ts#L10)*
+*Defined in [api/src/util/isKeyringPair.ts:10](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/api/src/util/isKeyringPair.ts#L10)*
 
 **Parameters:**
 

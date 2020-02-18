@@ -52,7 +52,7 @@ i.e. no hex decoding. Unlike a struct, this waps a JSON object with unknown keys
 
 \+ **new StructAny**(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `value?`: object | null): *[StructAny](_codec_structany_.structany.md)*
 
-*Defined in [packages/types/src/codec/StructAny.ts:23](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/codec/StructAny.ts#L23)*
+*Defined in [packages/types/src/codec/StructAny.ts:23](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/codec/StructAny.ts#L23)*
 
 **Parameters:**
 
@@ -71,7 +71,7 @@ Name | Type |
 
 *Implementation of [Codec](../interfaces/_types_codec_.codec.md).[registry](../interfaces/_types_codec_.codec.md#registry)*
 
-*Defined in [packages/types/src/codec/StructAny.ts:23](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/codec/StructAny.ts#L23)*
+*Defined in [packages/types/src/codec/StructAny.ts:23](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/codec/StructAny.ts#L23)*
 
 ___
 
@@ -87,7 +87,7 @@ Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:36
 
 • **get encodedLength**(): *number*
 
-*Defined in [packages/types/src/codec/StructAny.ts:54](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/codec/StructAny.ts#L54)*
+*Defined in [packages/types/src/codec/StructAny.ts:54](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/codec/StructAny.ts#L54)*
 
 **`description`** Always 0, never encodes as a Uint8Array
 
@@ -99,7 +99,7 @@ ___
 
 • **get hash**(): *[IHash](../interfaces/_types_interfaces_.ihash.md)*
 
-*Defined in [packages/types/src/codec/StructAny.ts:61](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/codec/StructAny.ts#L61)*
+*Defined in [packages/types/src/codec/StructAny.ts:61](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/codec/StructAny.ts#L61)*
 
 **`description`** returns a hash of the contents
 
@@ -111,7 +111,7 @@ ___
 
 • **get isEmpty**(): *boolean*
 
-*Defined in [packages/types/src/codec/StructAny.ts:68](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/codec/StructAny.ts#L68)*
+*Defined in [packages/types/src/codec/StructAny.ts:68](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/codec/StructAny.ts#L68)*
 
 **`description`** Checks if the value is an empty value
 
@@ -125,7 +125,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
 
-*Defined in [packages/types/src/codec/StructAny.ts:75](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/codec/StructAny.ts#L75)*
+*Defined in [packages/types/src/codec/StructAny.ts:75](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/codec/StructAny.ts#L75)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -143,7 +143,7 @@ ___
 
 ▸ **toHex**(): *string*
 
-*Defined in [packages/types/src/codec/StructAny.ts:82](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/codec/StructAny.ts#L82)*
+*Defined in [packages/types/src/codec/StructAny.ts:82](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/codec/StructAny.ts#L82)*
 
 **`description`** Unimplemented, will throw
 
@@ -155,7 +155,7 @@ ___
 
 ▸ **toHuman**(): *[AnyJsonObject](../interfaces/_types_helpers_.anyjsonobject.md)*
 
-*Defined in [packages/types/src/codec/StructAny.ts:89](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/codec/StructAny.ts#L89)*
+*Defined in [packages/types/src/codec/StructAny.ts:89](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/codec/StructAny.ts#L89)*
 
 **`description`** Converts the Object to to a human-friendly JSON, with additional fields, expansion and formatting of information
 
@@ -169,7 +169,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
 
-*Defined in [packages/types/src/codec/StructAny.ts:96](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/codec/StructAny.ts#L96)*
+*Defined in [packages/types/src/codec/StructAny.ts:96](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/codec/StructAny.ts#L96)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -183,7 +183,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
 
-*Defined in [packages/types/src/codec/StructAny.ts:107](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/codec/StructAny.ts#L107)*
+*Defined in [packages/types/src/codec/StructAny.ts:107](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/codec/StructAny.ts#L107)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -197,7 +197,7 @@ ___
 
 *Implementation of [Codec](../interfaces/_types_codec_.codec.md)*
 
-*Defined in [packages/types/src/codec/StructAny.ts:114](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/codec/StructAny.ts#L114)*
+*Defined in [packages/types/src/codec/StructAny.ts:114](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/codec/StructAny.ts#L114)*
 
 **`description`** Returns the string representation of the value
 
@@ -209,7 +209,7 @@ ___
 
 ▸ **toU8a**(`isBare?`: undefined | false | true): *[Uint8Array](_codec_raw_.raw.md#static-uint8array)*
 
-*Defined in [packages/types/src/codec/StructAny.ts:122](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/types/src/codec/StructAny.ts#L122)*
+*Defined in [packages/types/src/codec/StructAny.ts:122](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/types/src/codec/StructAny.ts#L122)*
 
 **`description`** Unimplemented, will throw
 

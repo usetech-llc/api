@@ -14,7 +14,7 @@
 
 ▸ **controllers**(`api`: ApiInterfaceRx): *function*
 
-*Defined in [packages/api-derive/src/staking/controllers.ts:20](https://github.com/polkadot-js/api/blob/4a1e504ca2/packages/api-derive/src/staking/controllers.ts#L20)*
+*Defined in [packages/api-derive/src/staking/controllers.ts:20](https://github.com/polkadot-js/api/blob/b46093e5d3/packages/api-derive/src/staking/controllers.ts#L20)*
 
 **`description`** From the list of stash accounts, retrieve the list of controllers
 

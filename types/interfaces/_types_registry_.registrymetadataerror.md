@@ -19,7 +19,7 @@
 
 • **documentation**: *[String](../classes/_primitive_text_.text.md#static-string)[]*
 
-*Defined in [packages/types/src/types/registry.ts:47](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/types/registry.ts#L47)*
+*Defined in [packages/types/src/types/registry.ts:47](https://github.com/polkadot-js/api/blob/bdd1e4c917/packages/types/src/types/registry.ts#L47)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **name**: *[String](../classes/_primitive_text_.text.md#static-string)*
 
-*Defined in [packages/types/src/types/registry.ts:45](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/types/registry.ts#L45)*
+*Defined in [packages/types/src/types/registry.ts:45](https://github.com/polkadot-js/api/blob/bdd1e4c917/packages/types/src/types/registry.ts#L45)*

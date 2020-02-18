@@ -66,7 +66,7 @@ Defined in node_modules/@types/bn.js/index.d.ts:12
 
 *Inherited from [Int](_codec_int_.int.md).[constructor](_codec_int_.int.md#constructor)*
 
-*Defined in [packages/types/src/codec/Int.ts:21](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/codec/Int.ts#L21)*
+*Defined in [packages/types/src/codec/Int.ts:21](https://github.com/polkadot-js/api/blob/bdd1e4c917/packages/types/src/codec/Int.ts#L21)*
 
 **Parameters:**
 
@@ -89,7 +89,7 @@ Name | Type | Default |
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:41](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/codec/Int.ts#L41)*
+*Defined in [packages/types/src/codec/Int.ts:41](https://github.com/polkadot-js/api/blob/bdd1e4c917/packages/types/src/codec/Int.ts#L41)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -113,7 +113,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:52](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/codec/Int.ts#L52)*
+*Defined in [packages/types/src/codec/Int.ts:52](https://github.com/polkadot-js/api/blob/bdd1e4c917/packages/types/src/codec/Int.ts#L52)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -129,7 +129,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:61](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/codec/Int.ts#L61)*
+*Defined in [packages/types/src/codec/Int.ts:61](https://github.com/polkadot-js/api/blob/bdd1e4c917/packages/types/src/codec/Int.ts#L61)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -149,7 +149,7 @@ ___
 
 *Inherited from [Int](_codec_int_.int.md).[with](_codec_int_.int.md#static-with)*
 
-*Defined in [packages/types/src/codec/Int.ts:26](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/codec/Int.ts#L26)*
+*Defined in [packages/types/src/codec/Int.ts:26](https://github.com/polkadot-js/api/blob/bdd1e4c917/packages/types/src/codec/Int.ts#L26)*
 
 **Parameters:**
 

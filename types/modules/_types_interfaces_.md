@@ -7,7 +7,6 @@
 ### Interfaces
 
 * [ICompact](../interfaces/_types_interfaces_.icompact.md)
-* [IHash](../interfaces/_types_interfaces_.ihash.md)
 * [IKeyringPair](../interfaces/_types_interfaces_.ikeyringpair.md)
 * [IMethod](../interfaces/_types_interfaces_.imethod.md)
 * [IRuntimeVersion](../interfaces/_types_interfaces_.iruntimeversion.md)
@@ -23,4 +22,4 @@
 
 Ƭ **ITuple**: *Sub & [Codec](../interfaces/_types_codec_.codec.md)*
 
-*Defined in [packages/types/src/types/interfaces.ts:54](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/types/src/types/interfaces.ts#L54)*
+*Defined in [packages/types/src/types/interfaces.ts:52](https://github.com/polkadot-js/api/blob/bdd1e4c917/packages/types/src/types/interfaces.ts#L52)*

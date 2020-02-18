@@ -12,13 +12,13 @@
 
 ###  filterEvents
 
-▸ **filterEvents**(`extHash`: Raw, `__namedParameters`: object, `allEvents`: EventRecord[]): *EventRecord[] | undefined*
+▸ **filterEvents**(`extHash`: H256, `__namedParameters`: object, `allEvents`: EventRecord[]): *EventRecord[] | undefined*
 
-*Defined in [api/src/util/filterEvents.ts:11](https://github.com/polkadot-js/api/blob/aee09c48b9/packages/api/src/util/filterEvents.ts#L11)*
+*Defined in [api/src/util/filterEvents.ts:9](https://github.com/polkadot-js/api/blob/bdd1e4c917/packages/api/src/util/filterEvents.ts#L9)*
 
 **Parameters:**
 
-▪ **extHash**: *Raw*
+▪ **extHash**: *H256*
 
 ▪ **__namedParameters**: *object*
 

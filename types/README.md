@@ -43,10 +43,10 @@ These primitive types are available:
 | [Extrinsic](classes/_primitive_extrinsic_extrinsic_.extrinsic.md) | Representation of an Extrinsic in the system |
 | [ExtrinsicEra](classes/_primitive_extrinsic_extrinsicera_.extrinsicera.md) | The era for an extrinsic, indicating either a mortal or immortal extrinsic |
 | [ExtrinsicPayload](classes/_primitive_extrinsic_extrinsicpayload_.extrinsicpayload.md) | A signing payload for an [Extrinsic](classes/_primitive_extrinsic_extrinsic_.extrinsic.md). For the final encoding, it is variable length based on the contents included |
-| [H160](classes/_primitive_h160_.h160.md) | Hash containing 160 bits (20 bytes), typically used in blocks, extrinsics and as a sane default |
-| [H256](classes/_primitive_h256_.h256.md) | Hash containing 256 bits (32 bytes), typically used in blocks, extrinsics and as a sane default |
-| [H512](classes/_primitive_h512_.h512.md) | Hash containing 512 bits (64 bytes), typically used for signatures |
-| [Hash](interfaces/_interfaceregistry_.interfaceregistry.md#hash) | The default hash that is used accross the system. It is just a thin wrapper around [H256](classes/_primitive_h256_.h256.md)
+| [H160](interfaces/_interfaceregistry_.interfaceregistry.md#h160) | Hash containing 160 bits (20 bytes), typically used in blocks, extrinsics and as a sane default |
+| [H256](interfaces/_interfaceregistry_.interfaceregistry.md#h256) | Hash containing 256 bits (32 bytes), typically used in blocks, extrinsics and as a sane default |
+| [H512](interfaces/_interfaceregistry_.interfaceregistry.md#h512) | Hash containing 512 bits (64 bytes), typically used for signatures |
+| [Hash](interfaces/_interfaceregistry_.interfaceregistry.md#hash) | The default hash that is used accross the system. It is just a thin wrapper around [H256](interfaces/_interfaceregistry_.interfaceregistry.md#h256)
 | [i8](interfaces/_interfaceregistry_.interfaceregistry.md#i8) | An 8-bit signed integer |
 | [i16](interfaces/_interfaceregistry_.interfaceregistry.md#i16) | A 16-bit signed integer |
 | [i32](interfaces/_interfaceregistry_.interfaceregistry.md#i32) | A 32-bit signed integer |
@@ -59,7 +59,7 @@ These primitive types are available:
 | [StorageData](classes/_primitive_storagedata_.storagedata.md) | Data retrieved via Storage queries and data for key-value pairs |
 | [StorageKey](classes/_primitive_storagekey_.storagekey.md) |  A representation of a storage key (typically hashed) in the system |
 | [Text](classes/_primitive_text_.text.md) | This is a string wrapper, along with the length. |
-| [Type](classes/_codec_struct_.struct.md#type) | This is a extended version of String, specifically to handle types |
+| [[Type]] | This is a extended version of String, specifically to handle types |
 | [u8](interfaces/_interfaceregistry_.interfaceregistry.md#u8) | An 8-bit unsigned integer |
 | [u16](interfaces/_interfaceregistry_.interfaceregistry.md#u16) | A 16-bit unsigned integer |
 | [u32](interfaces/_interfaceregistry_.interfaceregistry.md#u32) | A 32-bit unsigned integer |

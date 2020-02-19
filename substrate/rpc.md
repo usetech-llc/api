@@ -105,6 +105,11 @@ _Retrieval of chain data_
 - **interface**: api.rpc.chain.getHeader
 - **summary**: Retrieves the header for a specific block
  
+### subscribeAllHeads(): `Header`
+- **jsonrpc**: chain_subscribeAllHeads
+- **interface**: api.rpc.chain.subscribeAllHeads
+- **summary**: Retrieves the newest header via subscription
+ 
 ### subscribeFinalizedHeads(): `Header`
 - **jsonrpc**: chain_subscribeFinalizedHeads
 - **interface**: api.rpc.chain.subscribeFinalizedHeads

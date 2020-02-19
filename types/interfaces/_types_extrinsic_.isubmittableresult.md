@@ -29,7 +29,7 @@
 
 • **events**: *EventRecord[]*
 
-*Defined in [packages/types/src/types/extrinsic.ts:14](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/types/extrinsic.ts#L14)*
+*Defined in [packages/types/src/types/extrinsic.ts:14](https://github.com/polkadot-js/api/blob/cc5b5c81c9/packages/types/src/types/extrinsic.ts#L14)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **isCompleted**: *boolean*
 
-*Defined in [packages/types/src/types/extrinsic.ts:16](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/types/extrinsic.ts#L16)*
+*Defined in [packages/types/src/types/extrinsic.ts:16](https://github.com/polkadot-js/api/blob/cc5b5c81c9/packages/types/src/types/extrinsic.ts#L16)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 • **isError**: *boolean*
 
-*Defined in [packages/types/src/types/extrinsic.ts:17](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/types/extrinsic.ts#L17)*
+*Defined in [packages/types/src/types/extrinsic.ts:17](https://github.com/polkadot-js/api/blob/cc5b5c81c9/packages/types/src/types/extrinsic.ts#L17)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **isFinalized**: *boolean*
 
-*Defined in [packages/types/src/types/extrinsic.ts:18](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/types/extrinsic.ts#L18)*
+*Defined in [packages/types/src/types/extrinsic.ts:18](https://github.com/polkadot-js/api/blob/cc5b5c81c9/packages/types/src/types/extrinsic.ts#L18)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 • **isInBlock**: *boolean*
 
-*Defined in [packages/types/src/types/extrinsic.ts:19](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/types/extrinsic.ts#L19)*
+*Defined in [packages/types/src/types/extrinsic.ts:19](https://github.com/polkadot-js/api/blob/cc5b5c81c9/packages/types/src/types/extrinsic.ts#L19)*
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 • **status**: *ExtrinsicStatus*
 
-*Defined in [packages/types/src/types/extrinsic.ts:15](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/types/extrinsic.ts#L15)*
+*Defined in [packages/types/src/types/extrinsic.ts:15](https://github.com/polkadot-js/api/blob/cc5b5c81c9/packages/types/src/types/extrinsic.ts#L15)*
 
 ## Methods
 
@@ -77,7 +77,7 @@ ___
 
 ▸ **filterRecords**(`section`: string, `method`: string): *EventRecord[]*
 
-*Defined in [packages/types/src/types/extrinsic.ts:21](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/types/extrinsic.ts#L21)*
+*Defined in [packages/types/src/types/extrinsic.ts:21](https://github.com/polkadot-js/api/blob/cc5b5c81c9/packages/types/src/types/extrinsic.ts#L21)*
 
 **Parameters:**
 
@@ -94,7 +94,7 @@ ___
 
 ▸ **findRecord**(`section`: string, `method`: string): *EventRecord | undefined*
 
-*Defined in [packages/types/src/types/extrinsic.ts:22](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/types/extrinsic.ts#L22)*
+*Defined in [packages/types/src/types/extrinsic.ts:22](https://github.com/polkadot-js/api/blob/cc5b5c81c9/packages/types/src/types/extrinsic.ts#L22)*
 
 **Parameters:**
 
@@ -111,7 +111,7 @@ ___
 
 ▸ **toHuman**(`isExtended?`: undefined | false | true): *[AnyJson](../modules/_types_helpers_.md#anyjson)*
 
-*Defined in [packages/types/src/types/extrinsic.ts:23](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/types/extrinsic.ts#L23)*
+*Defined in [packages/types/src/types/extrinsic.ts:23](https://github.com/polkadot-js/api/blob/cc5b5c81c9/packages/types/src/types/extrinsic.ts#L23)*
 
 **Parameters:**
 

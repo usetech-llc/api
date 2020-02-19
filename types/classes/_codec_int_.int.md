@@ -78,7 +78,7 @@ Defined in node_modules/@types/bn.js/index.d.ts:12
 
 \+ **new Int**(`registry`: [Registry](../interfaces/_types_registry_.registry.md), `value`: [AnyNumber](../modules/_types_helpers_.md#anynumber), `bitLength`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength), `isHexJson`: boolean): *[Int](_codec_int_.int.md)*
 
-*Defined in [packages/types/src/codec/Int.ts:21](https://github.com/polkadot-js/api/blob/c8af75088a/packages/types/src/codec/Int.ts#L21)*
+*Defined in [packages/types/src/codec/Int.ts:21](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/codec/Int.ts#L21)*
 
 **Parameters:**
 
@@ -99,7 +99,7 @@ Name | Type | Default |
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:41](https://github.com/polkadot-js/api/blob/c8af75088a/packages/types/src/codec/Int.ts#L41)*
+*Defined in [packages/types/src/codec/Int.ts:41](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/codec/Int.ts#L41)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -121,7 +121,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:52](https://github.com/polkadot-js/api/blob/c8af75088a/packages/types/src/codec/Int.ts#L52)*
+*Defined in [packages/types/src/codec/Int.ts:52](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/codec/Int.ts#L52)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -135,7 +135,7 @@ ___
 
 *Overrides void*
 
-*Defined in [packages/types/src/codec/Int.ts:61](https://github.com/polkadot-js/api/blob/c8af75088a/packages/types/src/codec/Int.ts#L61)*
+*Defined in [packages/types/src/codec/Int.ts:61](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/codec/Int.ts#L61)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 
@@ -153,7 +153,7 @@ ___
 
 ▸ **with**(`bitLength`: [UIntBitLength](../modules/_codec_abstractint_.md#uintbitlength), `typeName?`: undefined | string): *[Constructor](../interfaces/_types_codec_.constructor.md)‹[Int](_codec_int_.int.md)›*
 
-*Defined in [packages/types/src/codec/Int.ts:26](https://github.com/polkadot-js/api/blob/c8af75088a/packages/types/src/codec/Int.ts#L26)*
+*Defined in [packages/types/src/codec/Int.ts:26](https://github.com/polkadot-js/api/blob/01758229eb/packages/types/src/codec/Int.ts#L26)*
 
 **Parameters:**
 

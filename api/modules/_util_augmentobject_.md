@@ -14,7 +14,7 @@
 
 ▸ **findRemoved**(`prefix`: string, `src`: Record‹string, Record‹string, any››, `dst`: Record‹string, Record‹string, any››): *void*
 
-*Defined in [api/src/util/augmentObject.ts:13](https://github.com/polkadot-js/api/blob/c8af75088a/packages/api/src/util/augmentObject.ts#L13)*
+*Defined in [api/src/util/augmentObject.ts:13](https://github.com/polkadot-js/api/blob/01758229eb/packages/api/src/util/augmentObject.ts#L13)*
 
 **Parameters:**
 

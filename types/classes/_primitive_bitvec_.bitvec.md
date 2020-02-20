@@ -59,7 +59,7 @@ and a normal Bytes would be that the length prefix indicates the number of bits 
 
 *Overrides [Raw](_codec_raw_.raw.md).[constructor](_codec_raw_.raw.md#constructor)*
 
-*Defined in [packages/types/src/primitive/BitVec.ts:42](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/primitive/BitVec.ts#L42)*
+*Defined in [packages/types/src/primitive/BitVec.ts:42](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/primitive/BitVec.ts#L42)*
 
 **Parameters:**
 
@@ -80,7 +80,7 @@ Name | Type |
 
 *Inherited from [Raw](_codec_raw_.raw.md).[registry](_codec_raw_.raw.md#registry)*
 
-*Defined in [packages/types/src/codec/Raw.ts:30](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/codec/Raw.ts#L30)*
+*Defined in [packages/types/src/codec/Raw.ts:30](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/codec/Raw.ts#L30)*
 
 ## Accessors
 
@@ -90,7 +90,7 @@ Name | Type |
 
 *Overrides [Raw](_codec_raw_.raw.md).[encodedLength](_codec_raw_.raw.md#encodedlength)*
 
-*Defined in [packages/types/src/primitive/BitVec.ts:50](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/primitive/BitVec.ts#L50)*
+*Defined in [packages/types/src/primitive/BitVec.ts:50](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/primitive/BitVec.ts#L50)*
 
 **`description`** The length of the value when encoded as a Uint8Array
 
@@ -104,7 +104,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[hash](_codec_raw_.raw.md#hash)*
 
-*Defined in [packages/types/src/codec/Raw.ts:48](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/codec/Raw.ts#L48)*
+*Defined in [packages/types/src/codec/Raw.ts:48](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/codec/Raw.ts#L48)*
 
 **`description`** returns a hash of the contents
 
@@ -118,7 +118,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[isEmpty](_codec_raw_.raw.md#isempty)*
 
-*Defined in [packages/types/src/codec/Raw.ts:55](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/codec/Raw.ts#L55)*
+*Defined in [packages/types/src/codec/Raw.ts:55](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/codec/Raw.ts#L55)*
 
 **`description`** Returns true if the type wraps an empty/default all-0 value
 
@@ -134,7 +134,7 @@ ___
 
 *Overrides [IU8a](../interfaces/_types_interfaces_.iu8a.md).[length](../interfaces/_types_interfaces_.iu8a.md#length)*
 
-*Defined in [packages/types/src/codec/Raw.ts:62](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/codec/Raw.ts#L62)*
+*Defined in [packages/types/src/codec/Raw.ts:62](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/codec/Raw.ts#L62)*
 
 **`description`** The length of the value
 
@@ -150,7 +150,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[bitLength](_codec_raw_.raw.md#bitlength)*
 
-*Defined in [packages/types/src/codec/Raw.ts:70](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/codec/Raw.ts#L70)*
+*Defined in [packages/types/src/codec/Raw.ts:70](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/codec/Raw.ts#L70)*
 
 **`description`** Returns the number of bits in the value
 
@@ -166,7 +166,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[eq](_codec_raw_.raw.md#eq)*
 
-*Defined in [packages/types/src/codec/Raw.ts:77](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/codec/Raw.ts#L77)*
+*Defined in [packages/types/src/codec/Raw.ts:77](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/codec/Raw.ts#L77)*
 
 **`description`** Compares the value of the input to see if there is a match
 
@@ -188,7 +188,7 @@ ___
 
 *Overrides [IU8a](../interfaces/_types_interfaces_.iu8a.md).[subarray](../interfaces/_types_interfaces_.iu8a.md#subarray)*
 
-*Defined in [packages/types/src/codec/Raw.ts:91](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/codec/Raw.ts#L91)*
+*Defined in [packages/types/src/codec/Raw.ts:91](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/codec/Raw.ts#L91)*
 
 **`description`** Create a new subarray from the actual buffer. This is needed for compat reasons since a new Uint8Array gets returned here
 
@@ -209,7 +209,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[toHex](_codec_raw_.raw.md#tohex)*
 
-*Defined in [packages/types/src/codec/Raw.ts:98](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/codec/Raw.ts#L98)*
+*Defined in [packages/types/src/codec/Raw.ts:98](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/codec/Raw.ts#L98)*
 
 **`description`** Returns a hex string representation of the value
 
@@ -223,7 +223,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[toHuman](_codec_raw_.raw.md#tohuman)*
 
-*Defined in [packages/types/src/codec/Raw.ts:105](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/codec/Raw.ts#L105)*
+*Defined in [packages/types/src/codec/Raw.ts:105](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/codec/Raw.ts#L105)*
 
 **`description`** Converts the Object to to a human-friendly JSON, with additional fields, expansion and formatting of information
 
@@ -239,7 +239,7 @@ ___
 
 *Inherited from [Raw](_codec_raw_.raw.md).[toJSON](_codec_raw_.raw.md#tojson)*
 
-*Defined in [packages/types/src/codec/Raw.ts:112](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/codec/Raw.ts#L112)*
+*Defined in [packages/types/src/codec/Raw.ts:112](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/codec/Raw.ts#L112)*
 
 **`description`** Converts the Object to JSON, typically used for RPC transfers
 
@@ -255,7 +255,7 @@ ___
 
 *Overrides [Raw](_codec_raw_.raw.md).[toRawType](_codec_raw_.raw.md#torawtype)*
 
-*Defined in [packages/types/src/primitive/BitVec.ts:57](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/primitive/BitVec.ts#L57)*
+*Defined in [packages/types/src/primitive/BitVec.ts:57](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/primitive/BitVec.ts#L57)*
 
 **`description`** Returns the base runtime type name for this instance
 
@@ -273,7 +273,7 @@ ___
 
 *Overrides [IU8a](../interfaces/_types_interfaces_.iu8a.md).[toString](../interfaces/_types_interfaces_.iu8a.md#tostring)*
 
-*Defined in [packages/types/src/codec/Raw.ts:126](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/codec/Raw.ts#L126)*
+*Defined in [packages/types/src/codec/Raw.ts:126](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/codec/Raw.ts#L126)*
 
 **`description`** Returns the string representation of the value
 
@@ -287,7 +287,7 @@ ___
 
 *Overrides [Raw](_codec_raw_.raw.md).[toU8a](_codec_raw_.raw.md#tou8a)*
 
-*Defined in [packages/types/src/primitive/BitVec.ts:65](https://github.com/polkadot-js/api/blob/427f821430/packages/types/src/primitive/BitVec.ts#L65)*
+*Defined in [packages/types/src/primitive/BitVec.ts:65](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/primitive/BitVec.ts#L65)*
 
 **`description`** Encodes the value as a Uint8Array as per the SCALE specifications
 

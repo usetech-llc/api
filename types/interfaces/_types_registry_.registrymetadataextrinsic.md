@@ -19,7 +19,7 @@
 
 • **signedExtensions**: *[String](../classes/_primitive_text_.text.md#static-string)[]*
 
-*Defined in [packages/types/src/types/registry.ts:65](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/types/registry.ts#L65)*
+*Defined in [packages/types/src/types/registry.ts:65](https://github.com/polkadot-js/api/blob/92129746dc/packages/types/src/types/registry.ts#L65)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **version**: *BN*
 
-*Defined in [packages/types/src/types/registry.ts:63](https://github.com/polkadot-js/api/blob/2b8ce1b3b7/packages/types/src/types/registry.ts#L63)*
+*Defined in [packages/types/src/types/registry.ts:63](https://github.com/polkadot-js/api/blob/92129746dc/packages/types/src/types/registry.ts#L63)*

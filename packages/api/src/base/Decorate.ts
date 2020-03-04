@@ -4,8 +4,7 @@
 
 import { Constants, Storage } from '@polkadot/metadata/Decorated/types';
 import { RpcInterface } from '@polkadot/rpc-core/types';
-import { InterfaceRegistry } from '@polkadot/types/interfaceRegistry';
-import { Call, Hash, RuntimeVersion } from '@polkadot/types/interfaces';
+import { Call, Hash, RuntimeVersion, StorageChangeSet } from '@polkadot/types/interfaces';
 import { AnyFunction, CallFunction, Codec, CodecArg as Arg, ITuple, InterfaceTypes, ModulesWithCalls, Registry, RegistryTypes } from '@polkadot/types/types';
 import { SubmittableExtrinsic } from '../submittable/types';
 import { ApiInterfaceRx, ApiOptions, ApiTypes, DecorateMethod, DecoratedRpc, DecoratedRpcSection, QueryableModuleStorage, QueryableStorage, QueryableStorageEntry, QueryableStorageMulti, QueryableStorageMultiArg, SubmittableExtrinsicFunction, SubmittableExtrinsics, SubmittableModuleExtrinsics } from '../types';
@@ -20,8 +19,8 @@ import RpcCore from '@polkadot/rpc-core';
 import { WsProvider } from '@polkadot/rpc-provider';
 import { Metadata, Null, Option, Text, TypeRegistry, u64, Vec } from '@polkadot/types';
 import Linkage, { LinkageResult } from '@polkadot/types/codec/Linkage';
-import { DEFAULT_VERSION as EXTRINSIC_DEFAULT_VERSION } from '@polkadot/types/primitive/Extrinsic/constants';
-import StorageKey, { StorageEntry } from '@polkadot/types/primitive/StorageKey';
+import { DEFAULT_VERSION as EXTRINSIC_DEFAULT_VERSION } from '@polkadot/types/extrinsic/constants';
+import StorageKey, { StorageEntry, unwrapStorageType } from '@polkadot/types/primitive/StorageKey';
 import { assert, compactStripLength, isNull, isUndefined, u8aConcat, u8aToHex } from '@polkadot/util';
 
 import { createSubmittable } from '../submittable';
@@ -49,7 +48,7 @@ export default abstract class Decorate<ApiType extends ApiTypes> extends Events 
 
   protected _derive?: ReturnType<Decorate<ApiType>['decorateDerive']>;
 
-  protected _extrinsics: SubmittableExtrinsics<ApiType> = {} as SubmittableExtrinsics<ApiType>;
+  protected _extrinsics?: SubmittableExtrinsics<ApiType>;
 
   protected _extrinsicType: number = EXTRINSIC_DEFAULT_VERSION;
 
@@ -137,9 +136,19 @@ export default abstract class Decorate<ApiType extends ApiTypes> extends Events 
     this._rx.registry = this.registry;
   }
 
-  public abstract createType <K extends InterfaceTypes> (type: K, ...params: any[]): InterfaceRegistry[K];
+  /**
+   * @description Creates an instance of a type as registered
+   */
+  public createType <K extends keyof InterfaceTypes> (type: K, ...params: any[]): InterfaceTypes[K] {
+    return this.registry.createType(type, ...params);
+  }
 
-  public abstract registerTypes (types?: RegistryTypes): void;
+  /**
+   * @description Register additional user-defined of chain-specific types in the type registry
+   */
+  public registerTypes (types?: RegistryTypes): void {
+    types && this.registry.register(types);
+  }
 
   /**
    * @returns `true` if the API operates with subscriptions
@@ -151,13 +160,19 @@ export default abstract class Decorate<ApiType extends ApiTypes> extends Events 
   public injectMetadata (metadata: Metadata, fromEmpty?: boolean): void {
     const decoratedMeta = new DecoratedMeta(this.registry, metadata);
 
+    if (fromEmpty || !this._extrinsics) {
+      this._extrinsics = this.decorateExtrinsics(decoratedMeta.tx, this.decorateMethod);
+      this._rx.tx = this.decorateExtrinsics(decoratedMeta.tx, this.rxDecorateMethod);
+    } else {
+      augmentObject('tx', this.decorateExtrinsics(decoratedMeta.tx, this.decorateMethod), this._extrinsics, false);
+      augmentObject('', this.decorateExtrinsics(decoratedMeta.tx, this.rxDecorateMethod), this._rx.tx, false);
+    }
+
     // this API
-    augmentObject('tx', this.decorateExtrinsics(decoratedMeta.tx, this.decorateMethod), this._extrinsics, fromEmpty);
     augmentObject('query', this.decorateStorage(decoratedMeta.query, this.decorateMethod), this._query, fromEmpty);
     augmentObject('consts', decoratedMeta.consts, this._consts, fromEmpty);
 
     // rx
-    augmentObject('', this.decorateExtrinsics(decoratedMeta.tx, this.rxDecorateMethod), this._rx.tx, fromEmpty);
     augmentObject('', this.decorateStorage(decoratedMeta.query, this.rxDecorateMethod), this._rx.query, fromEmpty);
     augmentObject('', decoratedMeta.consts, this._rx.consts, fromEmpty);
   }
@@ -221,6 +236,7 @@ export default abstract class Decorate<ApiType extends ApiTypes> extends Events 
         //  skip subscriptions where we have a non-subscribe interface
         if (this.hasSubscriptions || !(methodName.startsWith('subscribe') || methodName.startsWith('unsubscribe'))) {
           (section as any)[methodName] = decorateMethod(method, { methodName });
+          (section as any)[methodName].raw = decorateMethod(method.raw, { methodName });
         }
 
         return section;
@@ -317,10 +333,28 @@ export default abstract class Decorate<ApiType extends ApiTypes> extends Events 
           args.map((arg: Arg[] | Arg): [StorageEntry, Arg | Arg[]] => [creator, arg])));
     }
 
+    decorated.range = decorateMethod((range: [Hash, Hash?], arg1?: Arg, arg2?: Arg): Observable<[Hash, Codec][]> =>
+      this.decorateStorageRange(decorated, [arg1, arg2], range));
+
     decorated.size = decorateMethod((arg1?: Arg, arg2?: Arg): Observable<u64> =>
       this._rpcCore.state.getStorageSize(getArgs(arg1, arg2)));
 
     return this.decorateFunctionMeta(creator, decorated) as unknown as QueryableStorageEntry<ApiType>;
+  }
+
+  private decorateStorageRange<ApiType extends ApiTypes> (decorated: QueryableStorageEntry<ApiType>, args: [Arg?, Arg?], range: [Hash, Hash?]): Observable<[Hash, Codec][]> {
+    const outputType = unwrapStorageType(decorated.creator.meta.type);
+
+    return this._rpcCore.state
+      .queryStorage([decorated.key(...args)], ...range)
+      .pipe(map((result: StorageChangeSet[]): [Hash, Codec][] =>
+        result
+          .filter((change): change is StorageChangeSet => !!change.changes.length)
+          .map(({ block, changes: [[, value]] }): [Hash, Codec] => [
+            block,
+            this.createType(outputType, value.unwrapOrDefault())
+          ])
+      ));
   }
 
   private decorateStorageLinked<ApiType extends ApiTypes> (creator: StorageEntry, decorateMethod: DecorateMethod<ApiType>): ReturnType<DecorateMethod<ApiType>> {

@@ -3,6 +3,7 @@
 // of the Apache-2.0 license. See the LICENSE file for details.
 
 import { ApiInterfaceRx } from '@polkadot/api/types';
+import { AccountId } from '@polkadot/types/interfaces';
 import { DeriveStakingValidators } from '../types';
 
 import { Observable, combineLatest, of } from 'rxjs';
@@ -22,12 +23,16 @@ export function validators (api: ApiInterfaceRx): () => Observable<DeriveStaking
       api.query.session
         ? api.query.session.validators()
         : of([]),
-      api.query.staking
-        ? api.query.staking.currentElected()
+      // FIXME need a replacement for currentElected in new
+      api.query.staking?.currentElected
+        ? api.query.staking.erasStakers
+          ? of(null)
+          : api.query.staking.currentElected<AccountId[]>()
         : of([])
     ]).pipe(
-      map(([validators, currentElected]): DeriveStakingValidators => ({
-        currentElected, validators
+      map(([validators, nextElected]): DeriveStakingValidators => ({
+        nextElected: nextElected || validators,
+        validators
       }))
     ));
 }

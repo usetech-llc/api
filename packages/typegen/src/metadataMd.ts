@@ -3,13 +3,14 @@
 // of the Apache-2.0 license. See the LICENSE file for details.
 
 import { MetadataLatest } from '@polkadot/types/interfaces/metadata';
+import { InterfaceTypes } from '@polkadot/types/types';
 
 import fs from 'fs';
 import interfaces from '@polkadot/jsonrpc';
 import Decorated from '@polkadot/metadata/Decorated';
 import rpcdata from '@polkadot/metadata/Metadata/static';
+import Call from '@polkadot/types/generic/Call';
 import { unwrapStorageType } from '@polkadot/types/primitive/StorageKey';
-import Call from '@polkadot/types/primitive/Generic/Call';
 import { TypeRegistry } from '@polkadot/types/create';
 import { Vec } from '@polkadot/types/codec';
 import { Text } from '@polkadot/types/primitive';
@@ -176,7 +177,7 @@ function addStorage (metadata: MetadataLatest): string {
             let result = unwrapStorageType(func.type);
 
             if (func.modifier.isOptional) {
-              result = `Option<${result}>`;
+              result = `Option<${result}>` as keyof InterfaceTypes;
             }
 
             return {

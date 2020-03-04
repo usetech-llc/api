@@ -2,19 +2,29 @@
 // This software may be modified and distributed under the terms
 // of the Apache-2.0 license. See the LICENSE file for details.
 
+import Int from '../codec/Int';
 import CodecSet from '../codec/Set';
-import { createClass, createType, createTypeUnsafe, ClassOf, TypeRegistry } from '.';
+import { createClass, createTypeUnsafe, TypeRegistry } from '.';
 
 describe('createType', (): void => {
   const registry = new TypeRegistry();
 
   it('allows creation of a H256 (with proper toRawType)', (): void => {
     expect(
-      createTypeUnsafe(registry, 'H256').toRawType()
+      registry.createType('H256').toRawType()
     ).toEqual('H256');
     expect(
-      createTypeUnsafe(registry, 'Hash').toRawType()
+      registry.createType('Hash').toRawType()
     ).toEqual('H256');
+  });
+
+  it('allows creation of a Fixed64 (with proper toRawType & instance)', (): void => {
+    const f64 = registry.createType('Fixed64');
+
+    expect(f64.toRawType()).toEqual('Fixed64');
+    expect(f64.bitLength()).toEqual(64);
+    expect(f64.isUnsigned).toBe(false);
+    expect(f64 instanceof Int).toBe(true);
   });
 
   it('allows creation of a Struct', (): void => {
@@ -99,14 +109,14 @@ describe('createType', (): void => {
 
   describe('instanceof', (): void => {
     it('instanceof should work (primitive type)', (): void => {
-      const value = createType(registry, 'Balance', 1234);
+      const value = registry.createType('Balance', 1234);
 
-      expect(value instanceof ClassOf(registry, 'Balance')).toBe(true);
+      expect(value instanceof registry.createClass('Balance')).toBe(true);
     });
 
     it('instanceof should work (srml type)', (): void => {
-      const value = createType(registry, 'Gas', 1234);
-      const Gas = ClassOf(registry, 'Gas');
+      const value = registry.createType('Gas', 1234);
+      const Gas = registry.createClass('Gas');
 
       expect(value instanceof Gas).toBe(true);
     });
@@ -132,16 +142,16 @@ describe('createType', (): void => {
     });
 
     it('allows for re-registration of a type', (): void => {
-      const balDef = createType(registry, 'Balance');
+      const balDef = registry.createType('Balance');
 
-      expect(balDef instanceof ClassOf(registry, 'Balance'));
+      expect(balDef instanceof registry.createClass('Balance'));
       expect(balDef.bitLength()).toEqual(128);
 
       registry.register({ Balance: 'u32' });
 
-      const balu32 = createType(registry, 'Balance');
+      const balu32 = registry.createType('Balance');
 
-      expect(balu32 instanceof ClassOf(registry, 'Balance'));
+      expect(balu32 instanceof registry.createClass('Balance'));
       expect(balu32.bitLength()).toEqual(32);
     });
 

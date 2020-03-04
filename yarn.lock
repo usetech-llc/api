@@ -10318,6 +10318,13 @@ fsevents@^2.1.2:
   languageName: node
   linkType: hard
 
+"is-port-reachable@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "is-port-reachable@npm:3.0.0"
+  checksum: 2/8ecd9f830258b64599c182440b5f1010f2a3a34999d5712dc4085f9273012a5a9b5498d13d5a4acbfc9019dd8e5e20d91c9ec12606a3447350a40428a46cd04c
+  languageName: node
+  linkType: hard
+
 "is-posix-bracket@npm:^0.1.0":
   version: 0.1.1
   resolution: "is-posix-bracket@npm:0.1.1"
@@ -15528,6 +15535,7 @@ resolve@1.1.7:
     "@polkadot/ts": ^0.3.6
     "@polkadot/typegen": "workspace:packages/typegen"
     copyfiles: ^2.2.0
+    is-port-reachable: ^3.0.0
   languageName: unknown
   linkType: soft
 

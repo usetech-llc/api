@@ -2,6 +2,5 @@
 .git
 .github
 .gitignore
-.yarn
 docs
 node_modules
